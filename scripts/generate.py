@@ -100,17 +100,19 @@ def render_human(p, slug):
     for item in p["products"]:
         specs = "".join(f"<div><b>{esc(k)}:</b> {esc(v)}</div>" for k, v in item.get("specs", {}).items())
         img_tag = f'<img src="{esc(item["image"])}" alt="{esc(item["name"])}" loading="lazy">' if item.get("image") else ""
-        # buy link: product's own affiliate link, else Amazon search for the product name
-        if item.get("affiliate_link"):
-            buy_url = item["affiliate_link"]
+        # buy link: only show Amazon button for verified /dp/ ASIN links.
+        # No verified ASIN = no button (search fallbacks removed per user request
+        # to protect affiliate account from dead-link traffic).
+        _aff = item.get("affiliate_link", "")
+        if _aff and "/dp/" in _aff:
+            buy_url = _aff
+            _btns = f'<a class="btn-sm" href="{buy_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Amazon</a>'
         else:
-            q = esc(item["name"].replace(" ", "+"))
-            buy_url = f"https://www.amazon.com/s?k={q}&tag=aipicks2003-20"
+            _btns = ""
         tq = esc(item["name"].replace(" ", "+"))
         temu_url = f"https://www.temu.com/search_result.html?search_key={tq}"
         walmart_url = f"https://www.walmart.com/search?q={tq}"
         _platforms = item.get("platforms", ["amazon"])
-        _btns = f'<a class="btn-sm" href="{buy_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Amazon</a>'
         if "temu" in _platforms:
             _btns += f'<a class="btn-temu" href="{temu_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Temu</a>'
         if "walmart" in _platforms:
@@ -128,7 +130,21 @@ def render_human(p, slug):
     out = out.replace("{{top_pick_image}}", esc(p["top_pick"].get("image", "")))
     out = out.replace("{{top_pick_reason}}", esc(p["top_pick"]["reason"]))
     out = out.replace("{{top_pick_price}}", esc(p["top_pick"].get("price_display", "")))
-    out = out.replace("{{affiliate_link}}", esc(p["top_pick"].get("affiliate_link", "#")))
+    # Top Pick Amazon button: only render for verified /dp/ ASIN links.
+    # No verified ASIN = no button (protects affiliate account).
+    _tp_aff = p["top_pick"].get("affiliate_link", "")
+    if _tp_aff and "/dp/" in _tp_aff:
+        _amz_btn_mid = f'<a class="btn-sm" href="{esc(_tp_aff)}" rel="nofollow sponsored noopener" target="_blank">Check Price on Amazon →</a>'
+        _amz_btn = f'<a class="btn" href="{esc(_tp_aff)}" rel="nofollow sponsored noopener" target="_blank">Check Price on Amazon →</a>'
+        _amz_btn_ai = f'<a class="buy-btn" href="{esc(_tp_aff)}" rel="nofollow sponsored noopener" target="_blank">Check Price on Amazon</a>'
+    else:
+        _amz_btn_mid = ""
+        _amz_btn = ""
+        _amz_btn_ai = ""
+    out = out.replace("{{affiliate_link}}", esc(_tp_aff) if _tp_aff and "/dp/" in _tp_aff else "#")
+    out = out.replace("{{amazon_btn_mid}}", _amz_btn_mid)
+    out = out.replace("{{amazon_btn}}", _amz_btn)
+    out = out.replace("{{amazon_btn_ai}}", _amz_btn_ai)
     _tq = esc(p["top_pick"]["name"].replace(" ", "+"))
     _tp_platforms = p["top_pick"].get("platforms", ["amazon"])
     out = out.replace("{{temu_link}}", f"https://www.temu.com/search_result.html?search_key={_tq}" if "temu" in _tp_platforms else "")
@@ -173,7 +189,14 @@ def render_ai(p, slug):
     out = out.replace("{{top_pick_name}}", esc(p["top_pick"]["name"]))
     out = out.replace("{{top_pick_reason}}", esc(p["top_pick"]["reason"]))
     out = out.replace("{{top_pick_price}}", esc(p["top_pick"].get("price_display", "")))
-    out = out.replace("{{affiliate_link}}", esc(p["top_pick"].get("affiliate_link", "#")))
+    # AI page: same rule - only verified /dp/ links get a button
+    _tp_aff2 = p["top_pick"].get("affiliate_link", "")
+    if _tp_aff2 and "/dp/" in _tp_aff2:
+        _amz2 = f'<a class="buy-btn" href="{esc(_tp_aff2)}" rel="nofollow sponsored noopener" target="_blank">Check Price on Amazon</a>'
+    else:
+        _amz2 = ""
+    out = out.replace("{{affiliate_link}}", esc(_tp_aff2) if _tp_aff2 and "/dp/" in _tp_aff2 else "#")
+    out = out.replace("{{amazon_btn_ai}}", _amz2)
     _tq = esc(p["top_pick"]["name"].replace(" ", "+"))
     _tp_platforms = p["top_pick"].get("platforms", ["amazon"])
     out = out.replace("{{temu_link}}", f"https://www.temu.com/search_result.html?search_key={_tq}" if "temu" in _tp_platforms else "")

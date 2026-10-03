@@ -76,7 +76,7 @@ footer{border-top:1px solid #1a3a24;margin-top:3rem;padding:1.5rem 0;color:#555;
 <h2 class="sec">💬 Reviewer Consensus</h2>
 <h3 style="color:#00ff41;margin:1rem 0 .5rem">Common Pros</h3><ul class="pros">{{pros_list}}</ul>
 <h3 style="color:#ff6b6b;margin:1rem 0 .5rem">Common Cons</h3><ul class="cons">{{cons_list}}</ul>
-<div class="buy-mid"><span style="color:#888">Like what you see?</span> <strong style="color:#00ff41">{{top_pick_name}}</strong> <a class="btn-sm" href="{{affiliate_link}}" rel="nofollow sponsored noopener" target="_blank">Check Price on Amazon →</a></div>
+<div class="buy-mid"><span style="color:#888">Like what you see?</span> <strong style="color:#00ff41">{{top_pick_name}}</strong> {{amazon_btn_mid}}</div>
 <h2 class="sec">🔍 Detailed Breakdown</h2>
 {{product_cards}}
 
@@ -104,7 +104,7 @@ const GLOSSARY = {"144Hz": {"plain": "The screen refreshes 144 times per second.
 <h2 class="sec">❓ Frequently Asked Questions</h2><div class="faq">{{faq_html}}</div>
 <h2 class="sec">📺 Video Sources</h2>
 <details class="sources"><summary>Show {{review_count}} review videos</summary><div class="src-list">{{review_sources}}</div></details>
-<div class="buy"><p style="color:#888">Ready to buy?</p><p class="price">{{top_pick_price}}</p><a class="btn" href="{{affiliate_link}}" rel="nofollow sponsored noopener" target="_blank">Check Price on Amazon →</a></div>
+<div class="buy"><p style="color:#888">Ready to buy?</p><p class="price">{{top_pick_price}}</p>{{amazon_btn}}</div>
 </div>
 <footer><div class="wrap"><p><strong>Affiliate Disclosure:</strong> As an Amazon Associate we earn from qualifying purchases.</p><p><strong>Methodology:</strong> We aggregate public YouTube reviews, extract consensus pros/cons, and rank by reviewer agreement. No paid placements.</p></div></footer>
 </body>
