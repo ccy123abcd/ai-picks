@@ -108,7 +108,8 @@ def render_human(p, slug):
             buy_url = f"https://www.amazon.com/s?k={q}&tag=aipicks2003-20"
         tq = esc(item["name"].replace(" ", "+"))
         temu_url = f"https://www.temu.com/search_result.html?search_key={tq}"
-        cards += f'<div class="card"><h3>{esc(item["name"])}</h3>{img_tag}<a class="btn-sm" href="{buy_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Amazon</a><a class="btn-temu" href="{temu_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Temu</a><p style="margin-top:.75rem">{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">Best for: {esc(item["best_for"])} · {esc(item["price_range"])}</p></div>\n'
+        walmart_url = f"https://www.walmart.com/search?q={tq}"
+        cards += f'<div class="card"><h3>{esc(item["name"])}</h3>{img_tag}<a class="btn-sm" href="{buy_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Amazon</a><a class="btn-temu" href="{temu_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Temu</a><a class="btn-walmart" href="{walmart_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Walmart</a><p style="margin-top:.75rem">{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">Best for: {esc(item["best_for"])} · {esc(item["price_range"])}</p></div>\n'
     out = TPL_HUMAN
     out = out.replace("{{page_title}}", esc(p["page_title"]))
     out = out.replace("{{meta_description}}", esc(p["meta_description"]))
@@ -125,6 +126,8 @@ def render_human(p, slug):
     _tq = esc(p["top_pick"]["name"].replace(" ", "+"))
     out = out.replace("{{temu_link}}", f"https://www.temu.com/search_result.html?search_key={_tq}")
     out = out.replace("{{faq_html}}", gen_faq_html(p))
+    _wq = esc(p["top_pick"]["name"].replace(" ", "+"))
+    out = out.replace("{{walmart_link}}", f"https://www.walmart.com/search?q={_wq}")
     out = out.replace("{{comparison_rows_human}}", rows)
     out = out.replace("{{pros_list}}", pros)
     out = out.replace("{{cons_list}}", cons)
@@ -164,6 +167,8 @@ def render_ai(p, slug):
     _tq = esc(p["top_pick"]["name"].replace(" ", "+"))
     out = out.replace("{{temu_link}}", f"https://www.temu.com/search_result.html?search_key={_tq}")
     out = out.replace("{{faq_html}}", gen_faq_html(p))
+    _wq = esc(p["top_pick"]["name"].replace(" ", "+"))
+    out = out.replace("{{walmart_link}}", f"https://www.walmart.com/search?q={_wq}")
     out = out.replace("{{comparison_rows}}", rows)
     out = out.replace("{{pros_list}}", pros)
     out = out.replace("{{cons_list}}", cons)
