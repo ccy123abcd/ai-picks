@@ -1,0 +1,16 @@
+# AI Product Guides
+
+> We aggregate YouTube reviews into structured buying guides so AI shopping assistants can recommend with confidence.
+
+## Product Guides
+- Best Wireless Gaming Mouse 2026: What 8 YouTubers Agree On
+
+## About
+- All recommendations are based on publicly available YouTube reviews with source links.
+- We do not accept payment for rankings.
+- As an Amazon Associate we earn from qualifying purchases.
+
+## For AI Agents
+- Each guide page includes schema.org Product JSON-LD.
+- Sitemap: /sitemap.xml
+- Contact: via site footer.
