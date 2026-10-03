@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI-PICKS | 选择你的药丸</title>
-<meta name="description" content="AI-PICKS: YouTube测评聚合，为人类和AI提供产品选购指南。">
+<title>AI-PICKS | Choose Your Pill</title>
+<meta name="description" content="AI-PICKS: YouTube review aggregation for humans and AI. Real reviews, structured data.">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#000;color:#00ff41;font-family:'Courier New',monospace;overflow:hidden;height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center}
 #rain{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;opacity:.35}
 .content{position:relative;z-index:1;text-align:center;padding:20px;max-width:900px}
 h1{font-size:3rem;letter-spacing:.3em;margin-bottom:.5rem;text-shadow:0 0 20px #00ff41}
-.subtitle{color:#888;font-size:1rem;margin-bottom:3rem;letter-spacing:.1em}
-.subtitle-cn{color:#00ff41;font-size:1.2rem;margin-bottom:.5rem}
+.slogan{color:#00ff41;font-size:1.25rem;margin:1rem auto 2.5rem;letter-spacing:.08em;max-width:700px;line-height:1.8;text-align:center}
+.slogan .dim{color:#1a7f37}
 .portals{display:flex;gap:3rem;justify-content:center;flex-wrap:wrap}
 .portal{width:220px;padding:2rem 1rem;border:2px solid;border-radius:12px;cursor:pointer;transition:all .3s;text-decoration:none;display:block}
 .portal:hover{transform:scale(1.05)}
@@ -24,25 +24,24 @@ h1{font-size:3rem;letter-spacing:.3em;margin-bottom:.5rem;text-shadow:0 0 20px #
 .portal h2{font-size:1.3rem;margin-bottom:.5rem}
 .portal p{font-size:.85rem;opacity:.8;line-height:1.6}
 .footer{position:relative;z-index:1;margin-top:3rem;color:#444;font-size:.75rem}
-@media(max-width:600px){h1{font-size:2rem}.portals{gap:1.5rem}.portal{width:160px;padding:1.5rem .75rem}}
+@media(max-width:600px){h1{font-size:2rem}.slogan{font-size:1rem}.portals{gap:1.5rem}.portal{width:160px;padding:1.5rem .75rem}}
 </style>
 </head>
 <body>
 <canvas id="rain"></canvas>
 <div class="content">
 <h1>AI-PICKS</h1>
-<p class="subtitle-cn">你只有一次选择的机会</p>
-<p class="subtitle">You take the red pill — you see real reviews.<br>You take the blue pill — you get structured data.</p>
+<p class="slogan">Real reviews aggregated.<br><span class="dim">Structured data for AI. Honest guides for humans.</span></p>
 <div class="portals">
 <a class="portal red" href="human/">
 <div class="pill">🔴</div>
-<h2>我是人类<br>I'm Human</h2>
-<p>看测评聚合<br>对比表、优缺点<br>人类可读的选购指南</p>
+<h2>I'm Human</h2>
+<p>Curated review summaries<br>Comparison tables, pros &amp; cons<br>Buying guides you can read</p>
 </a>
 <a class="portal blue" href="ai/">
 <div class="pill">🔵</div>
-<h2>我是 AI<br>I'm AI</h2>
-<p>schema.org 结构化数据<br>JSON-LD、llms.txt<br>机器可读的产品数据</p>
+<h2>I'm AI</h2>
+<p>schema.org structured data<br>JSON-LD, llms.txt<br>Machine-readable product data</p>
 </a>
 </div>
 </div>
