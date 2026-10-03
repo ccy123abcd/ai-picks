@@ -63,7 +63,9 @@ def render_human(p, slug):
         else:
             q = esc(item["name"].replace(" ", "+"))
             buy_url = f"https://www.amazon.com/s?k={q}&tag=aipicks2003-20"
-        cards += f'<div class="card"><h3>{esc(item["name"])}</h3>{img_tag}<a class="btn-sm" href="{buy_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Buy on Amazon →</a><p style="margin-top:.75rem">{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">Best for: {esc(item["best_for"])} · {esc(item["price_range"])}</p></div>\n'
+        tq = esc(item["name"].replace(" ", "+"))
+        temu_url = f"https://www.temu.com/search_result.html?search_key={tq}"
+        cards += f'<div class="card"><h3>{esc(item["name"])}</h3>{img_tag}<a class="btn-sm" href="{buy_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Amazon</a><a class="btn-temu" href="{temu_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Temu</a><p style="margin-top:.75rem">{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">Best for: {esc(item["best_for"])} · {esc(item["price_range"])}</p></div>\n'
     out = TPL_HUMAN
     out = out.replace("{{page_title}}", esc(p["page_title"]))
     out = out.replace("{{meta_description}}", esc(p["meta_description"]))
@@ -77,6 +79,8 @@ def render_human(p, slug):
     out = out.replace("{{top_pick_reason}}", esc(p["top_pick"]["reason"]))
     out = out.replace("{{top_pick_price}}", esc(p["top_pick"].get("price_display", "")))
     out = out.replace("{{affiliate_link}}", esc(p["top_pick"].get("affiliate_link", "#")))
+    _tq = esc(p["top_pick"]["name"].replace(" ", "+"))
+    out = out.replace("{{temu_link}}", f"https://www.temu.com/search_result.html?search_key={_tq}")
     out = out.replace("{{comparison_rows_human}}", rows)
     out = out.replace("{{pros_list}}", pros)
     out = out.replace("{{cons_list}}", cons)
@@ -113,6 +117,8 @@ def render_ai(p, slug):
     out = out.replace("{{top_pick_reason}}", esc(p["top_pick"]["reason"]))
     out = out.replace("{{top_pick_price}}", esc(p["top_pick"].get("price_display", "")))
     out = out.replace("{{affiliate_link}}", esc(p["top_pick"].get("affiliate_link", "#")))
+    _tq = esc(p["top_pick"]["name"].replace(" ", "+"))
+    out = out.replace("{{temu_link}}", f"https://www.temu.com/search_result.html?search_key={_tq}")
     out = out.replace("{{comparison_rows}}", rows)
     out = out.replace("{{pros_list}}", pros)
     out = out.replace("{{cons_list}}", cons)
