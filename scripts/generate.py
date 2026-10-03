@@ -62,7 +62,7 @@ def render_human(p, slug):
             buy_url = item["affiliate_link"]
         else:
             q = esc(item["name"].replace(" ", "+"))
-            buy_url = f"https://www.amazon.com/s?k={q}&tag=aipicks-20"
+            buy_url = f"https://www.amazon.com/s?k={q}&tag=aipicks20"
         cards += f'<div class="card"><h3>{esc(item["name"])}</h3>{img_tag}<a class="btn-sm" href="{buy_url}" rel="nofollow sponsored noopener" target="_blank">🛒 去 Amazon 购买 →</a><p style="margin-top:.75rem">{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">适合：{esc(item["best_for"])} · {esc(item["price_range"])}</p></div>\n'
     out = TPL_HUMAN
     out = out.replace("{{page_title}}", esc(p["page_title"]))
