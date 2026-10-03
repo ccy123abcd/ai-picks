@@ -57,7 +57,13 @@ def render_human(p, slug):
     for item in p["products"]:
         specs = "".join(f"<div><b>{esc(k)}:</b> {esc(v)}</div>" for k, v in item.get("specs", {}).items())
         img_tag = f'<img src="{esc(item["image"])}" alt="{esc(item["name"])}" loading="lazy">' if item.get("image") else ""
-        cards += f'<div class="card"><h3>{esc(item["name"])}</h3>{img_tag}<p>{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">适合：{esc(item["best_for"])} · {esc(item["price_range"])}</p></div>\n'
+        # buy link: product's own affiliate link, else Amazon search for the product name
+        if item.get("affiliate_link"):
+            buy_url = item["affiliate_link"]
+        else:
+            q = esc(item["name"].replace(" ", "+"))
+            buy_url = f"https://www.amazon.com/s?k={q}&tag=YOUR-TAG-20"
+        cards += f'<div class="card"><h3>{esc(item["name"])}</h3>{img_tag}<a class="btn-sm" href="{buy_url}" rel="nofollow sponsored noopener" target="_blank">🛒 去 Amazon 购买 →</a><p style="margin-top:.75rem">{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">适合：{esc(item["best_for"])} · {esc(item["price_range"])}</p></div>\n'
     out = TPL_HUMAN
     out = out.replace("{{page_title}}", esc(p["page_title"]))
     out = out.replace("{{meta_description}}", esc(p["meta_description"]))
