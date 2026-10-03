@@ -4,22 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Product Finder | AI-PICKS</title>
-<meta name="description" content="Tell us what you need. AI-PICKS matches you with the best product from 248 real reviewed items.">
+<meta name="description" content="Describe what you need in plain words. AI-PICKS finds your product from 248 reviewed items.">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#000;color:#00ff41;font-family:'Courier New',monospace;min-height:100vh;padding:2rem 1rem}
 .wrap{max-width:800px;margin:0 auto}
 h1{text-align:center;font-size:2rem;letter-spacing:.15em;margin-bottom:.5rem;text-shadow:0 0 15px #00ff41}
-.sub{text-align:center;color:#1a7f37;margin-bottom:2rem}
-.step{background:#0a0a0a;border:1px solid #1a3a1a;border-radius:10px;padding:1.5rem;margin-bottom:1.5rem}
-.step h2{font-size:1.1rem;margin-bottom:1rem;color:#00ff41}
-select,input[type=text]{width:100%;padding:.75rem;background:#111;border:1px solid #00ff41;color:#00ff41;border-radius:6px;font-family:inherit;font-size:1rem;margin-bottom:.5rem}
-.chips{display:flex;flex-wrap:wrap;gap:.5rem}
-.chip{padding:.5rem 1rem;border:1px solid #1a7f37;border-radius:20px;cursor:pointer;color:#888;transition:all .2s;font-size:.9rem}
-.chip.on{background:#00ff41;color:#000;border-color:#00ff41;font-weight:bold}
-.btn{display:block;width:100%;padding:1rem;background:#00ff41;color:#000;font-weight:bold;font-size:1.1rem;border:none;border-radius:8px;cursor:pointer;font-family:inherit;margin-top:1rem}
+.sub{text-align:center;color:#1a7f37;margin-bottom:2rem;line-height:1.8}
+.search-box{background:#0a0a0a;border:1px solid #00ff41;border-radius:12px;padding:2rem;margin-bottom:1rem}
+.search-box input{width:100%;padding:1rem;background:#111;border:1px solid #1a7f37;color:#00ff41;border-radius:8px;font-family:inherit;font-size:1.1rem;margin-bottom:1rem}
+.search-box input:focus{border-color:#00ff41;outline:none}
+.examples{text-align:center;color:#555;font-size:.85rem;margin-bottom:1rem;line-height:2}
+.examples span{color:#1a7f37;cursor:pointer;border-bottom:1px dotted #1a7f37}
+.examples span:hover{color:#00ff41}
+.btn{display:block;width:100%;padding:1rem;background:#00ff41;color:#000;font-weight:bold;font-size:1.1rem;border:none;border-radius:8px;cursor:pointer;font-family:inherit}
 .btn:hover{transform:scale(1.02)}
-#results{margin-top:2rem}
+#detected{text-align:center;color:#1a7f37;font-size:.9rem;margin:1rem 0;min-height:1.5rem}
+#results{margin-top:1rem}
 .card{background:#0a0a0a;border:1px solid #00ff41;border-radius:10px;padding:1.5rem;margin-bottom:1rem}
 .card h3{color:#fff;margin-bottom:.5rem}
 .card .meta{color:#888;font-size:.85rem;margin-bottom:.75rem}
@@ -31,106 +32,136 @@ select,input[type=text]{width:100%;padding:.75rem;background:#111;border:1px sol
 .buy-wm{background:#0071ce;color:#fff}
 .back{display:block;text-align:center;margin-top:2rem;color:#1a7f37;text-decoration:none}
 .score{float:right;color:#00ff41;font-weight:bold}
+.lang{position:fixed;top:1rem;right:1rem;z-index:2}
+.lang a{color:#1a7f37;text-decoration:none;padding:.4rem .8rem;border:1px solid #1a3a1a;border-radius:6px;font-size:.85rem;margin-left:.5rem}
+.lang a.on{color:#00ff41;border-color:#00ff41}
 </style>
 </head>
 <body>
-<div class="lang" style="position:fixed;top:1rem;right:1rem;z-index:2">
-<a href="finder.html" class="on" style="color:#00ff41;text-decoration:none;padding:.4rem .8rem;border:1px solid #00ff41;border-radius:6px;font-size:.85rem;margin-left:.5rem">EN</a>
-<a href="zh/finder.html" style="color:#1a7f37;text-decoration:none;padding:.4rem .8rem;border:1px solid #1a3a1a;border-radius:6px;font-size:.85rem;margin-left:.5rem">中文</a>
-</div>
+<div class="lang"><a href="finder.html" class="on">EN</a><a href="zh/finder.html">中文</a></div>
 <div class="wrap">
 <h1>◢ PRODUCT FINDER</h1>
-<p class="sub">Tell us what you need. We match from 248 reviewed products.</p>
+<p class="sub">Just describe what you want in plain words.<br>No categories, no filters — we figure it out.</p>
 
-<div class="step">
-<h2>1. What are you looking for?</h2>
-<select id="cat">
-<option value="">-- Choose a category --</option>
-</select>
-</div>
-
-<div class="step">
-<h2>2. Max budget (optional)</h2>
-<select id="budget">
-<option value="0">No limit</option>
-<option value="50">Under $50</option>
-<option value="100">Under $100</option>
-<option value="200">Under $200</option>
-<option value="300">Under $300</option>
-<option value="500">Under $500</option>
-<option value="800">Under $800</option>
-<option value="1000">Under $1000</option>
-<option value="1500">Under $1500</option>
-</select>
-</div>
-
-<div class="step">
-<h2>3. Keywords (optional)</h2>
-<input type="text" id="kw" placeholder='e.g. 34 inch, 100Hz, wireless, OLED...'>
-<p style="color:#555;font-size:.8rem;margin-top:.25rem">Separate with commas. We'll match against specs and descriptions.</p>
-</div>
-
+<div class="search-box">
+<input type="text" id="q" placeholder='e.g. 34 inch monitor 144Hz under $500…' onkeydown="if(event.key==='Enter')find()">
 <button class="btn" onclick="find()">🔍 FIND MY PRODUCT</button>
+</div>
+<div class="examples">
+Try: <span onclick="tryEx(this)">wireless gaming mouse under $100</span> ·
+<span onclick="tryEx(this)">34 inch 144Hz monitor</span> ·
+<span onclick="tryEx(this)">mechanical keyboard for coding</span> ·
+<span onclick="tryEx(this)">noise cancelling headphones for flights</span>
+</div>
+<div id="detected"></div>
 <div id="results"></div>
-<a class="back" href="../">← Back to Portal</a>
+<a class="back" href="./">← Back to Portal</a>
 </div>
 
 <script>
 let DB=[];
-fetch('finder-data.json').then(r=>r.json()).then(d=>{
-  DB=d;
-  const cats=[...new Set(d.map(p=>p.category))].sort();
-  const sel=document.getElementById('cat');
-  cats.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;sel.appendChild(o);});
-});
+fetch('finder-data.json').then(r=>r.json()).then(d=>{DB=d;});
 
-function priceNum(s){
-  const m=String(s).replace(/,/g,'').match(/[\d.]+/);
-  return m?parseFloat(m[0]):99999;
-}
+function tryEx(el){document.getElementById('q').value=el.textContent;find();}
+
+function priceNum(s){const m=String(s).replace(/,/g,'').match(/[\d.]+/);return m?parseFloat(m[0]):99999;}
 
 function find(){
-  const cat=document.getElementById('cat').value;
-  const budget=parseFloat(document.getElementById('budget').value);
-  const kws=document.getElementById('kw').value.toLowerCase().split(',').map(s=>s.trim()).filter(Boolean);
-  if(!cat){alert('Please choose a category first');return;}
+  const raw=document.getElementById('q').value.trim();
+  if(!raw){alert('Tell us what you are looking for!');return;}
+  const q=raw.toLowerCase();
 
-  let pool=DB.filter(p=>p.category===cat);
-  if(budget>0) pool=pool.filter(p=>priceNum(p.price)<=budget);
+  // 1. 提取预算：under $500 / <$500 / $500以下 / budget 300
+  let budget=0;
+  let m=q.match(/(?:under|below|max|<|less than)\s*\$?\s*([\d,]+)/) || q.match(/\$\s*([\d,]+)\s*(?:max|under|below|or less)/);
+  if(m) budget=parseFloat(m[1].replace(/,/g,''));
 
-  // 关键词打分
+  // 2. 品类关键词映射
+  const catHints={
+    'monitor':['monitor','display','screen'],
+    'keyboard':['keyboard','keycap','switch'],
+    'mouse':['mouse'],
+    'headphone':['headphone','headset','earbud','earphone','audio'],
+    'chair':['chair'],
+    'desk':['desk','standing desk'],
+    'webcam':['webcam','camera'],
+    'microphone':['microphone','mic'],
+    'speaker':['speaker'],
+    'controller':['controller','gamepad'],
+    'laptop':['laptop','notebook','macbook'],
+    'ssd':['ssd','storage','hard drive'],
+    'router':['router','wifi'],
+    'dock':['dock','docking'],
+    'lamp':['lamp','light'],
+    'nas':['nas','server'],
+  };
+  let catScores={};
+  for(const [cat,words] of Object.entries(catHints)){
+    for(const w of words){
+      if(q.includes(w)) catScores[cat]=(catScores[cat]||0)+1;
+    }
+  }
+  const topCat=Object.entries(catScores).sort((a,b)=>b[1]-a[1])[0];
+
+  // 3. 提取剩余关键词（去掉品类词和预算词）
+  let keywords=q
+    .replace(/(?:under|below|max|<|less than)\s*\$?\s*[\d,]+/g,'')
+    .replace(/\$\s*[\d,]+\s*(?:max|under|below|or less)/g,'')
+    .split(/[\s,]+/)
+    .filter(w=>w.length>1 && !['a','an','the','for','with','and','good','best','want','need','looking','find','buy','cheap'].includes(w));
+
+  // 4. 候选池
+  let pool=DB;
+  if(topCat){
+    // 匹配品类（模糊：category 包含任一 hint 词）
+    const hints=catHints[topCat[0]];
+    pool=pool.filter(p=>hints.some(h=>p.category.toLowerCase().includes(h)||p.name.toLowerCase().includes(h)));
+  }
+  if(budget>0) pool=pool.filter(p=>priceNum(p.price)<=budget*1.2); // 放宽20%
+
+  // 5. 打分
   let scored=pool.map(p=>{
-    let score=0, hits=[];
+    let score=0,hits=[];
     const text=(p.name+' '+p.brand+' '+p.summary+' '+p.best_for+' '+JSON.stringify(p.specs)).toLowerCase();
-    kws.forEach(kw=>{
-      if(text.includes(kw)){score+=2;hits.push(kw);}
-      // 数字匹配：如 "34" 匹配 "34-inch"
-      const num=kw.match(/[\d.]+/);
-      if(num && text.includes(num[0])){score+=1;}
+    keywords.forEach(kw=>{
+      if(text.includes(kw)){score+=3;hits.push(kw);}
+      else{
+        // 数字匹配
+        const num=kw.match(/[\d.]+/);
+        if(num&&text.includes(num[0])){score+=1;}
+      }
     });
-    return {p,score,hits};
+    // 预算越接近加分
+    if(budget>0){const pn=priceNum(p.price);if(pn<=budget)score+=2;}
+    return {p,score,hits:[...new Set(hits)]};
   });
 
-  scored.sort((a,b)=>b.score-a.score);
+  scored=scored.filter(s=>s.score>0).sort((a,b)=>b.score-a.score);
   const top=scored.slice(0,5);
 
-  const div=document.getElementById('results');
-  if(!top.length){div.innerHTML='<p style="text-align:center;color:#888">No matches. Try loosening filters.</p>';return;}
+  // 显示识别结果
+  const det=[];
+  if(topCat)det.push(`Category: <b>${topCat[0]}</b>`);
+  if(budget>0)det.push(`Budget: <b>under $${budget}</b>`);
+  if(keywords.length)det.push(`Keywords: <b>${keywords.slice(0,5).join(', ')}</b>`);
+  document.getElementById('detected').innerHTML=det.length?`We understood → ${det.join(' · ')}`:'';
 
-  let html='<h2 style="margin-bottom:1rem">🎯 Top matches for you:</h2>';
+  const div=document.getElementById('results');
+  if(!top.length){
+    div.innerHTML='<p style="text-align:center;color:#888">No matches found. Try simpler words like "gaming mouse" or "4k monitor".</p>';
+    return;
+  }
+
+  let html='<h2 style="margin-bottom:1rem">🎯 Top matches:</h2>';
   top.forEach(({p,score,hits},i)=>{
-    const q=encodeURIComponent(p.name.replace(/ /g,'+'));
+    const qq=encodeURIComponent(p.name.replace(/ /g,'+'));
     let buys=`<a class="buy-amz" href="${p.affiliate_link}" rel="nofollow sponsored noopener" target="_blank">Amazon</a>`;
-    if(p.platforms.includes('temu')) buys+=`<a class="buy-temu" href="https://www.temu.com/search_result.html?search_key=${q}" rel="nofollow sponsored noopener" target="_blank">Temu</a>`;
-    if(p.platforms.includes('walmart')) buys+=`<a class="buy-wm" href="https://www.walmart.com/search?q=${q}" rel="nofollow sponsored noopener" target="_blank">Walmart</a>`;
-    const why=hits.length?`Matches your keywords: <strong>${hits.join(', ')}</strong><br>`:'';
-    html+=`<div class="card">
-      <span class="score">#${i+1}</span>
-      <h3>${p.name}</h3>
-      <div class="meta">${p.brand} · ${p.price} · <a href="../human/${p.guide}.html" style="color:#1a7f37">Full guide →</a></div>
-      <div class="why">${why}${p.summary}</div>
-      <div class="buy">${buys}</div>
-    </div>`;
+    if(p.platforms.includes('temu'))buys+=`<a class="buy-temu" href="https://www.temu.com/search_result.html?search_key=${qq}" rel="nofollow sponsored noopener" target="_blank">Temu</a>`;
+    if(p.platforms.includes('walmart'))buys+=`<a class="buy-wm" href="https://www.walmart.com/search?q=${qq}" rel="nofollow sponsored noopener" target="_blank">Walmart</a>`;
+    const why=hits.length?`Matched: <strong>${hits.join(', ')}</strong><br>`:'';
+    html+=`<div class="card"><span class="score">#${i+1}</span><h3>${p.name}</h3>
+      <div class="meta">${p.brand} · ${p.price} · <a href="human/${p.guide}.html" style="color:#1a7f37">Full guide →</a></div>
+      <div class="why">${why}${p.summary}</div><div class="buy">${buys}</div></div>`;
   });
   div.innerHTML=html;
   div.scrollIntoView({behavior:'smooth'});
