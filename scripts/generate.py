@@ -47,6 +47,49 @@ def review_sources_html(p):
         out += f'<div class="src">📺 <strong>{esc(s["channel"])}</strong> — {esc(s["title"])}<br><a href="{esc(s["url"])}" rel="nofollow noopener" target="_blank">Watch Video</a></div>\n'
     return out
 
+
+def gen_faq_html(p):
+    """从 top_pick 规格生成 FAQ，覆盖用户常搜的参数问题"""
+    tp = p["top_pick"]
+    specs = tp.get("specs", {})
+    name = esc(tp["name"])
+    faqs = []
+    # 尺寸问题
+    for k in specs:
+        if any(w in k.lower() for w in ["panel", "size", "screen", "display"]):
+            faqs.append((f"What size is the {name}?",
+                        f"The {name} features a {esc(specs[k])} panel."))
+            break
+    # 刷新率问题
+    for k in specs:
+        if "refresh" in k.lower():
+            faqs.append((f"What refresh rate does the {name} support?",
+                        f"It supports up to {esc(specs[k])}, making it excellent for smooth gaming."))
+            break
+    # 延迟问题
+    for k in specs:
+        if any(w in k.lower() for w in ["response", "latency", "input lag"]):
+            faqs.append((f"Is the {name} good for competitive gaming?",
+                        f"With {esc(specs[k])} response time, it's one of the fastest options for competitive play."))
+            break
+    # 分辨率问题
+    for k in specs:
+        if "resolution" in k.lower():
+            faqs.append((f"What resolution is the {name}?",
+                        f"It runs at {esc(specs[k])}."))
+            break
+    # 价格问题
+    if tp.get("price_range"):
+        faqs.append((f"How much does the {name} cost?",
+                    f"It typically sells for {esc(tp['price_range'])}. Check both Amazon and Temu above for the best current price."))
+    # 通用：为什么选它
+    faqs.append((f"Why is the {name} our top pick?",
+                f"It's recommended by {p.get('review_count', 'multiple')} reviewers for its overall balance of performance, features, and value. See the detailed breakdown above."))
+    html = ""
+    for q, a in faqs:
+        html += f'<details><summary>{q}</summary><div class="a">{a}</div></details>'
+    return html
+
 def render_human(p, slug):
     rows = ""
     for i, item in enumerate(p["products"], 1):
@@ -81,6 +124,7 @@ def render_human(p, slug):
     out = out.replace("{{affiliate_link}}", esc(p["top_pick"].get("affiliate_link", "#")))
     _tq = esc(p["top_pick"]["name"].replace(" ", "+"))
     out = out.replace("{{temu_link}}", f"https://www.temu.com/search_result.html?search_key={_tq}")
+    out = out.replace("{{faq_html}}", gen_faq_html(p))
     out = out.replace("{{comparison_rows_human}}", rows)
     out = out.replace("{{pros_list}}", pros)
     out = out.replace("{{cons_list}}", cons)
@@ -119,6 +163,7 @@ def render_ai(p, slug):
     out = out.replace("{{affiliate_link}}", esc(p["top_pick"].get("affiliate_link", "#")))
     _tq = esc(p["top_pick"]["name"].replace(" ", "+"))
     out = out.replace("{{temu_link}}", f"https://www.temu.com/search_result.html?search_key={_tq}")
+    out = out.replace("{{faq_html}}", gen_faq_html(p))
     out = out.replace("{{comparison_rows}}", rows)
     out = out.replace("{{pros_list}}", pros)
     out = out.replace("{{cons_list}}", cons)
