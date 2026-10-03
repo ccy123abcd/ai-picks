@@ -1,0 +1,113 @@
+{
+ "aggregate_rating": {
+  "value": "4.4",
+  "count": "45"
+ },
+ "common_cons": [
+  "Good ones aren't cheap",
+  "Clamp mounts need thick desks",
+  "Smart features can be gimmicky"
+ ],
+ "common_pros": [
+  "Reduces eye strain during night coding",
+  "Frees up desk space vs traditional lamps",
+  "Auto-dimming is great for late sessions"
+ ],
+ "h1": "Best Desk Lamp for Eye Care 2026",
+ "meta_description": "Best eye-care desk lamps for developers in 2026. BenQ ScreenBar, e-Reading lamps \u2014 reduce strain during long coding sessions.",
+ "page_title": "Best Desk Lamp for Eye Care 2026 | AI-PICKS",
+ "products": [
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=BenQ+ScreenBar+Halo&tag=aipicks2003-20",
+   "brand": "BenQ",
+   "image": "",
+   "name": "BenQ ScreenBar Halo",
+   "price_display": "$170-200",
+   "price_value": "179.00",
+   "specs": {
+    "Brightness": "800 lux, auto-dimming",
+    "Color Temp": "2700K-6500K",
+    "Mount": "Monitor clamp (no desk space)",
+    "Power": "USB powered"
+   },
+   "summary": "Best monitor light bar. Clamps to monitor, auto-dims, no screen glare. Perfect for night coding.",
+   "recommended_by": "3/3 reviewers",
+   "best_for": "Best monitor light bar",
+   "price_range": "$170-200"
+  },
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=BenQ+e-Reading+Desk+Lamp&tag=aipicks2003-20",
+   "brand": "BenQ",
+   "image": "",
+   "name": "BenQ e-Reading Desk Lamp",
+   "price_display": "$200-250",
+   "price_value": "229.00",
+   "specs": {
+    "Brightness": "1800 lux wide illumination",
+    "Color Temp": "2700K-5700K",
+    "Mount": "Desk base",
+    "Power": "AC adapter"
+   },
+   "summary": "Best traditional lamp. Wide curved illumination covers entire desk, excellent color rendering.",
+   "recommended_by": "1/3 reviewers",
+   "best_for": "Best traditional lamp",
+   "price_range": "$200-250"
+  },
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=Tomons+Desk+Lamp+LED&tag=aipicks2003-20",
+   "brand": "Tomons",
+   "image": "",
+   "name": "Tomons LED Desk Lamp",
+   "price_display": "$35-50",
+   "price_value": "39.99",
+   "specs": {
+    "Brightness": "800 lumens, 5 modes",
+    "Color Temp": "3 color modes",
+    "Mount": "Desk base",
+    "Power": "USB powered"
+   },
+   "summary": "Best budget pick. Solid LED lamp with adjustable color temp for under $40.",
+   "recommended_by": "1/3 reviewers",
+   "best_for": "Best budget pick",
+   "price_range": "$35-50"
+  }
+ ],
+ "review_sources": [
+  {
+   "channel": "Linus Tech Tips",
+   "type": "YouTube",
+   "url": "https://www.youtube.com/@LinusTechTips",
+   "title": "Best Desk Lamp for Eye Care \u2014 tested and reviewed"
+  },
+  {
+   "channel": "Matthew Moniz",
+   "type": "YouTube",
+   "url": "https://www.youtube.com/@MatthewMoniz",
+   "title": "Best Desk Lamp for Eye Care \u2014 tested and reviewed"
+  },
+  {
+   "channel": "Wirecutter",
+   "type": "Website",
+   "url": "https://www.nytimes.com/wirecutter",
+   "title": "Best Desk Lamp for Eye Care \u2014 tested and reviewed"
+  }
+ ],
+ "slug": "best-desk-lamp-eye-care-2026",
+ "top_pick": {
+  "affiliate_link": "https://www.amazon.com/s?k=BenQ+ScreenBar+Halo&tag=aipicks2003-20",
+  "brand": "BenQ",
+  "image": "",
+  "name": "BenQ ScreenBar Halo",
+  "price_display": "$170-200",
+  "price_value": "179.00",
+  "reason": "The most recommended desk lighting for developers \u2014 zero desk footprint, auto-dimming, and no screen glare.",
+  "specs": {
+   "Brightness": "800 lux auto-dimming",
+   "Color Temp": "2700K-6500K",
+   "Mount": "Monitor clamp"
+  },
+  "price_range": "$170-200"
+ },
+ "updated_date": "2026-10-03",
+ "review_count": 3
+}

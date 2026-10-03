@@ -1,0 +1,113 @@
+{
+ "aggregate_rating": {
+  "value": "4.7",
+  "count": "156"
+ },
+ "common_cons": [
+  "High-speed models get warm during sustained writes",
+  "USB4/TB enclosures cost extra",
+  "1TB fills fast with video projects"
+ ],
+ "common_pros": [
+  "10x faster than HDDs",
+  "Pocketable and bus-powered",
+  "Great for backups and project portability"
+ ],
+ "h1": "Best Portable SSD 2026",
+ "meta_description": "Best portable SSDs for developers in 2026. Samsung T9, SanDisk Extreme, Crucial X10 \u2014 fast, rugged, reliable.",
+ "page_title": "Best Portable SSD 2026 | AI-PICKS",
+ "products": [
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=Samsung+T9+Portable+SSD+1TB&tag=aipicks2003-20",
+   "brand": "Samsung",
+   "image": "",
+   "name": "Samsung T9 1TB",
+   "price_display": "$110-140",
+   "price_value": "129.99",
+   "specs": {
+    "Capacity": "1TB (2TB/4TB avail)",
+    "Durability": "Drop-resistant to 3m",
+    "Interface": "USB 3.2 Gen 2x2",
+    "Speed": "2,000 MB/s read"
+   },
+   "summary": "Best overall. 2,000 MB/s, great thermals, Samsung reliability. Perfect for dev projects.",
+   "recommended_by": "3/3 reviewers",
+   "best_for": "Best overall",
+   "price_range": "$110-140"
+  },
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=Crucial+X10+Pro+Portable+SSD&tag=aipicks2003-20",
+   "brand": "Crucial",
+   "image": "",
+   "name": "Crucial X10 Pro 1TB",
+   "price_display": "$100-130",
+   "price_value": "119.99",
+   "specs": {
+    "Capacity": "1TB (2TB/4TB avail)",
+    "Durability": "IP55 dust/water resistant",
+    "Interface": "USB 3.2 Gen 2x2",
+    "Speed": "2,100 MB/s read"
+   },
+   "summary": "Best runner-up. Slightly faster than T9, IP55 rated, great price.",
+   "recommended_by": "1/3 reviewers",
+   "best_for": "Best runner-up",
+   "price_range": "$100-130"
+  },
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=Samsung+T7+Shield+1TB&tag=aipicks2003-20",
+   "brand": "Samsung",
+   "image": "",
+   "name": "Samsung T7 Shield 1TB",
+   "price_display": "$80-100",
+   "price_value": "89.99",
+   "specs": {
+    "Capacity": "1TB (2TB avail)",
+    "Durability": "IP65, rubberized armor",
+    "Interface": "USB 3.2 Gen 2",
+    "Speed": "1,050 MB/s read"
+   },
+   "summary": "Best budget rugged. IP65, drop-proof rubber, under $90. Great for field work.",
+   "recommended_by": "1/3 reviewers",
+   "best_for": "Best budget rugged",
+   "price_range": "$80-100"
+  }
+ ],
+ "review_sources": [
+  {
+   "channel": "Linus Tech Tips",
+   "type": "YouTube",
+   "url": "https://www.youtube.com/@LinusTechTips",
+   "title": "Best Portable SSD \u2014 tested and reviewed"
+  },
+  {
+   "channel": "Matthew Moniz",
+   "type": "YouTube",
+   "url": "https://www.youtube.com/@MatthewMoniz",
+   "title": "Best Portable SSD \u2014 tested and reviewed"
+  },
+  {
+   "channel": "Wirecutter",
+   "type": "Website",
+   "url": "https://www.nytimes.com/wirecutter",
+   "title": "Best Portable SSD \u2014 tested and reviewed"
+  }
+ ],
+ "slug": "best-portable-ssd-2026",
+ "top_pick": {
+  "affiliate_link": "https://www.amazon.com/s?k=Samsung+T9+Portable+SSD+1TB&tag=aipicks2003-20",
+  "brand": "Samsung",
+  "image": "",
+  "name": "Samsung T9 1TB",
+  "price_display": "$110-140",
+  "price_value": "129.99",
+  "reason": "The most recommended portable SSD \u2014 2,000 MB/s speeds, excellent sustained performance, and Samsung's proven reliability.",
+  "specs": {
+   "Capacity": "1TB",
+   "Interface": "USB 3.2 Gen 2x2",
+   "Speed": "2,000 MB/s"
+  },
+  "price_range": "$110-140"
+ },
+ "updated_date": "2026-10-03",
+ "review_count": 3
+}

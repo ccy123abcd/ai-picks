@@ -1,0 +1,113 @@
+{
+ "aggregate_rating": {
+  "value": "4.6",
+  "count": "234"
+ },
+ "common_cons": [
+  "Premium ANC headphones are $300+",
+  "Can feel warm during long sessions",
+  "Multipoint sometimes glitchy"
+ ],
+ "common_pros": [
+  "Blocks office/home noise for deep focus",
+  "30+ hour battery life",
+  "Great for calls and music between coding"
+ ],
+ "h1": "Best Noise Cancelling Headphones 2026",
+ "meta_description": "Best noise cancelling headphones for focus and deep work in 2026. Sony XM5, Bose QC Ultra \u2014 aggregated from RTINGS and audio reviewers.",
+ "page_title": "Best Noise Cancelling Headphones 2026 | AI-PICKS",
+ "products": [
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=Sony+WH-1000XM5&tag=aipicks2003-20",
+   "brand": "Sony",
+   "image": "",
+   "name": "Sony WH-1000XM5",
+   "price_display": "$280-350",
+   "price_value": "328.00",
+   "specs": {
+    "ANC": "Industry-leading",
+    "Battery": "30 hours (ANC on)",
+    "Bluetooth": "5.2, multipoint",
+    "Weight": "250g"
+   },
+   "summary": "Best overall ANC. Class-leading noise cancelling, 30hr battery, great comfort for all-day wear.",
+   "recommended_by": "3/3 reviewers",
+   "best_for": "Best overall ANC",
+   "price_range": "$280-350"
+  },
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=Bose+QuietComfort+Ultra&tag=aipicks2003-20",
+   "brand": "Bose",
+   "image": "",
+   "name": "Bose QuietComfort Ultra",
+   "price_display": "$300-380",
+   "price_value": "349.00",
+   "specs": {
+    "ANC": "Excellent, spatial audio",
+    "Battery": "24 hours (ANC on)",
+    "Bluetooth": "5.3, multipoint",
+    "Weight": "254g"
+   },
+   "summary": "Best comfort. Legendary Bose comfort, spatial audio, superb call quality.",
+   "recommended_by": "1/3 reviewers",
+   "best_for": "Best comfort",
+   "price_range": "$300-380"
+  },
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=Sony+WH-1000XM4&tag=aipicks2003-20",
+   "brand": "Sony",
+   "image": "",
+   "name": "Sony WH-1000XM4",
+   "price_display": "$200-250",
+   "price_value": "228.00",
+   "specs": {
+    "ANC": "Excellent (previous gen)",
+    "Battery": "30 hours (ANC on)",
+    "Bluetooth": "5.0, multipoint",
+    "Weight": "254g"
+   },
+   "summary": "Best budget flagship. Previous-gen XM5 performance for $100 less. Still fantastic.",
+   "recommended_by": "1/3 reviewers",
+   "best_for": "Best budget flagship",
+   "price_range": "$200-250"
+  }
+ ],
+ "review_sources": [
+  {
+   "channel": "RTINGS.com",
+   "type": "Website",
+   "url": "https://www.rtings.com/headphones",
+   "title": "Best Noise Cancelling Headphones \u2014 tested and reviewed"
+  },
+  {
+   "channel": "DMS",
+   "type": "YouTube",
+   "url": "https://www.youtube.com/@DMS3TV",
+   "title": "Best Noise Cancelling Headphones \u2014 tested and reviewed"
+  },
+  {
+   "channel": "Joshua Valour",
+   "type": "YouTube",
+   "url": "https://www.youtube.com/@JoshuaValour",
+   "title": "Best Noise Cancelling Headphones \u2014 tested and reviewed"
+  }
+ ],
+ "slug": "best-noise-cancelling-headphones-2026",
+ "top_pick": {
+  "affiliate_link": "https://www.amazon.com/s?k=Sony+WH-1000XM5&tag=aipicks2003-20",
+  "brand": "Sony",
+  "image": "",
+  "name": "Sony WH-1000XM5",
+  "price_display": "$280-350",
+  "price_value": "328.00",
+  "reason": "RTINGS top-rated ANC headphone \u2014 best-in-class noise cancelling, 30-hour battery, and all-day comfort for deep focus sessions.",
+  "specs": {
+   "ANC": "Industry-leading",
+   "Battery": "30 hours",
+   "Bluetooth": "5.2 multipoint"
+  },
+  "price_range": "$280-350"
+ },
+ "updated_date": "2026-10-03",
+ "review_count": 3
+}

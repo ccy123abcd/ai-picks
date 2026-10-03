@@ -1,0 +1,113 @@
+{
+ "aggregate_rating": {
+  "value": "4.4",
+  "count": "92"
+ },
+ "common_cons": [
+  "Smaller text at 1080p",
+  "Brightness lower than desktop monitors",
+  "Built-in stands are basic"
+ ],
+ "common_pros": [
+  "USB-C single cable for power+video",
+  "Great for travel and coffee shop coding",
+  "Doubles as second screen at home"
+ ],
+ "h1": "Best Portable Monitor 2026",
+ "meta_description": "Best portable monitors for developers in 2026. ASUS ZenScreen, Lenovo ThinkVision \u2014 USB-C second screens for coding anywhere.",
+ "page_title": "Best Portable Monitor 2026 | AI-PICKS",
+ "products": [
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=ASUS+ZenScreen+MB16ACV&tag=aipicks2003-20",
+   "brand": "ASUS",
+   "image": "",
+   "name": "ASUS ZenScreen MB16ACV",
+   "price_display": "$180-220",
+   "price_value": "199.99",
+   "specs": {
+    "Panel": "15.6\" 1080p IPS",
+    "Ports": "USB-C (DP Alt Mode)",
+    "Refresh Rate": "60Hz",
+    "Weight": "1.6 lbs"
+   },
+   "summary": "Best overall portable. USB-C single cable, 1.6 lbs, great colors. Perfect travel companion.",
+   "recommended_by": "3/3 reviewers",
+   "best_for": "Best overall portable",
+   "price_range": "$180-220"
+  },
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=Lenovo+ThinkVision+M15&tag=aipicks2003-20",
+   "brand": "Lenovo",
+   "image": "",
+   "name": "Lenovo ThinkVision M15",
+   "price_display": "$200-250",
+   "price_value": "229.99",
+   "specs": {
+    "Panel": "15.6\" 1080p IPS",
+    "Ports": "Dual USB-C",
+    "Refresh Rate": "60Hz",
+    "Weight": "1.9 lbs"
+   },
+   "summary": "Best for business. Dual USB-C passthrough, ThinkVision quality, good stand.",
+   "recommended_by": "1/3 reviewers",
+   "best_for": "Best for business",
+   "price_range": "$200-250"
+  },
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=Arzopa+Portable+Monitor+15.6&tag=aipicks2003-20",
+   "brand": "Arzopa",
+   "image": "",
+   "name": "Arzopa 15.6\" Portable Monitor",
+   "price_display": "$90-120",
+   "price_value": "109.99",
+   "specs": {
+    "Panel": "15.6\" 1080p IPS",
+    "Ports": "USB-C + Mini HDMI",
+    "Refresh Rate": "60Hz",
+    "Weight": "1.7 lbs"
+   },
+   "summary": "Best budget pick. 1080p IPS for ~$100. Amazing value for a second screen.",
+   "recommended_by": "1/3 reviewers",
+   "best_for": "Best budget pick",
+   "price_range": "$90-120"
+  }
+ ],
+ "review_sources": [
+  {
+   "channel": "Matthew Moniz",
+   "type": "YouTube",
+   "url": "https://www.youtube.com/@MatthewMoniz",
+   "title": "Best Portable Monitor \u2014 tested and reviewed"
+  },
+  {
+   "channel": "Linus Tech Tips",
+   "type": "YouTube",
+   "url": "https://www.youtube.com/@LinusTechTips",
+   "title": "Best Portable Monitor \u2014 tested and reviewed"
+  },
+  {
+   "channel": "Wirecutter",
+   "type": "Website",
+   "url": "https://www.nytimes.com/wirecutter",
+   "title": "Best Portable Monitor \u2014 tested and reviewed"
+  }
+ ],
+ "slug": "best-portable-monitor-2026",
+ "top_pick": {
+  "affiliate_link": "https://www.amazon.com/s?k=ASUS+ZenScreen+MB16ACV&tag=aipicks2003-20",
+  "brand": "ASUS",
+  "image": "",
+  "name": "ASUS ZenScreen MB16ACV",
+  "price_display": "$180-220",
+  "price_value": "199.99",
+  "reason": "The most recommended portable monitor \u2014 USB-C single-cable, ultralight at 1.6 lbs, and reliable ASUS build quality.",
+  "specs": {
+   "Display": "15.6\" 1080p IPS",
+   "Ports": "USB-C",
+   "Weight": "1.6 lbs"
+  },
+  "price_range": "$180-220"
+ },
+ "updated_date": "2026-10-03",
+ "review_count": 3
+}

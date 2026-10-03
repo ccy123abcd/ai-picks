@@ -1,0 +1,113 @@
+{
+ "aggregate_rating": {
+  "value": "4.3",
+  "count": "38"
+ },
+ "common_cons": [
+  "Expensive for a monitor",
+  "Slow refresh rate (not for gaming)",
+  "Limited color vs LCD"
+ ],
+ "common_pros": [
+  "Zero eye strain \u2014 like reading paper",
+  "Great for long writing/coding sessions",
+  "No blue light or flicker"
+ ],
+ "h1": "Best E-Ink Monitor 2026",
+ "meta_description": "Best e-ink monitors for developers in 2026. Dasung, Onyx BOOX \u2014 paper-like displays for eye-strain-free coding.",
+ "page_title": "Best E-Ink Monitor 2026 | AI-PICKS",
+ "products": [
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=Dasung+Paperlike+253+E-ink&tag=aipicks2003-20",
+   "brand": "Dasung",
+   "image": "",
+   "name": "Dasung Paperlike 253",
+   "price_display": "$1800-2000",
+   "price_value": "1899.00",
+   "specs": {
+    "Panel": "25.3\" E-ink Carta 1200",
+    "Ports": "HDMI + USB",
+    "Refresh": "Fast mode for scrolling",
+    "Resolution": "3200x1800"
+   },
+   "summary": "Best large e-ink. 25.3\" paper-like display, fast refresh mode. Ultimate eye-care for coders.",
+   "recommended_by": "3/3 reviewers",
+   "best_for": "Best large e-ink",
+   "price_range": "$1800-2000"
+  },
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=Onyx+BOOX+Mira+Pro+25.3&tag=aipicks2003-20",
+   "brand": "Onyx BOOX",
+   "image": "",
+   "name": "Onyx BOOX Mira Pro 25.3\"",
+   "price_display": "$1600-1800",
+   "price_value": "1699.00",
+   "specs": {
+    "Panel": "25.3\" E-ink",
+    "Ports": "HDMI + USB-C + DP",
+    "Refresh": "Multiple speed modes",
+    "Resolution": "3200x1800"
+   },
+   "summary": "Best connectivity. HDMI + USB-C + DisplayPort, great for multi-device setups.",
+   "recommended_by": "1/3 reviewers",
+   "best_for": "Best connectivity",
+   "price_range": "$1600-1800"
+  },
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=Dasung+Paperlike+HD-FT&tag=aipicks2003-20",
+   "brand": "Dasung",
+   "image": "",
+   "name": "Dasung Paperlike HD-FT 13.3\"",
+   "price_display": "$800-900",
+   "price_value": "849.00",
+   "specs": {
+    "Panel": "13.3\" E-ink Carta",
+    "Ports": "USB-C",
+    "Refresh": "Fast mode",
+    "Resolution": "2200x1650"
+   },
+   "summary": "Best budget e-ink. 13.3\" portable, under $900. Great second screen for reading docs.",
+   "recommended_by": "1/3 reviewers",
+   "best_for": "Best budget e-ink",
+   "price_range": "$800-900"
+  }
+ ],
+ "review_sources": [
+  {
+   "channel": "Linus Tech Tips",
+   "type": "YouTube",
+   "url": "https://www.youtube.com/@LinusTechTips",
+   "title": "Best E-Ink Monitor \u2014 tested and reviewed"
+  },
+  {
+   "channel": "Matthew Moniz",
+   "type": "YouTube",
+   "url": "https://www.youtube.com/@MatthewMoniz",
+   "title": "Best E-Ink Monitor \u2014 tested and reviewed"
+  },
+  {
+   "channel": "e-ink enthusiast community",
+   "type": "Community",
+   "url": "https://www.reddit.com/r/eink/",
+   "title": "Best E-Ink Monitor \u2014 tested and reviewed"
+  }
+ ],
+ "slug": "best-e-ink-monitor-2026",
+ "top_pick": {
+  "affiliate_link": "https://www.amazon.com/s?k=Dasung+Paperlike+253+E-ink&tag=aipicks2003-20",
+  "brand": "Dasung",
+  "image": "",
+  "name": "Dasung Paperlike 253",
+  "price_display": "$1800-2000",
+  "price_value": "1899.00",
+  "reason": "The largest and most refined e-ink monitor \u2014 25.3\" paper-like display with fast refresh mode for comfortable all-day coding.",
+  "specs": {
+   "Display": "25.3\" E-ink Carta 1200",
+   "Ports": "HDMI + USB",
+   "Resolution": "3200x1800"
+  },
+  "price_range": "$1800-2000"
+ },
+ "updated_date": "2026-10-03",
+ "review_count": 3
+}

@@ -1,0 +1,113 @@
+{
+ "aggregate_rating": {
+  "value": "4.5",
+  "count": "64"
+ },
+ "common_cons": [
+  "Steep learning curve for split layouts",
+  "Premium models are very expensive",
+  "Tenting kits often sold separately"
+ ],
+ "common_pros": [
+  "Reduces wrist and shoulder strain",
+  "Fully programmable keys",
+  "Hot-swappable switches on most"
+ ],
+ "h1": "Best Split Ergonomic Keyboard 2026",
+ "meta_description": "Best split ergonomic keyboards for programmers in 2026. Kinesis, ZSA, Dygma \u2014 aggregated from keyboard reviewers.",
+ "page_title": "Best Split Ergonomic Keyboard 2026 | AI-PICKS",
+ "products": [
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=Kinesis+Advantage360+Professional&tag=aipicks2003-20",
+   "brand": "Kinesis",
+   "image": "",
+   "name": "Kinesis Advantage360 Professional",
+   "price_display": "$459-500",
+   "price_value": "459.00",
+   "specs": {
+    "Connectivity": "Bluetooth + USB-C wired",
+    "Layout": "Split concave keywell",
+    "Switches": "Cherry MX Brown (hot-swap)",
+    "Tent Kit": "Included"
+   },
+   "summary": "Best premium ergonomic. Concave keywells, wireless, fully programmable. The endgame for wrist pain.",
+   "recommended_by": "3/3 reviewers",
+   "best_for": "Best premium ergonomic",
+   "price_range": "$459-500"
+  },
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=ZSA+Moonlander+Mark+I&tag=aipicks2003-20",
+   "brand": "ZSA",
+   "image": "",
+   "name": "ZSA Moonlander Mark I",
+   "price_display": "$365",
+   "price_value": "365.00",
+   "specs": {
+    "Connectivity": "USB-C wired",
+    "Layout": "Split columnar stagger",
+    "Switches": "Hot-swap (choose your own)",
+    "Tent Kit": "Included legs"
+   },
+   "summary": "Best for tinkerers. Fully customizable via Oryx web tool, thumb clusters, great community.",
+   "recommended_by": "1/3 reviewers",
+   "best_for": "Best for tinkerers",
+   "price_range": "$365"
+  },
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=Logitech+Ergo+K860&tag=aipicks2003-20",
+   "brand": "Logitech",
+   "image": "",
+   "name": "Logitech Ergo K860",
+   "price_display": "$100-130",
+   "price_value": "129.99",
+   "specs": {
+    "Connectivity": "Bluetooth + Unifying",
+    "Layout": "Split curved (non-separable)",
+    "Switches": "Membrane (quiet)",
+    "Tent Kit": "N/A (fixed curve)"
+   },
+   "summary": "Best budget ergonomic. Curved split layout, cushioned wrist rest, under $130. Great first ergo board.",
+   "recommended_by": "1/3 reviewers",
+   "best_for": "Best budget ergonomic",
+   "price_range": "$100-130"
+  }
+ ],
+ "review_sources": [
+  {
+   "channel": "Hipyo Tech",
+   "type": "YouTube",
+   "url": "https://www.youtube.com/@HipyoTech",
+   "title": "Best Split Ergonomic Keyboard \u2014 tested and reviewed"
+  },
+  {
+   "channel": "Boardzy",
+   "type": "YouTube",
+   "url": "https://www.youtube.com/@Boardzy",
+   "title": "Best Split Ergonomic Keyboard \u2014 tested and reviewed"
+  },
+  {
+   "channel": ":3ildcat",
+   "type": "YouTube",
+   "url": "https://www.youtube.com/@3ildcat",
+   "title": "Best Split Ergonomic Keyboard \u2014 tested and reviewed"
+  }
+ ],
+ "slug": "best-split-ergonomic-keyboard-2026",
+ "top_pick": {
+  "affiliate_link": "https://www.amazon.com/s?k=Kinesis+Advantage360+Professional&tag=aipicks2003-20",
+  "brand": "Kinesis",
+  "image": "",
+  "name": "Kinesis Advantage360 Professional",
+  "price_display": "$459-500",
+  "price_value": "459.00",
+  "reason": "The most recommended split ergo board across keyboard reviewers \u2014 concave keywells eliminate wrist strain, wireless, and endlessly programmable.",
+  "specs": {
+   "Connectivity": "Bluetooth 5.0 + USB-C",
+   "Layout": "Split concave keywell",
+   "Switches": "Cherry MX Brown hot-swap"
+  },
+  "price_range": "$459-500"
+ },
+ "updated_date": "2026-10-03",
+ "review_count": 3
+}

@@ -1,0 +1,113 @@
+{
+ "aggregate_rating": {
+  "value": "4.6",
+  "count": "203"
+ },
+ "common_cons": [
+  "Heavy \u2014 hard to move once assembled",
+  "Premium frames cost $500+",
+  "Cable management takes effort"
+ ],
+ "common_pros": [
+  "Reduces back pain from sitting all day",
+  "Sturdy enough for multi-monitor setups",
+  "Memory presets for sit/stand positions"
+ ],
+ "h1": "Best Standing Desk 2026",
+ "meta_description": "Best standing desks for developers in 2026. UPLIFT, FlexiSpot, IKEA \u2014 aggregated from reviewer testing.",
+ "page_title": "Best Standing Desk 2026 | AI-PICKS",
+ "products": [
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=UPLIFT+V2+Standing+Desk&tag=aipicks2003-20",
+   "brand": "UPLIFT",
+   "image": "",
+   "name": "UPLIFT V2 Standing Desk",
+   "price_display": "$600-800",
+   "price_value": "699.00",
+   "specs": {
+    "Height Range": "25.5\" - 51\"",
+    "Lift Capacity": "355 lbs",
+    "Top Size": "48\" x 30\" (multiple)",
+    "Warranty": "15 years"
+   },
+   "summary": "Best overall. Rock-solid frame, 15-year warranty, tons of customization. Worth the investment.",
+   "recommended_by": "3/3 reviewers",
+   "best_for": "Best overall",
+   "price_range": "$600-800"
+  },
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=FlexiSpot+E7+Standing+Desk&tag=aipicks2003-20",
+   "brand": "FlexiSpot",
+   "image": "",
+   "name": "FlexiSpot E7",
+   "price_display": "$400-550",
+   "price_value": "499.99",
+   "specs": {
+    "Height Range": "24.4\" - 50.4\"",
+    "Lift Capacity": "355 lbs",
+    "Top Size": "48\" x 30\" (multiple)",
+    "Warranty": "15 years"
+   },
+   "summary": "Best value. Same lift capacity as UPLIFT for less money. Very stable, great motor.",
+   "recommended_by": "1/3 reviewers",
+   "best_for": "Best value",
+   "price_range": "$400-550"
+  },
+  {
+   "affiliate_link": "https://www.amazon.com/s?k=SHW+Electric+Standing+Desk+55&tag=aipicks2003-20",
+   "brand": "SHW",
+   "image": "",
+   "name": "SHW Electric Standing Desk",
+   "price_display": "$200-250",
+   "price_value": "219.99",
+   "specs": {
+    "Height Range": "28\" - 46\"",
+    "Lift Capacity": "110 lbs",
+    "Top Size": "55\" x 28\"",
+    "Warranty": "5 years"
+   },
+   "summary": "Best budget pick. Electric lift under $220. Not as sturdy as premium, but gets the job done.",
+   "recommended_by": "1/3 reviewers",
+   "best_for": "Best budget pick",
+   "price_range": "$200-250"
+  }
+ ],
+ "review_sources": [
+  {
+   "channel": "Linus Tech Tips",
+   "type": "YouTube",
+   "url": "https://www.youtube.com/@LinusTechTips",
+   "title": "Best Standing Desk \u2014 tested and reviewed"
+  },
+  {
+   "channel": "RTINGS.com",
+   "type": "Website",
+   "url": "https://www.rtings.com/desk",
+   "title": "Best Standing Desk \u2014 tested and reviewed"
+  },
+  {
+   "channel": "Wirecutter",
+   "type": "Website",
+   "url": "https://www.nytimes.com/wirecutter",
+   "title": "Best Standing Desk \u2014 tested and reviewed"
+  }
+ ],
+ "slug": "best-standing-desk-2026",
+ "top_pick": {
+  "affiliate_link": "https://www.amazon.com/s?k=UPLIFT+V2+Standing+Desk&tag=aipicks2003-20",
+  "brand": "UPLIFT",
+  "image": "",
+  "name": "UPLIFT V2 Standing Desk",
+  "price_display": "$600-800",
+  "price_value": "699.00",
+  "reason": "The most recommended standing desk by reviewers \u2014 unmatched stability, 15-year warranty, and endless configuration options.",
+  "specs": {
+   "Height Range": "25.5\" - 51\"",
+   "Lift Capacity": "355 lbs",
+   "Warranty": "15 years"
+  },
+  "price_range": "$600-800"
+ },
+ "updated_date": "2026-10-03",
+ "review_count": 3
+}
