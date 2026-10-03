@@ -66,6 +66,7 @@ def render_human(p, slug):
     out = out.replace("{{updated_date}}", p.get("updated_date", date.today().isoformat()))
     out = out.replace("{{review_count}}", str(len(p["review_sources"])))
     out = out.replace("{{top_pick_name}}", esc(p["top_pick"]["name"]))
+    out = out.replace("{{top_pick_image}}", esc(p["top_pick"].get("image", "")))
     out = out.replace("{{top_pick_reason}}", esc(p["top_pick"]["reason"]))
     out = out.replace("{{top_pick_price}}", esc(p["top_pick"].get("price_display", "")))
     out = out.replace("{{affiliate_link}}", esc(p["top_pick"].get("affiliate_link", "#")))
