@@ -235,6 +235,9 @@ def main():
     prods = "\n".join(f"- {p['h1']}: {SITE_URL}/ai/{p['slug']}.html" for p in products)
     (out / "llms.txt").write_text(llms_tpl.replace("{{product_list}}", prods))
     print("  ✓ llms.txt")
+    import shutil
+    shutil.copy("templates/finder.html", "output/finder.html")
+    print("  ✓ finder.html")
     print(f"Done: {len(products)} products × 2 versions")
 
 if __name__ == "__main__":

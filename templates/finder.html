@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Finder | AI-PICKS</title>
+<meta name="description" content="Tell us what you need. AI-PICKS matches you with the best product from 248 real reviewed items.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;color:#00ff41;font-family:'Courier New',monospace;min-height:100vh;padding:2rem 1rem}
+.wrap{max-width:800px;margin:0 auto}
+h1{text-align:center;font-size:2rem;letter-spacing:.15em;margin-bottom:.5rem;text-shadow:0 0 15px #00ff41}
+.sub{text-align:center;color:#1a7f37;margin-bottom:2rem}
+.step{background:#0a0a0a;border:1px solid #1a3a1a;border-radius:10px;padding:1.5rem;margin-bottom:1.5rem}
+.step h2{font-size:1.1rem;margin-bottom:1rem;color:#00ff41}
+select,input[type=text]{width:100%;padding:.75rem;background:#111;border:1px solid #00ff41;color:#00ff41;border-radius:6px;font-family:inherit;font-size:1rem;margin-bottom:.5rem}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem}
+.chip{padding:.5rem 1rem;border:1px solid #1a7f37;border-radius:20px;cursor:pointer;color:#888;transition:all .2s;font-size:.9rem}
+.chip.on{background:#00ff41;color:#000;border-color:#00ff41;font-weight:bold}
+.btn{display:block;width:100%;padding:1rem;background:#00ff41;color:#000;font-weight:bold;font-size:1.1rem;border:none;border-radius:8px;cursor:pointer;font-family:inherit;margin-top:1rem}
+.btn:hover{transform:scale(1.02)}
+#results{margin-top:2rem}
+.card{background:#0a0a0a;border:1px solid #00ff41;border-radius:10px;padding:1.5rem;margin-bottom:1rem}
+.card h3{color:#fff;margin-bottom:.5rem}
+.card .meta{color:#888;font-size:.85rem;margin-bottom:.75rem}
+.card .why{color:#00ff41;font-size:.9rem;margin:.75rem 0;line-height:1.6}
+.card .buy{margin-top:1rem}
+.card .buy a{display:inline-block;padding:.5rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:bold;margin-right:.5rem;min-width:120px;text-align:center}
+.buy-amz{background:#00ff41;color:#000}
+.buy-temu{background:#fb7701;color:#fff}
+.buy-wm{background:#0071ce;color:#fff}
+.back{display:block;text-align:center;margin-top:2rem;color:#1a7f37;text-decoration:none}
+.score{float:right;color:#00ff41;font-weight:bold}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>◢ PRODUCT FINDER</h1>
+<p class="sub">Tell us what you need. We match from 248 reviewed products.</p>
+
+<div class="step">
+<h2>1. What are you looking for?</h2>
+<select id="cat">
+<option value="">-- Choose a category --</option>
+</select>
+</div>
+
+<div class="step">
+<h2>2. Max budget (optional)</h2>
+<select id="budget">
+<option value="0">No limit</option>
+<option value="50">Under $50</option>
+<option value="100">Under $100</option>
+<option value="200">Under $200</option>
+<option value="300">Under $300</option>
+<option value="500">Under $500</option>
+<option value="800">Under $800</option>
+<option value="1000">Under $1000</option>
+<option value="1500">Under $1500</option>
+</select>
+</div>
+
+<div class="step">
+<h2>3. Keywords (optional)</h2>
+<input type="text" id="kw" placeholder='e.g. 34 inch, 100Hz, wireless, OLED...'>
+<p style="color:#555;font-size:.8rem;margin-top:.25rem">Separate with commas. We'll match against specs and descriptions.</p>
+</div>
+
+<button class="btn" onclick="find()">🔍 FIND MY PRODUCT</button>
+<div id="results"></div>
+<a class="back" href="../">← Back to Portal</a>
+</div>
+
+<script>
+let DB=[];
+fetch('finder-data.json').then(r=>r.json()).then(d=>{
+  DB=d;
+  const cats=[...new Set(d.map(p=>p.category))].sort();
+  const sel=document.getElementById('cat');
+  cats.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;sel.appendChild(o);});
+});
+
+function priceNum(s){
+  const m=String(s).replace(/,/g,'').match(/[\d.]+/);
+  return m?parseFloat(m[0]):99999;
+}
+
+function find(){
+  const cat=document.getElementById('cat').value;
+  const budget=parseFloat(document.getElementById('budget').value);
+  const kws=document.getElementById('kw').value.toLowerCase().split(',').map(s=>s.trim()).filter(Boolean);
+  if(!cat){alert('Please choose a category first');return;}
+
+  let pool=DB.filter(p=>p.category===cat);
+  if(budget>0) pool=pool.filter(p=>priceNum(p.price)<=budget);
+
+  // 关键词打分
+  let scored=pool.map(p=>{
+    let score=0, hits=[];
+    const text=(p.name+' '+p.brand+' '+p.summary+' '+p.best_for+' '+JSON.stringify(p.specs)).toLowerCase();
+    kws.forEach(kw=>{
+      if(text.includes(kw)){score+=2;hits.push(kw);}
+      // 数字匹配：如 "34" 匹配 "34-inch"
+      const num=kw.match(/[\d.]+/);
+      if(num && text.includes(num[0])){score+=1;}
+    });
+    return {p,score,hits};
+  });
+
+  scored.sort((a,b)=>b.score-a.score);
+  const top=scored.slice(0,5);
+
+  const div=document.getElementById('results');
+  if(!top.length){div.innerHTML='<p style="text-align:center;color:#888">No matches. Try loosening filters.</p>';return;}
+
+  let html='<h2 style="margin-bottom:1rem">🎯 Top matches for you:</h2>';
+  top.forEach(({p,score,hits},i)=>{
+    const q=encodeURIComponent(p.name.replace(/ /g,'+'));
+    let buys=`<a class="buy-amz" href="${p.affiliate_link}" rel="nofollow sponsored noopener" target="_blank">Amazon</a>`;
+    if(p.platforms.includes('temu')) buys+=`<a class="buy-temu" href="https://www.temu.com/search_result.html?search_key=${q}" rel="nofollow sponsored noopener" target="_blank">Temu</a>`;
+    if(p.platforms.includes('walmart')) buys+=`<a class="buy-wm" href="https://www.walmart.com/search?q=${q}" rel="nofollow sponsored noopener" target="_blank">Walmart</a>`;
+    const why=hits.length?`Matches your keywords: <strong>${hits.join(', ')}</strong><br>`:'';
+    html+=`<div class="card">
+      <span class="score">#${i+1}</span>
+      <h3>${p.name}</h3>
+      <div class="meta">${p.brand} · ${p.price} · <a href="../human/${p.guide}.html" style="color:#1a7f37">Full guide →</a></div>
+      <div class="why">${why}${p.summary}</div>
+      <div class="buy">${buys}</div>
+    </div>`;
+  });
+  div.innerHTML=html;
+  div.scrollIntoView({behavior:'smooth'});
+}
+</script>
+</body>
+</html>
