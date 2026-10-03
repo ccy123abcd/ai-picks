@@ -56,7 +56,8 @@ def render_human(p, slug):
     cards = ""
     for item in p["products"]:
         specs = "".join(f"<div><b>{esc(k)}:</b> {esc(v)}</div>" for k, v in item.get("specs", {}).items())
-        cards += f'<div class="card"><h3>{esc(item["name"])}</h3><p>{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">适合：{esc(item["best_for"])} · {esc(item["price_range"])}</p></div>\n'
+        img_tag = f'<img src="{esc(item["image"])}" alt="{esc(item["name"])}" loading="lazy">' if item.get("image") else ""
+        cards += f'<div class="card"><h3>{esc(item["name"])}</h3>{img_tag}<p>{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">适合：{esc(item["best_for"])} · {esc(item["price_range"])}</p></div>\n'
     out = TPL_HUMAN
     out = out.replace("{{page_title}}", esc(p["page_title"]))
     out = out.replace("{{meta_description}}", esc(p["meta_description"]))
