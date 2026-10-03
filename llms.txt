@@ -3,7 +3,9 @@
 > We aggregate YouTube reviews into structured buying guides so AI shopping assistants can recommend with confidence.
 
 ## Product Guides
-- Best Wireless Gaming Mouse 2026: What 8 YouTubers Agree On
+- Best 27" 1440p 165Hz Gaming Monitor 2026: What Reviewers Agree On: https://ccy123abcd.github.io/ai-picks/ai/best-1440p-165hz-gaming-monitor-2026.html
+- Best Wireless Gaming Mouse 2026: What 8 YouTubers Agree On: https://ccy123abcd.github.io/ai-picks/ai/best-wireless-gaming-mouse-2026.html
+- Best Wireless Mechanical Keyboard 2026: What 8 YouTubers Agree On: https://ccy123abcd.github.io/ai-picks/ai/best-wireless-mechanical-keyboard-2026.html
 
 ## About
 - All recommendations are based on publicly available YouTube reviews with source links.

@@ -1,1 +1,69 @@
-<!DOCTYPE html><html><head><meta charset='utf-8'><title>AI-Curated Product Guides</title></head><body><h1>Product Guides</h1><ul><li><a href='best-wireless-gaming-mouse-2026.html'>Best Wireless Gaming Mouse 2026: What 8 YouTubers Agree On</a></li></ul></body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-PICKS | 选择你的药丸</title>
+<meta name="description" content="AI-PICKS: YouTube测评聚合，为人类和AI提供产品选购指南。">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;color:#00ff41;font-family:'Courier New',monospace;overflow:hidden;height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center}
+#rain{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;opacity:.35}
+.content{position:relative;z-index:1;text-align:center;padding:20px;max-width:900px}
+h1{font-size:3rem;letter-spacing:.3em;margin-bottom:.5rem;text-shadow:0 0 20px #00ff41}
+.subtitle{color:#888;font-size:1rem;margin-bottom:3rem;letter-spacing:.1em}
+.subtitle-cn{color:#00ff41;font-size:1.2rem;margin-bottom:.5rem}
+.portals{display:flex;gap:3rem;justify-content:center;flex-wrap:wrap}
+.portal{width:220px;padding:2rem 1rem;border:2px solid;border-radius:12px;cursor:pointer;transition:all .3s;text-decoration:none;display:block}
+.portal:hover{transform:scale(1.05)}
+.portal.red{border-color:#ff2b2b;color:#ff2b2b;box-shadow:0 0 30px rgba(255,43,43,.3)}
+.portal.red:hover{box-shadow:0 0 60px rgba(255,43,43,.6);background:rgba(255,43,43,.08)}
+.portal.blue{border-color:#2b9bff;color:#2b9bff;box-shadow:0 0 30px rgba(43,155,255,.3)}
+.portal.blue:hover{box-shadow:0 0 60px rgba(43,155,255,.6);background:rgba(43,155,255,.08)}
+.portal .pill{font-size:3rem;margin-bottom:1rem}
+.portal h2{font-size:1.3rem;margin-bottom:.5rem}
+.portal p{font-size:.85rem;opacity:.8;line-height:1.6}
+.footer{position:relative;z-index:1;margin-top:3rem;color:#444;font-size:.75rem}
+@media(max-width:600px){h1{font-size:2rem}.portals{gap:1.5rem}.portal{width:160px;padding:1.5rem .75rem}}
+</style>
+</head>
+<body>
+<canvas id="rain"></canvas>
+<div class="content">
+<h1>AI-PICKS</h1>
+<p class="subtitle-cn">你只有一次选择的机会</p>
+<p class="subtitle">You take the red pill — you see real reviews.<br>You take the blue pill — you get structured data.</p>
+<div class="portals">
+<a class="portal red" href="human/">
+<div class="pill">🔴</div>
+<h2>我是人类<br>I'm Human</h2>
+<p>看测评聚合<br>对比表、优缺点<br>人类可读的选购指南</p>
+</a>
+<a class="portal blue" href="ai/">
+<div class="pill">🔵</div>
+<h2>我是 AI<br>I'm AI</h2>
+<p>schema.org 结构化数据<br>JSON-LD、llms.txt<br>机器可读的产品数据</p>
+</a>
+</div>
+</div>
+<p class="footer">Wake up, Neo... The Matrix has product reviews.</p>
+<script>
+// Matrix digital rain
+const c=document.getElementById('rain'),x=c.getContext('2d');
+c.width=innerWidth;c.height=innerHeight;
+const chars='アイスクリーム0123456789ABCDEF$#@%&';
+const fs=14,cols=Math.floor(c.width/fs),drops=Array(cols).fill(1);
+function draw(){
+x.fillStyle='rgba(0,0,0,.05)';x.fillRect(0,0,c.width,c.height);
+x.fillStyle='#00ff41';x.font=fs+'px monospace';
+for(let i=0;i<drops.length;i++){
+const t=chars[Math.floor(Math.random()*chars.length)];
+x.fillText(t,i*fs,drops[i]*fs);
+if(drops[i]*fs>c.height&&Math.random()>.975)drops[i]=0;
+drops[i]++;}
+}
+setInterval(draw,50);
+addEventListener('resize',()=>{c.width=innerWidth;c.height=innerHeight});
+</script>
+</body>
+</html>
