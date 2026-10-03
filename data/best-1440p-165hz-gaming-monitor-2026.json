@@ -1,1 +1,129 @@
-{"aggregate_rating": {"count": "6", "value": "4.6"}, "common_cons": ["LG 27GP850-B: mediocre contrast (IPS glow), average speakers (3/6 mention)", "Budget models: stand ergonomics are limited, tilt-only (2/6 mention)", "OLED options: 3x the price, burn-in risk for desktop use (2/6 mention)"], "common_pros": ["LG 27GP850-B: best overall value, calibrated Nano IPS, low input lag (4/6 mention)", "1440p 165Hz is the sweet spot for most gamers in 2026 (5/6 agree)", "Cooler Master GP2711: mini-LED HDR1000 is a huge step up for the price (2/6 mention)", "27-inch is ideal — bigger needs 4K, smaller wastes the resolution (4/6 agree)"], "h1": "Best 27\" 1440p 165Hz Gaming Monitor 2026: What Reviewers Agree On", "meta_description": "We analyzed 6 expert reviews to find the best 27-inch 1440p 165Hz gaming monitor in 2026. Top pick, comparison, pros/cons.", "page_title": "Best 1440p 165Hz Gaming Monitor 2026 - Expert Reviews Aggregated", "products": [{"best_for": "Best overall value", "name": "LG 27GP850-B", "price_range": "$300-380", "recommended_by": "4/6 reviewers", "specs": {"Brightness": "400 nits", "Panel": "27\" Nano IPS", "Refresh Rate": "165Hz (180Hz OC)", "Resolution": "2560×1440", "Response": "1ms GtG"}, "summary": "The consensus champion. Calibrated Nano IPS, exceptional input lag, full ergonomics. The 2026 firmware update fixed HDR issues."}, {"best_for": "Best HDR on budget", "name": "Cooler Master Tempest GP2711", "price_range": "$450-550", "recommended_by": "2/6 reviewers", "specs": {"Brightness": "600 nits (HDR1000)", "Panel": "27\" VA Mini-LED", "Refresh Rate": "165Hz", "Resolution": "2560×1440", "Response": "1ms"}, "summary": "512-zone mini-LED with HDR1000. Deep blacks and vivid highlights at a mid-range price — the HDR pick.", "image": "../images/gp2711.png"}, {"best_for": "Budget curved", "name": "Gigabyte GS27QC", "price_range": "$200-250", "recommended_by": "2/6 reviewers", "specs": {"Brightness": "300 nits", "Panel": "27\" VA Curved 1500R", "Refresh Rate": "165Hz", "Resolution": "2560×1440", "Response": "1ms"}, "summary": "Cheapest way into 1440p 165Hz. Curved VA panel, great for immersive gaming on a tight budget.", "image": "../images/gs27qc.png"}, {"best_for": "Premium future-proof", "name": "LG 27GM950B", "price_range": "$800-1000", "recommended_by": "2/6 reviewers", "specs": {"Brightness": "1250 nits peak", "Panel": "27\" IPS Mini-LED 5K", "Refresh Rate": "165Hz (330Hz @1440p)", "Resolution": "5120×2880", "Response": "1ms GtG"}, "summary": "5K 165Hz with 2304-zone FALD. Drop to 1440p for 330Hz competitive gaming. The no-compromise flagship.", "image": "../images/lg-27gm950b.jpg"}], "review_sources": [{"channel": "TechRadar", "title": "The best gaming monitor in 2026", "url": "https://www.techradar.com/news/best-gaming-monitor"}, {"channel": "DisplayNinja", "title": "Best Gaming Monitor 2026 Guide", "url": "https://www.displayninja.com/best-gaming-monitor/"}, {"channel": "Lozanojk", "title": "Gigabyte GS27QC Unboxing 1440p 165Hz", "url": "https://www.youtube.com/watch?v=nHaDvei9YIc"}], "slug": "best-1440p-165hz-gaming-monitor-2026", "top_pick": {"affiliate_link": "https://www.amazon.com/dp/B08MQJ8K9B?tag=aipicks2003-20", "brand": "LG", "name": "LG 27GP850-B", "price_display": "$300-380", "price_value": "349.99", "reason": "Recommended by 4 out of 6 reviewers. Best balance of color accuracy, speed, and price. The safe pick for 95% of gamers.", "image": "../images/lg-27gp850.jpg"}, "updated_date": "2026-10-03"}
+{
+ "aggregate_rating": {
+  "count": "6",
+  "value": "4.6"
+ },
+ "common_cons": [
+  "LG 27GP850-B: mediocre contrast (IPS glow), average speakers (3/6 mention)",
+  "Budget models: stand ergonomics are limited, tilt-only (2/6 mention)",
+  "OLED options: 3x the price, burn-in risk for desktop use (2/6 mention)"
+ ],
+ "common_pros": [
+  "LG 27GP850-B: best overall value, calibrated Nano IPS, low input lag (4/6 mention)",
+  "1440p 165Hz is the sweet spot for most gamers in 2026 (5/6 agree)",
+  "Cooler Master GP2711: mini-LED HDR1000 is a huge step up for the price (2/6 mention)",
+  "27-inch is ideal \u2014 bigger needs 4K, smaller wastes the resolution (4/6 agree)"
+ ],
+ "h1": "Best 27\" 1440p 165Hz Gaming Monitor 2026: What Reviewers Agree On",
+ "meta_description": "We analyzed 6 expert reviews to find the best 27-inch 1440p 165Hz gaming monitor in 2026. Top pick, comparison, pros/cons.",
+ "page_title": "Best 1440p 165Hz Gaming Monitor 2026 - Expert Reviews Aggregated",
+ "products": [
+  {
+   "best_for": "Best overall value",
+   "name": "LG 27GP850-B",
+   "price_range": "$300-380",
+   "recommended_by": "4/6 reviewers",
+   "specs": {
+    "Brightness": "400 nits",
+    "Panel": "27\" Nano IPS",
+    "Refresh Rate": "165Hz (180Hz OC)",
+    "Resolution": "2560\u00d71440",
+    "Response": "1ms GtG"
+   },
+   "summary": "The consensus champion. Calibrated Nano IPS, exceptional input lag, full ergonomics. The 2026 firmware update fixed HDR issues.",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
+  },
+  {
+   "best_for": "Best HDR on budget",
+   "name": "Cooler Master Tempest GP2711",
+   "price_range": "$450-550",
+   "recommended_by": "2/6 reviewers",
+   "specs": {
+    "Brightness": "600 nits (HDR1000)",
+    "Panel": "27\" VA Mini-LED",
+    "Refresh Rate": "165Hz",
+    "Resolution": "2560\u00d71440",
+    "Response": "1ms"
+   },
+   "summary": "512-zone mini-LED with HDR1000. Deep blacks and vivid highlights at a mid-range price \u2014 the HDR pick.",
+   "image": "../images/gp2711.png",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
+  },
+  {
+   "best_for": "Budget curved",
+   "name": "Gigabyte GS27QC",
+   "price_range": "$200-250",
+   "recommended_by": "2/6 reviewers",
+   "specs": {
+    "Brightness": "300 nits",
+    "Panel": "27\" VA Curved 1500R",
+    "Refresh Rate": "165Hz",
+    "Resolution": "2560\u00d71440",
+    "Response": "1ms"
+   },
+   "summary": "Cheapest way into 1440p 165Hz. Curved VA panel, great for immersive gaming on a tight budget.",
+   "image": "../images/gs27qc.png",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
+  },
+  {
+   "best_for": "Premium future-proof",
+   "name": "LG 27GM950B",
+   "price_range": "$800-1000",
+   "recommended_by": "2/6 reviewers",
+   "specs": {
+    "Brightness": "1250 nits peak",
+    "Panel": "27\" IPS Mini-LED 5K",
+    "Refresh Rate": "165Hz (330Hz @1440p)",
+    "Resolution": "5120\u00d72880",
+    "Response": "1ms GtG"
+   },
+   "summary": "5K 165Hz with 2304-zone FALD. Drop to 1440p for 330Hz competitive gaming. The no-compromise flagship.",
+   "image": "../images/lg-27gm950b.jpg",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
+  }
+ ],
+ "review_sources": [
+  {
+   "channel": "TechRadar",
+   "title": "The best gaming monitor in 2026",
+   "url": "https://www.techradar.com/news/best-gaming-monitor"
+  },
+  {
+   "channel": "DisplayNinja",
+   "title": "Best Gaming Monitor 2026 Guide",
+   "url": "https://www.displayninja.com/best-gaming-monitor/"
+  },
+  {
+   "channel": "Lozanojk",
+   "title": "Gigabyte GS27QC Unboxing 1440p 165Hz",
+   "url": "https://www.youtube.com/watch?v=nHaDvei9YIc"
+  }
+ ],
+ "slug": "best-1440p-165hz-gaming-monitor-2026",
+ "top_pick": {
+  "affiliate_link": "https://www.amazon.com/dp/B08MQJ8K9B?tag=aipicks2003-20",
+  "brand": "LG",
+  "name": "LG 27GP850-B",
+  "price_display": "$300-380",
+  "price_value": "349.99",
+  "reason": "Recommended by 4 out of 6 reviewers. Best balance of color accuracy, speed, and price. The safe pick for 95% of gamers.",
+  "image": "../images/lg-27gp850.jpg",
+  "platforms": [
+   "amazon",
+   "walmart"
+  ]
+ },
+ "updated_date": "2026-10-03"
+}

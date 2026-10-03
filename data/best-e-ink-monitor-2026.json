@@ -33,7 +33,10 @@
    "summary": "Best large e-ink. 25.3\" paper-like display, fast refresh mode. Ultimate eye-care for coders.",
    "recommended_by": "3/3 reviewers",
    "best_for": "Best large e-ink",
-   "price_range": "$1800-2000"
+   "price_range": "$1800-2000",
+   "platforms": [
+    "amazon"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=Onyx+BOOX+Mira+Pro+25.3&tag=aipicks2003-20",
@@ -51,7 +54,10 @@
    "summary": "Best connectivity. HDMI + USB-C + DisplayPort, great for multi-device setups.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best connectivity",
-   "price_range": "$1600-1800"
+   "price_range": "$1600-1800",
+   "platforms": [
+    "amazon"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=Dasung+Paperlike+HD-FT&tag=aipicks2003-20",
@@ -69,7 +75,10 @@
    "summary": "Best budget e-ink. 13.3\" portable, under $900. Great second screen for reading docs.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best budget e-ink",
-   "price_range": "$800-900"
+   "price_range": "$800-900",
+   "platforms": [
+    "amazon"
+   ]
   }
  ],
  "review_sources": [
@@ -106,7 +115,10 @@
    "Ports": "HDMI + USB",
    "Resolution": "3200x1800"
   },
-  "price_range": "$1800-2000"
+  "price_range": "$1800-2000",
+  "platforms": [
+   "amazon"
+  ]
  },
  "updated_date": "2026-10-03",
  "review_count": 3

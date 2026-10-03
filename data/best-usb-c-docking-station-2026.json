@@ -33,7 +33,11 @@
    "summary": "Best Thunderbolt dock. 18 ports, 98W charging, rock-solid. The gold standard for Mac/PC devs.",
    "recommended_by": "3/3 reviewers",
    "best_for": "Best Thunderbolt dock",
-   "price_range": "$380-430"
+   "price_range": "$380-430",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=Anker+777+Thunderbolt+Docking+Station&tag=aipicks2003-20",
@@ -51,7 +55,11 @@
    "summary": "Best value Thunderbolt. 13 ports, 90W, compact. Great for the price.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best value Thunderbolt",
-   "price_range": "$280-350"
+   "price_range": "$280-350",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=Plugable+USB-C+Triple+Display+Dock&tag=aipicks2003-20",
@@ -69,7 +77,10 @@
    "summary": "Best budget pick. Triple 4K via DisplayLink, 100W charging, under $200.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best budget pick",
-   "price_range": "$180-220"
+   "price_range": "$180-220",
+   "platforms": [
+    "amazon"
+   ]
   }
  ],
  "review_sources": [
@@ -106,7 +117,11 @@
    "Power Delivery": "98W",
    "Standard": "Thunderbolt 4"
   },
-  "price_range": "$380-430"
+  "price_range": "$380-430",
+  "platforms": [
+   "amazon",
+   "walmart"
+  ]
  },
  "updated_date": "2026-10-03",
  "review_count": 3

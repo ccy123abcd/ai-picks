@@ -33,7 +33,11 @@
    "summary": "Best monitor light bar. Clamps to monitor, auto-dims, no screen glare. Perfect for night coding.",
    "recommended_by": "3/3 reviewers",
    "best_for": "Best monitor light bar",
-   "price_range": "$170-200"
+   "price_range": "$170-200",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=BenQ+e-Reading+Desk+Lamp&tag=aipicks2003-20",
@@ -51,7 +55,11 @@
    "summary": "Best traditional lamp. Wide curved illumination covers entire desk, excellent color rendering.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best traditional lamp",
-   "price_range": "$200-250"
+   "price_range": "$200-250",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=Tomons+Desk+Lamp+LED&tag=aipicks2003-20",
@@ -69,7 +77,11 @@
    "summary": "Best budget pick. Solid LED lamp with adjustable color temp for under $40.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best budget pick",
-   "price_range": "$35-50"
+   "price_range": "$35-50",
+   "platforms": [
+    "amazon",
+    "temu"
+   ]
   }
  ],
  "review_sources": [
@@ -106,7 +118,11 @@
    "Color Temp": "2700K-6500K",
    "Mount": "Monitor clamp"
   },
-  "price_range": "$170-200"
+  "price_range": "$170-200",
+  "platforms": [
+   "amazon",
+   "walmart"
+  ]
  },
  "updated_date": "2026-10-03",
  "review_count": 3

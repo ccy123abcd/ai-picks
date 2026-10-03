@@ -1,1 +1,132 @@
-{"aggregate_rating": {"count": "4", "value": "4.4"}, "common_cons": ["Logitech G305: runs on a single AA battery and is stuck at 1,000 Hz polling (1/4 mention)", "VXE Dragonfly R1 Pro: availability and warranty support are weaker than big brands (1/4 mention)", "Budget brands: software and long-term reliability can be hit-or-miss (1/4 mention)"], "common_pros": ["Logitech G305 Lightspeed: the legendary wireless value pick, still recommended in 2026 with HERO accuracy under $40 (2/4 mention)", "VXE Dragonfly R1 Pro: Boardzy calls it the best budget mouse ever - 4K polling and a 3395 sensor under $50 (2/4 mention)", "Attack Shark X3: 49g ultralight with a PAW 3395 sensor around $34 (2/4 mention)", "MCHOSE A7 Ultra: 8K polling and a PAW3950 flagship sensor around $50 (1/4 mention)"], "h1": "Best Budget Wireless Gaming Mouse 2026: What 4 Real Reviewers Agree On", "meta_description": "We analyzed 4 expert reviews to find the best budget wireless gaming mouse in 2026. Top pick, comparison table, pros/cons, and video sources.", "page_title": "Best Budget Wireless Gaming Mouse 2026 - 4 Expert Reviews Aggregated", "products": [{"best_for": "Best wireless value", "name": "Logitech G305 Lightspeed", "price_range": "Under $50", "recommended_by": "2/4 reviewers", "specs": {"Battery life": "~250 hours (AA battery)", "Buttons": "6 programmable", "Sensor": "HERO (12,000 DPI)", "Weight": "99 g"}, "summary": "TechteamGB's dedicated 2026 ultra-cheap wireless review subject and a fixture of budget roundups: LIGHTSPEED reliability with HERO sensor accuracy, often under $40."}, {"best_for": "Flagship specs on a budget", "name": "VXE Dragonfly R1 Pro", "price_range": "Under $50", "recommended_by": "2/4 reviewers", "specs": {"Battery life": "~90 hours", "Polling rate": "Up to 4,000 Hz", "Sensor": "PixArt PAW 3395", "Weight": "54 g"}, "summary": "Boardzy calls it the best budget mouse to ever grace the earth: X2-inspired shape, 4K-capable, good coating, and below $50 with no sponsorship behind the verdict."}, {"best_for": "Ultra-cheap lightweight", "name": "Attack Shark X3", "price_range": "~$34", "recommended_by": "2/4 reviewers", "specs": {"Buttons": "6 programmable", "Polling rate": "1,000 Hz", "Sensor": "PixArt PAW 3395", "Weight": "49 g"}, "summary": "Well Spent Tech's pick in the $20-30 bracket and on Audioviser's tested list: a 49g ultralight with a PAW 3395 sensor for the price of a pizza."}, {"best_for": "Best value $40-50", "name": "MCHOSE A7 Ultra", "price_range": "~$50", "recommended_by": "1/4 reviewers", "specs": {"Buttons": "6 programmable", "Polling rate": "Up to 8,000 Hz wireless", "Sensor": "PixArt PAW3950 (42,000 DPI)", "Weight": "59 g"}, "summary": "Well Spent Tech's best-value pick in the $40-50 bracket: 8K wireless polling and a flagship-tier PAW3950 sensor at half the price of big-brand mice."}], "review_sources": [{"channel": "Boardzy", "title": "VXE R1 PRO Mouse Review! KING of Budget Mice (SHOCKING)", "url": "https://www.youtube.com/watch?v=Q5xOTbFwbUs"}, {"channel": "Well Spent Tech", "title": "Best Budget Gaming Mouse at EVERY Price Point ($20 vs $100)", "url": "https://www.youtube.com/watch?v=YZ366XHAhH4"}, {"channel": "TechteamGB", "title": "Logitech G305 Review - Ultra Cheap Wireless Gaming Mouse in 2026", "url": "https://techteamgb.co.uk/2026/06/08/logitech-g305-review-ultra-cheap-wireless-gaming-mouse-in-2026/"}, {"channel": "Audioviser", "title": "Best Budget Gaming Mice of 2026? I Found One That's a Game Changer", "url": "https://www.youtube.com/watch?v=8g9XdPouIhE"}], "slug": "best-budget-wireless-gaming-mouse-2026", "top_pick": {"affiliate_link": "https://www.amazon.com/dp/B000000000?tag=aipicks2003-20", "brand": "Logitech", "image": "../images/g305.jpg", "name": "Logitech G305 Lightspeed", "price_display": "Under $50", "price_value": "39.99", "reason": "Backed by 2 of 4 reviewers including TechteamGB's dedicated 2026 review - the legendary wireless value pick with LIGHTSPEED reliability and HERO accuracy"}, "updated_date": "2026-10-03"}
+{
+ "aggregate_rating": {
+  "count": "4",
+  "value": "4.4"
+ },
+ "common_cons": [
+  "Logitech G305: runs on a single AA battery and is stuck at 1,000 Hz polling (1/4 mention)",
+  "VXE Dragonfly R1 Pro: availability and warranty support are weaker than big brands (1/4 mention)",
+  "Budget brands: software and long-term reliability can be hit-or-miss (1/4 mention)"
+ ],
+ "common_pros": [
+  "Logitech G305 Lightspeed: the legendary wireless value pick, still recommended in 2026 with HERO accuracy under $40 (2/4 mention)",
+  "VXE Dragonfly R1 Pro: Boardzy calls it the best budget mouse ever - 4K polling and a 3395 sensor under $50 (2/4 mention)",
+  "Attack Shark X3: 49g ultralight with a PAW 3395 sensor around $34 (2/4 mention)",
+  "MCHOSE A7 Ultra: 8K polling and a PAW3950 flagship sensor around $50 (1/4 mention)"
+ ],
+ "h1": "Best Budget Wireless Gaming Mouse 2026: What 4 Real Reviewers Agree On",
+ "meta_description": "We analyzed 4 expert reviews to find the best budget wireless gaming mouse in 2026. Top pick, comparison table, pros/cons, and video sources.",
+ "page_title": "Best Budget Wireless Gaming Mouse 2026 - 4 Expert Reviews Aggregated",
+ "products": [
+  {
+   "best_for": "Best wireless value",
+   "name": "Logitech G305 Lightspeed",
+   "price_range": "Under $50",
+   "recommended_by": "2/4 reviewers",
+   "specs": {
+    "Battery life": "~250 hours (AA battery)",
+    "Buttons": "6 programmable",
+    "Sensor": "HERO (12,000 DPI)",
+    "Weight": "99 g"
+   },
+   "summary": "TechteamGB's dedicated 2026 ultra-cheap wireless review subject and a fixture of budget roundups: LIGHTSPEED reliability with HERO sensor accuracy, often under $40.",
+   "platforms": [
+    "amazon",
+    "walmart",
+    "temu"
+   ]
+  },
+  {
+   "best_for": "Flagship specs on a budget",
+   "name": "VXE Dragonfly R1 Pro",
+   "price_range": "Under $50",
+   "recommended_by": "2/4 reviewers",
+   "specs": {
+    "Battery life": "~90 hours",
+    "Polling rate": "Up to 4,000 Hz",
+    "Sensor": "PixArt PAW 3395",
+    "Weight": "54 g"
+   },
+   "summary": "Boardzy calls it the best budget mouse to ever grace the earth: X2-inspired shape, 4K-capable, good coating, and below $50 with no sponsorship behind the verdict.",
+   "platforms": [
+    "amazon",
+    "walmart",
+    "temu"
+   ]
+  },
+  {
+   "best_for": "Ultra-cheap lightweight",
+   "name": "Attack Shark X3",
+   "price_range": "~$34",
+   "recommended_by": "2/4 reviewers",
+   "specs": {
+    "Buttons": "6 programmable",
+    "Polling rate": "1,000 Hz",
+    "Sensor": "PixArt PAW 3395",
+    "Weight": "49 g"
+   },
+   "summary": "Well Spent Tech's pick in the $20-30 bracket and on Audioviser's tested list: a 49g ultralight with a PAW 3395 sensor for the price of a pizza.",
+   "platforms": [
+    "amazon",
+    "walmart",
+    "temu"
+   ]
+  },
+  {
+   "best_for": "Best value $40-50",
+   "name": "MCHOSE A7 Ultra",
+   "price_range": "~$50",
+   "recommended_by": "1/4 reviewers",
+   "specs": {
+    "Buttons": "6 programmable",
+    "Polling rate": "Up to 8,000 Hz wireless",
+    "Sensor": "PixArt PAW3950 (42,000 DPI)",
+    "Weight": "59 g"
+   },
+   "summary": "Well Spent Tech's best-value pick in the $40-50 bracket: 8K wireless polling and a flagship-tier PAW3950 sensor at half the price of big-brand mice.",
+   "platforms": [
+    "amazon",
+    "walmart",
+    "temu"
+   ]
+  }
+ ],
+ "review_sources": [
+  {
+   "channel": "Boardzy",
+   "title": "VXE R1 PRO Mouse Review! KING of Budget Mice (SHOCKING)",
+   "url": "https://www.youtube.com/watch?v=Q5xOTbFwbUs"
+  },
+  {
+   "channel": "Well Spent Tech",
+   "title": "Best Budget Gaming Mouse at EVERY Price Point ($20 vs $100)",
+   "url": "https://www.youtube.com/watch?v=YZ366XHAhH4"
+  },
+  {
+   "channel": "TechteamGB",
+   "title": "Logitech G305 Review - Ultra Cheap Wireless Gaming Mouse in 2026",
+   "url": "https://techteamgb.co.uk/2026/06/08/logitech-g305-review-ultra-cheap-wireless-gaming-mouse-in-2026/"
+  },
+  {
+   "channel": "Audioviser",
+   "title": "Best Budget Gaming Mice of 2026? I Found One That's a Game Changer",
+   "url": "https://www.youtube.com/watch?v=8g9XdPouIhE"
+  }
+ ],
+ "slug": "best-budget-wireless-gaming-mouse-2026",
+ "top_pick": {
+  "affiliate_link": "https://www.amazon.com/dp/B000000000?tag=aipicks2003-20",
+  "brand": "Logitech",
+  "image": "../images/g305.jpg",
+  "name": "Logitech G305 Lightspeed",
+  "price_display": "Under $50",
+  "price_value": "39.99",
+  "reason": "Backed by 2 of 4 reviewers including TechteamGB's dedicated 2026 review - the legendary wireless value pick with LIGHTSPEED reliability and HERO accuracy",
+  "platforms": [
+   "amazon",
+   "walmart",
+   "temu"
+  ]
+ },
+ "updated_date": "2026-10-03"
+}

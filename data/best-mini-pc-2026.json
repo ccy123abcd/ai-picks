@@ -33,7 +33,11 @@
    "summary": "Best overall mini PC. M4 power, silent, tiny. Unbeatable value at $599.",
    "recommended_by": "3/3 reviewers",
    "best_for": "Best overall mini PC",
-   "price_range": "$599-799"
+   "price_range": "$599-799",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=Beelink+SER8+Ryzen+7&tag=aipicks2003-20",
@@ -51,7 +55,10 @@
    "summary": "Best Windows mini PC. 32GB RAM + 1TB SSD for under $500. Great for dev VMs.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best Windows mini PC",
-   "price_range": "$400-500"
+   "price_range": "$400-500",
+   "platforms": [
+    "amazon"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=GMKtec+NucBox+G3+Plus&tag=aipicks2003-20",
@@ -69,7 +76,10 @@
    "summary": "Best budget pick. Perfect home server or media PC for $200. Silent and sips power.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best budget pick",
-   "price_range": "$180-220"
+   "price_range": "$180-220",
+   "platforms": [
+    "amazon"
+   ]
   }
  ],
  "review_sources": [
@@ -106,7 +116,11 @@
    "RAM": "16GB",
    "Storage": "256GB"
   },
-  "price_range": "$599-799"
+  "price_range": "$599-799",
+  "platforms": [
+   "amazon",
+   "walmart"
+  ]
  },
  "updated_date": "2026-10-03",
  "review_count": 3

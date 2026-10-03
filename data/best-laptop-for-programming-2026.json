@@ -34,7 +34,10 @@
    "summary": "Best overall for developers. M4 chip compiles code fast, amazing battery, great display.",
    "recommended_by": "4/4 reviewers",
    "best_for": "Best overall for developers",
-   "price_range": "$1599-1999"
+   "price_range": "$1599-1999",
+   "platforms": [
+    "amazon"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=ThinkPad+X1+Carbon+Gen+13&tag=aipicks2003-20",
@@ -53,7 +56,10 @@
    "summary": "Best Windows/Linux dev laptop. Best keyboard in the business, ultralight, great Linux support.",
    "recommended_by": "2/4 reviewers",
    "best_for": "Best Windows/Linux dev laptop",
-   "price_range": "$1400-1800"
+   "price_range": "$1400-1800",
+   "platforms": [
+    "amazon"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=Framework+Laptop+13&tag=aipicks2003-20",
@@ -72,7 +78,10 @@
    "summary": "Best repairable/upgradable. 3:2 display great for code, fully modular, right-to-repair champion.",
    "recommended_by": "1/4 reviewers",
    "best_for": "Best repairable/upgradable",
-   "price_range": "$1049-1400"
+   "price_range": "$1049-1400",
+   "platforms": [
+    "amazon"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=Acer+Swift+Go+14+OLED&tag=aipicks2003-20",
@@ -91,7 +100,11 @@
    "summary": "Best budget pick. OLED display and solid specs for under $700. Incredible value for developers.",
    "recommended_by": "1/4 reviewers",
    "best_for": "Best budget pick",
-   "price_range": "$650-800"
+   "price_range": "$650-800",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   }
  ],
  "review_sources": [
@@ -135,7 +148,10 @@
    "Display": "14.2\" Liquid Retina XDR",
    "RAM": "16GB unified memory"
   },
-  "price_range": "$1599-1999"
+  "price_range": "$1599-1999",
+  "platforms": [
+   "amazon"
+  ]
  },
  "updated_date": "2026-10-03",
  "review_count": 4

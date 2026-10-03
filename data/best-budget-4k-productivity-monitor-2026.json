@@ -33,7 +33,11 @@
    "summary": "Best budget 4K overall. Great IPS panel, height-adjustable, under $330. Hard to beat.",
    "recommended_by": "3/3 reviewers",
    "best_for": "Best budget 4K overall",
-   "price_range": "$280-350"
+   "price_range": "$280-350",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=Dell+S2722QC+4K+USB-C&tag=aipicks2003-20",
@@ -51,7 +55,11 @@
    "summary": "Best with USB-C. Single-cable 65W charging, Dell reliability, great for laptop users.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best with USB-C",
-   "price_range": "$320-380"
+   "price_range": "$320-380",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=ASUS+VA27UQSB+4K+Eye+Care&tag=aipicks2003-20",
@@ -69,7 +77,11 @@
    "summary": "Best cheapest 4K. Under $250 for 4K IPS with full ergonomic stand. Incredible value.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best cheapest 4K",
-   "price_range": "$220-280"
+   "price_range": "$220-280",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   }
  ],
  "review_sources": [
@@ -106,7 +118,11 @@
    "Ports": "HDMI, DisplayPort",
    "Stand": "Height/tilt adjustable"
   },
-  "price_range": "$280-350"
+  "price_range": "$280-350",
+  "platforms": [
+   "amazon",
+   "walmart"
+  ]
  },
  "updated_date": "2026-10-03",
  "review_count": 3

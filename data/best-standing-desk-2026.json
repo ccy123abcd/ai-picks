@@ -33,7 +33,11 @@
    "summary": "Best overall. Rock-solid frame, 15-year warranty, tons of customization. Worth the investment.",
    "recommended_by": "3/3 reviewers",
    "best_for": "Best overall",
-   "price_range": "$600-800"
+   "price_range": "$600-800",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=FlexiSpot+E7+Standing+Desk&tag=aipicks2003-20",
@@ -51,7 +55,11 @@
    "summary": "Best value. Same lift capacity as UPLIFT for less money. Very stable, great motor.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best value",
-   "price_range": "$400-550"
+   "price_range": "$400-550",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=SHW+Electric+Standing+Desk+55&tag=aipicks2003-20",
@@ -69,7 +77,11 @@
    "summary": "Best budget pick. Electric lift under $220. Not as sturdy as premium, but gets the job done.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best budget pick",
-   "price_range": "$200-250"
+   "price_range": "$200-250",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   }
  ],
  "review_sources": [
@@ -106,7 +118,11 @@
    "Lift Capacity": "355 lbs",
    "Warranty": "15 years"
   },
-  "price_range": "$600-800"
+  "price_range": "$600-800",
+  "platforms": [
+   "amazon",
+   "walmart"
+  ]
  },
  "updated_date": "2026-10-03",
  "review_count": 3

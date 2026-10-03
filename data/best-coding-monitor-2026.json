@@ -33,7 +33,11 @@
    "summary": "Best overall for coders. IPS Black for deep blacks, USB-C 90W single-cable dock, great text clarity.",
    "recommended_by": "4/4 reviewers",
    "best_for": "Best overall for coders",
-   "price_range": "$550-650"
+   "price_range": "$550-650",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=BenQ+PD2705U&tag=aipicks2003-20",
@@ -51,7 +55,11 @@
    "summary": "Best for Mac coders. M-Book mode matches MacBook colors, USB-C 65W, great factory calibration.",
    "recommended_by": "2/4 reviewers",
    "best_for": "Best for Mac coders",
-   "price_range": "$450-550"
+   "price_range": "$450-550",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=LG+27UN880+Ergo&tag=aipicks2003-20",
@@ -69,7 +77,11 @@
    "summary": "Best ergonomics. Included monitor arm clamps to desk, 4K IPS, USB-C. Great for small desks.",
    "recommended_by": "1/4 reviewers",
    "best_for": "Best ergonomics",
-   "price_range": "$400-500"
+   "price_range": "$400-500",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=Dell+P2723DE+QHD&tag=aipicks2003-20",
@@ -87,7 +99,11 @@
    "summary": "Best budget pick. QHD is plenty for code, USB-C 90W dock, Dell reliability under $350.",
    "recommended_by": "1/4 reviewers",
    "best_for": "Best budget pick",
-   "price_range": "$280-350"
+   "price_range": "$280-350",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   }
  ],
  "review_sources": [
@@ -125,7 +141,11 @@
    "Refresh Rate": "60Hz",
    "Stand": "Full ergonomic adjustment"
   },
-  "price_range": "$550-650"
+  "price_range": "$550-650",
+  "platforms": [
+   "amazon",
+   "walmart"
+  ]
  },
  "updated_date": "2026-10-03",
  "review_count": 3

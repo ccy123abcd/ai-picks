@@ -33,7 +33,11 @@
    "summary": "Best for beginners. DSM software is unmatched, 4K transcoding, great app ecosystem.",
    "recommended_by": "3/3 reviewers",
    "best_for": "Best for beginners",
-   "price_range": "$300-350"
+   "price_range": "$300-350",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=UGREEN+DXP2800+NAS&tag=aipicks2003-20",
@@ -51,7 +55,10 @@
    "summary": "Best hardware value. N100 chip, 8GB RAM, 2.5GbE. More powerful than Synology for the price.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best hardware value",
-   "price_range": "$350-400"
+   "price_range": "$350-400",
+   "platforms": [
+    "amazon"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=Synology+DS423%2B&tag=aipicks2003-20",
@@ -69,7 +76,11 @@
    "summary": "Best 4-bay. Room to grow, same great DSM software, ideal for RAID 5.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best 4-bay",
-   "price_range": "$450-500"
+   "price_range": "$450-500",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   }
  ],
  "review_sources": [
@@ -106,7 +117,11 @@
    "CPU": "Intel Celeron J4125",
    "Software": "Synology DSM"
   },
-  "price_range": "$300-350"
+  "price_range": "$300-350",
+  "platforms": [
+   "amazon",
+   "walmart"
+  ]
  },
  "updated_date": "2026-10-03",
  "review_count": 3

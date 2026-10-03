@@ -109,7 +109,13 @@ def render_human(p, slug):
         tq = esc(item["name"].replace(" ", "+"))
         temu_url = f"https://www.temu.com/search_result.html?search_key={tq}"
         walmart_url = f"https://www.walmart.com/search?q={tq}"
-        cards += f'<div class="card"><h3>{esc(item["name"])}</h3>{img_tag}<a class="btn-sm" href="{buy_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Amazon</a><a class="btn-temu" href="{temu_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Temu</a><a class="btn-walmart" href="{walmart_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Walmart</a><p style="margin-top:.75rem">{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">Best for: {esc(item["best_for"])} · {esc(item["price_range"])}</p></div>\n'
+        _platforms = item.get("platforms", ["amazon"])
+        _btns = f'<a class="btn-sm" href="{buy_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Amazon</a>'
+        if "temu" in _platforms:
+            _btns += f'<a class="btn-temu" href="{temu_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Temu</a>'
+        if "walmart" in _platforms:
+            _btns += f'<a class="btn-walmart" href="{walmart_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Walmart</a>'
+        cards += f'<div class="card"><h3>{esc(item["name"])}</h3>{img_tag}{_btns}'<p style="margin-top:.75rem">{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">Best for: {esc(item["best_for"])} · {esc(item["price_range"])}</p></div>\n'
     out = TPL_HUMAN
     out = out.replace("{{page_title}}", esc(p["page_title"]))
     out = out.replace("{{meta_description}}", esc(p["meta_description"]))
@@ -124,10 +130,14 @@ def render_human(p, slug):
     out = out.replace("{{top_pick_price}}", esc(p["top_pick"].get("price_display", "")))
     out = out.replace("{{affiliate_link}}", esc(p["top_pick"].get("affiliate_link", "#")))
     _tq = esc(p["top_pick"]["name"].replace(" ", "+"))
-    out = out.replace("{{temu_link}}", f"https://www.temu.com/search_result.html?search_key={_tq}")
+    _tp_platforms = p["top_pick"].get("platforms", ["amazon"])
+    out = out.replace("{{temu_link}}", f"https://www.temu.com/search_result.html?search_key={_tq}" if "temu" in _tp_platforms else "")
+    out = out.replace("{{temu_btn_mid}}", f'<a class="btn-temu" href="https://www.temu.com/search_result.html?search_key={_tq}" rel="nofollow sponsored noopener" target="_blank">Check Price on Temu →</a>' if "temu" in _tp_platforms else "")
+    out = out.replace("{{temu_btn_lg}}", f'<a class="btn-temu-lg" href="https://www.temu.com/search_result.html?search_key={_tq}" rel="nofollow sponsored noopener" target="_blank">Temu →</a>' if "temu" in _tp_platforms else "")
+    out = out.replace("{{walmart_btn_mid}}", f'<a class="btn-walmart" href="https://www.walmart.com/search?q={_tq}" rel="nofollow sponsored noopener" target="_blank">Check Price on Walmart →</a>' if "walmart" in _tp_platforms else "")
+    out = out.replace("{{walmart_btn_lg}}", f'<a class="btn-walmart-lg" href="https://www.walmart.com/search?q={_tq}" rel="nofollow sponsored noopener" target="_blank">Walmart →</a>' if "walmart" in _tp_platforms else "")
     out = out.replace("{{faq_html}}", gen_faq_html(p))
-    _wq = esc(p["top_pick"]["name"].replace(" ", "+"))
-    out = out.replace("{{walmart_link}}", f"https://www.walmart.com/search?q={_wq}")
+    pass  # walmart_link 已由上方占位符处理
     out = out.replace("{{comparison_rows_human}}", rows)
     out = out.replace("{{pros_list}}", pros)
     out = out.replace("{{cons_list}}", cons)
@@ -165,10 +175,14 @@ def render_ai(p, slug):
     out = out.replace("{{top_pick_price}}", esc(p["top_pick"].get("price_display", "")))
     out = out.replace("{{affiliate_link}}", esc(p["top_pick"].get("affiliate_link", "#")))
     _tq = esc(p["top_pick"]["name"].replace(" ", "+"))
-    out = out.replace("{{temu_link}}", f"https://www.temu.com/search_result.html?search_key={_tq}")
+    _tp_platforms = p["top_pick"].get("platforms", ["amazon"])
+    out = out.replace("{{temu_link}}", f"https://www.temu.com/search_result.html?search_key={_tq}" if "temu" in _tp_platforms else "")
+    out = out.replace("{{temu_btn_mid}}", f'<a class="btn-temu" href="https://www.temu.com/search_result.html?search_key={_tq}" rel="nofollow sponsored noopener" target="_blank">Check Price on Temu →</a>' if "temu" in _tp_platforms else "")
+    out = out.replace("{{temu_btn_lg}}", f'<a class="btn-temu-lg" href="https://www.temu.com/search_result.html?search_key={_tq}" rel="nofollow sponsored noopener" target="_blank">Temu →</a>' if "temu" in _tp_platforms else "")
+    out = out.replace("{{walmart_btn_mid}}", f'<a class="btn-walmart" href="https://www.walmart.com/search?q={_tq}" rel="nofollow sponsored noopener" target="_blank">Check Price on Walmart →</a>' if "walmart" in _tp_platforms else "")
+    out = out.replace("{{walmart_btn_lg}}", f'<a class="btn-walmart-lg" href="https://www.walmart.com/search?q={_tq}" rel="nofollow sponsored noopener" target="_blank">Walmart →</a>' if "walmart" in _tp_platforms else "")
     out = out.replace("{{faq_html}}", gen_faq_html(p))
-    _wq = esc(p["top_pick"]["name"].replace(" ", "+"))
-    out = out.replace("{{walmart_link}}", f"https://www.walmart.com/search?q={_wq}")
+    pass  # walmart_link 已由上方占位符处理
     out = out.replace("{{comparison_rows}}", rows)
     out = out.replace("{{pros_list}}", pros)
     out = out.replace("{{cons_list}}", cons)

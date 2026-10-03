@@ -33,7 +33,11 @@
    "summary": "Best overall ANC. Class-leading noise cancelling, 30hr battery, great comfort for all-day wear.",
    "recommended_by": "3/3 reviewers",
    "best_for": "Best overall ANC",
-   "price_range": "$280-350"
+   "price_range": "$280-350",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=Bose+QuietComfort+Ultra&tag=aipicks2003-20",
@@ -51,7 +55,11 @@
    "summary": "Best comfort. Legendary Bose comfort, spatial audio, superb call quality.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best comfort",
-   "price_range": "$300-380"
+   "price_range": "$300-380",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=Sony+WH-1000XM4&tag=aipicks2003-20",
@@ -69,7 +77,11 @@
    "summary": "Best budget flagship. Previous-gen XM5 performance for $100 less. Still fantastic.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best budget flagship",
-   "price_range": "$200-250"
+   "price_range": "$200-250",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
   }
  ],
  "review_sources": [
@@ -106,7 +118,11 @@
    "Battery": "30 hours",
    "Bluetooth": "5.2 multipoint"
   },
-  "price_range": "$280-350"
+  "price_range": "$280-350",
+  "platforms": [
+   "amazon",
+   "walmart"
+  ]
  },
  "updated_date": "2026-10-03",
  "review_count": 3

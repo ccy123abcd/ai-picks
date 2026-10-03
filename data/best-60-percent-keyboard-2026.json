@@ -1,1 +1,129 @@
-{"aggregate_rating": {"count": "4", "value": "4.6"}, "common_cons": ["Wooting 60HE V2: expensive and takes time to dial in fully; SOCD is banned in some games (KitGuru)", "Logitech G Pro X60: no rapid trigger or SOCD features and a high price (Dexerto, TechRadar)", "Razer Huntsman V3 Pro Mini: peculiar arrow keys inhibit typing; wired-only (GamingTrend)", "Ducky One 3 Mini: no companion software and no wireless option (Tom's Hardware)"], "common_pros": ["Wooting 60HE V2: exceptional gaming performance with deep customization — KitGuru scored it 9/10", "Logitech G Pro X60: Lightspeed wireless trusted for competitive play, plus a travel carry case (TechRadar, PC Gamer)", "Razer Huntsman V3 Pro Mini: analog optical Gen-2 switches with rapid trigger and Snap Tap in a compact shell (GamingTrend, GamesRadar)", "Ducky One 3 Mini: proven hot-swap build with double-shot PBT keycaps out of the box (Tom's Hardware)"], "h1": "Best 60% Keyboard 2026: What 4 Real Reviewers Agree On", "meta_description": "We analyzed 4 hands-on reviews from Hipyo Tech, GamingTrend, TechRadar, and Tom's Hardware to find the best 60% keyboard in 2026. Top pick, comparison table, pros/cons, and real review sources.", "page_title": "Best 60% Keyboard 2026 - 4 Real Reviews Aggregated", "products": [{"best_for": "Competitive FPS gaming in minimal space", "name": "Wooting 60HE V2", "price_range": "$179.99-$239.99", "recommended_by": "1/4 reviewers", "specs": {"Features": "Rapid trigger, SOCD, analog input", "Layout": "60% (61 keys)", "Software": "Wootility (web-based, no install)", "Switches": "Lekker Tikken Hall-effect"}, "summary": "Hall-effect 60% with rapid trigger, adjustable actuation, SOCD and the Wootility web app. KitGuru rated it 9/10 and called it the best gaming keyboard they have tested."}, {"best_for": "Wireless competitive gaming on the go", "name": "Logitech G Pro X60", "price_range": "$179.99", "recommended_by": "1/4 reviewers", "specs": {"Connectivity": "Lightspeed, Bluetooth, wired", "Extras": "Travel carry case included", "Layout": "60% (61 keys)", "Switches": "GX optical"}, "summary": "GX optical switches plus Lightspeed wireless in a 60% shell. TechRadar praises its build quality and snappy performance; PC Gamer highlights the fast, responsive inputs."}, {"best_for": "Premium 60% with analog optical tech", "name": "Razer Huntsman V3 Pro Mini", "price_range": "$179.99", "recommended_by": "1/4 reviewers", "specs": {"Features": "Rapid trigger, Snap Tap", "Layout": "60% (61 keys)", "Polling rate": "8,000 Hz (8K edition)", "Switches": "Analog optical Gen-2"}, "summary": "GamingTrend scored it 85/100: compact without compromise, with rapid trigger and Snap Tap for measurable competitive advantages. Best for Razer loyalists who want maximum desk space."}, {"best_for": "A classic, reliable 60% for purists", "name": "Ducky One 3 Mini", "price_range": "$99-$119", "recommended_by": "1/4 reviewers", "specs": {"Connectivity": "Detachable USB-C", "Keycaps": "Double-shot PBT", "Layout": "60% (61 keys)", "Switches": "Cherry MX hot-swap"}, "summary": "The longtime community favorite: hot-swap Cherry MX switches, double-shot PBT keycaps, and Ducky's QUACK Mechanics sound dampening. Tom's Hardware calls it a great line of gaming keyboards."}], "review_sources": [{"channel": "Hipyo Tech", "title": "Wooting just made their best keyboard yet...", "url": "https://www.youtube.com/watch?v=9jprQkwuL3E"}, {"channel": "GamingTrend", "title": "Razer Huntsman V3 Pro Mini 8KHz keyboard review", "url": "https://gamingtrend.com/reviews/razer-huntsman-v3-pro-mini-8khz-keyboard-review/"}, {"channel": "TechRadar", "title": "Logitech Pro X 60 Lightspeed Wireless Gaming Keyboard review", "url": "http://techradar.com/computing/keyboards/logitech-pro-x-60-review"}, {"channel": "Tom's Hardware", "title": "Ducky One 3 Mini Aura Edition Review: Glow Up", "url": "https://www.tomshardware.com/reviews/ducky-one-3-mini-aura-edition"}], "slug": "best-60-percent-keyboard-2026", "top_pick": {"affiliate_link": "https://www.amazon.com/dp/B000000000?tag=aipicks2003-20", "brand": "Wooting", "image": "../images/wooting-60he-v2.jpg", "name": "Wooting 60HE V2", "price_display": "$179.99-$239.99", "price_value": "179.99", "reason": "The competitive 60% to beat — KitGuru rated it 9/10 and called it the best gaming keyboard they have tested, with unmatched rapid trigger and software depth."}, "updated_date": "2026-10-03"}
+{
+ "aggregate_rating": {
+  "count": "4",
+  "value": "4.6"
+ },
+ "common_cons": [
+  "Wooting 60HE V2: expensive and takes time to dial in fully; SOCD is banned in some games (KitGuru)",
+  "Logitech G Pro X60: no rapid trigger or SOCD features and a high price (Dexerto, TechRadar)",
+  "Razer Huntsman V3 Pro Mini: peculiar arrow keys inhibit typing; wired-only (GamingTrend)",
+  "Ducky One 3 Mini: no companion software and no wireless option (Tom's Hardware)"
+ ],
+ "common_pros": [
+  "Wooting 60HE V2: exceptional gaming performance with deep customization \u2014 KitGuru scored it 9/10",
+  "Logitech G Pro X60: Lightspeed wireless trusted for competitive play, plus a travel carry case (TechRadar, PC Gamer)",
+  "Razer Huntsman V3 Pro Mini: analog optical Gen-2 switches with rapid trigger and Snap Tap in a compact shell (GamingTrend, GamesRadar)",
+  "Ducky One 3 Mini: proven hot-swap build with double-shot PBT keycaps out of the box (Tom's Hardware)"
+ ],
+ "h1": "Best 60% Keyboard 2026: What 4 Real Reviewers Agree On",
+ "meta_description": "We analyzed 4 hands-on reviews from Hipyo Tech, GamingTrend, TechRadar, and Tom's Hardware to find the best 60% keyboard in 2026. Top pick, comparison table, pros/cons, and real review sources.",
+ "page_title": "Best 60% Keyboard 2026 - 4 Real Reviews Aggregated",
+ "products": [
+  {
+   "best_for": "Competitive FPS gaming in minimal space",
+   "name": "Wooting 60HE V2",
+   "price_range": "$179.99-$239.99",
+   "recommended_by": "1/4 reviewers",
+   "specs": {
+    "Features": "Rapid trigger, SOCD, analog input",
+    "Layout": "60% (61 keys)",
+    "Software": "Wootility (web-based, no install)",
+    "Switches": "Lekker Tikken Hall-effect"
+   },
+   "summary": "Hall-effect 60% with rapid trigger, adjustable actuation, SOCD and the Wootility web app. KitGuru rated it 9/10 and called it the best gaming keyboard they have tested.",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
+  },
+  {
+   "best_for": "Wireless competitive gaming on the go",
+   "name": "Logitech G Pro X60",
+   "price_range": "$179.99",
+   "recommended_by": "1/4 reviewers",
+   "specs": {
+    "Connectivity": "Lightspeed, Bluetooth, wired",
+    "Extras": "Travel carry case included",
+    "Layout": "60% (61 keys)",
+    "Switches": "GX optical"
+   },
+   "summary": "GX optical switches plus Lightspeed wireless in a 60% shell. TechRadar praises its build quality and snappy performance; PC Gamer highlights the fast, responsive inputs.",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
+  },
+  {
+   "best_for": "Premium 60% with analog optical tech",
+   "name": "Razer Huntsman V3 Pro Mini",
+   "price_range": "$179.99",
+   "recommended_by": "1/4 reviewers",
+   "specs": {
+    "Features": "Rapid trigger, Snap Tap",
+    "Layout": "60% (61 keys)",
+    "Polling rate": "8,000 Hz (8K edition)",
+    "Switches": "Analog optical Gen-2"
+   },
+   "summary": "GamingTrend scored it 85/100: compact without compromise, with rapid trigger and Snap Tap for measurable competitive advantages. Best for Razer loyalists who want maximum desk space.",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
+  },
+  {
+   "best_for": "A classic, reliable 60% for purists",
+   "name": "Ducky One 3 Mini",
+   "price_range": "$99-$119",
+   "recommended_by": "1/4 reviewers",
+   "specs": {
+    "Connectivity": "Detachable USB-C",
+    "Keycaps": "Double-shot PBT",
+    "Layout": "60% (61 keys)",
+    "Switches": "Cherry MX hot-swap"
+   },
+   "summary": "The longtime community favorite: hot-swap Cherry MX switches, double-shot PBT keycaps, and Ducky's QUACK Mechanics sound dampening. Tom's Hardware calls it a great line of gaming keyboards.",
+   "platforms": [
+    "amazon",
+    "walmart",
+    "temu"
+   ]
+  }
+ ],
+ "review_sources": [
+  {
+   "channel": "Hipyo Tech",
+   "title": "Wooting just made their best keyboard yet...",
+   "url": "https://www.youtube.com/watch?v=9jprQkwuL3E"
+  },
+  {
+   "channel": "GamingTrend",
+   "title": "Razer Huntsman V3 Pro Mini 8KHz keyboard review",
+   "url": "https://gamingtrend.com/reviews/razer-huntsman-v3-pro-mini-8khz-keyboard-review/"
+  },
+  {
+   "channel": "TechRadar",
+   "title": "Logitech Pro X 60 Lightspeed Wireless Gaming Keyboard review",
+   "url": "http://techradar.com/computing/keyboards/logitech-pro-x-60-review"
+  },
+  {
+   "channel": "Tom's Hardware",
+   "title": "Ducky One 3 Mini Aura Edition Review: Glow Up",
+   "url": "https://www.tomshardware.com/reviews/ducky-one-3-mini-aura-edition"
+  }
+ ],
+ "slug": "best-60-percent-keyboard-2026",
+ "top_pick": {
+  "affiliate_link": "https://www.amazon.com/dp/B000000000?tag=aipicks2003-20",
+  "brand": "Wooting",
+  "image": "../images/wooting-60he-v2.jpg",
+  "name": "Wooting 60HE V2",
+  "price_display": "$179.99-$239.99",
+  "price_value": "179.99",
+  "reason": "The competitive 60% to beat \u2014 KitGuru rated it 9/10 and called it the best gaming keyboard they have tested, with unmatched rapid trigger and software depth.",
+  "platforms": [
+   "amazon",
+   "walmart"
+  ]
+ },
+ "updated_date": "2026-10-03"
+}

@@ -33,7 +33,10 @@
    "summary": "Best premium ergonomic. Concave keywells, wireless, fully programmable. The endgame for wrist pain.",
    "recommended_by": "3/3 reviewers",
    "best_for": "Best premium ergonomic",
-   "price_range": "$459-500"
+   "price_range": "$459-500",
+   "platforms": [
+    "amazon"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=ZSA+Moonlander+Mark+I&tag=aipicks2003-20",
@@ -51,7 +54,10 @@
    "summary": "Best for tinkerers. Fully customizable via Oryx web tool, thumb clusters, great community.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best for tinkerers",
-   "price_range": "$365"
+   "price_range": "$365",
+   "platforms": [
+    "amazon"
+   ]
   },
   {
    "affiliate_link": "https://www.amazon.com/s?k=Logitech+Ergo+K860&tag=aipicks2003-20",
@@ -69,7 +75,12 @@
    "summary": "Best budget ergonomic. Curved split layout, cushioned wrist rest, under $130. Great first ergo board.",
    "recommended_by": "1/3 reviewers",
    "best_for": "Best budget ergonomic",
-   "price_range": "$100-130"
+   "price_range": "$100-130",
+   "platforms": [
+    "amazon",
+    "walmart",
+    "temu"
+   ]
   }
  ],
  "review_sources": [
@@ -106,7 +117,10 @@
    "Layout": "Split concave keywell",
    "Switches": "Cherry MX Brown hot-swap"
   },
-  "price_range": "$459-500"
+  "price_range": "$459-500",
+  "platforms": [
+   "amazon"
+  ]
  },
  "updated_date": "2026-10-03",
  "review_count": 3

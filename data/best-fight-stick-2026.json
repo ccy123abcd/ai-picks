@@ -1,1 +1,131 @@
-{"aggregate_rating": {"count": "4", "value": "4.6"}, "common_cons": ["Qanba Obsidian 2: ~$300 price is steep; difficult to open for part swaps (2/4 mention)", "Mayflash F500 Elite: needs an adapter for PS5, no L3/R3 buttons (1/4 mention)", "Hori Fighting Stick Alpha: heavy chassis is not travel-friendly (1/4 mention)"], "common_pros": ["Qanba Obsidian 2: premium metal build with Sanwa Denshi parts, tested in SF6 and Tekken 8 (3/4 mention)", "Mayflash F500 Elite: genuine Sanwa lever and buttons, near-universal platform support (1/4 mention)", "Hori Fighting Stick Alpha: clamshell design for easy modding, official Sony licensing (1/4 mention)"], "h1": "Best Fight Stick 2026: What 4 Reviewers Agree On", "meta_description": "We analyzed 4 independent reviews to find the best fight stick in 2026. Top pick, comparison table, pros/cons, and review sources.", "page_title": "Best Fight Stick 2026 - 4 Reviews Aggregated", "products": [{"best_for": "Premium tournament-grade build", "name": "Qanba Obsidian 2", "price_range": "$279-299", "recommended_by": "3/4 reviewers", "specs": {"Compatibility": "PS5, PS4, PC", "Connection": "Wired USB", "Lever/Buttons": "Sanwa Denshi", "Moddability": "Medium - 8 screws to open", "Weight": "Approx. 3.2 kg"}, "summary": "The consensus pick across Tom's Guide, Dexerto and carbonclyve. Premium metal build with genuine Sanwa parts, tested in Street Fighter 6 and Tekken 8."}, {"best_for": "Modders and multi-platform players", "name": "Mayflash F500 Elite", "price_range": "$99-119", "recommended_by": "1/4 reviewers", "specs": {"Compatibility": "PS4, Xbox, Switch, PC (PS5 via adapter)", "Connection": "Wired USB", "Lever/Buttons": "Genuine Sanwa parts", "Moddability": "High - easy-open chassis", "Weight": "Approx. 2.4 kg"}, "summary": "PCGamesN's best multi-platform pick. Ships with genuine Sanwa lever and buttons, supports nearly every platform, and opens easily for part swaps."}, {"best_for": "PS5 tournament players", "name": "Hori Fighting Stick Alpha", "price_range": "$179-199", "recommended_by": "1/4 reviewers", "specs": {"Compatibility": "PS5, PS4, PC", "Connection": "Wired USB", "Lever/Buttons": "Hori Hayabusa", "Moddability": "High - clamshell design", "Weight": "Approx. 3.0 kg"}, "summary": "Sony-licensed stick with Hayabusa parts and a clamshell design that makes artwork and part swaps simple. A mid-tier sweet spot for PS5 players."}, {"best_for": "Absolute top-tier modular play", "name": "Victrix Pro FS", "price_range": "$349-399", "recommended_by": "1/4 reviewers", "specs": {"Compatibility": "PS5, PS4, PC", "Connection": "Wired USB", "Lever/Buttons": "Sanwa Denshi", "Moddability": "High - aluminum chassis", "Weight": "Approx. 3.6 kg"}, "summary": "Tom's Guide's premium benchmark alongside the Obsidian 2. Sanwa parts in a unique aluminum chassis for players who want the absolute top tier."}], "review_sources": [{"channel": "Tom's Guide", "title": "I just tested this arcade stick for PS5 and PC — and it's nearly perfect for fighting game fans", "url": "https://www.tomsguide.com/gaming/gaming-peripherals/qanba-q7-obsidian-2-review"}, {"channel": "Dexerto", "title": "Qanba Obsidian 2 review: Heavy duty", "url": "https://www.dexerto.com/tech/qanba-obsidian-2-review-2176431/"}, {"channel": "PCGamesN", "title": "Best fight stick 2026", "url": "https://www.pcgamesn.com/best-fight-sticks"}, {"channel": "carbonclyve", "title": "The Fightstick Everyone Recommended...So I Bought a Qanba Obsidian 2", "url": "https://www.youtube.com/watch?v=0ILstA0cUBU"}], "slug": "best-fight-stick-2026", "top_pick": {"affiliate_link": "https://www.amazon.com/dp/B000000000?tag=aipicks2003-20", "brand": "Qanba", "image": "../images/qanba-obsidian-2.jpg", "name": "Qanba Obsidian 2", "price_display": "$279-299", "price_value": "299.99", "reason": "Recommended by 3 of 4 reviewers as the premium tournament stick - Sanwa parts and proven build quality in real fighting-game testing."}, "updated_date": "2026-10-03"}
+{
+ "aggregate_rating": {
+  "count": "4",
+  "value": "4.6"
+ },
+ "common_cons": [
+  "Qanba Obsidian 2: ~$300 price is steep; difficult to open for part swaps (2/4 mention)",
+  "Mayflash F500 Elite: needs an adapter for PS5, no L3/R3 buttons (1/4 mention)",
+  "Hori Fighting Stick Alpha: heavy chassis is not travel-friendly (1/4 mention)"
+ ],
+ "common_pros": [
+  "Qanba Obsidian 2: premium metal build with Sanwa Denshi parts, tested in SF6 and Tekken 8 (3/4 mention)",
+  "Mayflash F500 Elite: genuine Sanwa lever and buttons, near-universal platform support (1/4 mention)",
+  "Hori Fighting Stick Alpha: clamshell design for easy modding, official Sony licensing (1/4 mention)"
+ ],
+ "h1": "Best Fight Stick 2026: What 4 Reviewers Agree On",
+ "meta_description": "We analyzed 4 independent reviews to find the best fight stick in 2026. Top pick, comparison table, pros/cons, and review sources.",
+ "page_title": "Best Fight Stick 2026 - 4 Reviews Aggregated",
+ "products": [
+  {
+   "best_for": "Premium tournament-grade build",
+   "name": "Qanba Obsidian 2",
+   "price_range": "$279-299",
+   "recommended_by": "3/4 reviewers",
+   "specs": {
+    "Compatibility": "PS5, PS4, PC",
+    "Connection": "Wired USB",
+    "Lever/Buttons": "Sanwa Denshi",
+    "Moddability": "Medium - 8 screws to open",
+    "Weight": "Approx. 3.2 kg"
+   },
+   "summary": "The consensus pick across Tom's Guide, Dexerto and carbonclyve. Premium metal build with genuine Sanwa parts, tested in Street Fighter 6 and Tekken 8.",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
+  },
+  {
+   "best_for": "Modders and multi-platform players",
+   "name": "Mayflash F500 Elite",
+   "price_range": "$99-119",
+   "recommended_by": "1/4 reviewers",
+   "specs": {
+    "Compatibility": "PS4, Xbox, Switch, PC (PS5 via adapter)",
+    "Connection": "Wired USB",
+    "Lever/Buttons": "Genuine Sanwa parts",
+    "Moddability": "High - easy-open chassis",
+    "Weight": "Approx. 2.4 kg"
+   },
+   "summary": "PCGamesN's best multi-platform pick. Ships with genuine Sanwa lever and buttons, supports nearly every platform, and opens easily for part swaps.",
+   "platforms": [
+    "amazon",
+    "walmart",
+    "temu"
+   ]
+  },
+  {
+   "best_for": "PS5 tournament players",
+   "name": "Hori Fighting Stick Alpha",
+   "price_range": "$179-199",
+   "recommended_by": "1/4 reviewers",
+   "specs": {
+    "Compatibility": "PS5, PS4, PC",
+    "Connection": "Wired USB",
+    "Lever/Buttons": "Hori Hayabusa",
+    "Moddability": "High - clamshell design",
+    "Weight": "Approx. 3.0 kg"
+   },
+   "summary": "Sony-licensed stick with Hayabusa parts and a clamshell design that makes artwork and part swaps simple. A mid-tier sweet spot for PS5 players.",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
+  },
+  {
+   "best_for": "Absolute top-tier modular play",
+   "name": "Victrix Pro FS",
+   "price_range": "$349-399",
+   "recommended_by": "1/4 reviewers",
+   "specs": {
+    "Compatibility": "PS5, PS4, PC",
+    "Connection": "Wired USB",
+    "Lever/Buttons": "Sanwa Denshi",
+    "Moddability": "High - aluminum chassis",
+    "Weight": "Approx. 3.6 kg"
+   },
+   "summary": "Tom's Guide's premium benchmark alongside the Obsidian 2. Sanwa parts in a unique aluminum chassis for players who want the absolute top tier.",
+   "platforms": [
+    "amazon",
+    "walmart"
+   ]
+  }
+ ],
+ "review_sources": [
+  {
+   "channel": "Tom's Guide",
+   "title": "I just tested this arcade stick for PS5 and PC \u2014 and it's nearly perfect for fighting game fans",
+   "url": "https://www.tomsguide.com/gaming/gaming-peripherals/qanba-q7-obsidian-2-review"
+  },
+  {
+   "channel": "Dexerto",
+   "title": "Qanba Obsidian 2 review: Heavy duty",
+   "url": "https://www.dexerto.com/tech/qanba-obsidian-2-review-2176431/"
+  },
+  {
+   "channel": "PCGamesN",
+   "title": "Best fight stick 2026",
+   "url": "https://www.pcgamesn.com/best-fight-sticks"
+  },
+  {
+   "channel": "carbonclyve",
+   "title": "The Fightstick Everyone Recommended...So I Bought a Qanba Obsidian 2",
+   "url": "https://www.youtube.com/watch?v=0ILstA0cUBU"
+  }
+ ],
+ "slug": "best-fight-stick-2026",
+ "top_pick": {
+  "affiliate_link": "https://www.amazon.com/dp/B000000000?tag=aipicks2003-20",
+  "brand": "Qanba",
+  "image": "../images/qanba-obsidian-2.jpg",
+  "name": "Qanba Obsidian 2",
+  "price_display": "$279-299",
+  "price_value": "299.99",
+  "reason": "Recommended by 3 of 4 reviewers as the premium tournament stick - Sanwa parts and proven build quality in real fighting-game testing.",
+  "platforms": [
+   "amazon",
+   "walmart"
+  ]
+ },
+ "updated_date": "2026-10-03"
+}
