@@ -237,6 +237,9 @@ def main():
     print("  ✓ llms.txt")
     import shutil
     shutil.copy("templates/finder.html", "output/finder.html")
+    shutil.copy("templates/portal_zh.html", "output/zh/index.html")
+    shutil.copy("templates/finder_zh.html", "output/zh/finder.html")
+    print("  ✓ zh/ 中文版")
     print("  ✓ finder.html")
     print(f"Done: {len(products)} products × 2 versions")
 

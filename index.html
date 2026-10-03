@@ -29,6 +29,10 @@ h1{font-size:3rem;letter-spacing:.3em;margin-bottom:.5rem;text-shadow:0 0 20px #
 </style>
 </head>
 <body>
+<div class="lang" style="position:fixed;top:1rem;right:1rem;z-index:2">
+<a href="./" class="on" style="color:#00ff41;text-decoration:none;padding:.4rem .8rem;border:1px solid #00ff41;border-radius:6px;font-size:.85rem;margin-left:.5rem">EN</a>
+<a href="zh/" style="color:#1a7f37;text-decoration:none;padding:.4rem .8rem;border:1px solid #1a3a1a;border-radius:6px;font-size:.85rem;margin-left:.5rem">中文</a>
+</div>
 <canvas id="rain"></canvas>
 <div class="content">
 <h1>AI-PICKS</h1>
@@ -66,6 +70,22 @@ drops[i]++;}
 }
 setInterval(draw,50);
 addEventListener('resize',()=>{c.width=innerWidth;c.height=innerHeight});
+</script>
+
+<script>
+// IP 归属地检测：中国 IP 自动跳转中文版
+(function(){
+  if(localStorage.getItem('aipicks-lang')) return; // 用户手动选过，不干预
+  fetch('https://ipapi.co/json/')
+    .then(r=>r.json())
+    .then(d=>{
+      if(d.country_code==='CN'){
+        localStorage.setItem('aipicks-lang','zh');
+        window.location.href='zh/';
+      }
+    })
+    .catch(()=>{});
+})();
 </script>
 </body>
 </html>
