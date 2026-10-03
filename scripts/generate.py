@@ -240,6 +240,9 @@ def main():
     shutil.copy("templates/portal_zh.html", "output/zh/index.html")
     shutil.copy("templates/finder_zh.html", "output/zh/finder.html")
     print("  ✓ zh/ 中文版")
+    shutil.copy("templates/about.html", "output/about.html")
+    shutil.copy("templates/privacy.html", "output/privacy.html")
+    print("  ✓ about + privacy")
     print("  ✓ finder.html")
     print(f"Done: {len(products)} products × 2 versions")
 
