@@ -142,10 +142,12 @@ def main():
 
     # human index
     h_idx = """<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>选购指南 | AI-PICKS</title>
-<style>body{background:#0a0e0a;color:#d4d4d4;font-family:sans-serif;max-width:860px;margin:0 auto;padding:2rem 1.25rem}a{color:#00ff41}.card{background:#111611;border:1px solid #1a3a24;border-radius:10px;padding:1.25rem;margin:1rem 0;display:block;text-decoration:none}.card:hover{border-color:#00ff41}.card h2{color:#00ff41;margin-bottom:.5rem}.card p{color:#888}</style></head>
+<style>body{background:#0a0e0a;color:#d4d4d4;font-family:sans-serif;max-width:860px;margin:0 auto;padding:2rem 1.25rem}a{color:#00ff41}.card{background:#111611;border:1px solid #1a3a24;border-radius:10px;padding:1.25rem;margin:1rem 0;display:flex;gap:1rem;align-items:center;text-decoration:none}.card:hover{border-color:#00ff41}.card .txt{flex:1}.card h2{color:#00ff41;margin-bottom:.5rem;font-size:1.05rem}.card p{color:#888;font-size:.88rem}.card img{width:110px;height:110px;object-fit:cover;border:2px solid #00ff41;border-radius:8px;box-shadow:0 0 12px rgba(0,255,65,.25);flex-shrink:0;background:#000}@media(max-width:600px){.card img{width:80px;height:80px}}</style></head>
 <body><a href="../" style="font-size:.9rem">🔴 返回传送门</a><h1 style="color:#fff">📖 选购指南</h1><p style="color:#888">基于 YouTube 测评聚合，为人类精选</p>"""
     for p in products:
-        h_idx += f'<a class="card" href="{p["slug"]}.html"><h2>{esc(p["h1"])}</h2><p>{esc(p["meta_description"])}</p></a>'
+        img = p["top_pick"].get("image", "")
+        img_tag = f'<img src="{esc(img)}" alt="{esc(p["top_pick"]["name"])}" loading="lazy">' if img else ""
+        h_idx += f'<a class="card" href="{p["slug"]}.html"><div class="txt"><h2>{esc(p["h1"])}</h2><p>{esc(p["meta_description"])}</p></div>{img_tag}</a>'
     h_idx += "</body></html>"
     (human_dir / "index.html").write_text(h_idx)
     print("  ✓ human/index.html")
