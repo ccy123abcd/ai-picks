@@ -55,24 +55,24 @@ footer{border-top:1px solid #1a3a24;margin-top:3rem;padding:1.5rem 0;color:#555;
 </style>
 </head>
 <body>
-<div class="matrix-bar"><span>◢ AI-PICKS // HUMAN MODE</span><a href="../">🔴 返回传送门</a></div>
+<div class="matrix-bar"><span>◢ AI-PICKS // HUMAN MODE</span><a href="../">🔴 Back to Portal</a></div>
 <div class="wrap">
-<a class="back" href="./">← 全部指南</a>
+<a class="back" href="./">← All Guides</a>
 <h1>{{h1}}</h1>
-<p class="meta">基于 <span class="n">{{review_count}}</span> 个 YouTube 测评聚合 · 更新于 {{updated_date}}</p>
+<p class="meta">Aggregated from <span class="n">{{review_count}}</span> YouTube reviews · Updated {{updated_date}}</p>
 <div class="pick"><img src="{{top_pick_image}}" alt="{{top_pick_name}}" style="width:100%;max-width:400px;border:2px solid #00ff41;border-radius:8px;box-shadow:0 0 20px rgba(0,255,65,.35);margin-bottom:1rem;display:block;background:#000"><h2>{{top_pick_name}}</h2><p>{{top_pick_reason}}</p></div>
-<h2 class="sec">📊 对比一览</h2>
-<table><tr><th>#</th><th>产品</th><th>推荐度</th><th>适合</th><th>价格</th></tr>{{comparison_rows_human}}</table>
-<h2 class="sec">💬 测评共识</h2>
-<h3 style="color:#00ff41;margin:1rem 0 .5rem">共同优点</h3><ul class="pros">{{pros_list}}</ul>
-<h3 style="color:#ff6b6b;margin:1rem 0 .5rem">共同缺点</h3><ul class="cons">{{cons_list}}</ul>
-<div class="buy-mid"><span style="color:#888">看中了？</span> <strong style="color:#00ff41">{{top_pick_name}}</strong> <a class="btn-sm" href="{{affiliate_link}}" rel="nofollow sponsored noopener" target="_blank">去 Amazon 看价格 →</a></div>
-<h2 class="sec">🔍 详细解析</h2>
+<h2 class="sec">📊 Quick Comparison</h2>
+<table><tr><th>#</th><th>Product</th><th>Recommended By</th><th>Best For</th><th>Price</th></tr>{{comparison_rows_human}}</table>
+<h2 class="sec">💬 Reviewer Consensus</h2>
+<h3 style="color:#00ff41;margin:1rem 0 .5rem">Common Pros</h3><ul class="pros">{{pros_list}}</ul>
+<h3 style="color:#ff6b6b;margin:1rem 0 .5rem">Common Cons</h3><ul class="cons">{{cons_list}}</ul>
+<div class="buy-mid"><span style="color:#888">Like what you see?</span> <strong style="color:#00ff41">{{top_pick_name}}</strong> <a class="btn-sm" href="{{affiliate_link}}" rel="nofollow sponsored noopener" target="_blank">Check Price on Amazon →</a></div>
+<h2 class="sec">🔍 Detailed Breakdown</h2>
 {{product_cards}}
-<h2 class="sec">📺 视频来源</h2>
-<details class="sources"><summary>展开查看 {{review_count}} 个测评视频</summary><div class="src-list">{{review_sources}}</div></details>
-<div class="buy"><p style="color:#888">准备好入手了吗？</p><p class="price">{{top_pick_price}}</p><a class="btn" href="{{affiliate_link}}" rel="nofollow sponsored noopener" target="_blank">去 Amazon 看价格 →</a></div>
+<h2 class="sec">📺 Video Sources</h2>
+<details class="sources"><summary>Show {{review_count}} review videos</summary><div class="src-list">{{review_sources}}</div></details>
+<div class="buy"><p style="color:#888">Ready to buy?</p><p class="price">{{top_pick_price}}</p><a class="btn" href="{{affiliate_link}}" rel="nofollow sponsored noopener" target="_blank">Check Price on Amazon →</a></div>
 </div>
-<footer><div class="wrap"><p><strong>Affiliate Disclosure:</strong> As an Amazon Associate we earn from qualifying purchases.</p><p><strong>方法论：</strong>聚合公开 YouTube 测评，提取共识优缺点，按推荐度排名。不接受付费排名。</p></div></footer>
+<footer><div class="wrap"><p><strong>Affiliate Disclosure:</strong> As an Amazon Associate we earn from qualifying purchases.</p><p><strong>Methodology:</strong> We aggregate public YouTube reviews, extract consensus pros/cons, and rank by reviewer agreement. No paid placements.</p></div></footer>
 </body>
 </html>
