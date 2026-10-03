@@ -115,7 +115,7 @@ def render_human(p, slug):
             _btns += f'<a class="btn-temu" href="{temu_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Temu</a>'
         if "walmart" in _platforms:
             _btns += f'<a class="btn-walmart" href="{walmart_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Walmart</a>'
-        cards += f'<div class="card"><h3>{esc(item["name"])}</h3>{img_tag}{_btns}<p style="margin-top:.75rem">{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">Best for: {esc(item["best_for"])} - {esc(item["price_range"])}</p></div>\n'
+        cards += f'<div class="card"><h3>{esc(item["name"])}</h3>{img_tag}<div class="buy-row">{_btns}</div><p style="margin-top:.75rem">{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">Best for: {esc(item["best_for"])} - {esc(item["price_range"])}</p></div>\n'
     out = TPL_HUMAN
     out = out.replace("{{page_title}}", esc(p["page_title"]))
     out = out.replace("{{meta_description}}", esc(p["meta_description"]))
