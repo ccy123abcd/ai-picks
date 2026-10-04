@@ -31,6 +31,7 @@ h2{color:#00ff41;font-size:1.2rem;margin:2.5rem 0 1rem}
 .prod h3{color:#fff;font-size:1.1rem;margin-bottom:.5rem}
 .prod .price{color:#00ff41;font-size:1.2rem;margin:.5rem 0}
 .prod .tag{display:inline-block;background:#00ff41;color:#000;font-size:.75rem;font-weight:bold;padding:.2rem .6rem;border-radius:3px;margin-bottom:.5rem}
+.prod-img{width:100%;max-width:280px;height:200px;object-fit:contain;background:#0a0a0a;border:1px solid #1a3a1a;border-radius:8px;margin-bottom:.75rem}
 .btn{display:inline-block;background:#00ff41;color:#000;font-weight:bold;padding:.7rem 1.5rem;border-radius:5px;text-decoration:none;margin-top:1rem}
 .btn:hover{background:#33ff66}
 .verdict{border:1px solid #00ff41;border-radius:8px;padding:1.5rem;margin:2rem 0;background:#081208}
@@ -41,6 +42,7 @@ ul.diff-list li{margin-bottom:.5rem}
 .dim{margin:1.5rem 0}
 .dim h3{color:#fff;font-size:1rem;margin-bottom:.5rem}
 .dim-why{color:#a3a3a3;font-size:.95rem;margin-top:.5rem;font-style:italic}
+.gloss{font-size:.82rem;color:#7fd98f;margin-top:.35rem;line-height:1.5}
 footer{border-top:1px solid #1a3a24;margin-top:3rem;padding:1.5rem 0;color:#555;font-size:.75rem}
 footer a{color:#1a7f37}
 .note{color:#a3a3a3;font-size:.9rem;margin-top:1rem}
@@ -78,6 +80,7 @@ footer a{color:#1a7f37}
 <div class="prod-head">
 <div class="prod winner">
 <span class="tag">🏆 OUR PICK</span>
+<img src="../images/bambu-lab-p1s-combo.jpg" alt="Bambu Lab P1S Combo" loading="lazy" class="prod-img">
 <h3>Bambu Lab P1S Combo</h3>
 <p class="price">$699-$949</p>
 <p style="font-size:.95rem;color:#a3a3a3">The sweet spot of the 3D printing world. P1S lineage proven over 3,000+ hours of reliable printing, now with multi-color AMS in the Combo. Enclosed chamber handles ABS/ASA that open printers cannot. The default recommendation for anyone from hobbyist to small print farm.</p>
@@ -86,6 +89,7 @@ footer a{color:#1a7f37}
 <div class="vs-badge"><span>VS</span></div>
 <div class="prod">
 
+<img src="../images/elegoo-centauri-carbon.webp" alt="Elegoo Centauri Carbon" loading="lazy" class="prod-img">
 <h3>Elegoo Centauri Carbon</h3>
 <p class="price">$299-$349</p>
 <p style="font-size:.95rem;color:#a3a3a3">The 2026 budget disruptor: enclosed CoreXY, 500mm/s, 320°C nozzle that handles carbon-fiber filaments — at half the price of a P1S. No multicolor on v1, smaller community, but unbeatable value for functional prints.</p>
@@ -97,13 +101,13 @@ footer a{color:#1a7f37}
 <p class="note">Highlighted rows show where they differ. Dimmed rows are effectively the same.</p>
 <table class="vs-table">
 <tr><th class="spec-name">Spec</th><th class="winner-col">Bambu Lab P1S Combo</th><th>Elegoo Centauri Carbon</th></tr>
-<tr class="same"><td class="spec-name">AMS</td><td>Combo includes AMS for up to 16-color printing</td><td>—</td></tr>
-<tr class="same"><td class="spec-name">Build Volume</td><td>256 x 256 x 256 mm</td><td>256 x 256 x 256 mm</td></tr>
-<tr class="diff"><td class="spec-name">Enclosure<span class="diff-badge">DIFFERS</span></td><td>Fully enclosed — ABS/ASA ready</td><td>Fully enclosed, die-cast aluminum frame</td></tr>
-<tr class="same"><td class="spec-name">Speed</td><td>500mm/s, 20000 mm/s² acceleration</td><td>500mm/s, 20000 mm/s² acceleration</td></tr>
-<tr class="same"><td class="spec-name">Nozzle Temp</td><td>—</td><td>320°C, brass-hardened steel</td></tr>
-<tr class="same"><td class="spec-name">Bed Leveling</td><td>—</td><td>121-point automatic</td></tr>
-<tr class="same"><td class="spec-name">Multi-color</td><td>—</td><td>No (v1); CC2 Combo adds 4-color at $449</td></tr>
+<tr class="same"><td class="spec-name">AMS<div class="gloss">💡 Bambu&#x27;s auto filament changer — prints multi-color without you swapping spools</div></td><td>Combo includes AMS for up to 16-color printing</td><td>—</td></tr>
+<tr class="same"><td class="spec-name">Build Volume<div class="gloss">💡 max object size you can print — bigger = larger parts in one go</div></td><td>256 x 256 x 256 mm</td><td>256 x 256 x 256 mm</td></tr>
+<tr class="diff"><td class="spec-name">Enclosure<span class="diff-badge">DIFFERS</span><div class="gloss">💡 closed box around printer — keeps heat in for warp-free ABS/ASA</div></td><td>Fully enclosed — ABS/ASA ready</td><td>Fully enclosed, die-cast aluminum frame</td></tr>
+<tr class="same"><td class="spec-name">Speed<div class="gloss">💡 how fast filament gets laid down — 500mm/s is very fast</div></td><td>500mm/s, 20000 mm/s² acceleration</td><td>500mm/s, 20000 mm/s² acceleration</td></tr>
+<tr class="same"><td class="spec-name">Nozzle Temp<div class="gloss">💡 max heat of the extruder — 300°C+ unlocks engineering plastics</div></td><td>—</td><td>320°C, brass-hardened steel</td></tr>
+<tr class="same"><td class="spec-name">Bed Leveling<div class="gloss">💡 auto-calibrates the print surface — no manual knob-twisting</div></td><td>—</td><td>121-point automatic</td></tr>
+<tr class="same"><td class="spec-name">Multi-color<div class="gloss">💡 print in several colors in one job — needs AMS or similar system</div></td><td>—</td><td>No (v1); CC2 Combo adds 4-color at $449</td></tr>
 <tr class="same"><td class="spec-name">Firmware</td><td>—</td><td>Klipper-based (Elegoo fork)</td></tr>
 <tr class="same"><td class="spec-name">Slicer</td><td>—</td><td>Elegoo Slicer / OrcaSlicer / Cura</td></tr>
 

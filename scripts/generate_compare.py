@@ -103,6 +103,22 @@ def render(cmp):
     slug = cmp["slug"]
     winner = cmp["winner"]
 
+    # Product images (local files in images/)
+    IMG_MAP = {
+        "Dreame X60 Max Ultra Complete": "dreame-x60-ultra.jpg",
+        "Roborock Saros 10R": "roborock-saros-10r.jpg",
+        "Valerion VisionMaster Pro 2": "valerion-visionmaster-pro-2.jpg",
+        "Epson Home Cinema 5050UB": "epson-5050ub.webp",
+        "Bambu Lab P1S Combo": "bambu-lab-p1s-combo.jpg",
+        "Bambu Lab X1 Carbon Combo": "bambu-lab-x1-carbon-combo.jpg",
+        "Elegoo Centauri Carbon": "elegoo-centauri-carbon.webp",
+    }
+    def prod_img(prod):
+        f = IMG_MAP.get(prod["name"])
+        if f and (BASE / "images" / f).exists():
+            return f'<img src="../images/{f}" alt="{esc(prod["name"])}" loading="lazy" class="prod-img">'
+        return ""
+
     # Buy buttons: only for verified ASINs
     def buy_btn(prod):
         link = get_verified_link(guide, prod["name"])
@@ -160,6 +176,8 @@ def render(cmp):
     out = out.replace("{{summary_b}}", esc(pb.get("summary", "")))
     out = out.replace("{{winner_tag_a}}", winner_tag("a"))
     out = out.replace("{{winner_tag_b}}", winner_tag("b"))
+    out = out.replace("{{img_a}}", prod_img(pa))
+    out = out.replace("{{img_b}}", prod_img(pb))
     out = out.replace("{{buy_btn_a}}", buy_btn(pa))
     out = out.replace("{{buy_btn_b}}", buy_btn(pb))
     out = out.replace("{{spec_rows}}", build_spec_rows(pa, pb))
