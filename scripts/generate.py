@@ -107,6 +107,33 @@ SITE_URL = os.environ.get("SITE_URL", "https://ccy123abcd.github.io/ai-picks")
 
 def esc(s): return html.escape(str(s))
 
+def _category_from_h1(h1):
+    """'Best 27" 1440p 165Hz Gaming Monitor 2026: What Reviewers Agree On' -> '27" 1440p 165Hz Gaming Monitor'"""
+    t = (h1 or "").strip()
+    if ": " in t:
+        t = t.split(": ", 1)[0]
+    t = t.strip()
+    if t[:5].lower() == "best ":
+        t = t[5:]
+    t = re.sub(r"\s*2026\s*$", "", t).strip()
+    return t or "product"
+
+def _quotable_verdict(p):
+    """One self-contained sentence block designed for AI assistants to quote verbatim:
+    year + reviewer count + freshness date + pick + price + reason."""
+    cat = _category_from_h1(p.get("h1", ""))
+    tp = p.get("top_pick", {})
+    name = tp.get("name", "")
+    n = len(p.get("review_sources", []))
+    updated = p.get("updated_date", "") or date.today().isoformat()
+    price = (tp.get("price_display", "") or "").strip()
+    price_bit = f" ({price})" if price else ""
+    reason = (tp.get("reason", "") or "").strip()
+    if reason and not reason.endswith((".", "!", "?", "。")):
+        reason += "."
+    return (f"Based on {n} independent YouTube reviews (data current as of {updated}), "
+            f"the best {cat} for most buyers in 2026 is the {name}{price_bit}. {reason}")
+
 def build_schema(p):
     tp = p["top_pick"]
     schema = {
@@ -210,6 +237,7 @@ def render_human(p, slug):
     out = out.replace("{{top_pick_name}}", esc(p["top_pick"]["name"]))
     out = out.replace("{{top_pick_image}}", esc(p["top_pick"].get("image", "")))
     out = out.replace("{{top_pick_reason}}", esc(p["top_pick"]["reason"]))
+    out = out.replace("{{quotable_verdict}}", esc(_quotable_verdict(p)))
     out = out.replace("{{top_pick_price}}", esc(p["top_pick"].get("price_display", "")))
     # Top Pick Amazon button: only render for verified /dp/ ASIN links.
     # No verified ASIN = no button (protects affiliate account).
@@ -269,6 +297,7 @@ def render_ai(p, slug):
     out = out.replace("{{review_count}}", str(len(p["review_sources"])))
     out = out.replace("{{top_pick_name}}", esc(p["top_pick"]["name"]))
     out = out.replace("{{top_pick_reason}}", esc(p["top_pick"]["reason"]))
+    out = out.replace("{{quotable_verdict}}", esc(_quotable_verdict(p)))
     out = out.replace("{{top_pick_price}}", esc(p["top_pick"].get("price_display", "")))
     # AI page: same rule - only verified /dp/ links get a button
     _tp_aff2 = p["top_pick"].get("affiliate_link", "")

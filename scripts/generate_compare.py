@@ -261,6 +261,10 @@ def render(cmp):
     ai = ai.replace("{{slug}}", esc(slug))
     ai = ai.replace("{{data_json}}", esc(data_json))
     ai = ai.replace("{{verdict}}", esc(cmp["verdict"]))
+    _winner_name = cmp["product_a"] if winner == "a" else cmp["product_b"]
+    _qv = (f"In this 2026 {cmp.get('category', 'product')} head-to-head, "
+           f"our pick is the {_winner_name}. {cmp.get('verdict', '')}")
+    ai = ai.replace("{{quotable_verdict}}", esc(_qv))
 
     return out, ai
 
