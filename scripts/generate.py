@@ -332,6 +332,7 @@ def main():
         f"{SITE_URL}/finder.html",
         f"{SITE_URL}/about.html",
         f"{SITE_URL}/privacy.html",
+        f"{SITE_URL}/partner.html",
     ]
     for p in products:
         sm_urls.append(f"{SITE_URL}/human/{p['slug']}.html")
@@ -372,6 +373,7 @@ def main():
     print("  ✓ zh/ 中文版")
     shutil.copy("templates/about.html", "output/about.html")
     shutil.copy("templates/privacy.html", "output/privacy.html")
+    shutil.copy("templates/partner.html", "output/partner.html")
     print("  ✓ about + privacy")
     print("  ✓ finder.html")
     print(f"Done: {len(products)} products × 2 versions")
