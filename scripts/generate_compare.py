@@ -52,7 +52,19 @@ def get_verified_link(guide_data, name):
     return None
 
 def build_spec_rows(pa, pb):
-    """Side-by-side specs. Rows where values are effectively identical get dimmed."""
+    """Side-by-side specs. Rows where values are effectively identical get dimmed.
+    Spec names matching the glossary get a one-line plain-English gloss underneath."""
+    glossary = {}
+    _gpath = BASE / "data" / "compare_glossary.json"
+    if _gpath.exists():
+        glossary = json.loads(_gpath.read_text())
+    def gloss_for(spec_name):
+        # match glossary key against spec name (case-insensitive substring)
+        low = spec_name.lower()
+        for term, expl in glossary.items():
+            if term.lower() in low or low in term.lower():
+                return expl
+        return None
     keys = []
     for k in pa.get("specs", {}):
         if k not in keys: keys.append(k)
@@ -65,7 +77,9 @@ def build_spec_rows(pa, pb):
         same = va.strip().lower() == vb.strip().lower() or "—" in (va, vb)
         cls = "same" if same else "diff"
         badge = "" if same else '<span class="diff-badge">DIFFERS</span>'
-        rows += f'<tr class="{cls}"><td class="spec-name">{esc(k)}{badge}</td><td>{esc(va)}</td><td>{esc(vb)}</td></tr>\n'
+        gloss = gloss_for(k)
+        gloss_html = f'<div class="gloss">💡 {esc(gloss)}</div>' if gloss else ""
+        rows += f'<tr class="{cls}"><td class="spec-name">{esc(k)}{badge}{gloss_html}</td><td>{esc(va)}</td><td>{esc(vb)}</td></tr>\n'
     return rows
 
 def build_schema(cmp, pa, pb, guide):
