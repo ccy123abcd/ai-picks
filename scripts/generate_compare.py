@@ -136,7 +136,27 @@ def render(cmp):
             return '<span class="tag">🏆 OUR PICK</span>'
         return ""
 
-    # Video reviews: pull from source guide, prefer sources mentioning either product
+    # Pros/cons per product (guide-style green ✅ / red ❌), derived from dimension winners
+    def pros_cons_html():
+        dims = [d for d in cmp.get("dimensions", []) if d.get("winner") in ("a", "b")]
+        if not dims:
+            return ""
+        html = '<h2>💬 Strengths & Weaknesses</h2>\n'
+        for prod, side in ((pa, "a"), (pb, "b")):
+            pros = [d for d in dims if d.get("winner") == side]
+            cons = [d for d in dims if d.get("winner") not in (side, None)]
+            html += f'<h3 class="pc-head">{esc(prod["name"])}</h3>\n'
+            if pros:
+                html += '<h4 class="pros-h">Strengths</h4>\n<ul class="pros">\n'
+                for d in pros:
+                    html += f'<li><strong>{esc(d["name"])}</strong> — {esc(d.get("why", d.get(side, "")))}</li>\n'
+                html += '</ul>\n'
+            if cons:
+                html += '<h4 class="cons-h">Weaknesses</h4>\n<ul class="cons">\n'
+                for d in cons:
+                    html += f'<li><strong>{esc(d["name"])}</strong> — {esc(d.get("why", ""))}</li>\n'
+                html += '</ul>\n'
+        return html
     def video_html():
         sources = guide.get("review_sources", []) or []
         def mentions(s, name):
@@ -209,6 +229,7 @@ def render(cmp):
     out = out.replace("{{spec_rows}}", build_spec_rows(pa, pb))
     out = out.replace("{{diff_list}}",
                       "".join(f"<li>{esc(x)}</li>\n" for x in cmp["key_differences"]))
+    out = out.replace("{{pros_cons}}", pros_cons_html())
     out = out.replace("{{dimensions}}", dims_html)
     out = out.replace("{{videos}}", video_html())
     out = out.replace("{{verdict}}", esc(cmp["verdict"]))
