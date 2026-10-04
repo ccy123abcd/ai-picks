@@ -7,3 +7,5 @@ best-coding-monitor-2026 | Dell U2723QE | B09TQZP9CL | candidate
 best-budget-4k-productivity-monitor-2026 | LG 27UN650 | NOTFOUND | searching
 best-busy-light-status-indicator-2026 | Luxafor Bluetooth Busy Light | NOTFOUND-COM | searching
 best-desk-lamp-eye-care-2026 | BenQ ScreenBar Halo | B076VNFZJG | candidate-verify-model
+best-noise-cancelling-headphones-2026 | Sony WH-1000XM5 | B09XSDMT4F | candidate
+best-portable-ssd-2026 | Samsung T9 1TB | B0CHFSWM2P | candidate

@@ -63,13 +63,12 @@ def build_schema(p):
         "description": p["meta_description"],
         "brand": {"@type": "Brand", "name": tp.get("brand", "")},
     }
-    # Only claim price/availability for manually verified purchase links.
+    # Only claim availability for manually verified purchase links.
+    # No hardcoded price: prices vary by region/currency and change daily.
     # Unverified products get no offers block (honest structured data for AI readers).
     if _verified_amz_link(tp.get("affiliate_link", "")):
         schema["offers"] = {
             "@type": "Offer",
-            "priceCurrency": "USD",
-            "price": tp.get("price_value", ""),
             "availability": "https://schema.org/InStock",
         }
     if p.get("aggregate_rating"):
