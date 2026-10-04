@@ -1,129 +1,129 @@
 {
- "aggregate_rating": {
-  "count": "4",
-  "value": "4.4"
- },
- "common_cons": [
-  "Budget chairs cut costs on armrests: basic 2D adjustment is the norm at this price (3/4 mention)",
-  "Corsair TC100 Relaxed: fiddly assembly and some cheap-feeling parts (2/4 mention)",
-  "ThunderX3 Solo 360: no on-the-fly arm width adjustment; nylon casters (1/4 mention)"
- ],
- "common_pros": [
-  "Corsair TC100 Relaxed: wide comfortable seat that beats pricier rivals on comfort per dollar (2/4 mention)",
-  "ThunderX3 Solo 360: 360-degree armrests and synchronous tilt are rare under $250 (1/4 mention)",
-  "Razer Enki X: big-brand build quality without the flagship price (1/4 mention)",
-  "DXRacer Craft: 4D armrests and memory foam headrest at a value price (1/4 mention)"
- ],
- "h1": "Best Budget Gaming Chair 2026: What 4 Reviewers Agree On",
- "meta_description": "We analyzed 4 hands-on reviews to find the best budget gaming chair in 2026. Top pick, comparison table, pros/cons, and review sources.",
- "page_title": "Best Budget Gaming Chair 2026 - 4 Reviews Aggregated",
- "products": [
-  {
-   "best_for": "Best budget overall",
-   "name": "Corsair TC100 Relaxed",
-   "price_range": "$199-$250",
-   "recommended_by": "2/4 reviewers",
-   "specs": {
-    "Armrests": "2D adjustable",
-    "Lumbar Support": "Included lumbar pillow",
-    "Material": "Fabric or PU leather",
-    "Max Weight": "264 lbs",
-    "Recline": "90-160 degrees"
-   },
-   "summary": "PC Gamer's pick for the best affordable gaming chair and TechRadar's 'brilliantly budget' choice; the wide seat and breathable fabric beat pricier rivals on comfort per dollar.",
-   "platforms": [
-    "amazon",
-    "walmart"
-   ]
+  "aggregate_rating": {
+    "count": "4",
+    "value": "4.4"
   },
-  {
-   "best_for": "Best budget ergonomics",
-   "name": "ThunderX3 Solo 360",
-   "price_range": "$229-$249",
-   "recommended_by": "1/4 reviewers",
-   "specs": {
-    "Armrests": "360-degree rotating",
-    "Lumbar Support": "Ergonomic curved backrest",
-    "Material": "Fabric / mesh / leatherette",
-    "Max Weight": "275 lbs",
-    "Recline": "Synchronous tilt"
-   },
-   "summary": "PC Gamer's best budget gaming chair pick: 360-degree rotating armrests and synchronous tilt for $249, a rare feature set at this price.",
-   "platforms": [
-    "amazon",
-    "walmart"
-   ]
+  "common_cons": [
+    "Budget chairs cut costs on armrests: basic 2D adjustment is the norm at this price (3/4 mention)",
+    "Corsair TC100 Relaxed: fiddly assembly and some cheap-feeling parts (2/4 mention)",
+    "ThunderX3 Solo 360: no on-the-fly arm width adjustment; nylon casters (1/4 mention)"
+  ],
+  "common_pros": [
+    "Corsair TC100 Relaxed: wide comfortable seat that beats pricier rivals on comfort per dollar (2/4 mention)",
+    "ThunderX3 Solo 360: 360-degree armrests and synchronous tilt are rare under $250 (1/4 mention)",
+    "Razer Enki X: big-brand build quality without the flagship price (1/4 mention)",
+    "DXRacer Craft: 4D armrests and memory foam headrest at a value price (1/4 mention)"
+  ],
+  "h1": "Best Budget Gaming Chair 2026: What 4 Reviewers Agree On",
+  "meta_description": "We analyzed 4 hands-on reviews to find the best budget gaming chair in 2026. Top pick, comparison table, pros/cons, and review sources.",
+  "page_title": "Best Budget Gaming Chair 2026 - 4 Reviews Aggregated",
+  "products": [
+    {
+      "best_for": "Best budget overall",
+      "name": "Corsair TC100 Relaxed",
+      "price_range": "$199-$250",
+      "recommended_by": "2/4 reviewers",
+      "specs": {
+        "Armrests": "2D adjustable",
+        "Lumbar Support": "Included lumbar pillow",
+        "Material": "Fabric or PU leather",
+        "Max Weight": "264 lbs",
+        "Recline": "90-160 degrees"
+      },
+      "summary": "PC Gamer's pick for the best affordable gaming chair and TechRadar's 'brilliantly budget' choice; the wide seat and breathable fabric beat pricier rivals on comfort per dollar.",
+      "platforms": [
+        "amazon",
+        "walmart"
+      ]
+    },
+    {
+      "best_for": "Best budget ergonomics",
+      "name": "ThunderX3 Solo 360",
+      "price_range": "$229-$249",
+      "recommended_by": "1/4 reviewers",
+      "specs": {
+        "Armrests": "360-degree rotating",
+        "Lumbar Support": "Ergonomic curved backrest",
+        "Material": "Fabric / mesh / leatherette",
+        "Max Weight": "275 lbs",
+        "Recline": "Synchronous tilt"
+      },
+      "summary": "PC Gamer's best budget gaming chair pick: 360-degree rotating armrests and synchronous tilt for $249, a rare feature set at this price.",
+      "platforms": [
+        "amazon",
+        "walmart"
+      ]
+    },
+    {
+      "best_for": "Best value brand pick",
+      "name": "Razer Enki X",
+      "price_range": "$250-$300",
+      "recommended_by": "1/4 reviewers",
+      "specs": {
+        "Armrests": "2D adjustable",
+        "Lumbar Support": "Built-in lumbar arch",
+        "Material": "EPU leather",
+        "Recline": "152 degrees"
+      },
+      "summary": "Windows Central's best-value pick: the most affordable Razer chair keeps the comfort-focused design while cutting premium extras.",
+      "platforms": [
+        "amazon",
+        "walmart"
+      ]
+    },
+    {
+      "best_for": "Best value upgrade",
+      "name": "DXRacer Craft",
+      "price_range": "$449",
+      "recommended_by": "1/4 reviewers",
+      "specs": {
+        "Armrests": "4D adjustable",
+        "Headrest": "Memory foam headrest",
+        "Lumbar Support": "Adjustable lumbar support",
+        "Material": "EPU leatherette or woven fabric"
+      },
+      "summary": "Tom's Guide's best-value gaming chair: memory foam headrest, 4D armrests, and adjustable lumbar support for only slightly more than budget rivals.",
+      "platforms": [
+        "amazon",
+        "walmart"
+      ]
+    }
+  ],
+  "review_sources": [
+    {
+      "channel": "PC Gamer",
+      "title": "Best gaming chair in 2026: I've tested loads of gaming chairs and these are my top picks",
+      "url": "https://www.pcgamer.com/best-gaming-chairs/?_flexi_variantId=control"
+    },
+    {
+      "channel": "TechRadar",
+      "title": "Corsair TC100 Relaxed review - brilliantly budget",
+      "url": "https://www.techradar.com/reviews/corsair-tc-100-relaxed-review"
+    },
+    {
+      "channel": "Windows Central",
+      "title": "The best gaming chairs in 2025",
+      "url": "https://www.windowscentral.com/best-gaming-chairs"
+    },
+    {
+      "channel": "Tom's Guide",
+      "title": "Best gaming chairs of 2026",
+      "url": "https://www.tomsguide.com/best-picks/best-gaming-chairs"
+    }
+  ],
+  "slug": "best-budget-gaming-chair-2026",
+  "top_pick": {
+    "affiliate_link": "https://www.amazon.com/dp/B0BN6RRD5V?tag=aipicks2003-20",
+    "brand": "Corsair",
+    "image": "../images/corsair-tc100-relaxed.jpg",
+    "name": "Corsair TC100 Relaxed",
+    "price_display": "Around $200",
+    "price_value": "199.99",
+    "reason": "Named the best budget pick by 2 out of 4 reviewers: a wide, relaxed seat, breathable fabric, and 90-160 degree recline for around $200.",
+    "platforms": [
+      "amazon",
+      "walmart"
+    ]
   },
-  {
-   "best_for": "Best value brand pick",
-   "name": "Razer Enki X",
-   "price_range": "$250-$300",
-   "recommended_by": "1/4 reviewers",
-   "specs": {
-    "Armrests": "2D adjustable",
-    "Lumbar Support": "Built-in lumbar arch",
-    "Material": "EPU leather",
-    "Recline": "152 degrees"
-   },
-   "summary": "Windows Central's best-value pick: the most affordable Razer chair keeps the comfort-focused design while cutting premium extras.",
-   "platforms": [
-    "amazon",
-    "walmart"
-   ]
-  },
-  {
-   "best_for": "Best value upgrade",
-   "name": "DXRacer Craft",
-   "price_range": "$449",
-   "recommended_by": "1/4 reviewers",
-   "specs": {
-    "Armrests": "4D adjustable",
-    "Headrest": "Memory foam headrest",
-    "Lumbar Support": "Adjustable lumbar support",
-    "Material": "EPU leatherette or woven fabric"
-   },
-   "summary": "Tom's Guide's best-value gaming chair: memory foam headrest, 4D armrests, and adjustable lumbar support for only slightly more than budget rivals.",
-   "platforms": [
-    "amazon",
-    "walmart"
-   ]
-  }
- ],
- "review_sources": [
-  {
-   "channel": "PC Gamer",
-   "title": "Best gaming chair in 2026: I've tested loads of gaming chairs and these are my top picks",
-   "url": "https://www.pcgamer.com/best-gaming-chairs/?_flexi_variantId=control"
-  },
-  {
-   "channel": "TechRadar",
-   "title": "Corsair TC100 Relaxed review - brilliantly budget",
-   "url": "https://www.techradar.com/reviews/corsair-tc-100-relaxed-review"
-  },
-  {
-   "channel": "Windows Central",
-   "title": "The best gaming chairs in 2025",
-   "url": "https://www.windowscentral.com/best-gaming-chairs"
-  },
-  {
-   "channel": "Tom's Guide",
-   "title": "Best gaming chairs of 2026",
-   "url": "https://www.tomsguide.com/best-picks/best-gaming-chairs"
-  }
- ],
- "slug": "best-budget-gaming-chair-2026",
- "top_pick": {
-  "affiliate_link": "https://www.amazon.com/dp/B000000000?tag=aipicks2003-20",
-  "brand": "Corsair",
-  "image": "../images/corsair-tc100-relaxed.jpg",
-  "name": "Corsair TC100 Relaxed",
-  "price_display": "Around $200",
-  "price_value": "199.99",
-  "reason": "Named the best budget pick by 2 out of 4 reviewers: a wide, relaxed seat, breathable fabric, and 90-160 degree recline for around $200.",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ]
- },
- "updated_date": "2026-10-03"
+  "updated_date": "2026-10-03"
 }

@@ -1,130 +1,130 @@
 {
- "aggregate_rating": {
-  "count": "4",
-  "value": "4.5"
- },
- "common_cons": [
-  "Gaming earbuds still cannot match a boom mic for team-chat clarity (2/4 mention)",
-  "Sony INZONE Buds: the charging case is mandatory for long days \u2014 only ~12 hours per charge on the buds (1/4 mention)",
-  "Wired IEMs like the Truthear Zero need a separate mic and give up 2.4GHz wireless (1/4 mention)"
- ],
- "common_pros": [
-  "SteelSeries Arctis GameBuds: RTINGS's and TechRadar's top gaming earbuds \u2014 USB-C 2.4GHz dongle, ANC, 40-hour total battery (2/4 mention)",
-  "Sony INZONE Buds: ~12 hours per charge \u2014 the longest of any gaming buds \u2014 with 360 spatial sound (2/4 mention)",
-  "EarFun Air Pro 4+: PC Gamer's 2026 gaming-earbuds pick at a mid-range price (1/4 mention)",
-  "Truthear x Crinacle Zero: BadSeed Tech's budget IEM pick for gaming and music \u2014 Crinacle-tuned for ~$50 (1/4 mention)"
- ],
- "h1": "Best Gaming Earbuds 2026: What 4 Reviewers Agree On",
- "meta_description": "We analyzed 4 in-depth reviews to find the best gaming earbuds in 2026. Top pick, comparison table, pros/cons, and real reviewer sources.",
- "page_title": "Best Gaming Earbuds 2026 - 4 Reviews Aggregated",
- "products": [
-  {
-   "best_for": "Best gaming earbuds overall",
-   "name": "SteelSeries Arctis GameBuds",
-   "price_range": "$159-199",
-   "recommended_by": "2/4 reviewers",
-   "specs": {
-    "Battery life": "Up to 40 hours total (10h buds + 30h case, Qi charging)",
-    "Drivers": "6mm neodymium",
-    "Noise control": "Active noise cancellation",
-    "Wireless": "2.4GHz USB-C dongle + Bluetooth 5.3 Quick-Switch"
-   },
-   "summary": "The consensus winner: RTINGS's best-tested gaming earbuds and TechRadar's #1 pick. A tiny USB-C dongle gives near-zero-latency audio on PS5, Xbox, Switch and PC, with ANC, 100+ game presets and a Qi-charging case.",
-   "platforms": [
-    "amazon",
-    "walmart"
-   ]
+  "aggregate_rating": {
+    "count": "4",
+    "value": "4.5"
   },
-  {
-   "best_for": "Battery-life champ",
-   "name": "Sony INZONE Buds",
-   "price_range": "$149-199",
-   "recommended_by": "2/4 reviewers",
-   "specs": {
-    "Battery life": "~12h buds + 12h case (24h total)",
-    "Microphone": "AI noise-reduction mic",
-    "Spatial audio": "Personalized 360 spatial sound",
-    "Wireless": "2.4GHz USB-C dongle + Bluetooth LE"
-   },
-   "summary": "The pick if you hate charging breaks: the longest per-charge battery of any gaming buds here, with personalized 360 spatial sound tuned to your ears. Reviewed by RTINGS and ranked by TechRadar.",
-   "platforms": [
-    "amazon",
-    "walmart",
-    "temu"
-   ]
+  "common_cons": [
+    "Gaming earbuds still cannot match a boom mic for team-chat clarity (2/4 mention)",
+    "Sony INZONE Buds: the charging case is mandatory for long days — only ~12 hours per charge on the buds (1/4 mention)",
+    "Wired IEMs like the Truthear Zero need a separate mic and give up 2.4GHz wireless (1/4 mention)"
+  ],
+  "common_pros": [
+    "SteelSeries Arctis GameBuds: RTINGS's and TechRadar's top gaming earbuds — USB-C 2.4GHz dongle, ANC, 40-hour total battery (2/4 mention)",
+    "Sony INZONE Buds: ~12 hours per charge — the longest of any gaming buds — with 360 spatial sound (2/4 mention)",
+    "EarFun Air Pro 4+: PC Gamer's 2026 gaming-earbuds pick at a mid-range price (1/4 mention)",
+    "Truthear x Crinacle Zero: BadSeed Tech's budget IEM pick for gaming and music — Crinacle-tuned for ~$50 (1/4 mention)"
+  ],
+  "h1": "Best Gaming Earbuds 2026: What 4 Reviewers Agree On",
+  "meta_description": "We analyzed 4 in-depth reviews to find the best gaming earbuds in 2026. Top pick, comparison table, pros/cons, and real reviewer sources.",
+  "page_title": "Best Gaming Earbuds 2026 - 4 Reviews Aggregated",
+  "products": [
+    {
+      "best_for": "Best gaming earbuds overall",
+      "name": "SteelSeries Arctis GameBuds",
+      "price_range": "$159-199",
+      "recommended_by": "2/4 reviewers",
+      "specs": {
+        "Battery life": "Up to 40 hours total (10h buds + 30h case, Qi charging)",
+        "Drivers": "6mm neodymium",
+        "Noise control": "Active noise cancellation",
+        "Wireless": "2.4GHz USB-C dongle + Bluetooth 5.3 Quick-Switch"
+      },
+      "summary": "The consensus winner: RTINGS's best-tested gaming earbuds and TechRadar's #1 pick. A tiny USB-C dongle gives near-zero-latency audio on PS5, Xbox, Switch and PC, with ANC, 100+ game presets and a Qi-charging case.",
+      "platforms": [
+        "amazon",
+        "walmart"
+      ]
+    },
+    {
+      "best_for": "Battery-life champ",
+      "name": "Sony INZONE Buds",
+      "price_range": "$149-199",
+      "recommended_by": "2/4 reviewers",
+      "specs": {
+        "Battery life": "~12h buds + 12h case (24h total)",
+        "Microphone": "AI noise-reduction mic",
+        "Spatial audio": "Personalized 360 spatial sound",
+        "Wireless": "2.4GHz USB-C dongle + Bluetooth LE"
+      },
+      "summary": "The pick if you hate charging breaks: the longest per-charge battery of any gaming buds here, with personalized 360 spatial sound tuned to your ears. Reviewed by RTINGS and ranked by TechRadar.",
+      "platforms": [
+        "amazon",
+        "walmart",
+        "temu"
+      ]
+    },
+    {
+      "best_for": "Best mid-range value",
+      "name": "EarFun Air Pro 4+",
+      "price_range": "$80-120",
+      "recommended_by": "1/4 reviewers",
+      "specs": {
+        "Battery life": "Long total battery with charging case",
+        "Gaming": "Low-latency game mode",
+        "Noise control": "Hybrid active noise cancellation",
+        "Wireless": "Bluetooth with multipoint"
+      },
+      "summary": "PC Gamer's gaming-earbuds pick for 2026: hybrid ANC, a low-latency game mode and strong all-round sound at a mid-range price — the value alternative to the $160+ flagships.",
+      "platforms": [
+        "amazon",
+        "walmart",
+        "temu"
+      ]
+    },
+    {
+      "best_for": "Best wired IEM for gaming",
+      "name": "Truthear x Crinacle Zero",
+      "price_range": "$40-60",
+      "recommended_by": "1/4 reviewers",
+      "specs": {
+        "Cable": "Detachable wired 2-pin",
+        "Drivers": "10mm dynamic, Crinacle-tuned",
+        "Fit": "In-ear monitor with multiple tips",
+        "Use case": "Casual and competitive gaming + music"
+      },
+      "summary": "BadSeed Tech's budget IEM pick for gaming and music: Crinacle's tuning gives you far better sound than any gaming headset at this price. Wired and mic-less, so pair it with a separate mic for team chat.",
+      "platforms": [
+        "amazon",
+        "walmart",
+        "temu"
+      ]
+    }
+  ],
+  "review_sources": [
+    {
+      "channel": "RTINGS.com",
+      "title": "The 5 Best Earbuds For Gaming of 2026",
+      "url": "https://rtings.com/headphones/reviews/best/earbuds-gaming"
+    },
+    {
+      "channel": "TechRadar",
+      "title": "The best gaming earbuds in 2026",
+      "url": "https://www.techradar.com/news/best-gaming-earbuds"
+    },
+    {
+      "channel": "PC Gamer",
+      "title": "Best gaming headsets in 2026: I'd bet my ears on these headphones",
+      "url": "https://www.pcgamer.com/best-gaming-headset/?fwa"
+    },
+    {
+      "channel": "BadSeed Tech",
+      "title": "Don't Pay More Than THIS For IEMs | Beginner's Guide For Gaming and Music",
+      "url": "https://creators.spotify.com/pod/profile/badseedtech/episodes/Dont-Pay-More-Than-THIS-For-IEMs--Beginners-Guide-For-Gaming-and-Music-e1pqiv9"
+    }
+  ],
+  "slug": "best-gaming-earbuds-2026",
+  "top_pick": {
+    "affiliate_link": "https://www.amazon.com/dp/B0DFX42Q1Y?tag=aipicks2003-20",
+    "brand": "SteelSeries",
+    "image": "../images/steelseries-arctis-gamebuds.jpg",
+    "name": "SteelSeries Arctis GameBuds",
+    "price_display": "$159-199",
+    "price_value": "159.99",
+    "reason": "RTINGS's best-tested gaming earbuds and TechRadar's #1 pick — USB-C 2.4GHz low-latency wireless, ANC, 40-hour total battery and a Qi-charging case.",
+    "platforms": [
+      "amazon",
+      "walmart"
+    ]
   },
-  {
-   "best_for": "Best mid-range value",
-   "name": "EarFun Air Pro 4+",
-   "price_range": "$80-120",
-   "recommended_by": "1/4 reviewers",
-   "specs": {
-    "Battery life": "Long total battery with charging case",
-    "Gaming": "Low-latency game mode",
-    "Noise control": "Hybrid active noise cancellation",
-    "Wireless": "Bluetooth with multipoint"
-   },
-   "summary": "PC Gamer's gaming-earbuds pick for 2026: hybrid ANC, a low-latency game mode and strong all-round sound at a mid-range price \u2014 the value alternative to the $160+ flagships.",
-   "platforms": [
-    "amazon",
-    "walmart",
-    "temu"
-   ]
-  },
-  {
-   "best_for": "Best wired IEM for gaming",
-   "name": "Truthear x Crinacle Zero",
-   "price_range": "$40-60",
-   "recommended_by": "1/4 reviewers",
-   "specs": {
-    "Cable": "Detachable wired 2-pin",
-    "Drivers": "10mm dynamic, Crinacle-tuned",
-    "Fit": "In-ear monitor with multiple tips",
-    "Use case": "Casual and competitive gaming + music"
-   },
-   "summary": "BadSeed Tech's budget IEM pick for gaming and music: Crinacle's tuning gives you far better sound than any gaming headset at this price. Wired and mic-less, so pair it with a separate mic for team chat.",
-   "platforms": [
-    "amazon",
-    "walmart",
-    "temu"
-   ]
-  }
- ],
- "review_sources": [
-  {
-   "channel": "RTINGS.com",
-   "title": "The 5 Best Earbuds For Gaming of 2026",
-   "url": "https://rtings.com/headphones/reviews/best/earbuds-gaming"
-  },
-  {
-   "channel": "TechRadar",
-   "title": "The best gaming earbuds in 2026",
-   "url": "https://www.techradar.com/news/best-gaming-earbuds"
-  },
-  {
-   "channel": "PC Gamer",
-   "title": "Best gaming headsets in 2026: I'd bet my ears on these headphones",
-   "url": "https://www.pcgamer.com/best-gaming-headset/?fwa"
-  },
-  {
-   "channel": "BadSeed Tech",
-   "title": "Don't Pay More Than THIS For IEMs | Beginner's Guide For Gaming and Music",
-   "url": "https://creators.spotify.com/pod/profile/badseedtech/episodes/Dont-Pay-More-Than-THIS-For-IEMs--Beginners-Guide-For-Gaming-and-Music-e1pqiv9"
-  }
- ],
- "slug": "best-gaming-earbuds-2026",
- "top_pick": {
-  "affiliate_link": "https://www.amazon.com/dp/B000000000?tag=aipicks2003-20",
-  "brand": "SteelSeries",
-  "image": "../images/steelseries-arctis-gamebuds.jpg",
-  "name": "SteelSeries Arctis GameBuds",
-  "price_display": "$159-199",
-  "price_value": "159.99",
-  "reason": "RTINGS's best-tested gaming earbuds and TechRadar's #1 pick \u2014 USB-C 2.4GHz low-latency wireless, ANC, 40-hour total battery and a Qi-charging case.",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ]
- },
- "updated_date": "2026-10-03"
+  "updated_date": "2026-10-03"
 }

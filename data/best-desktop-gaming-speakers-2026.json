@@ -1,129 +1,129 @@
 {
- "aggregate_rating": {
-  "count": "4",
-  "value": "4.5"
- },
- "common_cons": [
-  "Logitech G560: bulky subwoofer; LIGHTSYNC needs G HUB software to shine (1/4 mention)",
-  "Razer Nommo V2 Pro: ~$450 flagship pricing (1/4 mention)",
-  "SteelSeries Arena 7: priced above budget 2.1 rivals (1/4 mention)",
-  "Edifier G2000 2.0: 2.0 setup \u2014 bass can't match systems with a dedicated subwoofer (1/4 mention)"
- ],
- "common_pros": [
-  "Logitech G560: LIGHTSYNC RGB reacts to gameplay + DTS:X surround \u2014 the RGB pick in two 2026 roundups (2/4 mention)",
-  "Razer Nommo V2 Pro: PCGamesN's best gaming speakers \u2014 THX Spatial Audio for precise positional cues (1/4 mention)",
-  "SteelSeries Arena 7: best mid-range 2.1 with Sonar software tuning (1/4 mention)",
-  "Edifier G2000 2.0: budget RGB that 'sounds as good as it looks' (1/4 mention)"
- ],
- "h1": "Best Desktop Gaming Speakers 2026: What 4 Reviewers Agree On",
- "meta_description": "We analyzed 4 reviews to find the best desktop gaming speakers in 2026. Top pick, comparison table, pros/cons, and video sources.",
- "page_title": "Best Desktop Gaming Speakers 2026 - 4 Reviews Aggregated",
- "products": [
-  {
-   "best_for": "Immersive RGB gaming setups",
-   "name": "Logitech G560",
-   "price_range": "$150-200",
-   "recommended_by": "2/4 reviewers",
-   "specs": {
-    "Connection": "USB / 3.5mm / Bluetooth",
-    "Controls": "LIGHTSYNC RGB, DTS:X Ultra, G HUB EQ",
-    "Drivers": "2x satellite + down-firing subwoofer",
-    "Power": "240W peak"
-   },
-   "summary": "The RGB gaming pick in both PCGamesN's and Digital Trends' 2026 roundups: LIGHTSYNC lighting that reacts to gameplay, DTS:X Ultra surround and a 240W peak 2.1 system with a punchy down-firing subwoofer.",
-   "platforms": [
-    "amazon",
-    "walmart"
-   ]
+  "aggregate_rating": {
+    "count": "4",
+    "value": "4.5"
   },
-  {
-   "best_for": "Competitive gaming positional audio",
-   "name": "Razer Nommo V2 Pro",
-   "price_range": "$400-450",
-   "recommended_by": "1/4 reviewers",
-   "specs": {
-    "Connection": "USB / Bluetooth / 3.5mm",
-    "Controls": "THX Spatial Audio, Razer Synapse EQ, Chroma RGB",
-    "Drivers": "2x satellite + wireless subwoofer",
-    "Power": "Not specified"
-   },
-   "summary": "PCGamesN's best gaming speakers for 2026: THX Spatial Audio and a wireless subwoofer tuned for precise in-game directional cues, with Chroma RGB to match the rest of your Razer setup.",
-   "platforms": [
-    "amazon",
-    "walmart"
-   ]
+  "common_cons": [
+    "Logitech G560: bulky subwoofer; LIGHTSYNC needs G HUB software to shine (1/4 mention)",
+    "Razer Nommo V2 Pro: ~$450 flagship pricing (1/4 mention)",
+    "SteelSeries Arena 7: priced above budget 2.1 rivals (1/4 mention)",
+    "Edifier G2000 2.0: 2.0 setup — bass can't match systems with a dedicated subwoofer (1/4 mention)"
+  ],
+  "common_pros": [
+    "Logitech G560: LIGHTSYNC RGB reacts to gameplay + DTS:X surround — the RGB pick in two 2026 roundups (2/4 mention)",
+    "Razer Nommo V2 Pro: PCGamesN's best gaming speakers — THX Spatial Audio for precise positional cues (1/4 mention)",
+    "SteelSeries Arena 7: best mid-range 2.1 with Sonar software tuning (1/4 mention)",
+    "Edifier G2000 2.0: budget RGB that 'sounds as good as it looks' (1/4 mention)"
+  ],
+  "h1": "Best Desktop Gaming Speakers 2026: What 4 Reviewers Agree On",
+  "meta_description": "We analyzed 4 reviews to find the best desktop gaming speakers in 2026. Top pick, comparison table, pros/cons, and video sources.",
+  "page_title": "Best Desktop Gaming Speakers 2026 - 4 Reviews Aggregated",
+  "products": [
+    {
+      "best_for": "Immersive RGB gaming setups",
+      "name": "Logitech G560",
+      "price_range": "$150-200",
+      "recommended_by": "2/4 reviewers",
+      "specs": {
+        "Connection": "USB / 3.5mm / Bluetooth",
+        "Controls": "LIGHTSYNC RGB, DTS:X Ultra, G HUB EQ",
+        "Drivers": "2x satellite + down-firing subwoofer",
+        "Power": "240W peak"
+      },
+      "summary": "The RGB gaming pick in both PCGamesN's and Digital Trends' 2026 roundups: LIGHTSYNC lighting that reacts to gameplay, DTS:X Ultra surround and a 240W peak 2.1 system with a punchy down-firing subwoofer.",
+      "platforms": [
+        "amazon",
+        "walmart"
+      ]
+    },
+    {
+      "best_for": "Competitive gaming positional audio",
+      "name": "Razer Nommo V2 Pro",
+      "price_range": "$400-450",
+      "recommended_by": "1/4 reviewers",
+      "specs": {
+        "Connection": "USB / Bluetooth / 3.5mm",
+        "Controls": "THX Spatial Audio, Razer Synapse EQ, Chroma RGB",
+        "Drivers": "2x satellite + wireless subwoofer",
+        "Power": "Not specified"
+      },
+      "summary": "PCGamesN's best gaming speakers for 2026: THX Spatial Audio and a wireless subwoofer tuned for precise in-game directional cues, with Chroma RGB to match the rest of your Razer setup.",
+      "platforms": [
+        "amazon",
+        "walmart"
+      ]
+    },
+    {
+      "best_for": "Mid-range 2.1 with app control",
+      "name": "SteelSeries Arena 7",
+      "price_range": "$250-300",
+      "recommended_by": "1/4 reviewers",
+      "specs": {
+        "Connection": "USB / optical / 3.5mm / Bluetooth",
+        "Controls": "Sonar software EQ, RGB illumination",
+        "Drivers": "2x satellite + subwoofer",
+        "Power": "Not specified"
+      },
+      "summary": "PCGamesN's best mid-range 2.1 pick: SteelSeries' Sonar software tuning and reactive RGB in a 2.1 package that undercuts the flagship Arena 9, with USB, optical and Bluetooth inputs.",
+      "platforms": [
+        "amazon",
+        "walmart"
+      ]
+    },
+    {
+      "best_for": "Budget RGB desktop audio",
+      "name": "Edifier G2000 2.0",
+      "price_range": "$80-110",
+      "recommended_by": "1/4 reviewers",
+      "specs": {
+        "Connection": "USB / 3.5mm / Bluetooth",
+        "Controls": "RGB lighting, sound modes",
+        "Drivers": "2x full-range",
+        "Power": "Not specified"
+      },
+      "summary": "GamesRadar's best RGB speakers: Edifier's 2.0 setup 'sounds as good as it looks', with three distinct sound modes and lighting that syncs with what you're doing — the value pick for small desks.",
+      "platforms": [
+        "amazon",
+        "walmart",
+        "temu"
+      ]
+    }
+  ],
+  "review_sources": [
+    {
+      "channel": "PCGamesN",
+      "title": "Best computer speakers for gaming 2026",
+      "url": "https://www.pcgamesn.com/best-computer-speakers"
+    },
+    {
+      "channel": "PC Gamer",
+      "title": "Best PC speakers in 2026: From 2.1 systems to bookshelf bangers, these are the best gaming PC speakers",
+      "url": "https://www.pcgamer.com/best-computer-speakers/"
+    },
+    {
+      "channel": "GamesRadar",
+      "title": "Best computer speakers 2026: The clearest sounding picks for your PC",
+      "url": "https://www.gamesradar.com/best-computer-speakers/"
+    },
+    {
+      "channel": "Digital Trends",
+      "title": "The best computer speakers",
+      "url": "https://www.digitaltrends.com/computing/best-computer-speakers/"
+    }
+  ],
+  "slug": "best-desktop-gaming-speakers-2026",
+  "top_pick": {
+    "affiliate_link": "https://www.amazon.com/dp/B07B2WLS17?tag=aipicks2003-20",
+    "brand": "Logitech",
+    "image": "../images/logitech-g560.jpg",
+    "name": "Logitech G560",
+    "price_display": "$150-200",
+    "price_value": "199.99",
+    "reason": "Recommended by 2 of 4 reviewers — the RGB gaming pick in both PCGamesN's and Digital Trends' 2026 roundups, with LIGHTSYNC lighting and DTS:X surround.",
+    "platforms": [
+      "amazon",
+      "walmart"
+    ]
   },
-  {
-   "best_for": "Mid-range 2.1 with app control",
-   "name": "SteelSeries Arena 7",
-   "price_range": "$250-300",
-   "recommended_by": "1/4 reviewers",
-   "specs": {
-    "Connection": "USB / optical / 3.5mm / Bluetooth",
-    "Controls": "Sonar software EQ, RGB illumination",
-    "Drivers": "2x satellite + subwoofer",
-    "Power": "Not specified"
-   },
-   "summary": "PCGamesN's best mid-range 2.1 pick: SteelSeries' Sonar software tuning and reactive RGB in a 2.1 package that undercuts the flagship Arena 9, with USB, optical and Bluetooth inputs.",
-   "platforms": [
-    "amazon",
-    "walmart"
-   ]
-  },
-  {
-   "best_for": "Budget RGB desktop audio",
-   "name": "Edifier G2000 2.0",
-   "price_range": "$80-110",
-   "recommended_by": "1/4 reviewers",
-   "specs": {
-    "Connection": "USB / 3.5mm / Bluetooth",
-    "Controls": "RGB lighting, sound modes",
-    "Drivers": "2x full-range",
-    "Power": "Not specified"
-   },
-   "summary": "GamesRadar's best RGB speakers: Edifier's 2.0 setup 'sounds as good as it looks', with three distinct sound modes and lighting that syncs with what you're doing \u2014 the value pick for small desks.",
-   "platforms": [
-    "amazon",
-    "walmart",
-    "temu"
-   ]
-  }
- ],
- "review_sources": [
-  {
-   "channel": "PCGamesN",
-   "title": "Best computer speakers for gaming 2026",
-   "url": "https://www.pcgamesn.com/best-computer-speakers"
-  },
-  {
-   "channel": "PC Gamer",
-   "title": "Best PC speakers in 2026: From 2.1 systems to bookshelf bangers, these are the best gaming PC speakers",
-   "url": "https://www.pcgamer.com/best-computer-speakers/"
-  },
-  {
-   "channel": "GamesRadar",
-   "title": "Best computer speakers 2026: The clearest sounding picks for your PC",
-   "url": "https://www.gamesradar.com/best-computer-speakers/"
-  },
-  {
-   "channel": "Digital Trends",
-   "title": "The best computer speakers",
-   "url": "https://www.digitaltrends.com/computing/best-computer-speakers/"
-  }
- ],
- "slug": "best-desktop-gaming-speakers-2026",
- "top_pick": {
-  "affiliate_link": "https://www.amazon.com/dp/B000000000?tag=aipicks2003-20",
-  "brand": "Logitech",
-  "image": "../images/logitech-g560.jpg",
-  "name": "Logitech G560",
-  "price_display": "$150-200",
-  "price_value": "199.99",
-  "reason": "Recommended by 2 of 4 reviewers \u2014 the RGB gaming pick in both PCGamesN's and Digital Trends' 2026 roundups, with LIGHTSYNC lighting and DTS:X surround.",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ]
- },
- "updated_date": "2026-10-03"
+  "updated_date": "2026-10-03"
 }

@@ -38,6 +38,29 @@ VERIFIED_ASINS = {
     "B09TQZP9CL",  # Dell U2723QE (verified 2026-10-04)
     "B076VNFZJG",  # BenQ ScreenBar (verified 2026-10-04)
     "B0CW1S7XP5",  # Elgato Facecam MK.2 (verified 2026-10-04)
+    # Batch verified by user 2026-10-04 (22 ASINs)
+    "B09XSDMT4F",  # Sony WH-1000XM5 (Silver)
+    "B0CHFSWM2P",  # Samsung T9 1TB
+    "B0C6927XPX",  # Synology DS224+
+    "B09GK8LBWS",  # CalDigit TS4
+    "B0BQ417K47",  # ASUS RT-AX86U Pro
+    "B000OOYECC",  # Rain Design mStand
+    "B07DYRS1WH",  # Elgato Stream Deck Mini
+    "B0966YYP65",  # ASUS ZenScreen MB16ACV
+    "B07CMS5Q6N",  # Logitech G305 Lightspeed (White)
+    "B0CR1HHXSN",  # Keychron Q1 Max (assembled, Gateron Brown)
+    "B0CPFWXMBL",  # Elgato 4K X
+    "B0CFZX734J",  # DJI Mic 2
+    "B0BC9Z44BC",  # Secretlab TITAN Evo 2022 (Small, Black)
+    "B0D14N2QZF",  # AULA F75 Pro
+    "B07L755X9G",  # Elgato Key Light
+    "B0BN6RRD5V",  # Corsair TC100 Relaxed (Black)
+    "B07B2WLS17",  # Logitech G560
+    "B0F3QCXL82",  # Razer DeathAdder V4 Pro (Black)
+    "B0DFX42Q1Y",  # SteelSeries Arctis GameBuds (PS/PC, Black)
+    "B0BKW3LB2B",  # Logitech MX Keys S (Graphite)
+    "B0FFGJ3TWP",  # 8BitDo Pro 3 (Gray)
+    "B0GMLBSSTD",  # Razer Viper V4 Pro (Black)
 }
 
 def _verified_amz_link(url):
@@ -139,24 +162,9 @@ def render_human(p, slug):
     for item in p["products"]:
         specs = "".join(f"<div><b>{esc(k)}:</b> {esc(v)}</div>" for k, v in item.get("specs", {}).items())
         img_tag = f'<img src="{esc(item["image"])}" alt="{esc(item["name"])}" loading="lazy">' if item.get("image") else ""
-        # buy link: only show Amazon button for verified /dp/ ASIN links.
-        # No verified ASIN = no button (search fallbacks removed per user request
-        # to protect affiliate account from dead-link traffic).
-        _aff = item.get("affiliate_link", "")
-        if _verified_amz_link(_aff):
-            buy_url = _aff
-            _btns = f'<a class="btn-sm" href="{buy_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Amazon</a>'
-        else:
-            _btns = ""
-        tq = esc(item["name"].replace(" ", "+"))
-        temu_url = f"https://www.temu.com/search_result.html?search_key={tq}"
-        walmart_url = f"https://www.walmart.com/search?q={tq}"
-        _platforms = item.get("platforms", ["amazon"])
-        if "temu" in _platforms:
-            _btns += f'<a class="btn-temu" href="{temu_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Temu</a>'
-        if "walmart" in _platforms:
-            _btns += f'<a class="btn-walmart" href="{walmart_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Walmart</a>'
-        cards += f'<div class="card"><h3>{esc(item["name"])}</h3>{img_tag}<div class="buy-row">{_btns}</div><p style="margin-top:.75rem">{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">Best for: {esc(item["best_for"])} - {esc(item["price_range"])}</p></div>\n'
+        # MVP decision (2026-10-04): non-Top-Pick products get NO buy buttons.
+        # Only the Top Pick has a real, verified purchase link.
+        cards += f'<div class="card"><h3>{esc(item["name"])}</h3>{img_tag}<p style="margin-top:.75rem">{esc(item.get("summary",""))}</p><div class="specs">{specs}</div><p style="color:#888;font-size:.85rem">Best for: {esc(item["best_for"])} - {esc(item["price_range"])}</p></div>\n'
     out = TPL_HUMAN
     out = out.replace("{{page_title}}", esc(p["page_title"]))
     out = out.replace("{{meta_description}}", esc(p["meta_description"]))
