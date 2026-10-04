@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{page_title}}</title>
+<meta name="description" content="{{meta_description}}">
+<link rel="canonical" href="{{canonical_url}}">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#aaa;font-family:monospace;line-height:1.7;padding:2rem;max-width:800px;margin:0 auto}
+h1{color:#2b9bff;font-size:1.5rem;margin-bottom:1rem}
+h2{color:#2b9bff;margin:1.5rem 0 .5rem}
+pre{background:#111;padding:1rem;border-radius:5px;overflow-x:auto;font-size:.8rem}
+a{color:#2b9bff}
+</style>
+<script type="application/ld+json">{{schema_json}}</script>
+</head>
+<body>
+<h1>🔵 {{h1}} [AI-READABLE]</h1>
+<p>This is the machine-readable version. <a href="../compare/{{slug}}.html">Human version →</a></p>
+<h2>Comparison Data (JSON)</h2>
+<pre>{{data_json}}</pre>
+<h2>Verdict</h2>
+<p>{{verdict}}</p>
+</body>
+</html>
