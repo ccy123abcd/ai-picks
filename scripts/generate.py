@@ -281,6 +281,8 @@ def main():
 
     products = []
     for jf in sorted((BASE / "data").glob("*.json")):
+        if jf.name == "comparisons.json":
+            continue  # 对比页由 generate_compare.py 单独处理
         p = json.loads(jf.read_text())
         slug = p["slug"]
         products.append(p)
