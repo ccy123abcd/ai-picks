@@ -31,9 +31,12 @@ def _valid_amz_link(url):
 # Verified 2026-10-04 by user (opened each link, confirmed orderable).
 VERIFIED_ASINS = {
     "B093MTSTKD",  # LG 27GP850-B 27" gaming monitor
-    "B0002E4Z8M",
-    "B07Q8TJ2KL",
-    "B07T5SY43L",
+    "B0002E4Z8M",  # Shure SM7B
+    "B07Q8TJ2KL",  # Ergotron LX Single Monitor Arm
+    "B07T5SY43L",  # HUANUO FlowLift Dual Monitor Stand
+    "B07K986YLL",  # Logitech C920s Pro HD (verified 2026-10-04)
+    "B09TQZP9CL",  # Dell U2723QE (verified 2026-10-04)
+    "B076VNFZJG",  # BenQ ScreenBar (verified 2026-10-04)
 }
 
 def _verified_amz_link(url):
