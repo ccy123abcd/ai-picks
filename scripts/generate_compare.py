@@ -198,6 +198,8 @@ def render(cmp):
     out = out.replace("{{summary_b}}", esc(pb.get("summary", "")))
     out = out.replace("{{winner_tag_a}}", winner_tag("a"))
     out = out.replace("{{winner_tag_b}}", winner_tag("b"))
+    out = out.replace("{{winner_cls_a}}", "winner" if winner == "a" else "")
+    out = out.replace("{{winner_cls_b}}", "winner" if winner == "b" else "")
     out = out.replace("{{img_a}}", prod_img(pa))
     out = out.replace("{{img_b}}", prod_img(pb))
     out = out.replace("{{thumb_a}}", prod_thumb(pa))
