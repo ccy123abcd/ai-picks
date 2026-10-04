@@ -32,3 +32,4 @@ best-gaming-earbuds-2026 | SteelSeries Arctis GameBuds | B0DFX42Q1Y | candidate
 best-quiet-office-keyboard-2026 | Logitech MX Keys S | B0BKW3LB2B | candidate
 best-retro-game-controller-2026 | 8BitDo Pro 3 | B0FFGJ3TWP | candidate
 best-fps-lightweight-gaming-mouse-2026 | Razer Viper V4 Pro | B0GMLBSSTD | candidate
+best-gpu-for-local-ai-2026 | NVIDIA GeForce RTX 3090 24GB | | searching
