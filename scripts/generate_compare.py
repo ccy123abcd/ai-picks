@@ -112,6 +112,10 @@ def render(cmp):
         "Bambu Lab P1S Combo": "bambu-lab-p1s-combo.jpg",
         "Bambu Lab X1 Carbon Combo": "bambu-lab-x1-carbon-combo.jpg",
         "Elegoo Centauri Carbon": "elegoo-centauri-carbon.webp",
+        "Bambu Lab P2S Combo": "bambu-lab-p2s-combo.jpg",
+        "Bambu Lab X2D Combo": "bambu-lab-x2d-combo.jpg",
+        "Prusa CORE One+": "prusa-core-one-plus.webp",
+        "Snapmaker U1": "snapmaker-u1.png",
     }
     def prod_img(prod):
         f = IMG_MAP.get(prod["name"])
