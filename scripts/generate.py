@@ -7,9 +7,24 @@ Reads data/*.json, outputs:
   output/ai/*.html           — structured AI-readable pages
   output/llms.txt
 """
-import json, os, html, shutil
+import json, os, html, re, shutil
 from datetime import date
 from pathlib import Path
+
+def _valid_amz_link(url):
+    """True only for real Amazon product links with a plausible ASIN.
+    Rejects placeholder ASINs like B000000000 (protects affiliate account)."""
+    if not url or "/dp/" not in url:
+        return False
+    m = re.search(r"/dp/([A-Z0-9]{10})", url)
+    if not m:
+        return False
+    asin = m.group(1)
+    if asin in ("B000000000", "B00000000X", "0000000000"):
+        return False
+    if re.fullmatch(r"0+", asin):
+        return False
+    return True
 
 BASE = Path(__file__).parent.parent
 TPL_HUMAN = (BASE / "templates" / "product_human.html").read_text()
@@ -104,7 +119,7 @@ def render_human(p, slug):
         # No verified ASIN = no button (search fallbacks removed per user request
         # to protect affiliate account from dead-link traffic).
         _aff = item.get("affiliate_link", "")
-        if _aff and "/dp/" in _aff:
+        if _valid_amz_link(_aff):
             buy_url = _aff
             _btns = f'<a class="btn-sm" href="{buy_url}" rel="nofollow sponsored noopener" target="_blank">🛒 Amazon</a>'
         else:
@@ -133,7 +148,7 @@ def render_human(p, slug):
     # Top Pick Amazon button: only render for verified /dp/ ASIN links.
     # No verified ASIN = no button (protects affiliate account).
     _tp_aff = p["top_pick"].get("affiliate_link", "")
-    if _tp_aff and "/dp/" in _tp_aff:
+    if _valid_amz_link(_tp_aff):
         _amz_btn_mid = f'<a class="btn-sm" href="{esc(_tp_aff)}" rel="nofollow sponsored noopener" target="_blank">Check Price on Amazon →</a>'
         _amz_btn = f'<a class="btn" href="{esc(_tp_aff)}" rel="nofollow sponsored noopener" target="_blank">Check Price on Amazon →</a>'
         _amz_btn_ai = f'<a class="buy-btn" href="{esc(_tp_aff)}" rel="nofollow sponsored noopener" target="_blank">Check Price on Amazon</a>'
@@ -141,7 +156,7 @@ def render_human(p, slug):
         _amz_btn_mid = ""
         _amz_btn = ""
         _amz_btn_ai = ""
-    out = out.replace("{{affiliate_link}}", esc(_tp_aff) if _tp_aff and "/dp/" in _tp_aff else "#")
+    out = out.replace("{{affiliate_link}}", esc(_tp_aff) if _valid_amz_link(_tp_aff) else "#")
     out = out.replace("{{amazon_btn_mid}}", _amz_btn_mid)
     out = out.replace("{{amazon_btn}}", _amz_btn)
     out = out.replace("{{amazon_btn_ai}}", _amz_btn_ai)
@@ -191,11 +206,11 @@ def render_ai(p, slug):
     out = out.replace("{{top_pick_price}}", esc(p["top_pick"].get("price_display", "")))
     # AI page: same rule - only verified /dp/ links get a button
     _tp_aff2 = p["top_pick"].get("affiliate_link", "")
-    if _tp_aff2 and "/dp/" in _tp_aff2:
+    if _valid_amz_link(_tp_aff2):
         _amz2 = f'<a class="buy-btn" href="{esc(_tp_aff2)}" rel="nofollow sponsored noopener" target="_blank">Check Price on Amazon</a>'
     else:
         _amz2 = ""
-    out = out.replace("{{affiliate_link}}", esc(_tp_aff2) if _tp_aff2 and "/dp/" in _tp_aff2 else "#")
+    out = out.replace("{{affiliate_link}}", esc(_tp_aff2) if _valid_amz_link(_tp_aff2) else "#")
     out = out.replace("{{amazon_btn_ai}}", _amz2)
     _tq = esc(p["top_pick"]["name"].replace(" ", "+"))
     _tp_platforms = p["top_pick"].get("platforms", ["amazon"])
