@@ -33,3 +33,11 @@ best-quiet-office-keyboard-2026 | Logitech MX Keys S | B0BKW3LB2B | candidate
 best-retro-game-controller-2026 | 8BitDo Pro 3 | B0FFGJ3TWP | candidate
 best-fps-lightweight-gaming-mouse-2026 | Razer Viper V4 Pro | B0GMLBSSTD | candidate
 best-gpu-for-local-ai-2026 | NVIDIA GeForce RTX 3090 24GB | | searching
+
+# 2026-10-04 新增高单价品类（6个）
+best-robot-vacuum-2026 | Dreame X60 Max Ultra Complete | B0GF7FJJDN | candidate
+best-home-projector-2026 | Valerion VisionMaster Pro2 | B0DSBYCZJR | candidate
+best-3d-printer-2026 | Bambu Lab P1S Combo | B0CHDS1DMC | candidate
+best-portable-power-station-2026 | EcoFlow DELTA 3 | B0DCBYMC9D | candidate
+best-smart-lock-2026 | Schlage Encode Plus | B09RS5M31P | candidate
+best-electric-scooter-2026 | Segway Ninebot MAX G3 | B0DSMQJX1X | candidate

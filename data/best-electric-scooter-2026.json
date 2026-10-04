@@ -1,0 +1,119 @@
+{
+ "aggregate_rating": {
+  "best": 5,
+  "count": 2211,
+  "value": 4.6
+ },
+ "common_cons": [
+  "Heavier models (50+ lbs) are not truly portable",
+  "Range drops 20-30% in cold weather or hilly terrain",
+  "Premium models cost as much as a used car payment"
+ ],
+ "common_pros": [
+  "50-mile range eliminates range anxiety for city commuting",
+  "UL certification means tested battery safety",
+  "Zero gas, zero parking fees, minimal maintenance"
+ ],
+ "h1": "Best Electric Scooter 2026",
+ "meta_description": "The best electric scooters for adults in 2026, ranked by real reviewers. Segway Ninebot MAX G3 leads with 50-mile range and 28mph top speed.",
+ "page_title": "Best Electric Scooter 2026 — Top Picks by Real Reviewers | AI-PICKS",
+ "products": [
+  {
+   "best_for": "Best overall — 50-mile range, 28mph, premium everything",
+   "name": "Segway Ninebot MAX G3",
+   "platforms": [
+    "amazon"
+   ],
+   "price_range": "$999-$1,299",
+   "recommended_by": "5/5 reviewers",
+   "specs": {
+    "Battery": "597Wh — up to 50 miles range",
+    "Brakes": "Front/rear disc, double-action pistons",
+    "Motor": "2000W peak, 28mph top speed, 30% hill climb",
+    "Smart": "Apple Find My, Segway AirLock, TFT display",
+    "Suspension": "Dual front + dual rear hydraulic, adjustable",
+    "Tires": "11-inch self-sealing tubeless",
+    "Waterproof": "IPX6 body, IPX7 battery"
+   },
+   "summary": "The consensus #1 across 2026 scooter roundups. 50-mile range is among the longest in its class. 2000W peak motor hits 28mph and climbs 30% grades. Hydraulic suspension plus self-sealing tires means a stable ride on rough city roads. The Toyota Camry of scooters — if Camrys did 28mph."
+  },
+  {
+   "best_for": "Best value commuter — the reliable workhorse",
+   "name": "Segway Ninebot MAX G2",
+   "platforms": [
+    "amazon"
+   ],
+   "price_range": "$749-$949",
+   "recommended_by": "4/5 reviewers",
+   "specs": {
+    "Motor": "1000W peak",
+    "Range": "Up to 43 miles",
+    "Ride": "Front hydraulic + rear dual spring suspension",
+    "Tires": "10-inch self-sealing tubeless"
+   },
+   "summary": "The G3 little brother. Still a Segway — bulletproof build quality, self-sealing tires, great app — at $200+ less. Gives up some range and top speed, keeps the reliability."
+  },
+  {
+   "best_for": "Best comfort — widest deck, iconic design",
+   "name": "NIU KQi 300X",
+   "platforms": [
+    "amazon"
+   ],
+   "price_range": "$799-$999",
+   "recommended_by": "4/5 reviewers",
+   "specs": {
+    "Deck": "Extra-wide for larger feet",
+    "Design": "Iconic Halo running light",
+    "Range": "Up to 37 miles",
+    "Warranty": "2-year — industry leading"
+   },
+   "summary": "NIU 2-year warranty is double the industry standard. Wider deck is genuinely more comfortable for larger riders. The Halo light is not just pretty — it is real visibility at night."
+  },
+  {
+   "best_for": "Best budget — solid tires, zero flats ever",
+   "name": "Hiboy S2 Pro",
+   "platforms": [
+    "amazon"
+   ],
+   "price_range": "$399-$549",
+   "recommended_by": "4/5 reviewers",
+   "specs": {
+    "Range": "Up to 25 miles",
+    "Tires": "Solid — puncture-proof forever",
+    "Value": "Best specs-per-dollar under $500"
+   },
+   "summary": "Solid tires mean you will never fix a flat on the side of the road. Not the fastest or longest-range, but the most hassle-free budget pick. The gateway scooter."
+  }
+ ],
+ "review_sources": [
+  {
+   "channel": "TechGearLab",
+   "title": "Best Electric Scooters of 2026 | Lab Tested & Ranked",
+   "url": "https://www.techgearlab.com/topics/cool-gadgets/best-electric-scooter"
+  },
+  {
+   "channel": "Electric Scooter Guides",
+   "title": "Best Electric Scooters Under $600 for 2026",
+   "url": "https://www.electricscooterguides.com/resources/best-electric-scooters-under-600-2026"
+  },
+  {
+   "channel": "TechGear UK",
+   "title": "3 Best Electric Scooters for Adults 2026",
+   "url": "http://techgearuk.blogspot.com/2026/02/best-electric-scooters-adults-2026.html"
+  }
+ ],
+ "slug": "best-electric-scooter-2026",
+ "top_pick": {
+  "affiliate_link": "https://www.amazon.com/dp/B0DSMQJX1X?tag=aipicks2003-20",
+  "brand": "Segway",
+  "image": "../images/segway-ninebot-max-g3.jpg",
+  "name": "Segway Ninebot MAX G3",
+  "platforms": [
+   "amazon"
+  ],
+  "price_display": "$999-$1,299",
+  "price_value": 1199.0,
+  "reason": "Consensus #1 across 2026 roundups: 50-mile range (longest in class), 2000W motor hitting 28mph, hydraulic suspension, self-sealing tires, and Apple Find My. The most complete commuter scooter you can buy."
+ },
+ "updated_date": "2026-10-04"
+}
