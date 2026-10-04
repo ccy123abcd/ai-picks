@@ -61,6 +61,13 @@ VERIFIED_ASINS = {
     "B0BKW3LB2B",  # Logitech MX Keys S (Graphite)
     "B0FFGJ3TWP",  # 8BitDo Pro 3 (Gray)
     "B0GMLBSSTD",  # Razer Viper V4 Pro (Black)
+    # Batch verified by user 2026-10-04 (6 high-ticket categories)
+    "B0GF7FJJDN",  # Dreame X60 Max Ultra Complete
+    "B0DSBYCZJR",  # Valerion VisionMaster Pro2
+    "B0CHDS1DMC",  # Bambu Lab P1S Combo
+    "B0DCBYMC9D",  # EcoFlow DELTA 3
+    "B09RS5M31P",  # Schlage Encode Plus
+    "B0DSMQJX1X",  # Segway Ninebot MAX G3
 }
 
 def _verified_amz_link(url):

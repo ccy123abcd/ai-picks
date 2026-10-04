@@ -7,37 +7,37 @@ best-coding-monitor-2026 | Dell U2723QE | B09TQZP9CL | verified
 best-budget-4k-productivity-monitor-2026 | LG 27UN650 | NOTFOUND | searching
 best-busy-light-status-indicator-2026 | Luxafor Bluetooth Busy Light | NOTFOUND-COM | searching
 best-desk-lamp-eye-care-2026 | BenQ ScreenBar | B076VNFZJG | verified
-best-noise-cancelling-headphones-2026 | Sony WH-1000XM5 | B09XSDMT4F | candidate
-best-portable-ssd-2026 | Samsung T9 1TB | B0CHFSWM2P | candidate
+best-noise-cancelling-headphones-2026 | Sony WH-1000XM5 | B09XSDMT4F | verified
+best-portable-ssd-2026 | Samsung T9 1TB | B0CHFSWM2P | verified
 best-laptop-for-programming-2026 | MacBook Pro 14 M4 | SKIP-RENEWED-ONLY | searching
 best-streaming-webcam-2026 | Elgato Facecam MK.2 | B0CW1S7XP5 | verified
-best-nas-home-server-2026 | Synology DS224+ | B0C6927XPX | candidate
-best-usb-c-docking-station-2026 | CalDigit TS4 | B09GK8LBWS | candidate
-best-wifi-router-home-office-2026 | ASUS RT-AX86U Pro | B0BQ417K47 | candidate
-best-laptop-stand-2026 | Rain Design mStand | B000OOYECC | candidate
-best-macro-keypad-2026 | Elgato Stream Deck Mini | B07DYRS1WH | candidate
-best-portable-monitor-2026 | ASUS ZenScreen MB16ACV | B0966YYP65 | candidate
+best-nas-home-server-2026 | Synology DS224+ | B0C6927XPX | verified
+best-usb-c-docking-station-2026 | CalDigit TS4 | B09GK8LBWS | verified
+best-wifi-router-home-office-2026 | ASUS RT-AX86U Pro | B0BQ417K47 | verified
+best-laptop-stand-2026 | Rain Design mStand | B000OOYECC | verified
+best-macro-keypad-2026 | Elgato Stream Deck Mini | B07DYRS1WH | verified
+best-portable-monitor-2026 | ASUS ZenScreen MB16ACV | B0966YYP65 | verified
 best-budget-wireless-gaming-mouse-2026 | Logitech G305 Lightspeed | B07CMS5Q6N | candidate-verify-color
-best-custom-keyboard-kit-2026 | Keychron Q1 Max | B0CR1HHXSN | candidate
+best-custom-keyboard-kit-2026 | Keychron Q1 Max | B0CR1HHXSN | verified
 best-60-percent-keyboard-2026 | Wooting 60HE V2 | NOTFOUND-AMZ | searching
-best-capture-card-2026 | Elgato 4K X | B0CPFWXMBL | candidate
-best-lavalier-microphone-2026 | DJI Mic 2 | B0CFZX734J | candidate
+best-capture-card-2026 | Elgato 4K X | B0CPFWXMBL | verified
+best-lavalier-microphone-2026 | DJI Mic 2 | B0CFZX734J | verified
 best-mid-range-gaming-chair-2026 | Secretlab TITAN Evo 2022 | B0BC9Z44BC | candidate-verify-variant
-best-budget-mechanical-keyboard-2026 | AULA F75 Pro | B0D14N2QZF | candidate
-best-streaming-key-light-2026 | Elgato Key Light | B07L755X9G | candidate
-best-budget-gaming-chair-2026 | Corsair TC100 Relaxed | B0BN6RRD5V | candidate
-best-desktop-gaming-speakers-2026 | Logitech G560 | B07B2WLS17 | candidate
-best-ergonomic-gaming-mouse-2026 | Razer DeathAdder V4 Pro | B0F3QCXL82 | candidate
-best-gaming-earbuds-2026 | SteelSeries Arctis GameBuds | B0DFX42Q1Y | candidate
-best-quiet-office-keyboard-2026 | Logitech MX Keys S | B0BKW3LB2B | candidate
-best-retro-game-controller-2026 | 8BitDo Pro 3 | B0FFGJ3TWP | candidate
-best-fps-lightweight-gaming-mouse-2026 | Razer Viper V4 Pro | B0GMLBSSTD | candidate
+best-budget-mechanical-keyboard-2026 | AULA F75 Pro | B0D14N2QZF | verified
+best-streaming-key-light-2026 | Elgato Key Light | B07L755X9G | verified
+best-budget-gaming-chair-2026 | Corsair TC100 Relaxed | B0BN6RRD5V | verified
+best-desktop-gaming-speakers-2026 | Logitech G560 | B07B2WLS17 | verified
+best-ergonomic-gaming-mouse-2026 | Razer DeathAdder V4 Pro | B0F3QCXL82 | verified
+best-gaming-earbuds-2026 | SteelSeries Arctis GameBuds | B0DFX42Q1Y | verified
+best-quiet-office-keyboard-2026 | Logitech MX Keys S | B0BKW3LB2B | verified
+best-retro-game-controller-2026 | 8BitDo Pro 3 | B0FFGJ3TWP | verified
+best-fps-lightweight-gaming-mouse-2026 | Razer Viper V4 Pro | B0GMLBSSTD | verified
 best-gpu-for-local-ai-2026 | NVIDIA GeForce RTX 3090 24GB | | searching
 
 # 2026-10-04 新增高单价品类（6个）
-best-robot-vacuum-2026 | Dreame X60 Max Ultra Complete | B0GF7FJJDN | candidate
-best-home-projector-2026 | Valerion VisionMaster Pro2 | B0DSBYCZJR | candidate
-best-3d-printer-2026 | Bambu Lab P1S Combo | B0CHDS1DMC | candidate
-best-portable-power-station-2026 | EcoFlow DELTA 3 | B0DCBYMC9D | candidate
-best-smart-lock-2026 | Schlage Encode Plus | B09RS5M31P | candidate
-best-electric-scooter-2026 | Segway Ninebot MAX G3 | B0DSMQJX1X | candidate
+best-robot-vacuum-2026 | Dreame X60 Max Ultra Complete | B0GF7FJJDN | verified
+best-home-projector-2026 | Valerion VisionMaster Pro2 | B0DSBYCZJR | verified
+best-3d-printer-2026 | Bambu Lab P1S Combo | B0CHDS1DMC | verified
+best-portable-power-station-2026 | EcoFlow DELTA 3 | B0DCBYMC9D | verified
+best-smart-lock-2026 | Schlage Encode Plus | B09RS5M31P | verified
+best-electric-scooter-2026 | Segway Ninebot MAX G3 | B0DSMQJX1X | verified
