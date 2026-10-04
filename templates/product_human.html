@@ -72,6 +72,7 @@ footer{border-top:1px solid #1a3a24;margin-top:3rem;padding:1.5rem 0;color:#555;
 <h1>{{h1}}</h1>
 <p class="meta">Aggregated from <span class="n">{{review_count}}</span> YouTube reviews · Updated {{updated_date}}</p>
 <div class="pick"><img src="{{top_pick_image}}" alt="{{top_pick_name}}" style="width:100%;max-width:400px;border:2px solid #00ff41;border-radius:8px;box-shadow:0 0 20px rgba(0,255,65,.35);margin-bottom:1rem;display:block;background:#000"><h2>{{top_pick_name}}</h2><p>{{top_pick_reason}}</p></div>
+<details class="sources"><summary>📺 Show {{review_count}} review videos</summary><div class="src-list">{{review_sources}}</div></details>
 <h2 class="sec">📊 Quick Comparison</h2>
 <table><tr><th>#</th><th>Product</th><th>Recommended By</th><th>Best For</th><th>Price</th></tr>{{comparison_rows_human}}</table>
 <h2 class="sec">💬 Reviewer Consensus</h2>
@@ -103,9 +104,7 @@ const GLOSSARY = {"144Hz": {"plain": "The screen refreshes 144 times per second.
 })();
 </script>
 <h2 class="sec">❓ Frequently Asked Questions</h2><div class="faq">{{faq_html}}</div>
-<h2 class="sec">📺 Video Sources</h2>
-<details class="sources"><summary>Show {{review_count}} review videos</summary><div class="src-list">{{review_sources}}</div></details>
-<div class="buy"><p style="color:#888">Ready to buy?</p><p class="price">{{top_pick_price}}</p>{{amazon_btn}}</div>
+<div class="pick" style="margin-top:2.5rem"><img src="{{top_pick_image}}" alt="{{top_pick_name}}" style="width:100%;max-width:400px;border:2px solid #00ff41;border-radius:8px;box-shadow:0 0 20px rgba(0,255,65,.35);margin-bottom:1rem;display:block;background:#000"><h2>Our Pick: {{top_pick_name}}</h2><p>{{top_pick_reason}}</p><p class="price">{{top_pick_price}}</p>{{amazon_btn}}</div>
 </div>
 <footer><div class="wrap"><p><strong>Affiliate Disclosure:</strong> As an Amazon Associate we earn from qualifying purchases.</p><p><strong>Methodology:</strong> We aggregate public YouTube reviews, extract consensus pros/cons, and rank by reviewer agreement. No paid placements.</p><p><a href="../about.html" style="color:#1a7f37">About</a> · <a href="../privacy.html" style="color:#1a7f37">Privacy</a> · <a href="../partner.html" style="color:#1a7f37">Partner With Us</a></p></div></footer>
 </body>
