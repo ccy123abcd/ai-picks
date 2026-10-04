@@ -307,63 +307,6 @@
   "affiliate_link": ""
  },
  {
-  "name": "LG 27UN650",
-  "brand": "LG",
-  "category": "Best Budget 4K Productivity Monitor 2026",
-  "guide": "best-budget-4k-productivity-monitor-2026",
-  "price": "$280-350",
-  "specs": {
-   "Panel": "27\" 4K IPS",
-   "Ports": "HDMI, DP",
-   "Refresh Rate": "60Hz",
-   "Stand": "Height/tilt adjustable"
-  },
-  "summary": "Best budget 4K overall. Great IPS panel, height-adjustable, under $330. Hard to beat.",
-  "best_for": "Best budget 4K overall",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "is_top_pick": true,
-  "affiliate_link": ""
- },
- {
-  "name": "Dell S2722QC",
-  "brand": "Dell",
-  "category": "Best Budget 4K Productivity Monitor 2026",
-  "guide": "best-budget-4k-productivity-monitor-2026",
-  "price": "$320-380",
-  "specs": {
-   "Panel": "27\" 4K IPS",
-   "Ports": "USB-C 65W, HDMI",
-   "Refresh Rate": "60Hz",
-   "Stand": "Height/tilt adjustable"
-  },
-  "summary": "Best with USB-C. Single-cable 65W charging, Dell reliability, great for laptop users.",
-  "best_for": "Best with USB-C",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
-  "name": "ASUS VA27UQSB",
-  "brand": "ASUS",
-  "category": "Best Budget 4K Productivity Monitor 2026",
-  "guide": "best-budget-4k-productivity-monitor-2026",
-  "price": "$220-280",
-  "specs": {
-   "Panel": "27\" 4K IPS",
-   "Ports": "HDMI, DP",
-   "Refresh Rate": "60Hz",
-   "Stand": "Height/tilt/swivel/pivot"
-  },
-  "summary": "Best cheapest 4K. Under $250 for 4K IPS with full ergonomic stand. Incredible value.",
-  "best_for": "Best cheapest 4K",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
   "name": "Corsair TC100 Relaxed",
   "brand": "",
   "category": "Best Budget Gaming Chair 2026: What 4 Reviewers Agree On",
@@ -749,63 +692,6 @@
   "affiliate_link": ""
  },
  {
-  "name": "Luxafor Bluetooth Busy Light",
-  "brand": "Luxafor",
-  "category": "Best Busy Light Status Indicator 2026",
-  "guide": "best-busy-light-status-indicator-2026",
-  "price": "$60-80",
-  "specs": {
-   "Colors": "Full RGB customizable",
-   "Compatibility": "Teams/Slack/Zoom",
-   "Connection": "Bluetooth + USB",
-   "Mount": "Monitor/laptop attach"
-  },
-  "summary": "Wireless busy light with full RGB. Auto-syncs with Teams/Slack status. Great for home office.",
-  "best_for": "Best wireless indicator",
-  "platforms": [
-   "amazon",
-   "temu"
-  ],
-  "is_top_pick": true,
-  "affiliate_link": ""
- },
- {
-  "name": "Embrava Blynclight",
-  "brand": "Embrava",
-  "category": "Best Busy Light Status Indicator 2026",
-  "guide": "best-busy-light-status-indicator-2026",
-  "price": "$35-50",
-  "specs": {
-   "Colors": "RGB with flash alerts",
-   "Compatibility": "Teams/Skype/Lync",
-   "Connection": "USB wired",
-   "Mount": "Monitor clip"
-  },
-  "summary": "The original busy light. Simple, reliable, great Teams integration.",
-  "best_for": "Best for Teams users",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
-  "name": "USB Busy Light (Generic)",
-  "brand": "Generic",
-  "category": "Best Busy Light Status Indicator 2026",
-  "guide": "best-busy-light-status-indicator-2026",
-  "price": "$15-25",
-  "specs": {
-   "Colors": "Red/green basic",
-   "Compatibility": "Manual control",
-   "Connection": "USB wired",
-   "Mount": "Desktop stand"
-  },
-  "summary": "Basic red/green indicator for under $20. Manual control, no software needed.",
-  "best_for": "Best budget pick",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
   "name": "Stand Up Desk Store Under Desk Cable Management Tray",
   "brand": "",
   "category": "Best Cable Management Kit 2026: What 3 Reviewers Agree On",
@@ -1136,7 +1022,7 @@
    "temu"
   ],
   "is_top_pick": true,
-  "affiliate_link": ""
+  "affiliate_link": "https://www.amazon.com/dp/B0979J5RCG?tag=aipicks2003-20"
  },
  {
   "name": "Fidget Cube (Original)",
@@ -1381,62 +1267,6 @@
   },
   "summary": "PCWorld's best budget dual-monitor arm: a tested full-motion dual setup at a fraction of the Ergotron price, with solid build quality for the money.",
   "best_for": "Budget dual with gas springs",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
-  "name": "Dasung Paperlike 253",
-  "brand": "Dasung",
-  "category": "Best E-Ink Monitor 2026",
-  "guide": "best-e-ink-monitor-2026",
-  "price": "$1800-2000",
-  "specs": {
-   "Panel": "25.3\" E-ink Carta 1200",
-   "Ports": "HDMI + USB",
-   "Refresh": "Fast mode for scrolling",
-   "Resolution": "3200x1800"
-  },
-  "summary": "Best large e-ink. 25.3\" paper-like display, fast refresh mode. Ultimate eye-care for coders.",
-  "best_for": "Best large e-ink",
-  "platforms": [
-   "amazon"
-  ],
-  "is_top_pick": true,
-  "affiliate_link": ""
- },
- {
-  "name": "Onyx BOOX Mira Pro 25.3\"",
-  "brand": "Onyx BOOX",
-  "category": "Best E-Ink Monitor 2026",
-  "guide": "best-e-ink-monitor-2026",
-  "price": "$1600-1800",
-  "specs": {
-   "Panel": "25.3\" E-ink",
-   "Ports": "HDMI + USB-C + DP",
-   "Refresh": "Multiple speed modes",
-   "Resolution": "3200x1800"
-  },
-  "summary": "Best connectivity. HDMI + USB-C + DisplayPort, great for multi-device setups.",
-  "best_for": "Best connectivity",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
-  "name": "Dasung Paperlike HD-FT 13.3\"",
-  "brand": "Dasung",
-  "category": "Best E-Ink Monitor 2026",
-  "guide": "best-e-ink-monitor-2026",
-  "price": "$800-900",
-  "specs": {
-   "Panel": "13.3\" E-ink Carta",
-   "Ports": "USB-C",
-   "Refresh": "Fast mode",
-   "Resolution": "2200x1650"
-  },
-  "summary": "Best budget e-ink. 13.3\" portable, under $900. Great second screen for reading docs.",
-  "best_for": "Best budget e-ink",
   "platforms": [],
   "is_top_pick": false,
   "affiliate_link": ""
@@ -2350,84 +2180,6 @@
   "affiliate_link": ""
  },
  {
-  "name": "MacBook Pro 14 (M4)",
-  "brand": "Apple",
-  "category": "Best Laptop for Programming 2026",
-  "guide": "best-laptop-for-programming-2026",
-  "price": "$1599-1999",
-  "specs": {
-   "Battery": "Up to 22 hours",
-   "Display": "14.2\" Liquid Retina XDR",
-   "Keyboard": "Backlit Magic Keyboard",
-   "RAM": "16GB unified",
-   "Weight": "3.4 lbs"
-  },
-  "summary": "Best overall for developers. M4 chip compiles code fast, amazing battery, great display.",
-  "best_for": "Best overall for developers",
-  "platforms": [
-   "amazon"
-  ],
-  "is_top_pick": true,
-  "affiliate_link": ""
- },
- {
-  "name": "ThinkPad X1 Carbon Gen 13",
-  "brand": "Lenovo",
-  "category": "Best Laptop for Programming 2026",
-  "guide": "best-laptop-for-programming-2026",
-  "price": "$1400-1800",
-  "specs": {
-   "Battery": "Up to 18 hours",
-   "Display": "14\" 2.8K OLED option",
-   "Keyboard": "Legendary ThinkPad keyboard",
-   "RAM": "Up to 64GB LPDDR5x",
-   "Weight": "2.16 lbs"
-  },
-  "summary": "Best Windows/Linux dev laptop. Best keyboard in the business, ultralight, great Linux support.",
-  "best_for": "Best Windows/Linux dev laptop",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
-  "name": "Framework Laptop 13",
-  "brand": "Framework",
-  "category": "Best Laptop for Programming 2026",
-  "guide": "best-laptop-for-programming-2026",
-  "price": "$1049-1400",
-  "specs": {
-   "Battery": "Up to 10 hours",
-   "Display": "13.5\" 3:2 2256x1504",
-   "Keyboard": "Replaceable input modules",
-   "RAM": "Up to 96GB DDR5",
-   "Weight": "2.9 lbs"
-  },
-  "summary": "Best repairable/upgradable. 3:2 display great for code, fully modular, right-to-repair champion.",
-  "best_for": "Best repairable/upgradable",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
-  "name": "Acer Swift Go 14 (OLED)",
-  "brand": "Acer",
-  "category": "Best Laptop for Programming 2026",
-  "guide": "best-laptop-for-programming-2026",
-  "price": "$650-800",
-  "specs": {
-   "Battery": "Up to 12 hours",
-   "Display": "14\" OLED 2880x1800",
-   "Keyboard": "Backlit",
-   "RAM": "16GB LPDDR5",
-   "Weight": "2.76 lbs"
-  },
-  "summary": "Best budget pick. OLED display and solid specs for under $700. Incredible value for developers.",
-  "best_for": "Best budget pick",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
   "name": "Rain Design mStand",
   "brand": "Rain Design",
   "category": "Best Laptop Stand 2026",
@@ -2693,63 +2445,6 @@
   },
   "summary": "Tom's Hardware's best overall gaming chair and Digital Trends' best mesh pick: Herman Miller ergonomics with a gaming chair's headrest and comfort.",
   "best_for": "Best mesh option",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
-  "name": "Mac mini (M4)",
-  "brand": "Apple",
-  "category": "Best Mini PC 2026",
-  "guide": "best-mini-pc-2026",
-  "price": "$599-799",
-  "specs": {
-   "Chip": "Apple M4 (10-core)",
-   "Ports": "Thunderbolt 4, HDMI, USB-A",
-   "RAM": "16GB unified",
-   "Storage": "256GB SSD"
-  },
-  "summary": "Best overall mini PC. M4 power, silent, tiny. Unbeatable value at $599.",
-  "best_for": "Best overall mini PC",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "is_top_pick": true,
-  "affiliate_link": ""
- },
- {
-  "name": "Beelink SER8",
-  "brand": "Beelink",
-  "category": "Best Mini PC 2026",
-  "guide": "best-mini-pc-2026",
-  "price": "$400-500",
-  "specs": {
-   "Chip": "Ryzen 7 8745HS",
-   "Ports": "USB4, HDMI, 2.5GbE",
-   "RAM": "32GB DDR5",
-   "Storage": "1TB NVMe"
-  },
-  "summary": "Best Windows mini PC. 32GB RAM + 1TB SSD for under $500. Great for dev VMs.",
-  "best_for": "Best Windows mini PC",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
-  "name": "GMKtec NucBox G3 Plus",
-  "brand": "GMKtec",
-  "category": "Best Mini PC 2026",
-  "guide": "best-mini-pc-2026",
-  "price": "$180-220",
-  "specs": {
-   "Chip": "Intel N150",
-   "Ports": "HDMI, USB-C, 2.5GbE",
-   "RAM": "16GB DDR5",
-   "Storage": "512GB SSD"
-  },
-  "summary": "Best budget pick. Perfect home server or media PC for $200. Silent and sips power.",
-  "best_for": "Best budget pick",
   "platforms": [],
   "is_top_pick": false,
   "affiliate_link": ""
@@ -3913,7 +3608,7 @@
    "amazon"
   ],
   "is_top_pick": true,
-  "affiliate_link": ""
+  "affiliate_link": "https://www.amazon.com/dp/B0BCHMGZMD?tag=aipicks2003-20"
  },
  {
   "name": "ZSA Moonlander Mark I",
@@ -3970,7 +3665,7 @@
    "walmart"
   ],
   "is_top_pick": true,
-  "affiliate_link": ""
+  "affiliate_link": "https://www.amazon.com/dp/B0815VK23S?tag=aipicks2003-20"
  },
  {
   "name": "FlexiSpot E7",
@@ -4397,64 +4092,6 @@
   "affiliate_link": ""
  },
  {
-  "name": "Dream Cheeky Big Red Button",
-  "brand": "Dream Cheeky",
-  "category": "Best USB Approval Button 2026",
-  "guide": "best-usb-approval-button-2026",
-  "price": "$25-35",
-  "specs": {
-   "Action": "Single programmable keypress",
-   "Compatibility": "Windows/Mac/Linux",
-   "Connection": "USB wired",
-   "Size": "Large arcade-style button"
-  },
-  "summary": "The classic big red USB button. Programmable to any keypress — map it to approve AI actions or trigger workflows.",
-  "best_for": "Best overall USB button",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
-  "is_top_pick": true,
-  "affiliate_link": ""
- },
- {
-  "name": "Delcom USB HID Programmable Button",
-  "brand": "Delcom",
-  "category": "Best USB Approval Button 2026",
-  "guide": "best-usb-approval-button-2026",
-  "price": "$40-60",
-  "specs": {
-   "Action": "Fully programmable HID",
-   "Compatibility": "Windows/Mac/Linux",
-   "Connection": "USB wired",
-   "Size": "Industrial-grade button"
-  },
-  "summary": "Industrial-quality programmable button. More durable than novelty buttons, full HID customization.",
-  "best_for": "Best programmable option",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
-  "name": "USB Panic Button (Generic)",
-  "brand": "Generic",
-  "category": "Best USB Approval Button 2026",
-  "guide": "best-usb-approval-button-2026",
-  "price": "$12-20",
-  "specs": {
-   "Action": "Single keypress/mouse click",
-   "Compatibility": "Windows/Mac",
-   "Connection": "USB wired",
-   "Size": "Compact desktop button"
-  },
-  "summary": "Cheapest way to get a physical AI kill switch. Under $20, does the job.",
-  "best_for": "Best budget pick",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
   "name": "CalDigit TS4",
   "brand": "CalDigit",
   "category": "Best USB-C Docking Station 2026",
@@ -4606,7 +4243,7 @@
    "temu"
   ],
   "is_top_pick": true,
-  "affiliate_link": ""
+  "affiliate_link": "https://www.amazon.com/dp/B088WCG7L4?tag=aipicks2003-20"
  },
  {
   "name": "Scythe USB Foot Switch",
@@ -4719,64 +4356,6 @@
   },
   "summary": "PC Gamer's best USB mic + boom arm bundle: warm, crisp audio with a flexible arm and physical mute/mix controls, everything in the box for under $200. No software suite — the sound is good enough that you don't need one.",
   "best_for": "Streamers who want mic + arm in one box",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
-  "name": "Elgato Stream Deck (Mute Setup)",
-  "brand": "Elgato",
-  "category": "Best USB Mute Button 2026",
-  "guide": "best-usb-mute-button-2026",
-  "price": "$80-150",
-  "specs": {
-   "Compatibility": "Windows/Mac",
-   "Keys": "6-32 LCD keys",
-   "Mute": "Dedicated mute key setup",
-   "Software": "Stream Deck app"
-  },
-  "summary": "Use a Stream Deck key as your mute button. Plus you get all the other macro features.",
-  "best_for": "Best versatile option",
-  "platforms": [],
-  "is_top_pick": false,
-  "affiliate_link": ""
- },
- {
-  "name": "USB Mute Button for Meetings",
-  "brand": "Generic",
-  "category": "Best USB Mute Button 2026",
-  "guide": "best-usb-mute-button-2026",
-  "price": "$20-30",
-  "specs": {
-   "Compatibility": "Zoom/Teams/Meet",
-   "Keys": "Single mute toggle",
-   "Mute": "LED indicator",
-   "Software": "Plug and play"
-  },
-  "summary": "Dedicated one-tap mute with LED indicator. Works with all major meeting apps.",
-  "best_for": "Best dedicated button",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
-  "is_top_pick": true,
-  "affiliate_link": ""
- },
- {
-  "name": "Wireless USB Mute Button",
-  "brand": "Generic",
-  "category": "Best USB Mute Button 2026",
-  "guide": "best-usb-mute-button-2026",
-  "price": "$30-40",
-  "specs": {
-   "Compatibility": "Zoom/Teams",
-   "Keys": "Single mute toggle",
-   "Mute": "LED + wireless",
-   "Software": "USB dongle"
-  },
-  "summary": "Wireless mute button you can place anywhere on your desk. No cable clutter.",
-  "best_for": "Best wireless pick",
   "platforms": [],
   "is_top_pick": false,
   "affiliate_link": ""

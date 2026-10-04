@@ -68,6 +68,11 @@ VERIFIED_ASINS = {
     "B0DCBYMC9D",  # EcoFlow DELTA 3
     "B09RS5M31P",  # Schlage Encode Plus
     "B0DSMQJX1X",  # Segway Ninebot MAX G3
+    # Batch verified by user 2026-10-04 (4 remaining guides)
+    "B0815VK23S",  # UPLIFT V2 Standing Desk (bamboo)
+    "B088WCG7L4",  # iKKEGOL USB Triple Foot Pedal
+    "B0BCHMGZMD",  # Kinesis Advantage360 Professional
+    "B0979J5RCG",  # Speks Supers Magnetic Balls
 }
 
 def _verified_amz_link(url):
