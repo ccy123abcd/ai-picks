@@ -11,6 +11,23 @@ import json, os, html, re, shutil
 from datetime import date
 from pathlib import Path
 
+# Plain-English glossary for spec terms (shared with compare pages).
+_COMPARE_GLOSSARY = {}
+try:
+    import json as _json
+    _gpath = Path(__file__).parent.parent / "data" / "compare_glossary.json"
+    if _gpath.exists():
+        _COMPARE_GLOSSARY = _json.loads(_gpath.read_text())
+except Exception:
+    pass
+
+def _gloss_for(spec_name):
+    low = spec_name.lower()
+    for term, expl in _COMPARE_GLOSSARY.items():
+        if term.lower() in low or low in term.lower():
+            return expl
+    return None
+
 def _valid_amz_link(url):
     """True only for real Amazon product links with a plausible ASIN.
     Rejects placeholder ASINs like B000000000 (protects affiliate account)."""
@@ -172,7 +189,12 @@ def render_human(p, slug):
     cons = "".join(f"<li>{esc(x)}</li>\n" for x in p["common_cons"])
     cards = ""
     for item in p["products"]:
-        specs = "".join(f"<div><b>{esc(k)}:</b> {esc(v)}</div>" for k, v in item.get("specs", {}).items())
+        def _spec_div(kv):
+            k, v = kv
+            g = _gloss_for(k)
+            gh = f'<div class="gloss">\U0001f4a1 {esc(g)}</div>' if g else ""
+            return f"<div><b>{esc(k)}:</b> {esc(v)}{gh}</div>"
+        specs = "".join(_spec_div(kv) for kv in item.get("specs", {}).items())
         img_tag = f'<img src="{esc(item["image"])}" alt="{esc(item["name"])}" loading="lazy">' if item.get("image") else ""
         # MVP decision (2026-10-04): non-Top-Pick products get NO buy buttons.
         # Only the Top Pick has a real, verified purchase link.
@@ -281,8 +303,8 @@ def main():
 
     products = []
     for jf in sorted((BASE / "data").glob("*.json")):
-        if jf.name == "comparisons.json":
-            continue  # 对比页由 generate_compare.py 单独处理
+        if jf.name in ("comparisons.json", "compare_glossary.json"):
+            continue  # 对比页由 generate_compare.py 单独处理；术语库非指南数据
         p = json.loads(jf.read_text())
         slug = p["slug"]
         products.append(p)

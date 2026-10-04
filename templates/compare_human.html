@@ -32,6 +32,7 @@ h2{color:#00ff41;font-size:1.2rem;margin:2.5rem 0 1rem}
 .prod .price{color:#00ff41;font-size:1.2rem;margin:.5rem 0}
 .prod .tag{display:inline-block;background:#00ff41;color:#000;font-size:.75rem;font-weight:bold;padding:.2rem .6rem;border-radius:3px;margin-bottom:.5rem}
 .prod-img{width:100%;max-width:280px;height:200px;object-fit:contain;background:#0a0a0a;border:1px solid #1a3a1a;border-radius:8px;margin-bottom:.75rem}
+.thumb-img{width:64px;height:48px;object-fit:contain;background:#0a0a0a;border:1px solid #1a3a1a;border-radius:6px;margin-bottom:.4rem}
 .btn{display:inline-block;background:#00ff41;color:#000;font-weight:bold;padding:.7rem 1.5rem;border-radius:5px;text-decoration:none;margin-top:1rem}
 .btn:hover{background:#33ff66}
 .verdict{border:1px solid #00ff41;border-radius:8px;padding:1.5rem;margin:2rem 0;background:#081208}
@@ -83,7 +84,7 @@ footer a{color:#1a7f37}
 <h2>Spec Comparison</h2>
 <p class="note">Highlighted rows show where they differ. Dimmed rows are effectively the same.</p>
 <table class="vs-table">
-<tr><th class="spec-name">Spec</th><th class="winner-col">{{name_a}}</th><th>{{name_b}}</th></tr>
+<tr><th class="spec-name">Spec</th><th class="winner-col">{{thumb_a}}{{name_a}}</th><th>{{thumb_b}}{{name_b}}</th></tr>
 {{spec_rows}}
 </table>
 
