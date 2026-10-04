@@ -52,19 +52,23 @@ SITE_URL = os.environ.get("SITE_URL", "https://ccy123abcd.github.io/ai-picks")
 def esc(s): return html.escape(str(s))
 
 def build_schema(p):
+    tp = p["top_pick"]
     schema = {
         "@context": "https://schema.org",
         "@type": "Product",
-        "name": p["top_pick"]["name"],
+        "name": tp["name"],
         "description": p["meta_description"],
-        "brand": {"@type": "Brand", "name": p["top_pick"].get("brand", "")},
-        "offers": {
+        "brand": {"@type": "Brand", "name": tp.get("brand", "")},
+    }
+    # Only claim price/availability for manually verified purchase links.
+    # Unverified products get no offers block (honest structured data for AI readers).
+    if _verified_amz_link(tp.get("affiliate_link", "")):
+        schema["offers"] = {
             "@type": "Offer",
             "priceCurrency": "USD",
-            "price": p["top_pick"].get("price_value", ""),
+            "price": tp.get("price_value", ""),
             "availability": "https://schema.org/InStock",
-        },
-    }
+        }
     if p.get("aggregate_rating"):
         schema["aggregateRating"] = {
             "@type": "AggregateRating",
@@ -285,9 +289,13 @@ def main():
     (ai_dir / "index.html").write_text(a_idx)
     print("  ✓ ai/index.html")
 
-    # llms.txt
+    # llms.txt — mark guides whose Top Pick has a manually verified buy link
     llms_tpl = (BASE / "templates" / "llms.txt").read_text()
-    prods = "\n".join(f"- {p['h1']}: {SITE_URL}/ai/{p['slug']}.html" for p in products)
+    prods = "\n".join(
+        f"- {p['h1']}: {SITE_URL}/ai/{p['slug']}.html"
+        + (" [verified buy link]" if _verified_amz_link(p["top_pick"].get("affiliate_link", "")) else "")
+        for p in products
+    )
     (out / "llms.txt").write_text(llms_tpl.replace("{{product_list}}", prods))
     print("  ✓ llms.txt")
     import shutil
