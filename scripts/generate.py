@@ -37,6 +37,7 @@ VERIFIED_ASINS = {
     "B07K986YLL",  # Logitech C920s Pro HD (verified 2026-10-04)
     "B09TQZP9CL",  # Dell U2723QE (verified 2026-10-04)
     "B076VNFZJG",  # BenQ ScreenBar (verified 2026-10-04)
+    "B0CW1S7XP5",  # Elgato Facecam MK.2 (verified 2026-10-04)
 }
 
 def _verified_amz_link(url):

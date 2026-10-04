@@ -9,3 +9,5 @@ best-busy-light-status-indicator-2026 | Luxafor Bluetooth Busy Light | NOTFOUND-
 best-desk-lamp-eye-care-2026 | BenQ ScreenBar Halo | B076VNFZJG | candidate-verify-model
 best-noise-cancelling-headphones-2026 | Sony WH-1000XM5 | B09XSDMT4F | candidate
 best-portable-ssd-2026 | Samsung T9 1TB | B0CHFSWM2P | candidate
+best-laptop-for-programming-2026 | MacBook Pro 14 M4 | SKIP-RENEWED-ONLY | searching
+best-streaming-webcam-2026 | Elgato Facecam MK.2 | B0CW1S7XP5 | verified
