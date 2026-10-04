@@ -185,9 +185,9 @@ def render_human(p, slug):
         _amz_btn = f'<a class="btn" href="{esc(_tp_aff)}" rel="nofollow sponsored noopener" target="_blank">Check Price on Amazon →</a>'
         _amz_btn_ai = f'<a class="buy-btn" href="{esc(_tp_aff)}" rel="nofollow sponsored noopener" target="_blank">Check Price on Amazon</a>'
     else:
-        _amz_btn_mid = ""
-        _amz_btn = ""
-        _amz_btn_ai = ""
+        _amz_btn_mid = '<span style="color:#888;font-size:.85rem">🔍 Purchase link under manual verification</span>'
+        _amz_btn = '<p style="color:#888;font-size:.9rem;margin-top:.5rem">🔍 We\'re manually verifying this product\'s purchase link — check back soon.</p>'
+        _amz_btn_ai = '<p style="color:#888;font-size:.9rem">🔍 Purchase link under manual verification — check back soon.</p>'
     out = out.replace("{{affiliate_link}}", esc(_tp_aff) if _verified_amz_link(_tp_aff) else "#")
     out = out.replace("{{amazon_btn_mid}}", _amz_btn_mid)
     out = out.replace("{{amazon_btn}}", _amz_btn)
@@ -310,7 +310,51 @@ def main():
     (out / "llms.txt").write_text(llms_tpl.replace("{{product_list}}", prods))
     print("  ✓ llms.txt")
     import shutil
-    shutil.copy("templates/finder.html", "output/finder.html")
+
+    # sitemap.xml — auto-generated so it never goes stale (was missing 21 guides)
+    today = date.today().isoformat()
+    sm_urls = [
+        f"{SITE_URL}/",
+        f"{SITE_URL}/human/",
+        f"{SITE_URL}/ai/",
+        f"{SITE_URL}/finder.html",
+        f"{SITE_URL}/about.html",
+        f"{SITE_URL}/privacy.html",
+    ]
+    for p in products:
+        sm_urls.append(f"{SITE_URL}/human/{p['slug']}.html")
+        sm_urls.append(f"{SITE_URL}/ai/{p['slug']}.html")
+    sm_xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    for u in sm_urls:
+        sm_xml += f"  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n"
+    sm_xml += "</urlset>\n"
+    (out / "sitemap.xml").write_text(sm_xml)
+    print(f"  ✓ sitemap.xml ({len(sm_urls)} urls)")
+    # finder-data.json — auto-generated from data/*.json so buy links never go stale.
+    # MVP rule: only verified Top Picks get an Amazon button; others get none.
+    finder_data = []
+    for p in products:
+        tp = p["top_pick"]
+        tp_aff = tp.get("affiliate_link", "")
+        for item in p["products"]:
+            is_tp = (item["name"] == tp["name"])
+            finder_data.append({
+                "name": item["name"],
+                "brand": item.get("brand", ""),
+                "category": p["h1"],
+                "guide": p["slug"],
+                "price": item.get("price_range", ""),
+                "specs": item.get("specs", {}),
+                "summary": item.get("summary", ""),
+                "best_for": item.get("best_for", ""),
+                "platforms": item.get("platforms", ["amazon"]) if is_tp else [],
+                "is_top_pick": is_tp,
+                # Only verified Top Pick ASINs get a real buy link
+                "affiliate_link": tp_aff if (is_tp and _verified_amz_link(tp_aff)) else "",
+            })
+    (BASE / "finder-data.json").write_text(json.dumps(finder_data, ensure_ascii=False, indent=1))
+    shutil.copy(BASE / "finder-data.json", out / "finder-data.json")
+    print(f"  ✓ finder-data.json ({len(finder_data)} products)")
     shutil.copy("templates/portal_zh.html", "output/zh/index.html")
     shutil.copy("templates/finder_zh.html", "output/zh/finder.html")
     print("  ✓ zh/ 中文版")

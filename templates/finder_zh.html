@@ -102,9 +102,10 @@ function find(){
   let html='<h2 style="margin-bottom:1rem">🎯 为你推荐：</h2>';
   top.forEach(({p,score,hits},i)=>{
     const q=encodeURIComponent(p.name.replace(/ /g,'+'));
-    let buys=`<a class="buy-amz" href="${p.affiliate_link}" rel="nofollow sponsored noopener" target="_blank">Amazon</a>`;
-    if(p.platforms.includes('temu')) buys+=`<a class="buy-temu" href="https://www.temu.com/search_result.html?search_key=${q}" rel="nofollow sponsored noopener" target="_blank">Temu</a>`;
-    if(p.platforms.includes('walmart')) buys+=`<a class="buy-wm" href="https://www.walmart.com/search?q=${q}" rel="nofollow sponsored noopener" target="_blank">Walmart</a>`;
+    let buys='';
+    if(p.affiliate_link) buys+=`<a class="buy-amz" href="${p.affiliate_link}" rel="nofollow sponsored noopener" target="_blank">Amazon</a>`;
+    if(p.is_top_pick&&p.platforms.includes('temu')) buys+=`<a class="buy-temu" href="https://www.temu.com/search_result.html?search_key=${q}" rel="nofollow sponsored noopener" target="_blank">Temu</a>`;
+    if(p.is_top_pick&&p.platforms.includes('walmart')) buys+=`<a class="buy-wm" href="https://www.walmart.com/search?q=${q}" rel="nofollow sponsored noopener" target="_blank">Walmart</a>`;
     const why=hits.length?`匹配你的关键词：<strong>${hits.join('、')}</strong><br>`:'';
     html+=`<div class="card"><span class="score">#${i+1}</span><h3>${p.name}</h3>
       <div class="meta">${p.brand} · ${p.price} · <a href="../human/${p.guide}.html" style="color:#1a7f37">完整指南 →</a></div>

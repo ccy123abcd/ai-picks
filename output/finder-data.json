@@ -2,14 +2,14 @@
  {
   "name": "LG 27GP850-B",
   "brand": "",
-  "category": "Best 27\" 1440p 165Hz Gaming Monitor: What Reviewers Agree On",
+  "category": "Best 27\" 1440p 165Hz Gaming Monitor 2026: What Reviewers Agree On",
   "guide": "best-1440p-165hz-gaming-monitor-2026",
   "price": "$300-380",
   "specs": {
    "Brightness": "400 nits",
    "Panel": "27\" Nano IPS",
    "Refresh Rate": "165Hz (180Hz OC)",
-   "Resolution": "2560\u00d71440",
+   "Resolution": "2560×1440",
    "Response": "1ms GtG"
   },
   "summary": "The consensus champion. Calibrated Nano IPS, exceptional input lag, full ergonomics. The 2026 firmware update fixed HDR issues.",
@@ -18,75 +18,70 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B093MTSTKD?tag=aipicks2003-20"
  },
  {
   "name": "Cooler Master Tempest GP2711",
   "brand": "",
-  "category": "Best 27\" 1440p 165Hz Gaming Monitor: What Reviewers Agree On",
+  "category": "Best 27\" 1440p 165Hz Gaming Monitor 2026: What Reviewers Agree On",
   "guide": "best-1440p-165hz-gaming-monitor-2026",
   "price": "$450-550",
   "specs": {
    "Brightness": "600 nits (HDR1000)",
    "Panel": "27\" VA Mini-LED",
    "Refresh Rate": "165Hz",
-   "Resolution": "2560\u00d71440",
+   "Resolution": "2560×1440",
    "Response": "1ms"
   },
-  "summary": "512-zone mini-LED with HDR1000. Deep blacks and vivid highlights at a mid-range price \u2014 the HDR pick.",
+  "summary": "512-zone mini-LED with HDR1000. Deep blacks and vivid highlights at a mid-range price — the HDR pick.",
   "best_for": "Best HDR on budget",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Gigabyte GS27QC",
   "brand": "",
-  "category": "Best 27\" 1440p 165Hz Gaming Monitor: What Reviewers Agree On",
+  "category": "Best 27\" 1440p 165Hz Gaming Monitor 2026: What Reviewers Agree On",
   "guide": "best-1440p-165hz-gaming-monitor-2026",
   "price": "$200-250",
   "specs": {
    "Brightness": "300 nits",
    "Panel": "27\" VA Curved 1500R",
    "Refresh Rate": "165Hz",
-   "Resolution": "2560\u00d71440",
+   "Resolution": "2560×1440",
    "Response": "1ms"
   },
   "summary": "Cheapest way into 1440p 165Hz. Curved VA panel, great for immersive gaming on a tight budget.",
   "best_for": "Budget curved",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "LG 27GM950B",
   "brand": "",
-  "category": "Best 27\" 1440p 165Hz Gaming Monitor: What Reviewers Agree On",
+  "category": "Best 27\" 1440p 165Hz Gaming Monitor 2026: What Reviewers Agree On",
   "guide": "best-1440p-165hz-gaming-monitor-2026",
   "price": "$800-1000",
   "specs": {
    "Brightness": "1250 nits peak",
    "Panel": "27\" IPS Mini-LED 5K",
    "Refresh Rate": "165Hz (330Hz @1440p)",
-   "Resolution": "5120\u00d72880",
+   "Resolution": "5120×2880",
    "Response": "1ms GtG"
   },
   "summary": "5K 165Hz with 2304-zone FALD. Drop to 1440p for 330Hz competitive gaming. The no-compromise flagship.",
   "best_for": "Premium future-proof",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "ASUS ROG Strix XG32UCWMG",
   "brand": "",
-  "category": "Best 4K Gaming Monitor: What 3 Real Reviewers Agree On",
+  "category": "Best 4K Gaming Monitor 2026: What 3 Real Reviewers Agree On",
   "guide": "best-4k-gaming-monitor-2026",
   "price": "$1099-1299",
   "specs": {
@@ -101,12 +96,13 @@
   "platforms": [
    "amazon"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "MSI MPG 321URX QD-OLED",
   "brand": "",
-  "category": "Best 4K Gaming Monitor: What 3 Real Reviewers Agree On",
+  "category": "Best 4K Gaming Monitor 2026: What 3 Real Reviewers Agree On",
   "guide": "best-4k-gaming-monitor-2026",
   "price": "$799-899",
   "specs": {
@@ -119,16 +115,14 @@
   },
   "summary": "Nearly the same 4K QD-OLED gaming experience as the flagships, with USB-C power delivery, at a clearly lower price.",
   "best_for": "Best value 32-inch 4K QD-OLED",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "MSI MAG 321UPX QD-OLED",
   "brand": "",
-  "category": "Best 4K Gaming Monitor: What 3 Real Reviewers Agree On",
+  "category": "Best 4K Gaming Monitor 2026: What 3 Real Reviewers Agree On",
   "guide": "best-4k-gaming-monitor-2026",
   "price": "$749-849",
   "specs": {
@@ -141,16 +135,14 @@
   },
   "summary": "The value trim of MSI's 32-inch 4K QD-OLED line: strong SDR/HDR performance without the premium-tier extras.",
   "best_for": "Best cheaper 4K QD-OLED",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "MSI MPG 274URDFW E16M",
   "brand": "",
-  "category": "Best 4K Gaming Monitor: What 3 Real Reviewers Agree On",
+  "category": "Best 4K Gaming Monitor 2026: What 3 Real Reviewers Agree On",
   "guide": "best-4k-gaming-monitor-2026",
   "price": "$549-649",
   "specs": {
@@ -162,16 +154,14 @@
   },
   "summary": "The brightest HDR LCD route to 4K gaming, but RTINGS measured disappointing local dimming with haloing and black crush.",
   "best_for": "Best 4K HDR LCD (Mini LED)",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Wooting 60HE V2",
   "brand": "",
-  "category": "Best 60% Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best 60% Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-60-percent-keyboard-2026",
   "price": "$179.99-$239.99",
   "specs": {
@@ -186,12 +176,13 @@
    "amazon",
    "walmart"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Logitech G Pro X60",
   "brand": "",
-  "category": "Best 60% Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best 60% Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-60-percent-keyboard-2026",
   "price": "$179.99",
   "specs": {
@@ -202,16 +193,14 @@
   },
   "summary": "GX optical switches plus Lightspeed wireless in a 60% shell. TechRadar praises its build quality and snappy performance; PC Gamer highlights the fast, responsive inputs.",
   "best_for": "Wireless competitive gaming on the go",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Huntsman V3 Pro Mini",
   "brand": "",
-  "category": "Best 60% Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best 60% Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-60-percent-keyboard-2026",
   "price": "$179.99",
   "specs": {
@@ -222,16 +211,14 @@
   },
   "summary": "GamingTrend scored it 85/100: compact without compromise, with rapid trigger and Snap Tap for measurable competitive advantages. Best for Razer loyalists who want maximum desk space.",
   "best_for": "Premium 60% with analog optical tech",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Ducky One 3 Mini",
   "brand": "",
-  "category": "Best 60% Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best 60% Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-60-percent-keyboard-2026",
   "price": "$99-$119",
   "specs": {
@@ -242,17 +229,14 @@
   },
   "summary": "The longtime community favorite: hot-swap Cherry MX switches, double-shot PBT keycaps, and Ducky's QUACK Mechanics sound dampening. Tom's Hardware calls it a great line of gaming keyboards.",
   "best_for": "A classic, reliable 60% for purists",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "LG 27UN650",
   "brand": "LG",
-  "category": "Best Budget 4K Productivity Monitor",
+  "category": "Best Budget 4K Productivity Monitor 2026",
   "guide": "best-budget-4k-productivity-monitor-2026",
   "price": "$280-350",
   "specs": {
@@ -267,12 +251,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=LG+27UN650+4K+Monitor&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": ""
  },
  {
   "name": "Dell S2722QC",
   "brand": "Dell",
-  "category": "Best Budget 4K Productivity Monitor",
+  "category": "Best Budget 4K Productivity Monitor 2026",
   "guide": "best-budget-4k-productivity-monitor-2026",
   "price": "$320-380",
   "specs": {
@@ -283,16 +268,14 @@
   },
   "summary": "Best with USB-C. Single-cable 65W charging, Dell reliability, great for laptop users.",
   "best_for": "Best with USB-C",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Dell+S2722QC+4K+USB-C&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "ASUS VA27UQSB",
   "brand": "ASUS",
-  "category": "Best Budget 4K Productivity Monitor",
+  "category": "Best Budget 4K Productivity Monitor 2026",
   "guide": "best-budget-4k-productivity-monitor-2026",
   "price": "$220-280",
   "specs": {
@@ -303,16 +286,14 @@
   },
   "summary": "Best cheapest 4K. Under $250 for 4K IPS with full ergonomic stand. Incredible value.",
   "best_for": "Best cheapest 4K",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=ASUS+VA27UQSB+4K+Eye+Care&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Corsair TC100 Relaxed",
   "brand": "",
-  "category": "Best Budget Gaming Chair: What 4 Reviewers Agree On",
+  "category": "Best Budget Gaming Chair 2026: What 4 Reviewers Agree On",
   "guide": "best-budget-gaming-chair-2026",
   "price": "$199-$250",
   "specs": {
@@ -328,12 +309,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0BN6RRD5V?tag=aipicks2003-20"
  },
  {
   "name": "ThunderX3 Solo 360",
   "brand": "",
-  "category": "Best Budget Gaming Chair: What 4 Reviewers Agree On",
+  "category": "Best Budget Gaming Chair 2026: What 4 Reviewers Agree On",
   "guide": "best-budget-gaming-chair-2026",
   "price": "$229-$249",
   "specs": {
@@ -345,16 +327,14 @@
   },
   "summary": "PC Gamer's best budget gaming chair pick: 360-degree rotating armrests and synchronous tilt for $249, a rare feature set at this price.",
   "best_for": "Best budget ergonomics",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Enki X",
   "brand": "",
-  "category": "Best Budget Gaming Chair: What 4 Reviewers Agree On",
+  "category": "Best Budget Gaming Chair 2026: What 4 Reviewers Agree On",
   "guide": "best-budget-gaming-chair-2026",
   "price": "$250-$300",
   "specs": {
@@ -365,16 +345,14 @@
   },
   "summary": "Windows Central's best-value pick: the most affordable Razer chair keeps the comfort-focused design while cutting premium extras.",
   "best_for": "Best value brand pick",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "DXRacer Craft",
   "brand": "",
-  "category": "Best Budget Gaming Chair: What 4 Reviewers Agree On",
+  "category": "Best Budget Gaming Chair 2026: What 4 Reviewers Agree On",
   "guide": "best-budget-gaming-chair-2026",
   "price": "$449",
   "specs": {
@@ -385,16 +363,14 @@
   },
   "summary": "Tom's Guide's best-value gaming chair: memory foam headrest, 4D armrests, and adjustable lumbar support for only slightly more than budget rivals.",
   "best_for": "Best value upgrade",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Sony INZONE H6 Air",
   "brand": "",
-  "category": "Best Budget Gaming Headset: What 4 Reviewers Agree On",
+  "category": "Best Budget Gaming Headset 2026: What 4 Reviewers Agree On",
   "guide": "best-budget-gaming-headset-2026",
   "price": "$120-150",
   "specs": {
@@ -410,12 +386,13 @@
    "walmart",
    "temu"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Logitech G435 LIGHTSPEED",
   "brand": "",
-  "category": "Best Budget Gaming Headset: What 4 Reviewers Agree On",
+  "category": "Best Budget Gaming Headset 2026: What 4 Reviewers Agree On",
   "guide": "best-budget-gaming-headset-2026",
   "price": "$50-80",
   "specs": {
@@ -426,17 +403,14 @@
   },
   "summary": "RTINGS's lower mid-range pick and a BadSeed Tech tier-list regular: the cheapest way to get real low-latency 2.4GHz wireless from a major brand. Light, simple, and often on sale under $60.",
   "best_for": "Cheapest real wireless",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Turtle Beach Stealth 600 (Gen 3)",
   "brand": "",
-  "category": "Best Budget Gaming Headset: What 4 Reviewers Agree On",
+  "category": "Best Budget Gaming Headset 2026: What 4 Reviewers Agree On",
   "guide": "best-budget-gaming-headset-2026",
   "price": "$80-100",
   "specs": {
@@ -447,17 +421,14 @@
   },
   "summary": "RTINGS's mid-range value pick: an 80-hour battery and dual wireless at around $100. The sensible budget buy for long sessions without charging anxiety.",
   "best_for": "Best battery for the money",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "HyperX Cloud III Wireless",
   "brand": "",
-  "category": "Best Budget Gaming Headset: What 4 Reviewers Agree On",
+  "category": "Best Budget Gaming Headset 2026: What 4 Reviewers Agree On",
   "guide": "best-budget-gaming-headset-2026",
   "price": "$100-150",
   "specs": {
@@ -468,17 +439,14 @@
   },
   "summary": "Tested by Hardware Canucks in their microphone shootout and ranked by BadSeed Tech: classic HyperX Cloud comfort with a class-leading 120-hour battery and dual wireless.",
   "best_for": "Best comfort on a budget",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "AULA F75 Pro",
   "brand": "",
-  "category": "Best Budget Mechanical Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best Budget Mechanical Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-budget-mechanical-keyboard-2026",
   "price": "$65-$84",
   "specs": {
@@ -494,12 +462,13 @@
    "walmart",
    "temu"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0D14N2QZF?tag=aipicks2003-20"
  },
  {
   "name": "Epomaker TH99",
   "brand": "",
-  "category": "Best Budget Mechanical Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best Budget Mechanical Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-budget-mechanical-keyboard-2026",
   "price": "$66-$83",
   "specs": {
@@ -510,17 +479,14 @@
   },
   "summary": "A 96% board with pre-lubed Creamy Jade switches and five layers of sound dampening. Tom's Guide calls it a productivity beast with a lovely, creamy sound profile; TechXreviews says it performs like a much more expensive custom board.",
   "best_for": "Numpad users who want a creamy sound",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Ducky OK-M 65",
   "brand": "",
-  "category": "Best Budget Mechanical Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best Budget Mechanical Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-budget-mechanical-keyboard-2026",
   "price": "$65",
   "specs": {
@@ -531,17 +497,14 @@
   },
   "summary": "Ducky's affordable OK-M line won Trusted Reviews Awards 2026 Best Keyboard: gasket mount, five-layer acoustic dampening, tri-mode wireless, hot-swap KTT switches, and VIA support for just $65.",
   "best_for": "Award-winning quality from a trusted brand",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "RK Royal Kludge RK61",
   "brand": "",
-  "category": "Best Budget Mechanical Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best Budget Mechanical Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-budget-mechanical-keyboard-2026",
   "price": "$40-$50",
   "specs": {
@@ -552,17 +515,14 @@
   },
   "summary": "The classic budget 60%: hot-swap switches and tri-mode wireless for around $43. RTINGS lab-tested it with solid build quality and multi-device Bluetooth pairing; Eurogamer calls it excellent value.",
   "best_for": "Ultra-compact wireless on the cheapest budget",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Logitech C920s Pro HD",
   "brand": "",
-  "category": "Best Budget Webcam: What 4 Reviewers Agree On",
+  "category": "Best Budget Webcam 2026: What 4 Reviewers Agree On",
   "guide": "best-budget-webcam-2026",
   "price": "$59-$79",
   "specs": {
@@ -579,12 +539,13 @@
    "walmart",
    "temu"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B07K986YLL?tag=aipicks2003-20"
  },
  {
   "name": "Logitech Brio 100",
   "brand": "",
-  "category": "Best Budget Webcam: What 4 Reviewers Agree On",
+  "category": "Best Budget Webcam 2026: What 4 Reviewers Agree On",
   "guide": "best-budget-webcam-2026",
   "price": "$29-$49",
   "specs": {
@@ -596,17 +557,14 @@
   },
   "summary": "Best-value 1080p webcam with privacy shutter and RightLight auto-light balance; fixed focus is the main tradeoff.",
   "best_for": "Cheapest 1080p from a big brand",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Kiyo Pro",
   "brand": "",
-  "category": "Best Budget Webcam: What 4 Reviewers Agree On",
+  "category": "Best Budget Webcam 2026: What 4 Reviewers Agree On",
   "guide": "best-budget-webcam-2026",
   "price": "$99-$199",
   "specs": {
@@ -618,17 +576,14 @@
   },
   "summary": "A stretch pick at ~$100: 1080p60, Sony STARVIS sensor, and three fields of view make it the streaming specialist in this tier.",
   "best_for": "Best low-light on a budget",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Anker PowerConf C300",
   "brand": "",
-  "category": "Best Budget Webcam: What 4 Reviewers Agree On",
+  "category": "Best Budget Webcam 2026: What 4 Reviewers Agree On",
   "guide": "best-budget-webcam-2026",
   "price": "$99-$129",
   "specs": {
@@ -640,17 +595,14 @@
   },
   "summary": "1080p60 with AI-powered auto framing, flexible 78/90/115-degree FOV options, and dual noise-cancelling mics.",
   "best_for": "Best AI framing under $130",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Logitech G305 Lightspeed",
   "brand": "",
-  "category": "Best Budget Wireless Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best Budget Wireless Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-budget-wireless-gaming-mouse-2026",
   "price": "Under $50",
   "specs": {
@@ -666,12 +618,13 @@
    "walmart",
    "temu"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B07CMS5Q6N?tag=aipicks2003-20"
  },
  {
   "name": "VXE Dragonfly R1 Pro",
   "brand": "",
-  "category": "Best Budget Wireless Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best Budget Wireless Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-budget-wireless-gaming-mouse-2026",
   "price": "Under $50",
   "specs": {
@@ -682,17 +635,14 @@
   },
   "summary": "Boardzy calls it the best budget mouse to ever grace the earth: X2-inspired shape, 4K-capable, good coating, and below $50 with no sponsorship behind the verdict.",
   "best_for": "Flagship specs on a budget",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Attack Shark X3",
   "brand": "",
-  "category": "Best Budget Wireless Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best Budget Wireless Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-budget-wireless-gaming-mouse-2026",
   "price": "~$34",
   "specs": {
@@ -703,17 +653,14 @@
   },
   "summary": "Well Spent Tech's pick in the $20-30 bracket and on Audioviser's tested list: a 49g ultralight with a PAW 3395 sensor for the price of a pizza.",
   "best_for": "Ultra-cheap lightweight",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "MCHOSE A7 Ultra",
   "brand": "",
-  "category": "Best Budget Wireless Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best Budget Wireless Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-budget-wireless-gaming-mouse-2026",
   "price": "~$50",
   "specs": {
@@ -724,17 +671,14 @@
   },
   "summary": "Well Spent Tech's best-value pick in the $40-50 bracket: 8K wireless polling and a flagship-tier PAW3950 sensor at half the price of big-brand mice.",
   "best_for": "Best value $40-50",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Luxafor Bluetooth Busy Light",
   "brand": "Luxafor",
-  "category": "Best Busy Light Status Indicator",
+  "category": "Best Busy Light Status Indicator 2026",
   "guide": "best-busy-light-status-indicator-2026",
   "price": "$60-80",
   "specs": {
@@ -749,12 +693,13 @@
    "amazon",
    "temu"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=Luxafor+Bluetooth+Busy+Light&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": ""
  },
  {
   "name": "Embrava Blynclight",
   "brand": "Embrava",
-  "category": "Best Busy Light Status Indicator",
+  "category": "Best Busy Light Status Indicator 2026",
   "guide": "best-busy-light-status-indicator-2026",
   "price": "$35-50",
   "specs": {
@@ -765,17 +710,14 @@
   },
   "summary": "The original busy light. Simple, reliable, great Teams integration.",
   "best_for": "Best for Teams users",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Embrava+Blynclight+Standard&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "USB Busy Light (Generic)",
   "brand": "Generic",
-  "category": "Best Busy Light Status Indicator",
+  "category": "Best Busy Light Status Indicator 2026",
   "guide": "best-busy-light-status-indicator-2026",
   "price": "$15-25",
   "specs": {
@@ -786,17 +728,14 @@
   },
   "summary": "Basic red/green indicator for under $20. Manual control, no software needed.",
   "best_for": "Best budget pick",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=USB+Busy+Light+Indicator+LED&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Stand Up Desk Store Under Desk Cable Management Tray",
   "brand": "",
-  "category": "Best Cable Management Kit: What 3 Reviewers Agree On",
+  "category": "Best Cable Management Kit 2026: What 3 Reviewers Agree On",
   "guide": "best-cable-management-kit-2026",
   "price": "$19-29",
   "specs": {
@@ -812,12 +751,13 @@
    "walmart",
    "temu"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "VIDOR Under Desk Cable Management Tray (2-Pack)",
   "brand": "",
-  "category": "Best Cable Management Kit: What 3 Reviewers Agree On",
+  "category": "Best Cable Management Kit 2026: What 3 Reviewers Agree On",
   "guide": "best-cable-management-kit-2026",
   "price": "$12-20",
   "specs": {
@@ -830,17 +770,14 @@
   },
   "summary": "Featured in BTOD's 35-product tier list as a solid 2-pack value option for hiding cable runs under the desk without drilling.",
   "best_for": "Budget no-drill tray pair",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "TeegRoow 165 Pcs Cable Management Kit",
   "brand": "",
-  "category": "Best Cable Management Kit: What 3 Reviewers Agree On",
+  "category": "Best Cable Management Kit 2026: What 3 Reviewers Agree On",
   "guide": "best-cable-management-kit-2026",
   "price": "$9-15",
   "specs": {
@@ -853,17 +790,14 @@
   },
   "summary": "Featured in BTOD's 35-product tier list. 165 pieces of clips, ties, sleeves and mounts cover an entire desk in one cheap box - the easiest first step.",
   "best_for": "Complete starter kit for a first cleanup",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Alex Tech 10ft Cord Protector Wire Loom Tubing",
   "brand": "",
-  "category": "Best Cable Management Kit: What 3 Reviewers Agree On",
+  "category": "Best Cable Management Kit 2026: What 3 Reviewers Agree On",
   "guide": "best-cable-management-kit-2026",
   "price": "$8-12",
   "specs": {
@@ -873,17 +807,14 @@
   },
   "summary": "PopSci's best overall pick. A simple split-loom sleeve that bundles a rat's nest of cables into one clean run for a few dollars.",
   "best_for": "Bundling cable runs cheaply",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Elgato 4K X",
   "brand": "",
-  "category": "Best Capture Card: What 4 Reviewers Agree On",
+  "category": "Best Capture Card 2026: What 4 Reviewers Agree On",
   "guide": "best-capture-card-2026",
   "price": "$249.99",
   "specs": {
@@ -899,12 +830,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0CPFWXMBL?tag=aipicks2003-20"
  },
  {
   "name": "Elgato 4K S",
   "brand": "",
-  "category": "Best Capture Card: What 4 Reviewers Agree On",
+  "category": "Best Capture Card 2026: What 4 Reviewers Agree On",
   "guide": "best-capture-card-2026",
   "price": "$199.99",
   "specs": {
@@ -916,16 +848,14 @@
   },
   "summary": "The sweet spot: 4K60 HDR10 capture, high-frame-rate modes and a 3.5mm analog audio input for party chat. Windows Central's reviewer was so impressed they grabbed a second one.",
   "best_for": "4K60 streamers who want flagship capture for less",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "AVerMedia Live Gamer Ultra 2.1 (GC553G2)",
   "brand": "",
-  "category": "Best Capture Card: What 4 Reviewers Agree On",
+  "category": "Best Capture Card 2026: What 4 Reviewers Agree On",
   "guide": "best-capture-card-2026",
   "price": "$279.99",
   "specs": {
@@ -937,16 +867,14 @@
   },
   "summary": "The closest spec-for-spec rival to the 4K X: HDMI 2.1 capture with high-refresh passthrough. Usually priced above the 4K X, so it wins only when Elgato's ecosystem does not matter to you.",
   "best_for": "Creators who want an Elgato-class alternative",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Elgato HD60 X",
   "brand": "",
-  "category": "Best Capture Card: What 4 Reviewers Agree On",
+  "category": "Best Capture Card 2026: What 4 Reviewers Agree On",
   "guide": "best-capture-card-2026",
   "price": "$199.99",
   "specs": {
@@ -958,16 +886,14 @@
   },
   "summary": "The long-running 1080p default: driver-free UVC setup that works instantly in OBS on Mac and PC, with 4K60 HDR passthrough so your monitor keeps its full signal. Still the safe 1080p buy.",
   "best_for": "1080p streamers who want the proven plug-and-play classic",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Dell U2723QE",
   "brand": "Dell",
-  "category": "Best Monitor for Coding",
+  "category": "Best Monitor for Coding 2026",
   "guide": "best-coding-monitor-2026",
   "price": "$550-650",
   "specs": {
@@ -982,12 +908,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=Dell+U2723QE+4K+USB-C&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B09TQZP9CL?tag=aipicks2003-20"
  },
  {
   "name": "BenQ PD2705U",
   "brand": "BenQ",
-  "category": "Best Monitor for Coding",
+  "category": "Best Monitor for Coding 2026",
   "guide": "best-coding-monitor-2026",
   "price": "$450-550",
   "specs": {
@@ -998,16 +925,14 @@
   },
   "summary": "Best for Mac coders. M-Book mode matches MacBook colors, USB-C 65W, great factory calibration.",
   "best_for": "Best for Mac coders",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=BenQ+PD2705U&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "LG 27UN880 UltraFine Ergo",
   "brand": "LG",
-  "category": "Best Monitor for Coding",
+  "category": "Best Monitor for Coding 2026",
   "guide": "best-coding-monitor-2026",
   "price": "$400-500",
   "specs": {
@@ -1018,16 +943,14 @@
   },
   "summary": "Best ergonomics. Included monitor arm clamps to desk, 4K IPS, USB-C. Great for small desks.",
   "best_for": "Best ergonomics",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=LG+27UN880+Ergo&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Dell P2723DE (QHD)",
   "brand": "Dell",
-  "category": "Best Monitor for Coding",
+  "category": "Best Monitor for Coding 2026",
   "guide": "best-coding-monitor-2026",
   "price": "$280-350",
   "specs": {
@@ -1038,16 +961,14 @@
   },
   "summary": "Best budget pick. QHD is plenty for code, USB-C 90W dock, Dell reliability under $350.",
   "best_for": "Best budget pick",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Dell+P2723DE+QHD&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
-  "name": "Keychron Q1 Max (Barebones)",
+  "name": "Keychron Q1 Max",
   "brand": "",
-  "category": "Best Custom Keyboard Kit: What 5 Reviewers Agree On",
+  "category": "Best Custom Keyboard Kit 2026: What 5 Reviewers Agree On",
   "guide": "best-custom-keyboard-kit-2026",
   "price": "$189",
   "specs": {
@@ -1063,12 +984,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0CR1HHXSN?tag=aipicks2003-20"
  },
  {
   "name": "Glorious GMMK Pro (Barebones)",
   "brand": "",
-  "category": "Best Custom Keyboard Kit: What 5 Reviewers Agree On",
+  "category": "Best Custom Keyboard Kit 2026: What 5 Reviewers Agree On",
   "guide": "best-custom-keyboard-kit-2026",
   "price": "$169.99",
   "specs": {
@@ -1080,16 +1002,14 @@
   },
   "summary": "The classic starter kit: CNC aluminum 75% with gasket mount, hot-swap PCB, rotary encoder and QMK/VIA support. KitGuru gave it 8.5/10 and it still has the largest community parts ecosystem.",
   "best_for": "First-time custom builders",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Keychron Q1 HE",
   "brand": "",
-  "category": "Best Custom Keyboard Kit: What 5 Reviewers Agree On",
+  "category": "Best Custom Keyboard Kit 2026: What 5 Reviewers Agree On",
   "guide": "best-custom-keyboard-kit-2026",
   "price": "$199-$219",
   "specs": {
@@ -1101,16 +1021,14 @@
   },
   "summary": "The Q1 formula plus magnetic Hall-effect switches: adjustable actuation (0.5-3.8mm), rapid trigger and up to four actions per key. Tom's Hardware found it genuinely great for both gaming and typing.",
   "best_for": "Gamers who want Hall-effect custom feel",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "WOBKEY Rainy75",
   "brand": "",
-  "category": "Best Custom Keyboard Kit: What 5 Reviewers Agree On",
+  "category": "Best Custom Keyboard Kit 2026: What 5 Reviewers Agree On",
   "guide": "best-custom-keyboard-kit-2026",
   "price": "$99.99",
   "specs": {
@@ -1122,17 +1040,14 @@
   },
   "summary": "CNC aluminum heft and gasket-mounted thock at a price that undercuts every other metal kit - the value disruptor. 3ildcat's full review walks through the specs, VIA support and sound tests with multiple switch sets.",
   "best_for": "Out-of-box custom feel under $100",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Speks Magnetic Balls",
   "brand": "Speks",
-  "category": "Best Desk Fidget Toys for Developers",
+  "category": "Best Desk Fidget Toys for Developers 2026",
   "guide": "best-desk-fidget-toys-2026",
   "price": "$25-35",
   "specs": {
@@ -1147,12 +1062,13 @@
    "amazon",
    "temu"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=Speks+Magnetic+Desk+Toy&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": ""
  },
  {
   "name": "Fidget Cube (Original)",
   "brand": "Antsy Labs",
-  "category": "Best Desk Fidget Toys for Developers",
+  "category": "Best Desk Fidget Toys for Developers 2026",
   "guide": "best-desk-fidget-toys-2026",
   "price": "$15-20",
   "specs": {
@@ -1163,17 +1079,14 @@
   },
   "summary": "The original fidget cube. 6 sides of satisfying clicks and spins.",
   "best_for": "Best classic fidget",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Fidget+Cube+Original&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Magnetic Fidget Slider",
   "brand": "Generic",
-  "category": "Best Desk Fidget Toys for Developers",
+  "category": "Best Desk Fidget Toys for Developers 2026",
   "guide": "best-desk-fidget-toys-2026",
   "price": "$10-15",
   "specs": {
@@ -1184,37 +1097,35 @@
   },
   "summary": "Addictive magnetic click slider. Under $15, incredibly satisfying.",
   "best_for": "Best clicky toy",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Magnetic+Fidget+Slider+Toy&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
-  "name": "BenQ ScreenBar Halo",
+  "name": "BenQ ScreenBar",
   "brand": "BenQ",
-  "category": "Best Desk Lamp for Eye Care",
+  "category": "Best Desk Lamp for Eye Care 2026",
   "guide": "best-desk-lamp-eye-care-2026",
   "price": "$170-200",
   "specs": {
-   "Brightness": "800 lux, auto-dimming",
+   "Brightness": "800 lux",
    "Color Temp": "2700K-6500K",
    "Mount": "Monitor clamp (no desk space)",
    "Power": "USB powered"
   },
-  "summary": "Best monitor light bar. Clamps to monitor, auto-dims, no screen glare. Perfect for night coding.",
+  "summary": "Best monitor light bar. Clamps to monitor, no screen glare. Perfect for night coding.",
   "best_for": "Best monitor light bar",
   "platforms": [
    "amazon",
    "walmart"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=BenQ+ScreenBar+Halo&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B076VNFZJG?tag=aipicks2003-20"
  },
  {
   "name": "BenQ e-Reading Desk Lamp",
   "brand": "BenQ",
-  "category": "Best Desk Lamp for Eye Care",
+  "category": "Best Desk Lamp for Eye Care 2026",
   "guide": "best-desk-lamp-eye-care-2026",
   "price": "$200-250",
   "specs": {
@@ -1225,16 +1136,14 @@
   },
   "summary": "Best traditional lamp. Wide curved illumination covers entire desk, excellent color rendering.",
   "best_for": "Best traditional lamp",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=BenQ+e-Reading+Desk+Lamp&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Tomons LED Desk Lamp",
   "brand": "Tomons",
-  "category": "Best Desk Lamp for Eye Care",
+  "category": "Best Desk Lamp for Eye Care 2026",
   "guide": "best-desk-lamp-eye-care-2026",
   "price": "$35-50",
   "specs": {
@@ -1245,16 +1154,14 @@
   },
   "summary": "Best budget pick. Solid LED lamp with adjustable color temp for under $40.",
   "best_for": "Best budget pick",
-  "platforms": [
-   "amazon",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Tomons+Desk+Lamp+LED&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Logitech G560",
   "brand": "",
-  "category": "Best Desktop Gaming Speakers: What 4 Reviewers Agree On",
+  "category": "Best Desktop Gaming Speakers 2026: What 4 Reviewers Agree On",
   "guide": "best-desktop-gaming-speakers-2026",
   "price": "$150-200",
   "specs": {
@@ -1269,12 +1176,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B07B2WLS17?tag=aipicks2003-20"
  },
  {
   "name": "Razer Nommo V2 Pro",
   "brand": "",
-  "category": "Best Desktop Gaming Speakers: What 4 Reviewers Agree On",
+  "category": "Best Desktop Gaming Speakers 2026: What 4 Reviewers Agree On",
   "guide": "best-desktop-gaming-speakers-2026",
   "price": "$400-450",
   "specs": {
@@ -1285,16 +1193,14 @@
   },
   "summary": "PCGamesN's best gaming speakers for 2026: THX Spatial Audio and a wireless subwoofer tuned for precise in-game directional cues, with Chroma RGB to match the rest of your Razer setup.",
   "best_for": "Competitive gaming positional audio",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "SteelSeries Arena 7",
   "brand": "",
-  "category": "Best Desktop Gaming Speakers: What 4 Reviewers Agree On",
+  "category": "Best Desktop Gaming Speakers 2026: What 4 Reviewers Agree On",
   "guide": "best-desktop-gaming-speakers-2026",
   "price": "$250-300",
   "specs": {
@@ -1305,16 +1211,14 @@
   },
   "summary": "PCGamesN's best mid-range 2.1 pick: SteelSeries' Sonar software tuning and reactive RGB in a 2.1 package that undercuts the flagship Arena 9, with USB, optical and Bluetooth inputs.",
   "best_for": "Mid-range 2.1 with app control",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Edifier G2000 2.0",
   "brand": "",
-  "category": "Best Desktop Gaming Speakers: What 4 Reviewers Agree On",
+  "category": "Best Desktop Gaming Speakers 2026: What 4 Reviewers Agree On",
   "guide": "best-desktop-gaming-speakers-2026",
   "price": "$80-110",
   "specs": {
@@ -1323,26 +1227,23 @@
    "Drivers": "2x full-range",
    "Power": "Not specified"
   },
-  "summary": "GamesRadar's best RGB speakers: Edifier's 2.0 setup 'sounds as good as it looks', with three distinct sound modes and lighting that syncs with what you're doing \u2014 the value pick for small desks.",
+  "summary": "GamesRadar's best RGB speakers: Edifier's 2.0 setup 'sounds as good as it looks', with three distinct sound modes and lighting that syncs with what you're doing — the value pick for small desks.",
   "best_for": "Budget RGB desktop audio",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "HUANUO FlowLift Dual Monitor Stand HNDS6",
   "brand": "",
-  "category": "Best Dual Monitor Arm: What 3 Reviewers Agree On",
+  "category": "Best Dual Monitor Arm 2026: What 3 Reviewers Agree On",
   "guide": "best-dual-monitor-arm-2026",
   "price": "$60-$80",
   "specs": {
    "Max Size": "13-32 in per arm",
    "Max Weight": "4.4-19.8 lbs per arm",
    "Mount Type": "Dual C-clamp + grommet",
-   "Tilt/Swivel": "Gas spring, 360\u00b0 rotation",
+   "Tilt/Swivel": "Gas spring, 360° rotation",
    "VESA": "75x75 / 100x100"
   },
   "summary": "The best-seller in the category and best-value dual arm in independent testing: effortless gas-spring positioning with fully independent arms, full tilt/swivel/rotation, and built-in cable management.",
@@ -1352,55 +1253,51 @@
    "walmart",
    "temu"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B07T5SY43L?tag=aipicks2003-20"
  },
  {
   "name": "VIVO Dual Monitor Desk Mount STAND-V002",
   "brand": "",
-  "category": "Best Dual Monitor Arm: What 3 Reviewers Agree On",
+  "category": "Best Dual Monitor Arm 2026: What 3 Reviewers Agree On",
   "guide": "best-dual-monitor-arm-2026",
   "price": "$35-$50",
   "specs": {
    "Max Size": "13-30 in per arm",
    "Max Weight": "Up to 22 lbs per arm",
    "Mount Type": "C-clamp + grommet",
-   "Tilt/Swivel": "Tilt, swivel, 360\u00b0 rotation",
+   "Tilt/Swivel": "Tilt, swivel, 360° rotation",
    "VESA": "75x75 / 100x100"
   },
   "summary": "Best all-round dual stand in independent October 2026 testing, and a PCWorld-tested pick: steel construction, both clamp and grommet hardware, and 22 lbs per arm with the longest track record in the category.",
   "best_for": "Proven budget classic",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Ergotron LX Dual Monitor Arm Side-by-Side",
   "brand": "",
-  "category": "Best Dual Monitor Arm: What 3 Reviewers Agree On",
+  "category": "Best Dual Monitor Arm 2026: What 3 Reviewers Agree On",
   "guide": "best-dual-monitor-arm-2026",
   "price": "$460-$500",
   "specs": {
    "Max Size": "Up to 27 in per arm",
    "Max Weight": "7-20 lbs per arm",
    "Mount Type": "Desk clamp + grommet",
-   "Tilt/Swivel": "\u00b170\u00b0 tilt, 360\u00b0 rotation",
+   "Tilt/Swivel": "±70° tilt, 360° rotation",
    "VESA": "75x75 / 100x100"
   },
   "summary": "PCWorld's best dual-monitor arm: two real LX arms on one mount with fully independent adjustment, the same smooth motion as the single LX, and a 10-year warranty.",
   "best_for": "Premium independent arms",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Workstream by Monoprice Dual Monitor Arm",
   "brand": "",
-  "category": "Best Dual Monitor Arm: What 3 Reviewers Agree On",
+  "category": "Best Dual Monitor Arm 2026: What 3 Reviewers Agree On",
   "guide": "best-dual-monitor-arm-2026",
   "price": "$100-$135",
   "specs": {
@@ -1411,17 +1308,14 @@
   },
   "summary": "PCWorld's best budget dual-monitor arm: a tested full-motion dual setup at a fraction of the Ergotron price, with solid build quality for the money.",
   "best_for": "Budget dual with gas springs",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Dasung Paperlike 253",
   "brand": "Dasung",
-  "category": "Best E-Ink Monitor",
+  "category": "Best E-Ink Monitor 2026",
   "guide": "best-e-ink-monitor-2026",
   "price": "$1800-2000",
   "specs": {
@@ -1435,12 +1329,13 @@
   "platforms": [
    "amazon"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=Dasung+Paperlike+253+E-ink&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": ""
  },
  {
   "name": "Onyx BOOX Mira Pro 25.3\"",
   "brand": "Onyx BOOX",
-  "category": "Best E-Ink Monitor",
+  "category": "Best E-Ink Monitor 2026",
   "guide": "best-e-ink-monitor-2026",
   "price": "$1600-1800",
   "specs": {
@@ -1451,15 +1346,14 @@
   },
   "summary": "Best connectivity. HDMI + USB-C + DisplayPort, great for multi-device setups.",
   "best_for": "Best connectivity",
-  "platforms": [
-   "amazon"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Onyx+BOOX+Mira+Pro+25.3&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Dasung Paperlike HD-FT 13.3\"",
   "brand": "Dasung",
-  "category": "Best E-Ink Monitor",
+  "category": "Best E-Ink Monitor 2026",
   "guide": "best-e-ink-monitor-2026",
   "price": "$800-900",
   "specs": {
@@ -1470,15 +1364,14 @@
   },
   "summary": "Best budget e-ink. 13.3\" portable, under $900. Great second screen for reading docs.",
   "best_for": "Best budget e-ink",
-  "platforms": [
-   "amazon"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Dasung+Paperlike+HD-FT&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Razer DeathAdder V4 Pro",
   "brand": "",
-  "category": "Best Ergonomic Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best Ergonomic Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-ergonomic-gaming-mouse-2026",
   "price": "$150-$170",
   "specs": {
@@ -1493,12 +1386,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0F3QCXL82?tag=aipicks2003-20"
  },
  {
   "name": "Razer Basilisk V3 Pro 35K",
   "brand": "",
-  "category": "Best Ergonomic Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best Ergonomic Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-ergonomic-gaming-mouse-2026",
   "price": "$129-$160",
   "specs": {
@@ -1509,17 +1403,14 @@
   },
   "summary": "Omegaultra ran it a week as a Bluetooth work mouse and days as a 2.4GHz gaming mouse: palm-friendly ergonomics that made long FFXIV sessions easy on the hands, with a HyperScroll tilt wheel.",
   "best_for": "Ergonomics with extra controls",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Logitech G502 X Lightspeed",
   "brand": "",
-  "category": "Best Ergonomic Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best Ergonomic Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-ergonomic-gaming-mouse-2026",
   "price": "$99-$140",
   "specs": {
@@ -1530,17 +1421,14 @@
   },
   "summary": "Tom's Guide calls it an excellent peripheral and a strong best-gaming-mouse contender: the iconic G502 shape refined with a dual-mode scroll wheel and 13 programmable controls.",
   "best_for": "Macro-heavy workflows",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer DeathAdder V3 Pro",
   "brand": "",
-  "category": "Best Ergonomic Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best Ergonomic Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-ergonomic-gaming-mouse-2026",
   "price": "$110-$130",
   "specs": {
@@ -1551,17 +1439,14 @@
   },
   "summary": "The previous generation TechRadar loved and named best mouse for FPS in its round-up: the same superb ergonomic shape, now discounted since the V4 Pro arrived.",
   "best_for": "Ergo comfort on a budget",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Herman Miller x Logitech G Embody Gaming Chair",
   "brand": "",
-  "category": "Best Ergonomic Office Chair for Gaming: What 4 Reviewers Agree On",
+  "category": "Best Ergonomic Office Chair for Gaming 2026: What 4 Reviewers Agree On",
   "guide": "best-ergonomic-office-chair-gaming-2026",
   "price": "$1,695-$1,895",
   "specs": {
@@ -1575,12 +1460,13 @@
   "platforms": [
    "amazon"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Herman Miller Aeron",
   "brand": "",
-  "category": "Best Ergonomic Office Chair for Gaming: What 4 Reviewers Agree On",
+  "category": "Best Ergonomic Office Chair for Gaming 2026: What 4 Reviewers Agree On",
   "guide": "best-ergonomic-office-chair-gaming-2026",
   "price": "$1,000-$1,600",
   "specs": {
@@ -1591,15 +1477,14 @@
   },
   "summary": "TechRadar's big-and-tall pick: the legendary mesh chair stays breathable through marathon sessions and comes in three sizes for a precise fit.",
   "best_for": "Iconic mesh comfort",
-  "platforms": [
-   "amazon"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Steelcase Leap",
   "brand": "",
-  "category": "Best Ergonomic Office Chair for Gaming: What 4 Reviewers Agree On",
+  "category": "Best Ergonomic Office Chair for Gaming 2026: What 4 Reviewers Agree On",
   "guide": "best-ergonomic-office-chair-gaming-2026",
   "price": "$1,000-$1,400",
   "specs": {
@@ -1610,15 +1495,14 @@
   },
   "summary": "TechRadar's top choice for back pain relief: the LiveBack backrest changes shape to mirror your spine as you shift.",
   "best_for": "Best for back pain",
-  "platforms": [
-   "amazon"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Boulies EP200",
   "brand": "",
-  "category": "Best Ergonomic Office Chair for Gaming: What 4 Reviewers Agree On",
+  "category": "Best Ergonomic Office Chair for Gaming 2026: What 4 Reviewers Agree On",
   "guide": "best-ergonomic-office-chair-gaming-2026",
   "price": "$280-$350",
   "specs": {
@@ -1629,16 +1513,14 @@
   },
   "summary": "TechRadar's daily driver with 3000+ hours in the seat: a gaming brand's ergonomic chair that balances airflow, comfort, and firm support for work and play.",
   "best_for": "Best for work and play",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Qanba Obsidian 2",
   "brand": "",
-  "category": "Best Fight Stick: What 4 Reviewers Agree On",
+  "category": "Best Fight Stick 2026: What 4 Reviewers Agree On",
   "guide": "best-fight-stick-2026",
   "price": "$279-299",
   "specs": {
@@ -1654,12 +1536,13 @@
    "amazon",
    "walmart"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Mayflash F500 Elite",
   "brand": "",
-  "category": "Best Fight Stick: What 4 Reviewers Agree On",
+  "category": "Best Fight Stick 2026: What 4 Reviewers Agree On",
   "guide": "best-fight-stick-2026",
   "price": "$99-119",
   "specs": {
@@ -1671,17 +1554,14 @@
   },
   "summary": "PCGamesN's best multi-platform pick. Ships with genuine Sanwa lever and buttons, supports nearly every platform, and opens easily for part swaps.",
   "best_for": "Modders and multi-platform players",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Hori Fighting Stick Alpha",
   "brand": "",
-  "category": "Best Fight Stick: What 4 Reviewers Agree On",
+  "category": "Best Fight Stick 2026: What 4 Reviewers Agree On",
   "guide": "best-fight-stick-2026",
   "price": "$179-199",
   "specs": {
@@ -1693,16 +1573,14 @@
   },
   "summary": "Sony-licensed stick with Hayabusa parts and a clamshell design that makes artwork and part swaps simple. A mid-tier sweet spot for PS5 players.",
   "best_for": "PS5 tournament players",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Victrix Pro FS",
   "brand": "",
-  "category": "Best Fight Stick: What 4 Reviewers Agree On",
+  "category": "Best Fight Stick 2026: What 4 Reviewers Agree On",
   "guide": "best-fight-stick-2026",
   "price": "$349-399",
   "specs": {
@@ -1714,16 +1592,14 @@
   },
   "summary": "Tom's Guide's premium benchmark alongside the Obsidian 2. Sanwa parts in a unique aluminum chassis for players who want the absolute top tier.",
   "best_for": "Absolute top-tier modular play",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Audeze Maxwell 2",
   "brand": "",
-  "category": "Best Flagship Gaming Headset: What 4 Reviewers Agree On",
+  "category": "Best Flagship Gaming Headset 2026: What 4 Reviewers Agree On",
   "guide": "best-flagship-gaming-headset-2026",
   "price": "$329-349",
   "specs": {
@@ -1732,18 +1608,19 @@
    "Microphone": "Detachable boom, much improved over the original Maxwell",
    "Wireless": "USB-C 2.4GHz dongle + Bluetooth 5.3 with LDAC"
   },
-  "summary": "The unanimous top-tier pick: RTINGS's #1 gaming headset, praised by PC Gamer, Hardware Canucks and BadSeed Tech. Planar magnetic detail, LDAC, a 77-hour battery and a genuinely great mic \u2014 heavy, but unmatched.",
+  "summary": "The unanimous top-tier pick: RTINGS's #1 gaming headset, praised by PC Gamer, Hardware Canucks and BadSeed Tech. Planar magnetic detail, LDAC, a 77-hour battery and a genuinely great mic — heavy, but unmatched.",
   "best_for": "Best flagship overall",
   "platforms": [
    "amazon",
    "walmart"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "SteelSeries Arctis Nova Pro Wireless",
   "brand": "",
-  "category": "Best Flagship Gaming Headset: What 4 Reviewers Agree On",
+  "category": "Best Flagship Gaming Headset 2026: What 4 Reviewers Agree On",
   "guide": "best-flagship-gaming-headset-2026",
   "price": "$349-400",
   "specs": {
@@ -1754,16 +1631,14 @@
   },
   "summary": "The most complete package in the class: hot-swap batteries, ANC, simultaneous dual wireless and 360-degree spatial audio. Scored strongly in Hardware Canucks' mic testing; its Omni successor sits in RTINGS's notable mentions.",
   "best_for": "Premium multi-platform flagship",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer BlackShark V3 Pro",
   "brand": "",
-  "category": "Best Flagship Gaming Headset: What 4 Reviewers Agree On",
+  "category": "Best Flagship Gaming Headset 2026: What 4 Reviewers Agree On",
   "guide": "best-flagship-gaming-headset-2026",
   "price": "$200-249",
   "specs": {
@@ -1772,18 +1647,16 @@
    "Microphone": "Detachable HyperClear cardioid 9.9mm",
    "Wireless": "HyperSpeed 2.4GHz + Bluetooth"
   },
-  "summary": "PC Gamer's #1 gaming headset overall and an RTINGS upper mid-range pick. 70-hour battery, low-latency HyperSpeed wireless and flagship-tier audio at $249 \u2014 it undercuts every other flagship here by $100+.",
+  "summary": "PC Gamer's #1 gaming headset overall and an RTINGS upper mid-range pick. 70-hour battery, low-latency HyperSpeed wireless and flagship-tier audio at $249 — it undercuts every other flagship here by $100+.",
   "best_for": "Flagship sound, half the price",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Logitech Astro A50 X",
   "brand": "",
-  "category": "Best Flagship Gaming Headset: What 4 Reviewers Agree On",
+  "category": "Best Flagship Gaming Headset 2026: What 4 Reviewers Agree On",
   "guide": "best-flagship-gaming-headset-2026",
   "price": "$350-380",
   "specs": {
@@ -1793,18 +1666,16 @@
    "Switching": "PLAYSYNC HDMI 2.1 base station",
    "Wireless": "LIGHTSPEED 2.4GHz + Bluetooth"
   },
-  "summary": "The premium console-hopper: its PLAYSYNC base station switches audio between PC, Xbox and PS5 at the press of a button. RTINGS's lighter comfort alternative to the Maxwell 2, with a parametric-EQ app \u2014 but the priciest pick here.",
+  "summary": "The premium console-hopper: its PLAYSYNC base station switches audio between PC, Xbox and PS5 at the press of a button. RTINGS's lighter comfort alternative to the Maxwell 2, with a parametric-EQ app — but the priciest pick here.",
   "best_for": "Best multi-console flagship",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Viper V4 Pro",
   "brand": "",
-  "category": "Best Lightweight FPS Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best Lightweight FPS Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-fps-lightweight-gaming-mouse-2026",
   "price": "$159-$180",
   "specs": {
@@ -1819,12 +1690,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0GMLBSSTD?tag=aipicks2003-20"
  },
  {
   "name": "Logitech G Pro X2 Superstrike",
   "brand": "",
-  "category": "Best Lightweight FPS Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best Lightweight FPS Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-fps-lightweight-gaming-mouse-2026",
   "price": "$179.99",
   "specs": {
@@ -1835,16 +1707,14 @@
   },
   "summary": "The only mouse with tunable haptic actuation switches: dial in click force like DPI. BadSeed Tech found the Superstrike's click tech genuinely compelling in direct testing against the Viper V4 Pro.",
   "best_for": "Cutting-edge click tech for tactical shooters",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Logitech G Pro X Superlight 2",
   "brand": "",
-  "category": "Best Lightweight FPS Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best Lightweight FPS Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-fps-lightweight-gaming-mouse-2026",
   "price": "$129-$159",
   "specs": {
@@ -1855,17 +1725,14 @@
   },
   "summary": "TechPowerUp's lab testing found near-perfect CPI accuracy with no smoothing across the full range. The reference safe esports shape, now discounted below the 2026 flagships.",
   "best_for": "Safe esports all-rounder",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer DeathAdder V4 Pro",
   "brand": "",
-  "category": "Best Lightweight FPS Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best Lightweight FPS Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-fps-lightweight-gaming-mouse-2026",
   "price": "$150-$170",
   "specs": {
@@ -1876,16 +1743,14 @@
   },
   "summary": "PCGamesN calls it the new ergonomic gaming mouse king: the beloved DeathAdder shape at 56g with true 8K wireless for palm-grip FPS players.",
   "best_for": "Ergonomic FPS gaming",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "SteelSeries Arctis GameBuds",
   "brand": "",
-  "category": "Best Gaming Earbuds: What 4 Reviewers Agree On",
+  "category": "Best Gaming Earbuds 2026: What 4 Reviewers Agree On",
   "guide": "best-gaming-earbuds-2026",
   "price": "$159-199",
   "specs": {
@@ -1900,12 +1765,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0DFX42Q1Y?tag=aipicks2003-20"
  },
  {
   "name": "Sony INZONE Buds",
   "brand": "",
-  "category": "Best Gaming Earbuds: What 4 Reviewers Agree On",
+  "category": "Best Gaming Earbuds 2026: What 4 Reviewers Agree On",
   "guide": "best-gaming-earbuds-2026",
   "price": "$149-199",
   "specs": {
@@ -1916,17 +1782,14 @@
   },
   "summary": "The pick if you hate charging breaks: the longest per-charge battery of any gaming buds here, with personalized 360 spatial sound tuned to your ears. Reviewed by RTINGS and ranked by TechRadar.",
   "best_for": "Battery-life champ",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "EarFun Air Pro 4+",
   "brand": "",
-  "category": "Best Gaming Earbuds: What 4 Reviewers Agree On",
+  "category": "Best Gaming Earbuds 2026: What 4 Reviewers Agree On",
   "guide": "best-gaming-earbuds-2026",
   "price": "$80-120",
   "specs": {
@@ -1935,19 +1798,16 @@
    "Noise control": "Hybrid active noise cancellation",
    "Wireless": "Bluetooth with multipoint"
   },
-  "summary": "PC Gamer's gaming-earbuds pick for 2026: hybrid ANC, a low-latency game mode and strong all-round sound at a mid-range price \u2014 the value alternative to the $160+ flagships.",
+  "summary": "PC Gamer's gaming-earbuds pick for 2026: hybrid ANC, a low-latency game mode and strong all-round sound at a mid-range price — the value alternative to the $160+ flagships.",
   "best_for": "Best mid-range value",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Truthear x Crinacle Zero",
   "brand": "",
-  "category": "Best Gaming Earbuds: What 4 Reviewers Agree On",
+  "category": "Best Gaming Earbuds 2026: What 4 Reviewers Agree On",
   "guide": "best-gaming-earbuds-2026",
   "price": "$40-60",
   "specs": {
@@ -1958,17 +1818,14 @@
   },
   "summary": "BadSeed Tech's budget IEM pick for gaming and music: Crinacle's tuning gives you far better sound than any gaming headset at this price. Wired and mic-less, so pair it with a separate mic for team chat.",
   "best_for": "Best wired IEM for gaming",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Wooting 80HE",
   "brand": "",
-  "category": "Best Hall Effect Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best Hall Effect Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-hall-effect-keyboard-2026",
   "price": "$199.99",
   "specs": {
@@ -1983,12 +1840,13 @@
    "amazon",
    "walmart"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Razer Huntsman V3 Pro TKL",
   "brand": "",
-  "category": "Best Hall Effect Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best Hall Effect Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-hall-effect-keyboard-2026",
   "price": "$219.99",
   "specs": {
@@ -1999,16 +1857,14 @@
   },
   "summary": "Razer's analog alternative with rapid trigger, Snap Tap, and on-board adjustment that skips Synapse. ProSettings calls it best-in-class for pure gaming performance.",
   "best_for": "A big-brand analog keyboard with polish",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Keychron K8 HE",
   "brand": "",
-  "category": "Best Hall Effect Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best Hall Effect Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-hall-effect-keyboard-2026",
   "price": "$99-$119",
   "specs": {
@@ -2019,17 +1875,14 @@
   },
   "summary": "One of the few wireless hall-effect boards that works on Mac and Windows out of the box. Tom's Hardware praises the pre-lubed Gateron magnetic switches and a web app it actually enjoys using; Windows Central calls it a fantastic keyboard for gaming.",
   "best_for": "Wireless hall effect on Mac and Windows",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Akko TAC75 HE",
   "brand": "",
-  "category": "Best Hall Effect Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best Hall Effect Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-hall-effect-keyboard-2026",
   "price": "$50",
   "specs": {
@@ -2040,17 +1893,14 @@
   },
   "summary": "The $50 hall-effect pick: rapid trigger, 8K polling, and adjustable actuation in a 75% layout. Hands-on reviews with sound tests show it punching far above its price class.",
   "best_for": "Hall effect performance on a tight budget",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Firefly Hard V2",
   "brand": "",
-  "category": "Best Hard Gaming Mousepad: What 5 Reviewers Agree On",
+  "category": "Best Hard Gaming Mousepad 2026: What 5 Reviewers Agree On",
   "guide": "best-hard-gaming-mousepad-2026",
   "price": "$59-$100",
   "specs": {
@@ -2067,12 +1917,13 @@
    "walmart",
    "temu"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Razer Atlas Tempered Glass Gaming Mouse Mat",
   "brand": "",
-  "category": "Best Hard Gaming Mousepad: What 5 Reviewers Agree On",
+  "category": "Best Hard Gaming Mousepad 2026: What 5 Reviewers Agree On",
   "guide": "best-hard-gaming-mousepad-2026",
   "price": "$89-$100",
   "specs": {
@@ -2083,17 +1934,14 @@
   },
   "summary": "Tom's Hardware's best hard surface pad: the fastest, most consistent glide of any glass pad, with an easy-wipe oleophobic coating.",
   "best_for": "Maximum glass speed",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Skypad Mousepad 3.0",
   "brand": "",
-  "category": "Best Hard Gaming Mousepad: What 5 Reviewers Agree On",
+  "category": "Best Hard Gaming Mousepad 2026: What 5 Reviewers Agree On",
   "guide": "best-hard-gaming-mousepad-2026",
   "price": "$110-$130",
   "specs": {
@@ -2104,17 +1952,14 @@
   },
   "summary": "Tom's Hardware's best alternate-size hard surface: a glass pad that is not quite as slick as the Atlas but works just as well - and comes in multiple sizes.",
   "best_for": "Glass in more sizes",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Wallhack SP-004",
   "brand": "",
-  "category": "Best Hard Gaming Mousepad: What 5 Reviewers Agree On",
+  "category": "Best Hard Gaming Mousepad 2026: What 5 Reviewers Agree On",
   "guide": "best-hard-gaming-mousepad-2026",
   "price": "$120-$150",
   "specs": {
@@ -2125,17 +1970,14 @@
   },
   "summary": "Optimum Tech calls it the fastest, smoothest pad on the market - a no-compromise glass surface for players who want maximum speed.",
   "best_for": "Fastest glass glide",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Logitech G440 Hard Gaming Mouse Pad",
   "brand": "",
-  "category": "Best Hard Gaming Mousepad: What 5 Reviewers Agree On",
+  "category": "Best Hard Gaming Mousepad 2026: What 5 Reviewers Agree On",
   "guide": "best-hard-gaming-mousepad-2026",
   "price": "$20-$30",
   "specs": {
@@ -2146,17 +1988,14 @@
   },
   "summary": "PCGamesN's best hard pad: low-friction, hard-wearing polypropylene at a budget price - the cheapest way to try a hard surface.",
   "best_for": "Budget hard pad",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "GLSSWRKS Zofia",
   "brand": "",
-  "category": "Best Hard Gaming Mousepad: What 5 Reviewers Agree On",
+  "category": "Best Hard Gaming Mousepad 2026: What 5 Reviewers Agree On",
   "guide": "best-hard-gaming-mousepad-2026",
   "price": "$80-$95",
   "specs": {
@@ -2167,17 +2006,14 @@
   },
   "summary": "Zido's first-impressions pick: a controlled glass surface that stays composed even with the fastest skates - glass for players who want control, not just speed.",
   "best_for": "Controlled glass accuracy",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Deltahub Carpio 2.0",
   "brand": "",
-  "category": "Best Keyboard Wrist Rest: What 4 Reviewers Agree On",
+  "category": "Best Keyboard Wrist Rest 2026: What 4 Reviewers Agree On",
   "guide": "best-keyboard-wrist-rest-2026",
   "price": "$39-45",
   "specs": {
@@ -2194,12 +2030,13 @@
    "walmart",
    "temu"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "HyperX Wrist Rest",
   "brand": "",
-  "category": "Best Keyboard Wrist Rest: What 4 Reviewers Agree On",
+  "category": "Best Keyboard Wrist Rest 2026: What 4 Reviewers Agree On",
   "guide": "best-keyboard-wrist-rest-2026",
   "price": "$20-30",
   "specs": {
@@ -2211,17 +2048,14 @@
   },
   "summary": "DowneLink's hands-on pick for classic comfort. Cooling gel memory foam with a stable anti-slip base - the traditional wrist rest done right.",
   "best_for": "All-day typing comfort",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "MacBook Pro 14 (M4)",
   "brand": "Apple",
-  "category": "Best Laptop for Programming",
+  "category": "Best Laptop for Programming 2026",
   "guide": "best-laptop-for-programming-2026",
   "price": "$1599-1999",
   "specs": {
@@ -2236,12 +2070,13 @@
   "platforms": [
    "amazon"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=MacBook+Pro+14+M4&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": ""
  },
  {
   "name": "ThinkPad X1 Carbon Gen 13",
   "brand": "Lenovo",
-  "category": "Best Laptop for Programming",
+  "category": "Best Laptop for Programming 2026",
   "guide": "best-laptop-for-programming-2026",
   "price": "$1400-1800",
   "specs": {
@@ -2253,15 +2088,14 @@
   },
   "summary": "Best Windows/Linux dev laptop. Best keyboard in the business, ultralight, great Linux support.",
   "best_for": "Best Windows/Linux dev laptop",
-  "platforms": [
-   "amazon"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=ThinkPad+X1+Carbon+Gen+13&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Framework Laptop 13",
   "brand": "Framework",
-  "category": "Best Laptop for Programming",
+  "category": "Best Laptop for Programming 2026",
   "guide": "best-laptop-for-programming-2026",
   "price": "$1049-1400",
   "specs": {
@@ -2273,15 +2107,14 @@
   },
   "summary": "Best repairable/upgradable. 3:2 display great for code, fully modular, right-to-repair champion.",
   "best_for": "Best repairable/upgradable",
-  "platforms": [
-   "amazon"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Framework+Laptop+13&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Acer Swift Go 14 (OLED)",
   "brand": "Acer",
-  "category": "Best Laptop for Programming",
+  "category": "Best Laptop for Programming 2026",
   "guide": "best-laptop-for-programming-2026",
   "price": "$650-800",
   "specs": {
@@ -2293,16 +2126,14 @@
   },
   "summary": "Best budget pick. OLED display and solid specs for under $700. Incredible value for developers.",
   "best_for": "Best budget pick",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Acer+Swift+Go+14+OLED&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Rain Design mStand",
   "brand": "Rain Design",
-  "category": "Best Laptop Stand",
+  "category": "Best Laptop Stand 2026",
   "guide": "best-laptop-stand-2026",
   "price": "$45-55",
   "specs": {
@@ -2317,12 +2148,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=Rain+Design+mStand+Laptop+Stand&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B000OOYECC?tag=aipicks2003-20"
  },
  {
   "name": "Nulaxy C3 Laptop Stand",
   "brand": "Nulaxy",
-  "category": "Best Laptop Stand",
+  "category": "Best Laptop Stand 2026",
   "guide": "best-laptop-stand-2026",
   "price": "$30-40",
   "specs": {
@@ -2333,17 +2165,14 @@
   },
   "summary": "Best adjustable. 7 height angles, foldable for travel, great cooling. Best value.",
   "best_for": "Best adjustable",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Nulaxy+C3+Laptop+Stand&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Lamicall Laptop Stand",
   "brand": "Lamicall",
-  "category": "Best Laptop Stand",
+  "category": "Best Laptop Stand 2026",
   "guide": "best-laptop-stand-2026",
   "price": "$25-35",
   "specs": {
@@ -2354,17 +2183,14 @@
   },
   "summary": "Best budget pick. Solid aluminum, adjustable, under $30. Does the job well.",
   "best_for": "Best budget pick",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Lamicall+Laptop+Stand+Adjustable&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "DJI Mic 2",
   "brand": "",
-  "category": "Best Lavalier Microphone: What 4 Reviewers Agree On",
+  "category": "Best Lavalier Microphone 2026: What 4 Reviewers Agree On",
   "guide": "best-lavalier-microphone-2026",
   "price": "$199-349",
   "specs": {
@@ -2374,18 +2200,19 @@
    "Sample Rate": "48kHz / 32-bit float",
    "Type": "Wireless lavalier (2.4GHz)"
   },
-  "summary": "Tom's Guide: 'The Mic 2 is fantastic' \u2014 AI noise cancellation cleans up challenging environments in real tests, and 32-bit float plus a safety track give pros peace of mind. Direct Bluetooth recording to your phone, no receiver needed.",
+  "summary": "Tom's Guide: 'The Mic 2 is fantastic' — AI noise cancellation cleans up challenging environments in real tests, and 32-bit float plus a safety track give pros peace of mind. Direct Bluetooth recording to your phone, no receiver needed.",
   "best_for": "YouTubers and interview shooters",
   "platforms": [
    "amazon",
    "walmart"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0CFZX734J?tag=aipicks2003-20"
  },
  {
   "name": "Hollyland Lark M2S",
   "brand": "",
-  "category": "Best Lavalier Microphone: What 4 Reviewers Agree On",
+  "category": "Best Lavalier Microphone 2026: What 4 Reviewers Agree On",
   "guide": "best-lavalier-microphone-2026",
   "price": "$129-149",
   "specs": {
@@ -2397,17 +2224,14 @@
   },
   "summary": "TechRadar's tiny-wireless benchmark: 7g logo-free transmitters that practically disappear on clothing, 24-bit audio and 300m range for ~$139. The direct rival to the DJI Mic Mini when invisibility matters.",
   "best_for": "Minimal size and weight",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Rode Wireless Pro",
   "brand": "",
-  "category": "Best Lavalier Microphone: What 4 Reviewers Agree On",
+  "category": "Best Lavalier Microphone 2026: What 4 Reviewers Agree On",
   "guide": "best-lavalier-microphone-2026",
   "price": "$349-399",
   "specs": {
@@ -2417,18 +2241,16 @@
    "Sample Rate": "48kHz / 32-bit float",
    "Type": "Wireless lavalier (2.4GHz)"
   },
-  "summary": "Tom's Guide names it the Mic 2's main competitor: on paper everything the DJI does, slightly better \u2014 longer range, more internal storage, an extra hour of battery. Costs a bit more for those marginal gains.",
+  "summary": "Tom's Guide names it the Mic 2's main competitor: on paper everything the DJI does, slightly better — longer range, more internal storage, an extra hour of battery. Costs a bit more for those marginal gains.",
   "best_for": "Pro features and timecode",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "DJI Mic Mini",
   "brand": "",
-  "category": "Best Lavalier Microphone: What 4 Reviewers Agree On",
+  "category": "Best Lavalier Microphone 2026: What 4 Reviewers Agree On",
   "guide": "best-lavalier-microphone-2026",
   "price": "$79-169",
   "specs": {
@@ -2440,17 +2262,14 @@
   },
   "summary": "The tiny-budget benchmark TechRadar measures rivals against: 10g transmitters, 48-hour case battery and 400m range. Best pick when you want wireless audio that disappears on camera for under $100.",
   "best_for": "Budget dual-channel wireless",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Elgato Stream Deck Mini",
   "brand": "Elgato",
-  "category": "Best Macro Keypad",
+  "category": "Best Macro Keypad 2026",
   "guide": "best-macro-keypad-2026",
   "price": "$80-100",
   "specs": {
@@ -2465,12 +2284,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=Elgato+Stream+Deck+Mini&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B07DYRS1WH?tag=aipicks2003-20"
  },
  {
   "name": "X-keys XK-24",
   "brand": "X-keys",
-  "category": "Best Macro Keypad",
+  "category": "Best Macro Keypad 2026",
   "guide": "best-macro-keypad-2026",
   "price": "$200-250",
   "specs": {
@@ -2481,15 +2301,14 @@
   },
   "summary": "24 industrial-grade keys. Built for pros who need serious macro power.",
   "best_for": "Best pro option",
-  "platforms": [
-   "amazon"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=X-keys+XK-24+Programmable+Keypad&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "9-Key Programmable Macro Pad",
   "brand": "Generic",
-  "category": "Best Macro Keypad",
+  "category": "Best Macro Keypad 2026",
   "guide": "best-macro-keypad-2026",
   "price": "$25-40",
   "specs": {
@@ -2498,19 +2317,16 @@
    "Profiles": "Single layer",
    "Software": "Basic config tool"
   },
-  "summary": "Cheap mechanical macro pad. 9 keys for under $40 \u2014 great starter.",
+  "summary": "Cheap mechanical macro pad. 9 keys for under $40 — great starter.",
   "best_for": "Best budget pick",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Macro+Keypad+9+Key+Programmable&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Secretlab TITAN Evo 2022",
   "brand": "",
-  "category": "Best Mid-Range Gaming Chair: What 4 Reviewers Agree On",
+  "category": "Best Mid-Range Gaming Chair 2026: What 4 Reviewers Agree On",
   "guide": "best-mid-range-gaming-chair-2026",
   "price": "$529-$569",
   "specs": {
@@ -2526,12 +2342,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0BC9Z44BC?tag=aipicks2003-20"
  },
  {
   "name": "AndaSeat Kaiser 3",
   "brand": "",
-  "category": "Best Mid-Range Gaming Chair: What 4 Reviewers Agree On",
+  "category": "Best Mid-Range Gaming Chair 2026: What 4 Reviewers Agree On",
   "guide": "best-mid-range-gaming-chair-2026",
   "price": "$499-$549",
   "specs": {
@@ -2543,16 +2360,14 @@
   },
   "summary": "Tom's Hardware's big-and-tall pick and Digital Trends' choice for larger gamers; wide seat, high weight capacity, and subtle styling.",
   "best_for": "Big and tall gamers",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Iskur V2",
   "brand": "",
-  "category": "Best Mid-Range Gaming Chair: What 4 Reviewers Agree On",
+  "category": "Best Mid-Range Gaming Chair 2026: What 4 Reviewers Agree On",
   "guide": "best-mid-range-gaming-chair-2026",
   "price": "$599-$649",
   "specs": {
@@ -2563,16 +2378,14 @@
   },
   "summary": "Digital Trends' pick for back pain and Windows Central's best lumbar support: the 6D system moves with your back in every direction.",
   "best_for": "Best lumbar support",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Herman Miller x Logitech G Vantum",
   "brand": "",
-  "category": "Best Mid-Range Gaming Chair: What 4 Reviewers Agree On",
+  "category": "Best Mid-Range Gaming Chair 2026: What 4 Reviewers Agree On",
   "guide": "best-mid-range-gaming-chair-2026",
   "price": "$900-$950",
   "specs": {
@@ -2583,16 +2396,14 @@
   },
   "summary": "Tom's Hardware's best overall gaming chair and Digital Trends' best mesh pick: Herman Miller ergonomics with a gaming chair's headrest and comfort.",
   "best_for": "Best mesh option",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Mac mini (M4)",
   "brand": "Apple",
-  "category": "Best Mini PC",
+  "category": "Best Mini PC 2026",
   "guide": "best-mini-pc-2026",
   "price": "$599-799",
   "specs": {
@@ -2607,12 +2418,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=Mac+mini+M4&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": ""
  },
  {
   "name": "Beelink SER8",
   "brand": "Beelink",
-  "category": "Best Mini PC",
+  "category": "Best Mini PC 2026",
   "guide": "best-mini-pc-2026",
   "price": "$400-500",
   "specs": {
@@ -2623,15 +2435,14 @@
   },
   "summary": "Best Windows mini PC. 32GB RAM + 1TB SSD for under $500. Great for dev VMs.",
   "best_for": "Best Windows mini PC",
-  "platforms": [
-   "amazon"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Beelink+SER8+Ryzen+7&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "GMKtec NucBox G3 Plus",
   "brand": "GMKtec",
-  "category": "Best Mini PC",
+  "category": "Best Mini PC 2026",
   "guide": "best-mini-pc-2026",
   "price": "$180-220",
   "specs": {
@@ -2642,15 +2453,14 @@
   },
   "summary": "Best budget pick. Perfect home server or media PC for $200. Silent and sips power.",
   "best_for": "Best budget pick",
-  "platforms": [
-   "amazon"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=GMKtec+NucBox+G3+Plus&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Razer Naga V3 Pro",
   "brand": "",
-  "category": "Best MMO Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best MMO Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-mmo-gaming-mouse-2026",
   "price": "$179.99",
   "specs": {
@@ -2665,12 +2475,13 @@
    "amazon",
    "walmart"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Corsair Scimitar Elite Wireless SE",
   "brand": "",
-  "category": "Best MMO Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best MMO Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-mmo-gaming-mouse-2026",
   "price": "$99-$140",
   "specs": {
@@ -2681,17 +2492,14 @@
   },
   "summary": "GamesRadar praises its well-tensioned side buttons and Stream Deck integration: the most comfortable MMO grid with a thumb panel you can slide to fit your hand, now often discounted to $99.",
   "best_for": "Comfort in long MMO sessions",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Naga V2 Pro",
   "brand": "",
-  "category": "Best MMO Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best MMO Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-mmo-gaming-mouse-2026",
   "price": "$99-$150",
   "specs": {
@@ -2702,17 +2510,14 @@
   },
   "summary": "Windows Central called it the most versatile gaming mouse after a week of World of Warcraft testing: hot-swappable 2/6/12-button plates and a customizable scroll wheel, now cheaper as the V3 Pro takes the crown.",
   "best_for": "Discounted previous flagship",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Logitech G600",
   "brand": "",
-  "category": "Best MMO Gaming Mouse: What 4 Real Reviewers Agree On",
+  "category": "Best MMO Gaming Mouse 2026: What 4 Real Reviewers Agree On",
   "guide": "best-mmo-gaming-mouse-2026",
   "price": "Under $40",
   "specs": {
@@ -2723,17 +2528,14 @@
   },
   "summary": "The long-running budget MMO workhorse Tom's Guide tested in World of Warcraft: 20 programmable buttons and on-board memory for the price of a pizza.",
   "best_for": "MMO gaming on a budget",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "BenQ ScreenBar Halo 2",
   "brand": "",
-  "category": "Best Monitor Light Bar: What 4 Reviewers Agree On",
+  "category": "Best Monitor Light Bar 2026: What 4 Reviewers Agree On",
   "guide": "best-monitor-light-bar-2026",
   "price": "$179-199",
   "specs": {
@@ -2750,12 +2552,13 @@
    "amazon",
    "walmart"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Quntis Computer Monitor Light Bar",
   "brand": "",
-  "category": "Best Monitor Light Bar: What 4 Reviewers Agree On",
+  "category": "Best Monitor Light Bar 2026: What 4 Reviewers Agree On",
   "guide": "best-monitor-light-bar-2026",
   "price": "$39-45",
   "specs": {
@@ -2768,17 +2571,14 @@
   },
   "summary": "Creative Bloq's budget pick and tested by Jessica Bryson on an ultrawide. Glare-free asymmetric optics and auto-dimming at a quarter of the BenQ price.",
   "best_for": "Budget pick with high color accuracy",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "EppieBasic Ultrawide LED Desk Lamp",
   "brand": "",
-  "category": "Best Monitor Light Bar: What 4 Reviewers Agree On",
+  "category": "Best Monitor Light Bar 2026: What 4 Reviewers Agree On",
   "guide": "best-monitor-light-bar-2026",
   "price": "$49-71",
   "specs": {
@@ -2791,17 +2591,14 @@
   },
   "summary": "Creative Bloq's dual-monitor pick. A 31.5-inch desk-clamp gooseneck bar that spans two screens or one ultrawide.",
   "best_for": "Dual monitors and ultrawide setups",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Synology DS224+",
   "brand": "Synology",
-  "category": "Best NAS for Home Server",
+  "category": "Best NAS for Home Server 2026",
   "guide": "best-nas-home-server-2026",
   "price": "$300-350",
   "specs": {
@@ -2816,12 +2613,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=Synology+DS224%2B&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0C6927XPX?tag=aipicks2003-20"
  },
  {
   "name": "UGREEN DXP2800",
   "brand": "UGREEN",
-  "category": "Best NAS for Home Server",
+  "category": "Best NAS for Home Server 2026",
   "guide": "best-nas-home-server-2026",
   "price": "$350-400",
   "specs": {
@@ -2832,15 +2630,14 @@
   },
   "summary": "Best hardware value. N100 chip, 8GB RAM, 2.5GbE. More powerful than Synology for the price.",
   "best_for": "Best hardware value",
-  "platforms": [
-   "amazon"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=UGREEN+DXP2800+NAS&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Synology DS423+",
   "brand": "Synology",
-  "category": "Best NAS for Home Server",
+  "category": "Best NAS for Home Server 2026",
   "guide": "best-nas-home-server-2026",
   "price": "$450-500",
   "specs": {
@@ -2851,16 +2648,14 @@
   },
   "summary": "Best 4-bay. Room to grow, same great DSM software, ideal for RAID 5.",
   "best_for": "Best 4-bay",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Synology+DS423%2B&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Sony WH-1000XM5",
   "brand": "Sony",
-  "category": "Best Noise Cancelling Headphones",
+  "category": "Best Noise Cancelling Headphones 2026",
   "guide": "best-noise-cancelling-headphones-2026",
   "price": "$280-350",
   "specs": {
@@ -2875,12 +2670,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=Sony+WH-1000XM5&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B09XSDMT4F?tag=aipicks2003-20"
  },
  {
   "name": "Bose QuietComfort Ultra",
   "brand": "Bose",
-  "category": "Best Noise Cancelling Headphones",
+  "category": "Best Noise Cancelling Headphones 2026",
   "guide": "best-noise-cancelling-headphones-2026",
   "price": "$300-380",
   "specs": {
@@ -2891,16 +2687,14 @@
   },
   "summary": "Best comfort. Legendary Bose comfort, spatial audio, superb call quality.",
   "best_for": "Best comfort",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Bose+QuietComfort+Ultra&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Sony WH-1000XM4",
   "brand": "Sony",
-  "category": "Best Noise Cancelling Headphones",
+  "category": "Best Noise Cancelling Headphones 2026",
   "guide": "best-noise-cancelling-headphones-2026",
   "price": "$200-250",
   "specs": {
@@ -2911,16 +2705,14 @@
   },
   "summary": "Best budget flagship. Previous-gen XM5 performance for $100 less. Still fantastic.",
   "best_for": "Best budget flagship",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Sony+WH-1000XM4&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "ASUS ROG Strix XG32UCWMG",
   "brand": "",
-  "category": "Best OLED Gaming Monitor: What 3 Real Reviewers Agree On",
+  "category": "Best OLED Gaming Monitor 2026: What 3 Real Reviewers Agree On",
   "guide": "best-oled-gaming-monitor-2026",
   "price": "$1099-1299",
   "specs": {
@@ -2935,12 +2727,13 @@
   "platforms": [
    "amazon"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "MSI MPG 321URX QD-OLED",
   "brand": "",
-  "category": "Best OLED Gaming Monitor: What 3 Real Reviewers Agree On",
+  "category": "Best OLED Gaming Monitor 2026: What 3 Real Reviewers Agree On",
   "guide": "best-oled-gaming-monitor-2026",
   "price": "$799-899",
   "specs": {
@@ -2953,16 +2746,14 @@
   },
   "summary": "The same 32-inch 4K QD-OLED gaming experience as the flagships, with USB-C power delivery, at a clearly lower price.",
   "best_for": "Best value 4K QD-OLED",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "ASUS ROG Swift PG34WCDN",
   "brand": "",
-  "category": "Best OLED Gaming Monitor: What 3 Real Reviewers Agree On",
+  "category": "Best OLED Gaming Monitor 2026: What 3 Real Reviewers Agree On",
   "guide": "best-oled-gaming-monitor-2026",
   "price": "$1199-1399",
   "specs": {
@@ -2975,15 +2766,14 @@
   },
   "summary": "The world's first RGB-stripe QD-OLED: sharper text, 360Hz, and DP 2.1, praised in a dedicated hands-on review.",
   "best_for": "Best ultrawide OLED",
-  "platforms": [
-   "amazon"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "MSI MAG 321UPX QD-OLED",
   "brand": "",
-  "category": "Best OLED Gaming Monitor: What 3 Real Reviewers Agree On",
+  "category": "Best OLED Gaming Monitor 2026: What 3 Real Reviewers Agree On",
   "guide": "best-oled-gaming-monitor-2026",
   "price": "$749-849",
   "specs": {
@@ -2996,16 +2786,14 @@
   },
   "summary": "The value trim of MSI's 32-inch 4K QD-OLED line: strong SDR/HDR performance without the premium-tier extras.",
   "best_for": "Best cheaper 4K QD-OLED",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Sony INZONE H6 Air",
   "brand": "",
-  "category": "Best Open-Back Gaming Headphones: What 3 Reviewers Agree On",
+  "category": "Best Open-Back Gaming Headphones 2026: What 3 Reviewers Agree On",
   "guide": "best-open-back-gaming-headphones-2026",
   "price": "$120-150",
   "specs": {
@@ -3021,32 +2809,31 @@
    "walmart",
    "temu"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Drop + Sennheiser PC38X",
   "brand": "",
-  "category": "Best Open-Back Gaming Headphones: What 3 Reviewers Agree On",
+  "category": "Best Open-Back Gaming Headphones 2026: What 3 Reviewers Agree On",
   "guide": "best-open-back-gaming-headphones-2026",
   "price": "$169-199",
   "specs": {
    "Connection": "Wired 3.5mm",
    "Design": "Open-back over-ear",
-   "Drivers": "Dynamic, 28 ohm \u2014 easy to drive",
+   "Drivers": "Dynamic, 28 ohm — easy to drive",
    "Microphone": "Noise-cancelling boom mic included"
   },
-  "summary": "Joshua Valour's favorite gaming headset for comfort, sound quality and competitive performance \u2014 and RTINGS's former open-back pick. The rare open-back that ships with a proper boom mic, no amp needed.",
+  "summary": "Joshua Valour's favorite gaming headset for comfort, sound quality and competitive performance — and RTINGS's former open-back pick. The rare open-back that ships with a proper boom mic, no amp needed.",
   "best_for": "Best open-back with a mic included",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "ASUS ROG Kithara",
   "brand": "",
-  "category": "Best Open-Back Gaming Headphones: What 3 Reviewers Agree On",
+  "category": "Best Open-Back Gaming Headphones 2026: What 3 Reviewers Agree On",
   "guide": "best-open-back-gaming-headphones-2026",
   "price": "$150-200",
   "specs": {
@@ -3057,37 +2844,32 @@
   },
   "summary": "RTINGS's former open-back pick (replaced by the H6 Air only because the Sony is more customizable and comfortable): a flatter, more analytical sound for gamers who want audiophile-like neutrality. Joshua Valour's pick 'for open gaming'.",
   "best_for": "Flattest, most analytical tuning",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Philips SHP9600",
   "brand": "",
-  "category": "Best Open-Back Gaming Headphones: What 3 Reviewers Agree On",
+  "category": "Best Open-Back Gaming Headphones 2026: What 3 Reviewers Agree On",
   "guide": "best-open-back-gaming-headphones-2026",
   "price": "$90-130",
   "specs": {
    "Cable": "Detachable 3.5mm",
    "Design": "Open-back over-ear",
    "Drivers": "50mm dynamic, 32 ohm",
-   "Impedance": "32 ohms \u2014 runs off anything"
+   "Impedance": "32 ohms — runs off anything"
   },
-  "summary": "On Joshua Valour's favorites list under $300: a huge open-back soundstage for around $100, easy to drive from any controller or motherboard jack \u2014 the entry ticket to open-back gaming.",
+  "summary": "On Joshua Valour's favorites list under $300: a huge open-back soundstage for around $100, easy to drive from any controller or motherboard jack — the entry ticket to open-back gaming.",
   "best_for": "Best budget open-back",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Wolverine V3 Pro",
   "brand": "",
-  "category": "Best PC Game Controller: What 4 Reviewers Agree On",
+  "category": "Best PC Game Controller 2026: What 4 Reviewers Agree On",
   "guide": "best-pc-game-controller-2026",
   "price": "$199-249",
   "specs": {
@@ -3103,12 +2885,13 @@
    "amazon",
    "walmart"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "GameSir Cyclone 2",
   "brand": "",
-  "category": "Best PC Game Controller: What 4 Reviewers Agree On",
+  "category": "Best PC Game Controller 2026: What 4 Reviewers Agree On",
   "guide": "best-pc-game-controller-2026",
   "price": "$49-59",
   "specs": {
@@ -3120,17 +2903,14 @@
   },
   "summary": "TechRadar's hands-on comparison winner among GameSir's lineup. TMR sticks, 1000Hz polling and deep software customization at a mid-range price.",
   "best_for": "Best value pro-style controller",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "GameSir G7 SE",
   "brand": "",
-  "category": "Best PC Game Controller: What 4 Reviewers Agree On",
+  "category": "Best PC Game Controller 2026: What 4 Reviewers Agree On",
   "guide": "best-pc-game-controller-2026",
   "price": "$39-49",
   "specs": {
@@ -3142,17 +2922,14 @@
   },
   "summary": "Empire's best wired pick at $44.99. Anti-drift Hall Effect sticks and triggers, swappable profiles and zero wireless worries.",
   "best_for": "Best wired all-rounder",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Flydigi Vader 5 Pro",
   "brand": "",
-  "category": "Best PC Game Controller: What 4 Reviewers Agree On",
+  "category": "Best PC Game Controller 2026: What 4 Reviewers Agree On",
   "guide": "best-pc-game-controller-2026",
   "price": "Under $100",
   "specs": {
@@ -3164,17 +2941,14 @@
   },
   "summary": "Reviewed hands-on by The Phrase Maker with a 9/10 score. Adjustable stick tension, dual-mode triggers and sub-5ms wireless latency at $79.99.",
   "best_for": "Feature-packed controller under $100",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "8BitDo Ultimate 2C",
   "brand": "",
-  "category": "Best PC Game Controller: What 4 Reviewers Agree On",
+  "category": "Best PC Game Controller 2026: What 4 Reviewers Agree On",
   "guide": "best-pc-game-controller-2026",
   "price": "$24-34",
   "specs": {
@@ -3186,17 +2960,14 @@
   },
   "summary": "Empire's budget pick. Hall Effect sticks and triggers, remappable bumpers and turbo at a price no wireless controller touches.",
   "best_for": "Budget drift-free controller",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "ASUS ZenScreen MB16ACV",
   "brand": "ASUS",
-  "category": "Best Portable Monitor",
+  "category": "Best Portable Monitor 2026",
   "guide": "best-portable-monitor-2026",
   "price": "$180-220",
   "specs": {
@@ -3211,12 +2982,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=ASUS+ZenScreen+MB16ACV&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0966YYP65?tag=aipicks2003-20"
  },
  {
   "name": "Lenovo ThinkVision M15",
   "brand": "Lenovo",
-  "category": "Best Portable Monitor",
+  "category": "Best Portable Monitor 2026",
   "guide": "best-portable-monitor-2026",
   "price": "$200-250",
   "specs": {
@@ -3227,16 +2999,14 @@
   },
   "summary": "Best for business. Dual USB-C passthrough, ThinkVision quality, good stand.",
   "best_for": "Best for business",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Lenovo+ThinkVision+M15&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Arzopa 15.6\" Portable Monitor",
   "brand": "Arzopa",
-  "category": "Best Portable Monitor",
+  "category": "Best Portable Monitor 2026",
   "guide": "best-portable-monitor-2026",
   "price": "$90-120",
   "specs": {
@@ -3247,16 +3017,14 @@
   },
   "summary": "Best budget pick. 1080p IPS for ~$100. Amazing value for a second screen.",
   "best_for": "Best budget pick",
-  "platforms": [
-   "amazon",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Arzopa+Portable+Monitor+15.6&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Samsung T9 1TB",
   "brand": "Samsung",
-  "category": "Best Portable SSD",
+  "category": "Best Portable SSD 2026",
   "guide": "best-portable-ssd-2026",
   "price": "$110-140",
   "specs": {
@@ -3271,12 +3039,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=Samsung+T9+Portable+SSD+1TB&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0CHFSWM2P?tag=aipicks2003-20"
  },
  {
   "name": "Crucial X10 Pro 1TB",
   "brand": "Crucial",
-  "category": "Best Portable SSD",
+  "category": "Best Portable SSD 2026",
   "guide": "best-portable-ssd-2026",
   "price": "$100-130",
   "specs": {
@@ -3287,16 +3056,14 @@
   },
   "summary": "Best runner-up. Slightly faster than T9, IP55 rated, great price.",
   "best_for": "Best runner-up",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Crucial+X10+Pro+Portable+SSD&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Samsung T7 Shield 1TB",
   "brand": "Samsung",
-  "category": "Best Portable SSD",
+  "category": "Best Portable SSD 2026",
   "guide": "best-portable-ssd-2026",
   "price": "$80-100",
   "specs": {
@@ -3307,16 +3074,14 @@
   },
   "summary": "Best budget rugged. IP65, drop-proof rubber, under $90. Great for field work.",
   "best_for": "Best budget rugged",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Samsung+T7+Shield+1TB&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Logitech MX Keys S",
   "brand": "",
-  "category": "Best Quiet Keyboard for Office: What 4 Real Reviewers Agree On",
+  "category": "Best Quiet Keyboard for Office 2026: What 4 Real Reviewers Agree On",
   "guide": "best-quiet-office-keyboard-2026",
   "price": "$109.99",
   "specs": {
@@ -3332,12 +3097,13 @@
    "walmart",
    "temu"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0BKW3LB2B?tag=aipicks2003-20"
  },
  {
   "name": "Logitech MX Mechanical Mini",
   "brand": "",
-  "category": "Best Quiet Keyboard for Office: What 4 Real Reviewers Agree On",
+  "category": "Best Quiet Keyboard for Office 2026: What 4 Real Reviewers Agree On",
   "guide": "best-quiet-office-keyboard-2026",
   "price": "$149.99",
   "specs": {
@@ -3348,17 +3114,14 @@
   },
   "summary": "Low-profile mechanical switches with office-friendly acoustics and the best multi-device workflow of the mechanical options. Tom's Guide calls it wonderful to type on; TechRadar praises the minimalistic design.",
   "best_for": "Mechanical feel without office noise",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Keychron Q1 Max",
   "brand": "",
-  "category": "Best Quiet Keyboard for Office: What 4 Real Reviewers Agree On",
+  "category": "Best Quiet Keyboard for Office 2026: What 4 Real Reviewers Agree On",
   "guide": "best-quiet-office-keyboard-2026",
   "price": "$189-$209",
   "specs": {
@@ -3367,18 +3130,16 @@
    "Noise": "45.6 dBA (RTINGS measured)",
    "Switches": "Pre-lubed mechanical"
   },
-  "summary": "The quietest measured mechanical in lab testing (45.6 dBA per RTINGS), thanks to foam-dampened aluminum and gasket mounting \u2014 plus full QMK/VIA and hot-swap for tinkerers.",
+  "summary": "The quietest measured mechanical in lab testing (45.6 dBA per RTINGS), thanks to foam-dampened aluminum and gasket mounting — plus full QMK/VIA and hot-swap for tinkerers.",
   "best_for": "Quiet typing plus deep customization",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "be quiet! Light Mount TKL",
   "brand": "",
-  "category": "Best Quiet Keyboard for Office: What 4 Real Reviewers Agree On",
+  "category": "Best Quiet Keyboard for Office 2026: What 4 Real Reviewers Agree On",
   "guide": "best-quiet-office-keyboard-2026",
   "price": "$139.99",
   "specs": {
@@ -3389,17 +3150,14 @@
   },
   "summary": "be quiet!'s first keyboard brings its silencing expertise to the desk. BadSeed Tech calls the Light Mount TKL the quietest pre-built mechanical keyboard he has ever heard; Club386 confirms it is genuinely quiet in action.",
   "best_for": "The quietest pre-built mechanical experience",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "8BitDo Pro 3",
   "brand": "",
-  "category": "Best Retro Game Controller: What 5 Reviewers Agree On",
+  "category": "Best Retro Game Controller 2026: What 5 Reviewers Agree On",
   "guide": "best-retro-game-controller-2026",
   "price": "$64-79",
   "specs": {
@@ -3417,12 +3175,13 @@
    "walmart",
    "temu"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0FFGJ3TWP?tag=aipicks2003-20"
  },
  {
   "name": "8BitDo SN30 Pro Bluetooth",
   "brand": "",
-  "category": "Best Retro Game Controller: What 5 Reviewers Agree On",
+  "category": "Best Retro Game Controller 2026: What 5 Reviewers Agree On",
   "guide": "best-retro-game-controller-2026",
   "price": "$39-49",
   "specs": {
@@ -3435,17 +3194,14 @@
   },
   "summary": "TechDweeb's retro-games pick. The revised Hall Effect version keeps the authentic SNES feel and the superb cross D-pad while eliminating drift.",
   "best_for": "SNES-style emulation and 2D games",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "GameSir Pocket Taco",
   "brand": "",
-  "category": "Best Retro Game Controller: What 5 Reviewers Agree On",
+  "category": "Best Retro Game Controller 2026: What 5 Reviewers Agree On",
   "guide": "best-retro-game-controller-2026",
   "price": "$35-59",
   "specs": {
@@ -3459,17 +3215,14 @@
   },
   "summary": "Reviewed hands-on by Pickr with a 3.5/5 score. The vertical Bluetooth controller that turns a phone into a Game Boy for 4:3 retro games - limited, but charming.",
   "best_for": "Retro gaming on your phone",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Firefly V2 Pro",
   "brand": "",
-  "category": "Best RGB Gaming Mousepad: What 4 Reviewers Agree On",
+  "category": "Best RGB Gaming Mousepad 2026: What 4 Reviewers Agree On",
   "guide": "best-rgb-gaming-mousepad-2026",
   "price": "Under $100",
   "specs": {
@@ -3485,12 +3238,13 @@
    "walmart",
    "temu"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Razer Strider Chroma",
   "brand": "",
-  "category": "Best RGB Gaming Mousepad: What 4 Reviewers Agree On",
+  "category": "Best RGB Gaming Mousepad 2026: What 4 Reviewers Agree On",
   "guide": "best-rgb-gaming-mousepad-2026",
   "price": "$100-$130",
   "specs": {
@@ -3501,17 +3255,14 @@
   },
   "summary": "Tom's Hardware's best hybrid-surface RGB pad: slicker than cloth but with enough texture for precise movements - one RGB mat for both speed and control playstyles.",
   "best_for": "Large hybrid surface with RGB",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "HyperX Pulsefire Mat (XL RGB)",
   "brand": "",
-  "category": "Best RGB Gaming Mousepad: What 4 Reviewers Agree On",
+  "category": "Best RGB Gaming Mousepad 2026: What 4 Reviewers Agree On",
   "guide": "best-rgb-gaming-mousepad-2026",
   "price": "$49-$59",
   "specs": {
@@ -3522,17 +3273,14 @@
   },
   "summary": "Tom's Hardware's best XL cloth pad with RGB: large enough to cover the whole desk, with two lighting zones and a touch-sensitive sensor for controls.",
   "best_for": "Full-desk XL with RGB",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Cooler Master MP750",
   "brand": "",
-  "category": "Best RGB Gaming Mousepad: What 4 Reviewers Agree On",
+  "category": "Best RGB Gaming Mousepad 2026: What 4 Reviewers Agree On",
   "guide": "best-rgb-gaming-mousepad-2026",
   "price": "$19-$39",
   "specs": {
@@ -3545,24 +3293,21 @@
   },
   "summary": "Tom's Hardware's best budget RGB pad: an affordable light-up mat in several sizes with a spill-resistant cloth surface and a detachable cable.",
   "best_for": "Budget RGB pad",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Ergotron LX Single Monitor Arm",
   "brand": "",
-  "category": "Best Single Monitor Arm: What 3 Reviewers Agree On",
+  "category": "Best Single Monitor Arm 2026: What 3 Reviewers Agree On",
   "guide": "best-single-monitor-arm-2026",
   "price": "$160-$220",
   "specs": {
    "Max Size": "Up to 34 in",
    "Max Weight": "7-25 lbs",
    "Mount Type": "Desk clamp + grommet",
-   "Tilt/Swivel": "\u00b170\u00b0 tilt, 360\u00b0 rotation",
+   "Tilt/Swivel": "±70° tilt, 360° rotation",
    "VESA": "75x75 / 100x100"
   },
   "summary": "The arm every other arm is measured against: flawless smooth articulation, excellent cable management, and an industry-leading 10-year warranty - the premium pick in all three reviews (PCWorld's current iteration, the LX Pro, carries the same DNA).",
@@ -3571,56 +3316,51 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B07Q8TJ2KL?tag=aipicks2003-20"
  },
  {
   "name": "Amazon Basics Premium Single Monitor Arm",
   "brand": "",
-  "category": "Best Single Monitor Arm: What 3 Reviewers Agree On",
+  "category": "Best Single Monitor Arm 2026: What 3 Reviewers Agree On",
   "guide": "best-single-monitor-arm-2026",
   "price": "Under $110",
   "specs": {
    "Max Size": "Up to 32 in",
    "Max Weight": "Up to 25 lbs",
    "Mount Type": "Desk clamp + grommet",
-   "Tilt/Swivel": "Gas spring, \u00b185\u00b0 tilt",
+   "Tilt/Swivel": "Gas spring, ±85° tilt",
    "VESA": "75x75 / 100x100"
   },
   "summary": "Recommended after buying and testing 24 arms: gas-spring smoothness, solid aluminum build, and a 10-year warranty for around $100 - the value pick in the 24-arm comparison.",
   "best_for": "Best value gas-spring arm",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "HUANUO FlowLift Single Monitor Arm HNSS6",
   "brand": "",
-  "category": "Best Single Monitor Arm: What 3 Reviewers Agree On",
+  "category": "Best Single Monitor Arm 2026: What 3 Reviewers Agree On",
   "guide": "best-single-monitor-arm-2026",
   "price": "$30-$40",
   "specs": {
    "Max Size": "13-32 in",
    "Max Weight": "4.4-19.8 lbs",
    "Mount Type": "C-clamp + grommet",
-   "Tilt/Swivel": "Gas spring, 360\u00b0 rotation",
+   "Tilt/Swivel": "Gas spring, 360° rotation",
    "VESA": "75x75 / 100x100"
   },
   "summary": "PCWorld's best single arm under $50 and a budget pick in independent testing: gas-spring height adjustment, a 3-minute install, and steady support for monitors up to 32 inches.",
   "best_for": "Cheapest arm that works",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "MSI MAG MT201 Single Monitor Arm",
   "brand": "",
-  "category": "Best Single Monitor Arm: What 3 Reviewers Agree On",
+  "category": "Best Single Monitor Arm 2026: What 3 Reviewers Agree On",
   "guide": "best-single-monitor-arm-2026",
   "price": "$60-$100",
   "specs": {
@@ -3632,17 +3372,14 @@
   },
   "summary": "PCWorld's best budget single arm: rated for screens up to 49 inches and 44 lbs with a quick-release VESA mount - the minimum viable arm before quality drops off.",
   "best_for": "Heavy-duty on a budget",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Kinesis Advantage360 Professional",
   "brand": "Kinesis",
-  "category": "Best Split Ergonomic Keyboard",
+  "category": "Best Split Ergonomic Keyboard 2026",
   "guide": "best-split-ergonomic-keyboard-2026",
   "price": "$459-500",
   "specs": {
@@ -3656,12 +3393,13 @@
   "platforms": [
    "amazon"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=Kinesis+Advantage360+Professional&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": ""
  },
  {
   "name": "ZSA Moonlander Mark I",
   "brand": "ZSA",
-  "category": "Best Split Ergonomic Keyboard",
+  "category": "Best Split Ergonomic Keyboard 2026",
   "guide": "best-split-ergonomic-keyboard-2026",
   "price": "$365",
   "specs": {
@@ -3672,15 +3410,14 @@
   },
   "summary": "Best for tinkerers. Fully customizable via Oryx web tool, thumb clusters, great community.",
   "best_for": "Best for tinkerers",
-  "platforms": [
-   "amazon"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=ZSA+Moonlander+Mark+I&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Logitech Ergo K860",
   "brand": "Logitech",
-  "category": "Best Split Ergonomic Keyboard",
+  "category": "Best Split Ergonomic Keyboard 2026",
   "guide": "best-split-ergonomic-keyboard-2026",
   "price": "$100-130",
   "specs": {
@@ -3691,17 +3428,14 @@
   },
   "summary": "Best budget ergonomic. Curved split layout, cushioned wrist rest, under $130. Great first ergo board.",
   "best_for": "Best budget ergonomic",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Logitech+Ergo+K860&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "UPLIFT V2 Standing Desk",
   "brand": "UPLIFT",
-  "category": "Best Standing Desk",
+  "category": "Best Standing Desk 2026",
   "guide": "best-standing-desk-2026",
   "price": "$600-800",
   "specs": {
@@ -3716,12 +3450,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=UPLIFT+V2+Standing+Desk&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": ""
  },
  {
   "name": "FlexiSpot E7",
   "brand": "FlexiSpot",
-  "category": "Best Standing Desk",
+  "category": "Best Standing Desk 2026",
   "guide": "best-standing-desk-2026",
   "price": "$400-550",
   "specs": {
@@ -3732,16 +3467,14 @@
   },
   "summary": "Best value. Same lift capacity as UPLIFT for less money. Very stable, great motor.",
   "best_for": "Best value",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=FlexiSpot+E7+Standing+Desk&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "SHW Electric Standing Desk",
   "brand": "SHW",
-  "category": "Best Standing Desk",
+  "category": "Best Standing Desk 2026",
   "guide": "best-standing-desk-2026",
   "price": "$200-250",
   "specs": {
@@ -3752,16 +3485,14 @@
   },
   "summary": "Best budget pick. Electric lift under $220. Not as sturdy as premium, but gets the job done.",
   "best_for": "Best budget pick",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=SHW+Electric+Standing+Desk+55&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Elgato Stream Deck MK.2",
   "brand": "",
-  "category": "Best Stream Deck: What 4 Reviewers Agree On",
+  "category": "Best Stream Deck 2026: What 4 Reviewers Agree On",
   "guide": "best-stream-deck-2026",
   "price": "$149.99",
   "specs": {
@@ -3777,12 +3508,13 @@
    "walmart",
    "temu"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Elgato Stream Deck+",
   "brand": "",
-  "category": "Best Stream Deck: What 4 Reviewers Agree On",
+  "category": "Best Stream Deck 2026: What 4 Reviewers Agree On",
   "guide": "best-stream-deck-2026",
   "price": "$199.99",
   "specs": {
@@ -3793,16 +3525,14 @@
   },
   "summary": "The dials version: 8 LCD keys plus four 360-degree dials with push function and a touch strip - effectively a compact mixing console. KitGuru gave it 8/10 for sheer functionality.",
   "best_for": "Creators who want dials for audio and production control",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Elgato Stream Deck Plus XL",
   "brand": "",
-  "category": "Best Stream Deck: What 4 Reviewers Agree On",
+  "category": "Best Stream Deck 2026: What 4 Reviewers Agree On",
   "guide": "best-stream-deck-2026",
   "price": "$349.99",
   "specs": {
@@ -3813,16 +3543,14 @@
   },
   "summary": "The 2026 flagship: 32 keys plus the Stream Deck+ dial-and-strip layout for production desks with thousands of dollars of gear. PCWorld found it genuinely overkill for everyone else.",
   "best_for": "Pro setups that need maximum control density",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Elgato Stream Deck Mini",
   "brand": "",
-  "category": "Best Stream Deck: What 4 Reviewers Agree On",
+  "category": "Best Stream Deck 2026: What 4 Reviewers Agree On",
   "guide": "best-stream-deck-2026",
   "price": "$79.99",
   "specs": {
@@ -3833,17 +3561,14 @@
   },
   "summary": "The entry ticket: 6 LCD keys running the exact same software and plugin ecosystem as its bigger siblings. Tom's Hardware recommends it as the way to save money if 6 keys is enough.",
   "best_for": "Budget buyers who want the Elgato software stack",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Elgato Key Light",
   "brand": "",
-  "category": "Best Key Light for Streaming: What 4 Reviewers Agree On",
+  "category": "Best Key Light for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-streaming-key-light-2026",
   "price": "$179.99",
   "specs": {
@@ -3858,12 +3583,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B07L755X9G?tag=aipicks2003-20"
  },
  {
   "name": "Elgato Key Light Air",
   "brand": "",
-  "category": "Best Key Light for Streaming: What 4 Reviewers Agree On",
+  "category": "Best Key Light for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-streaming-key-light-2026",
   "price": "$99.99",
   "specs": {
@@ -3874,17 +3600,14 @@
   },
   "summary": "The classic compact panel: 1400 lumens with the same app and Stream Deck control as the flagship, at roughly half the price. EposVox's cheap-vs-expensive shootout shows exactly where it beats budget panels.",
   "best_for": "Desk streamers who want the classic at half the price",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Elgato Key Light Mini",
   "brand": "",
-  "category": "Best Key Light for Streaming: What 4 Reviewers Agree On",
+  "category": "Best Key Light for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-streaming-key-light-2026",
   "price": "$99.99",
   "specs": {
@@ -3895,17 +3618,14 @@
   },
   "summary": "The portable one: 800 lumens of battery-powered, bi-color soft light with a 1/4-inch thread and magnetic mounting. KitGuru gave it 8.5/10, finding 800 lumens more than enough in their brightness testing.",
   "best_for": "Portable setups and on-the-go creators",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Budget LED Panel (Neewer / Dazzne class)",
   "brand": "",
-  "category": "Best Key Light for Streaming: What 4 Reviewers Agree On",
+  "category": "Best Key Light for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-streaming-key-light-2026",
   "price": "Under $60",
   "specs": {
@@ -3916,17 +3636,14 @@
   },
   "summary": "The cheap-vs-expensive test shows when a budget panel is acceptable: fine as a fill light, but harsher diffusion and weaker color accuracy than Elgato. EposVox's shootout is the honest guide here.",
   "best_for": "First-timers testing streaming on a tight budget",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Elgato Facecam MK.2",
   "brand": "",
-  "category": "Best Webcam for Streaming: What 4 Reviewers Agree On",
+  "category": "Best Webcam for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-streaming-webcam-2026",
   "price": "$199.99",
   "specs": {
@@ -3942,12 +3659,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0CW1S7XP5?tag=aipicks2003-20"
  },
  {
   "name": "Logitech Brio 4K",
   "brand": "",
-  "category": "Best Webcam for Streaming: What 4 Reviewers Agree On",
+  "category": "Best Webcam for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-streaming-webcam-2026",
   "price": "$199.99",
   "specs": {
@@ -3959,16 +3677,14 @@
   },
   "summary": "True 4K at 30fps with HDR, three selectable fields of view, and Windows Hello; best pick for cropping in OBS without losing quality.",
   "best_for": "Best 4K versatility",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Kiyo Pro Ultra",
   "brand": "",
-  "category": "Best Webcam for Streaming: What 4 Reviewers Agree On",
+  "category": "Best Webcam for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-streaming-webcam-2026",
   "price": "$299.99",
   "specs": {
@@ -3980,16 +3696,14 @@
   },
   "summary": "Largest sensor ever in a webcam (1/1.2-inch Sony STARVIS 2); DSLR-like depth with true optical bokeh and elite low-light clarity.",
   "best_for": "Best image quality",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Kiyo Pro",
   "brand": "",
-  "category": "Best Webcam for Streaming: What 4 Reviewers Agree On",
+  "category": "Best Webcam for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-streaming-webcam-2026",
   "price": "$199.99",
   "specs": {
@@ -4001,16 +3715,14 @@
   },
   "summary": "Sony STARVIS sensor and f/1.8 lens make it unbeatable in dim rooms; uncompressed 1080p60 and HDR at 30fps.",
   "best_for": "Best low-light under $200",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Wooting 80HE",
   "brand": "",
-  "category": "Best TKL Gaming Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best TKL Gaming Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-tkl-gaming-keyboard-2026",
   "price": "$199.99",
   "specs": {
@@ -4025,12 +3737,13 @@
    "amazon",
    "walmart"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "SteelSeries Apex Pro Gen 3 TKL",
   "brand": "",
-  "category": "Best TKL Gaming Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best TKL Gaming Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-tkl-gaming-keyboard-2026",
   "price": "$229.99",
   "specs": {
@@ -4041,16 +3754,14 @@
   },
   "summary": "Laptop Mag used it as a main gaming keyboard for over a month and calls it a near-perfect, feature-packed beast. OmniPoint 3.0 switches, OLED display, and per-key actuation tuning.",
   "best_for": "Feature-packed analog gaming with a display",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Huntsman V3 Pro TKL",
   "brand": "",
-  "category": "Best TKL Gaming Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best TKL Gaming Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-tkl-gaming-keyboard-2026",
   "price": "$219.99",
   "specs": {
@@ -4061,16 +3772,14 @@
   },
   "summary": "ProSettings calls it best-in-class for gaming performance in a TKL form factor. Analog optical Gen-2 switches with rapid trigger; the trade-off is a loud, mediocre typing sound.",
   "best_for": "Esports players in the Razer ecosystem",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Logitech G Pro X TKL Lightspeed",
   "brand": "",
-  "category": "Best TKL Gaming Keyboard: What 4 Real Reviewers Agree On",
+  "category": "Best TKL Gaming Keyboard 2026: What 4 Real Reviewers Agree On",
   "guide": "best-tkl-gaming-keyboard-2026",
   "price": "$199.99",
   "specs": {
@@ -4082,16 +3791,14 @@
   },
   "summary": "Eurogamer found Lightspeed wireless indistinguishable from wired in fast-paced shooters, with a robust build and a quality carry case. The safe pick for low-latency wireless without hall-effect complexity.",
   "best_for": "Wireless esports and tournament play",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "ASUS ROG Swift PG34WCDN",
   "brand": "",
-  "category": "Best Ultrawide Gaming Monitor: What 3 Real Reviewers Agree On",
+  "category": "Best Ultrawide Gaming Monitor 2026: What 3 Real Reviewers Agree On",
   "guide": "best-ultrawide-gaming-monitor-2026",
   "price": "$1199-1399",
   "specs": {
@@ -4107,12 +3814,13 @@
   "platforms": [
    "amazon"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "LG UltraGear OLED 45GX950A",
   "brand": "",
-  "category": "Best Ultrawide Gaming Monitor: What 3 Real Reviewers Agree On",
+  "category": "Best Ultrawide Gaming Monitor 2026: What 3 Real Reviewers Agree On",
   "guide": "best-ultrawide-gaming-monitor-2026",
   "price": "$1699-1999",
   "specs": {
@@ -4125,15 +3833,14 @@
   },
   "summary": "For immersion maximalists: a huge 45-inch 5K2K OLED with aggressive 800R curvature, picked by two reviewers.",
   "best_for": "Best big-screen 5K2K OLED ultrawide",
-  "platforms": [
-   "amazon"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Alienware AW3425DW",
   "brand": "",
-  "category": "Best Ultrawide Gaming Monitor: What 3 Real Reviewers Agree On",
+  "category": "Best Ultrawide Gaming Monitor 2026: What 3 Real Reviewers Agree On",
   "guide": "best-ultrawide-gaming-monitor-2026",
   "price": "$749-899",
   "specs": {
@@ -4146,16 +3853,14 @@
   },
   "summary": "The sweet-spot 34-inch ultrawide: 240Hz QD-OLED, 99.3% DCI-P3, and Dell's 3-year burn-in warranty at a saner price.",
   "best_for": "Best 34-inch QD-OLED value",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "LG UltraGear evo G9 52G930B",
   "brand": "",
-  "category": "Best Ultrawide Gaming Monitor: What 3 Real Reviewers Agree On",
+  "category": "Best Ultrawide Gaming Monitor 2026: What 3 Real Reviewers Agree On",
   "guide": "best-ultrawide-gaming-monitor-2026",
   "price": "$1799-2299",
   "specs": {
@@ -4168,15 +3873,14 @@
   },
   "summary": "The world's first 52-inch 5K2K gaming monitor: maximum peripheral vision for sim racing, tested side-by-side against OLED.",
   "best_for": "Most immersive 5K2K VA ultrawide",
-  "platforms": [
-   "amazon"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Dream Cheeky Big Red Button",
   "brand": "Dream Cheeky",
-  "category": "Best USB Approval Button",
+  "category": "Best USB Approval Button 2026",
   "guide": "best-usb-approval-button-2026",
   "price": "$25-35",
   "specs": {
@@ -4185,19 +3889,20 @@
    "Connection": "USB wired",
    "Size": "Large arcade-style button"
   },
-  "summary": "The classic big red USB button. Programmable to any keypress \u2014 map it to approve AI actions or trigger workflows.",
+  "summary": "The classic big red USB button. Programmable to any keypress — map it to approve AI actions or trigger workflows.",
   "best_for": "Best overall USB button",
   "platforms": [
    "amazon",
    "walmart",
    "temu"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=Dream+Cheeky+Big+Red+Button+USB&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": ""
  },
  {
   "name": "Delcom USB HID Programmable Button",
   "brand": "Delcom",
-  "category": "Best USB Approval Button",
+  "category": "Best USB Approval Button 2026",
   "guide": "best-usb-approval-button-2026",
   "price": "$40-60",
   "specs": {
@@ -4208,16 +3913,14 @@
   },
   "summary": "Industrial-quality programmable button. More durable than novelty buttons, full HID customization.",
   "best_for": "Best programmable option",
-  "platforms": [
-   "amazon",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Delcom+USB+HID+Button&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "USB Panic Button (Generic)",
   "brand": "Generic",
-  "category": "Best USB Approval Button",
+  "category": "Best USB Approval Button 2026",
   "guide": "best-usb-approval-button-2026",
   "price": "$12-20",
   "specs": {
@@ -4228,17 +3931,14 @@
   },
   "summary": "Cheapest way to get a physical AI kill switch. Under $20, does the job.",
   "best_for": "Best budget pick",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=USB+Panic+Button+Emergency+Stop&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "CalDigit TS4",
   "brand": "CalDigit",
-  "category": "Best USB-C Docking Station",
+  "category": "Best USB-C Docking Station 2026",
   "guide": "best-usb-c-docking-station-2026",
   "price": "$380-430",
   "specs": {
@@ -4253,12 +3953,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=CalDigit+TS4+Thunderbolt+Dock&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B09GK8LBWS?tag=aipicks2003-20"
  },
  {
   "name": "Anker 777 Thunderbolt Dock",
   "brand": "Anker",
-  "category": "Best USB-C Docking Station",
+  "category": "Best USB-C Docking Station 2026",
   "guide": "best-usb-c-docking-station-2026",
   "price": "$280-350",
   "specs": {
@@ -4269,16 +3970,14 @@
   },
   "summary": "Best value Thunderbolt. 13 ports, 90W, compact. Great for the price.",
   "best_for": "Best value Thunderbolt",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Anker+777+Thunderbolt+Docking+Station&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Plugable USB-C Triple Display Dock",
   "brand": "Plugable",
-  "category": "Best USB-C Docking Station",
+  "category": "Best USB-C Docking Station 2026",
   "guide": "best-usb-c-docking-station-2026",
   "price": "$180-220",
   "specs": {
@@ -4289,15 +3988,14 @@
   },
   "summary": "Best budget pick. Triple 4K via DisplayLink, 100W charging, under $200.",
   "best_for": "Best budget pick",
-  "platforms": [
-   "amazon"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Plugable+USB-C+Triple+Display+Dock&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Fosi Audio K7",
   "brand": "",
-  "category": "Best USB DAC for Gaming: What 4 YouTubers Agree On",
+  "category": "Best USB DAC for Gaming 2026: What 4 YouTubers Agree On",
   "guide": "best-usb-dac-gaming-2026",
   "price": "$150-200",
   "specs": {
@@ -4312,12 +4010,13 @@
    "amazon",
    "walmart"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "FiiO K11",
   "brand": "",
-  "category": "Best USB DAC for Gaming: What 4 YouTubers Agree On",
+  "category": "Best USB DAC for Gaming 2026: What 4 YouTubers Agree On",
   "guide": "best-usb-dac-gaming-2026",
   "price": "$110-130",
   "specs": {
@@ -4328,59 +4027,50 @@
   },
   "summary": "Best value pick with balanced output and powerful amplification. A clean, no-nonsense DAC/amp for headphone gamers who don't need mic input.",
   "best_for": "Value balanced desktop audio",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Creative Sound Blaster X4",
   "brand": "",
-  "category": "Best USB DAC for Gaming: What 4 YouTubers Agree On",
+  "category": "Best USB DAC for Gaming 2026: What 4 YouTubers Agree On",
   "guide": "best-usb-dac-gaming-2026",
   "price": "$130-150",
   "specs": {
    "Chip": "Creative audio DSP (virtual surround)",
    "Connection": "USB / optical",
-   "Output Power": "Up to 600\u03a9 headphones",
+   "Output Power": "Up to 600Ω headphones",
    "Sample Rate": "PCM 192kHz/24-bit"
   },
   "summary": "Built for PS5/PC surround sound features with a mic input. The pick for console gamers who want virtual surround without a big desktop unit.",
   "best_for": "Console gamers wanting surround",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Topping DX1 Mini",
   "brand": "",
-  "category": "Best USB DAC for Gaming: What 4 YouTubers Agree On",
+  "category": "Best USB DAC for Gaming 2026: What 4 YouTubers Agree On",
   "guide": "best-usb-dac-gaming-2026",
   "price": "$70-100",
   "specs": {
    "Chip": "ES9039Q2M",
    "Connection": "USB / optical",
-   "Output Power": "280mW @ 32\u03a9",
+   "Output Power": "280mW @ 32Ω",
    "Sample Rate": "PCM 768kHz/32-bit"
   },
   "summary": "The cheapest credible jump from onboard audio: ES9039Q2M DAC with 10-band PEQ and balanced 4.4mm output. Great starter DAC before upgrading.",
   "best_for": "Budget entry-level upgrade",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "iKKEGOL USB Foot Pedal",
   "brand": "iKKEGOL",
-  "category": "Best USB Foot Pedal",
+  "category": "Best USB Foot Pedal 2026",
   "guide": "best-usb-foot-pedal-2026",
   "price": "$25-35",
   "specs": {
@@ -4396,12 +4086,13 @@
    "walmart",
    "temu"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=iKKEGOL+USB+Foot+Pedal+Switch&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": ""
  },
  {
   "name": "Scythe USB Foot Switch",
   "brand": "Scythe",
-  "category": "Best USB Foot Pedal",
+  "category": "Best USB Foot Pedal 2026",
   "guide": "best-usb-foot-pedal-2026",
   "price": "$50-70",
   "specs": {
@@ -4412,16 +4103,14 @@
   },
   "summary": "Triple pedal pro option. More control, better software, built to last.",
   "best_for": "Best premium pedal",
-  "platforms": [
-   "amazon",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Scythe+USB+Foot+Switch&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Single USB Foot Pedal (Generic)",
   "brand": "Generic",
-  "category": "Best USB Foot Pedal",
+  "category": "Best USB Foot Pedal 2026",
   "guide": "best-usb-foot-pedal-2026",
   "price": "$15-25",
   "specs": {
@@ -4432,17 +4121,14 @@
   },
   "summary": "Cheapest push-to-talk pedal. Under $20, works fine for basic use.",
   "best_for": "Best budget pick",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=USB+Foot+Pedal+Single+Programmable&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "SteelSeries Alias Pro",
   "brand": "",
-  "category": "Best USB Microphone for Streaming: What 4 Reviewers Agree On",
+  "category": "Best USB Microphone for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-usb-microphone-streaming-2026",
   "price": "$300-330",
   "specs": {
@@ -4452,18 +4138,19 @@
    "Sample Rate": "24-bit/48kHz (USB)",
    "Type": "Condenser"
   },
-  "summary": "PC Gamer's best microphone for streaming 2026. The included Stream Mixer (XLR preamp with +48V phantom power) plus Sonar software with AI noise cancellation make multi-source stream audio easy, with studio-like capture \u2014 but it's pricey and really wants a boom arm.",
+  "summary": "PC Gamer's best microphone for streaming 2026. The included Stream Mixer (XLR preamp with +48V phantom power) plus Sonar software with AI noise cancellation make multi-source stream audio easy, with studio-like capture — but it's pricey and really wants a boom arm.",
   "best_for": "Dedicated streaming setups",
   "platforms": [
    "amazon",
    "walmart"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Shure MV7+",
   "brand": "",
-  "category": "Best USB Microphone for Streaming: What 4 Reviewers Agree On",
+  "category": "Best USB Microphone for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-usb-microphone-streaming-2026",
   "price": "$250-280",
   "specs": {
@@ -4475,16 +4162,14 @@
   },
   "summary": "PC Gamer's best podcast mic 2026, lab-tested by Podcastage too: warm dynamic tone with excellent onboard DSP (Auto Level, denoiser) whose settings are stored on the mic. The USB/XLR hybrid gives an upgrade path to XLR without replacing the mic later.",
   "best_for": "Podcast-to-stream hybrid creators",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Shure MV6",
   "brand": "",
-  "category": "Best USB Microphone for Streaming: What 4 Reviewers Agree On",
+  "category": "Best USB Microphone for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-usb-microphone-streaming-2026",
   "price": "$120-150",
   "specs": {
@@ -4496,17 +4181,14 @@
   },
   "summary": "PC Gamer's best gaming microphone 2026: auto gain-levelling keeps your voice consistent even when the mic sits on your desk at a distance. $149 with a sturdy desk stand in the box; the noise reduction can be a touch aggressive.",
   "best_for": "Desktop gamers who hate mic technique",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Sennheiser Profile Streaming Set",
   "brand": "",
-  "category": "Best USB Microphone for Streaming: What 4 Reviewers Agree On",
+  "category": "Best USB Microphone for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-usb-microphone-streaming-2026",
   "price": "$180-200",
   "specs": {
@@ -4516,18 +4198,16 @@
    "Sample Rate": "24-bit/48kHz",
    "Type": "Condenser"
   },
-  "summary": "PC Gamer's best USB mic + boom arm bundle: warm, crisp audio with a flexible arm and physical mute/mix controls, everything in the box for under $200. No software suite \u2014 the sound is good enough that you don't need one.",
+  "summary": "PC Gamer's best USB mic + boom arm bundle: warm, crisp audio with a flexible arm and physical mute/mix controls, everything in the box for under $200. No software suite — the sound is good enough that you don't need one.",
   "best_for": "Streamers who want mic + arm in one box",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Elgato Stream Deck (Mute Setup)",
   "brand": "Elgato",
-  "category": "Best USB Mute Button",
+  "category": "Best USB Mute Button 2026",
   "guide": "best-usb-mute-button-2026",
   "price": "$80-150",
   "specs": {
@@ -4538,16 +4218,14 @@
   },
   "summary": "Use a Stream Deck key as your mute button. Plus you get all the other macro features.",
   "best_for": "Best versatile option",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Elgato+Stream+Deck+Mute+Button&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "USB Mute Button for Meetings",
   "brand": "Generic",
-  "category": "Best USB Mute Button",
+  "category": "Best USB Mute Button 2026",
   "guide": "best-usb-mute-button-2026",
   "price": "$20-30",
   "specs": {
@@ -4563,12 +4241,13 @@
    "walmart",
    "temu"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=USB+Mute+Button+for+Zoom+Teams&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": ""
  },
  {
   "name": "Wireless USB Mute Button",
   "brand": "Generic",
-  "category": "Best USB Mute Button",
+  "category": "Best USB Mute Button 2026",
   "guide": "best-usb-mute-button-2026",
   "price": "$30-40",
   "specs": {
@@ -4579,17 +4258,14 @@
   },
   "summary": "Wireless mute button you can place anywhere on your desk. No cable clutter.",
   "best_for": "Best wireless pick",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=Wireless+Mute+Button+USB&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "ASUS RT-AX86U Pro",
   "brand": "ASUS",
-  "category": "Best WiFi Router for Home Office",
+  "category": "Best WiFi Router for Home Office 2026",
   "guide": "best-wifi-router-home-office-2026",
   "price": "$200-250",
   "specs": {
@@ -4604,12 +4280,13 @@
    "amazon",
    "walmart"
   ],
-  "affiliate_link": "https://www.amazon.com/s?k=ASUS+RT-AX86U+Pro&tag=aipicks2003-20"
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0BQ417K47?tag=aipicks2003-20"
  },
  {
   "name": "TP-Link Deco XE75 (2-pack)",
   "brand": "TP-Link",
-  "category": "Best WiFi Router for Home Office",
+  "category": "Best WiFi Router for Home Office 2026",
   "guide": "best-wifi-router-home-office-2026",
   "price": "$250-300",
   "specs": {
@@ -4620,16 +4297,14 @@
   },
   "summary": "Best mesh system. WiFi 6E, seamless roaming, great for larger homes.",
   "best_for": "Best mesh system",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=TP-Link+Deco+XE75+Mesh&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "TP-Link Archer AX55",
   "brand": "TP-Link",
-  "category": "Best WiFi Router for Home Office",
+  "category": "Best WiFi Router for Home Office 2026",
   "guide": "best-wifi-router-home-office-2026",
   "price": "$80-100",
   "specs": {
@@ -4640,17 +4315,14 @@
   },
   "summary": "Best budget pick. WiFi 6 for under $90. Plenty for most home offices.",
   "best_for": "Best budget pick",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
-  "affiliate_link": "https://www.amazon.com/s?k=TP-Link+Archer+AX55&tag=aipicks2003-20"
+  "platforms": [],
+  "is_top_pick": false,
+  "affiliate_link": ""
  },
  {
   "name": "Audeze Maxwell 2",
   "brand": "",
-  "category": "Best Wireless Gaming Headset: What 4 Reviewers Agree On",
+  "category": "Best Wireless Gaming Headset 2026: What 4 Reviewers Agree On",
   "guide": "best-wireless-gaming-headset-2026",
   "price": "$329-349",
   "specs": {
@@ -4659,18 +4331,19 @@
    "Microphone": "Detachable boom, much improved over the original Maxwell",
    "Wireless": "USB-C 2.4GHz dongle + Bluetooth 5.3 with LDAC"
   },
-  "summary": "RTINGS.com's top gaming headset pick for 2026 and a finalist in Hardware Canucks' microphone shootout and BadSeed Tech's tier list. Planar detail, LDAC support and a 77-hour battery \u2014 the only real cost is the ~560g weight.",
+  "summary": "RTINGS.com's top gaming headset pick for 2026 and a finalist in Hardware Canucks' microphone shootout and BadSeed Tech's tier list. Planar detail, LDAC support and a 77-hour battery — the only real cost is the ~560g weight.",
   "best_for": "Best wireless gaming headset overall",
   "platforms": [
    "amazon",
    "walmart"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Razer BlackShark V3 Pro",
   "brand": "",
-  "category": "Best Wireless Gaming Headset: What 4 Reviewers Agree On",
+  "category": "Best Wireless Gaming Headset 2026: What 4 Reviewers Agree On",
   "guide": "best-wireless-gaming-headset-2026",
   "price": "$200-249",
   "specs": {
@@ -4679,18 +4352,16 @@
    "Microphone": "Detachable HyperClear cardioid 9.9mm",
    "Wireless": "HyperSpeed 2.4GHz + Bluetooth"
   },
-  "summary": "PC Gamer's #1 gaming headset overall and an RTINGS upper mid-range pick: 70-hour battery and low-latency HyperSpeed wireless at $249 \u2014 flagship-tier sound for half the flagship price.",
+  "summary": "PC Gamer's #1 gaming headset overall and an RTINGS upper mid-range pick: 70-hour battery and low-latency HyperSpeed wireless at $249 — flagship-tier sound for half the flagship price.",
   "best_for": "Best all-round value",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "SteelSeries Arctis Nova Pro Wireless",
   "brand": "",
-  "category": "Best Wireless Gaming Headset: What 4 Reviewers Agree On",
+  "category": "Best Wireless Gaming Headset 2026: What 4 Reviewers Agree On",
   "guide": "best-wireless-gaming-headset-2026",
   "price": "$349-400",
   "specs": {
@@ -4701,16 +4372,14 @@
   },
   "summary": "The feature-complete flagship: hot-swap batteries, ANC and simultaneous 2.4GHz + Bluetooth. Scored strongly in Hardware Canucks' microphone testing and sits in RTINGS's notable mentions via its Omni successor.",
   "best_for": "Most versatile premium pick",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Turtle Beach Stealth 600 (Gen 3)",
   "brand": "",
-  "category": "Best Wireless Gaming Headset: What 4 Reviewers Agree On",
+  "category": "Best Wireless Gaming Headset 2026: What 4 Reviewers Agree On",
   "guide": "best-wireless-gaming-headset-2026",
   "price": "$80-100",
   "specs": {
@@ -4721,17 +4390,14 @@
   },
   "summary": "RTINGS's mid-range pick and a BadSeed Tech tier-list staple: an 80-hour battery and dual wireless at around $100. The sensible buy if you don't need planar drivers or ANC.",
   "best_for": "Best mid-range battery value",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Logitech G PRO X2 SUPERSTRIKE",
   "brand": "",
-  "category": "Best Wireless Gaming Mouse: What 4 Reviewers Agree On",
+  "category": "Best Wireless Gaming Mouse 2026: What 4 Reviewers Agree On",
   "guide": "best-wireless-gaming-mouse-2026",
   "price": "$179",
   "specs": {
@@ -4747,12 +4413,13 @@
    "amazon",
    "walmart"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Razer DeathAdder V4 Pro",
   "brand": "",
-  "category": "Best Wireless Gaming Mouse: What 4 Reviewers Agree On",
+  "category": "Best Wireless Gaming Mouse 2026: What 4 Reviewers Agree On",
   "guide": "best-wireless-gaming-mouse-2026",
   "price": "$160-$180",
   "specs": {
@@ -4763,16 +4430,14 @@
   },
   "summary": "PC Gamer's best gaming mouse: the iconic ergonomic shape refined to 55g with a 45K sensor and 150-hour battery.",
   "best_for": "Best ergonomic all-rounder",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Viper V4 Pro",
   "brand": "",
-  "category": "Best Wireless Gaming Mouse: What 4 Reviewers Agree On",
+  "category": "Best Wireless Gaming Mouse 2026: What 4 Reviewers Agree On",
   "guide": "best-wireless-gaming-mouse-2026",
   "price": "$149-$159",
   "specs": {
@@ -4782,17 +4447,14 @@
   },
   "summary": "Tom's Guide's esports pick: 50,000 DPI, 8K polling, and a 49g featherweight build engineered for tournament play.",
   "best_for": "Best esports lightweight",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Viper V3 HyperSpeed",
   "brand": "",
-  "category": "Best Wireless Gaming Mouse: What 4 Reviewers Agree On",
+  "category": "Best Wireless Gaming Mouse 2026: What 4 Reviewers Agree On",
   "guide": "best-wireless-gaming-mouse-2026",
   "price": "Under $100",
   "specs": {
@@ -4802,17 +4464,14 @@
   },
   "summary": "PCGamesN's best gaming mouse for most people: comfortable shape, fantastic performance, and an incredibly low price.",
   "best_for": "Best value wireless",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "NuPhy Node75",
   "brand": "",
-  "category": "Best Wireless Mechanical Keyboard: What 3 Reviewers Agree On",
+  "category": "Best Wireless Mechanical Keyboard 2026: What 3 Reviewers Agree On",
   "guide": "best-wireless-mechanical-keyboard-2026",
   "price": "$99-$130",
   "specs": {
@@ -4827,12 +4486,13 @@
    "walmart",
    "temu"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Epomaker Ajazz AK820 Pro",
   "brand": "",
-  "category": "Best Wireless Mechanical Keyboard: What 3 Reviewers Agree On",
+  "category": "Best Wireless Mechanical Keyboard 2026: What 3 Reviewers Agree On",
   "guide": "best-wireless-mechanical-keyboard-2026",
   "price": "$60-$90",
   "specs": {
@@ -4842,17 +4502,14 @@
   },
   "summary": "Tom's Guide's best budget pick from their 9-board test: premium typing feel and sound for a fraction of flagship prices.",
   "best_for": "Best budget",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Lemokey P1 HE",
   "brand": "",
-  "category": "Best Wireless Mechanical Keyboard: What 3 Reviewers Agree On",
+  "category": "Best Wireless Mechanical Keyboard 2026: What 3 Reviewers Agree On",
   "guide": "best-wireless-mechanical-keyboard-2026",
   "price": "$180-$230",
   "specs": {
@@ -4862,16 +4519,14 @@
   },
   "summary": "Tom's Guide's best gaming pick: Hall Effect magnetic switches with rapid trigger give competitive players a real speed advantage.",
   "best_for": "Best for gaming",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "ASUS ROG Falcata",
   "brand": "",
-  "category": "Best Wireless Mechanical Keyboard: What 3 Reviewers Agree On",
+  "category": "Best Wireless Mechanical Keyboard 2026: What 3 Reviewers Agree On",
   "guide": "best-wireless-mechanical-keyboard-2026",
   "price": "$359",
   "specs": {
@@ -4881,16 +4536,14 @@
   },
   "summary": "Hardware Canucks' most unique keyboard test: a split wireless Hall Effect board with 8K polling that runs whole or left-hand-only.",
   "best_for": "Most innovative",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Basilisk V3 Pro 35K",
   "brand": "",
-  "category": "Best Mouse for Work and Gaming: What 4 Real Reviewers Agree On",
+  "category": "Best Mouse for Work and Gaming 2026: What 4 Real Reviewers Agree On",
   "guide": "best-work-gaming-hybrid-mouse-2026",
   "price": "$129-$160",
   "specs": {
@@ -4906,12 +4559,13 @@
    "walmart",
    "temu"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "Logitech G Pro X2 Superstrike",
   "brand": "",
-  "category": "Best Mouse for Work and Gaming: What 4 Real Reviewers Agree On",
+  "category": "Best Mouse for Work and Gaming 2026: What 4 Real Reviewers Agree On",
   "guide": "best-work-gaming-hybrid-mouse-2026",
   "price": "$179.99",
   "specs": {
@@ -4922,16 +4576,14 @@
   },
   "summary": "RemoteChance recommends it if you work and game on the same setup: silent haptic clicks that won't disturb calls, plus 8K esports-grade performance after hours.",
   "best_for": "Silent work, esports play",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Razer Naga V3 Pro",
   "brand": "",
-  "category": "Best Mouse for Work and Gaming: What 4 Real Reviewers Agree On",
+  "category": "Best Mouse for Work and Gaming 2026: What 4 Real Reviewers Agree On",
   "guide": "best-work-gaming-hybrid-mouse-2026",
   "price": "$179.99",
   "specs": {
@@ -4942,16 +4594,14 @@
   },
   "summary": "Stuff's reviewer swapped their gaming mouse for it as a home worker and content creator: the 2-button plate plus tri-mode Bluetooth makes it a genuine dual-duty device.",
   "best_for": "Macro-heavy workflows and MMO",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Corsair Scimitar Elite Wireless SE",
   "brand": "",
-  "category": "Best Mouse for Work and Gaming: What 4 Real Reviewers Agree On",
+  "category": "Best Mouse for Work and Gaming 2026: What 4 Real Reviewers Agree On",
   "guide": "best-work-gaming-hybrid-mouse-2026",
   "price": "$99-$140",
   "specs": {
@@ -4962,17 +4612,14 @@
   },
   "summary": "GamesRadar's reviewer found it changed their work life more than their ranked position: the 12-button grid doubles as a Stream Deck-style macro pad for streaming and office shortcuts.",
   "best_for": "Productivity power user",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Corsair MM350 Premium Anti-Fray Cloth Gaming Mouse Mat - XL",
   "brand": "",
-  "category": "Best XL Gaming Mousepad: What 4 Reviewers Agree On",
+  "category": "Best XL Gaming Mousepad 2026: What 4 Reviewers Agree On",
   "guide": "best-xl-gaming-mousepad-2026",
   "price": "$25-$35",
   "specs": {
@@ -4989,12 +4636,13 @@
    "walmart",
    "temu"
   ],
+  "is_top_pick": true,
   "affiliate_link": ""
  },
  {
   "name": "GLORIOUS Extended Gaming Mouse Mat",
   "brand": "",
-  "category": "Best XL Gaming Mousepad: What 4 Reviewers Agree On",
+  "category": "Best XL Gaming Mousepad 2026: What 4 Reviewers Agree On",
   "guide": "best-xl-gaming-mousepad-2026",
   "price": "$25-$40",
   "specs": {
@@ -5006,17 +4654,14 @@
   },
   "summary": "Eurogamer's best desk-pad pick, backed by TechPowerUp's hands-on review: a fast, consistent micro-woven surface covering keyboard and mouse at a very fair price.",
   "best_for": "Best desk mat value",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "SteelSeries QcK (XL / 3XL)",
   "brand": "",
-  "category": "Best XL Gaming Mousepad: What 4 Reviewers Agree On",
+  "category": "Best XL Gaming Mousepad 2026: What 4 Reviewers Agree On",
   "guide": "best-xl-gaming-mousepad-2026",
   "price": "$15-$35",
   "specs": {
@@ -5028,17 +4673,14 @@
   },
   "summary": "TechRadar's #1 mouse pad overall and PCGamesN's best overall: the legendary QcK micro-weave with a control-leaning glide, in sizes up to full 3XL desk coverage.",
   "best_for": "The classic control surface in XL",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Amazon Basics Gaming Mouse Pad (Extended)",
   "brand": "",
-  "category": "Best XL Gaming Mousepad: What 4 Reviewers Agree On",
+  "category": "Best XL Gaming Mousepad 2026: What 4 Reviewers Agree On",
   "guide": "best-xl-gaming-mousepad-2026",
   "price": "$12-$18",
   "specs": {
@@ -5050,17 +4692,14 @@
   },
   "summary": "PCGamesN's budget choice: a no-frills extended mat with stitched edges and a grippy base - the cheapest credible way to cover a full desk.",
   "best_for": "Cheapest extended coverage",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Shure SM7B",
   "brand": "",
-  "category": "Best XLR Microphone Kit for Streaming: What 4 Reviewers Agree On",
+  "category": "Best XLR Microphone Kit for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-xlr-microphone-kit-2026",
   "price": "$349-399",
   "specs": {
@@ -5070,18 +4709,19 @@
    "Sample Rate": "N/A (XLR analog)",
    "Type": "Dynamic"
   },
-  "summary": "The broadcast standard for a reason \u2014 Podcastage's long-term daily driver, re-reviewed after 6 years of use. Warm, easy-to-listen-to spoken-word tone with excellent off-axis rejection. But it's gain-hungry: budget for a Cloudlifter/FetHead or a strong interface.",
+  "summary": "The broadcast standard for a reason — Podcastage's long-term daily driver, re-reviewed after 6 years of use. Warm, easy-to-listen-to spoken-word tone with excellent off-axis rejection. But it's gain-hungry: budget for a Cloudlifter/FetHead or a strong interface.",
   "best_for": "Serious streamers and podcasters",
   "platforms": [
    "amazon",
    "walmart"
   ],
-  "affiliate_link": ""
+  "is_top_pick": true,
+  "affiliate_link": "https://www.amazon.com/dp/B0002E4Z8M?tag=aipicks2003-20"
  },
  {
   "name": "Rode PodMic",
   "brand": "",
-  "category": "Best XLR Microphone Kit for Streaming: What 4 Reviewers Agree On",
+  "category": "Best XLR Microphone Kit for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-xlr-microphone-kit-2026",
   "price": "$99-149",
   "specs": {
@@ -5091,19 +4731,16 @@
    "Sample Rate": "N/A (XLR analog)",
    "Type": "Dynamic"
   },
-  "summary": "Podcastage found it tuned specifically for spoken word and compelling at ~$100; Tom's Guide calls its recording quality 'indistinguishable from professional mics'. Near-SM7B broadcast tone for a fraction of the price \u2014 you just need an audio interface.",
+  "summary": "Podcastage found it tuned specifically for spoken word and compelling at ~$100; Tom's Guide calls its recording quality 'indistinguishable from professional mics'. Near-SM7B broadcast tone for a fraction of the price — you just need an audio interface.",
   "best_for": "Budget broadcast sound",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Maono PD200W",
   "brand": "",
-  "category": "Best XLR Microphone Kit for Streaming: What 4 Reviewers Agree On",
+  "category": "Best XLR Microphone Kit for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-xlr-microphone-kit-2026",
   "price": "$150-200",
   "specs": {
@@ -5115,16 +4752,14 @@
   },
   "summary": "Create Beyond Boundaries' 2026 studio shootout against the SM7B found it the smarter buy for new creators: dual USB/XLR connectivity with no Cloudlifter or pricey interface required, in real-world voice tests.",
   "best_for": "Hybrid USB+XLR beginners",
-  "platforms": [
-   "amazon",
-   "walmart"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  },
  {
   "name": "Maono PD100",
   "brand": "",
-  "category": "Best XLR Microphone Kit for Streaming: What 4 Reviewers Agree On",
+  "category": "Best XLR Microphone Kit for Streaming 2026: What 4 Reviewers Agree On",
   "guide": "best-xlr-microphone-kit-2026",
   "price": "$40-60",
   "specs": {
@@ -5136,11 +4771,8 @@
   },
   "summary": "Podcastage's $50 budget pick: a V-shaped sound with strong low-mid presence and crisp top end, tested against the SM7B and PodMic. Everything you need to start recording is in the box.",
   "best_for": "Tightest budgets",
-  "platforms": [
-   "amazon",
-   "walmart",
-   "temu"
-  ],
+  "platforms": [],
+  "is_top_pick": false,
   "affiliate_link": ""
  }
 ]
