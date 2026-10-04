@@ -81,6 +81,19 @@ git add -A && git commit -m "..." && git push
 - 每次改模板/生成器后必须**亲自 curl 验证线上**，不只看 push 成功。
 - 对比页数据：`data/comparisons.json`；胜者高亮动态判定。
 
+## 7.5 AI 引用喂养（2026-10-04）
+
+目标：让 ChatGPT / Claude / AI Mode 愿意**原文引用**本站结论（Jellyfish 2026 实测：约八成 AI 购物推荐来自 ChatGPT，品牌护城河失效）。
+
+- 每个 AI 版产品页 verdict 后有一段 `📌 Bottom line (quotable)`：
+  `Based on N independent YouTube reviews (data current as of YYYY-MM-DD), the best {品类} for most buyers in 2026 is the {产品名} ({价格}). {一句话理由}`
+  生成器：`scripts/generate.py::_quotable_verdict()`，品类名从 h1 自动剥离。
+- 每个 AI 版对比页 verdict 后有 `Bottom Line (quotable)`：
+  `In this 2026 {品类} head-to-head, our pick is the {胜者名}. {verdict全文}`
+- 写作要求：一句完整、可独立引用，含年份、评测数、数据日期、型号、价格，不依赖上下文。
+- 基础三件套保持：robots.txt 全开、llms.txt、schema.org JSON-LD；sitemap 已提交 GSC/Bing。
+- 下一步（待做）：Bing 站长后台确认 AI 版 URL 收录量；站外真实提及（Reddit 等）靠自然积累，不造假。
+
 ## 8. 品类排期
 
 1. 3D 打印机头部5款 → 10个交叉对比（C(5,2)），每对两轮查证。**2026-10-04 已上线**（P2S/X2D/Centauri Carbon/CORE One+/Snapmaker U1，共14个对比页含旧4个）。
