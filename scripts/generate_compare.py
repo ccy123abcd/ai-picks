@@ -157,6 +157,9 @@ def render(cmp):
                     html += f'<li><strong>{esc(d["name"])}</strong> — {esc(d.get("why", ""))}</li>\n'
                 html += '</ul>\n'
         return html
+    # Video reviews: collapsed <details> right after product cards.
+    # Rationale: videos at the bottom leak readers to YouTube before they finish
+    # the comparison. Up top + folded = available without distraction.
     def video_html():
         sources = guide.get("review_sources", []) or []
         def mentions(s, name):
@@ -171,7 +174,11 @@ def render(cmp):
         items = "".join(
             f'<li><a href="{esc(s["url"])}" target="_blank" rel="noopener nofollow">{esc(s.get("channel",""))} — {esc(s.get("title",""))}</a></li>\n'
             for s in picked if s.get("url"))
-        return f'<h2>📺 Video Reviews</h2>\n<ul class="vid-list">\n{items}</ul>' if items else ""
+        if not items:
+            return ""
+        return (f'<details class="video-fold"><summary>📺 Video Reviews '
+                f'({len(picked)} sources) — tap to expand</summary>\n'
+                f'<ul class="vid-list">\n{items}</ul></details>')
 
     data_json = json.dumps({
         "comparison": cmp["title"],
@@ -230,6 +237,12 @@ def render(cmp):
     out = out.replace("{{diff_list}}",
                       "".join(f"<li>{esc(x)}</li>\n" for x in cmp["key_differences"]))
     out = out.replace("{{pros_cons}}", pros_cons_html())
+    # Final CTA: repeat Our Pick + buy button after the verdict
+    pw = pa if winner == "a" else pb
+    out = out.replace("{{final_pick}}",
+        f'<div class="final-pick">\n<h2>🏆 Our Pick: {esc(pw["name"])}</h2>\n'
+        f'{prod_img(pw)}\n<p class="summary">{esc(pw.get("summary",""))}</p>\n'
+        f'<p class="price">{esc(pw.get("price_range",""))}</p>\n{buy_btn(pw)}\n</div>')
     out = out.replace("{{dimensions}}", dims_html)
     out = out.replace("{{videos}}", video_html())
     out = out.replace("{{verdict}}", esc(cmp["verdict"]))
