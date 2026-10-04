@@ -131,6 +131,23 @@ def render(cmp):
             return '<span class="tag">🏆 OUR PICK</span>'
         return ""
 
+    # Video reviews: pull from source guide, prefer sources mentioning either product
+    def video_html():
+        sources = guide.get("review_sources", []) or []
+        def mentions(s, name):
+            keys = [w for w in name.lower().split() if len(w) > 3]
+            t = (s.get("title", "") + " " + s.get("channel", "")).lower()
+            return any(k in t for k in keys)
+        ranked = sorted(sources, key=lambda s: (
+            mentions(s, pa["name"]) or mentions(s, pb["name"])), reverse=True)
+        picked = ranked[:4]
+        if not picked:
+            return ""
+        items = "".join(
+            f'<li><a href="{esc(s["url"])}" target="_blank" rel="noopener nofollow">{esc(s.get("channel",""))} — {esc(s.get("title",""))}</a></li>\n'
+            for s in picked if s.get("url"))
+        return f'<h2>📺 Video Reviews</h2>\n<ul class="vid-list">\n{items}</ul>' if items else ""
+
     data_json = json.dumps({
         "comparison": cmp["title"],
         "product_a": {"name": pa["name"], "specs": pa.get("specs", {}),
@@ -184,6 +201,7 @@ def render(cmp):
     out = out.replace("{{diff_list}}",
                       "".join(f"<li>{esc(x)}</li>\n" for x in cmp["key_differences"]))
     out = out.replace("{{dimensions}}", dims_html)
+    out = out.replace("{{videos}}", video_html())
     out = out.replace("{{verdict}}", esc(cmp["verdict"]))
 
     # AI version
