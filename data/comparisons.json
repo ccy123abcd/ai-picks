@@ -1,1 +1,127 @@
-{"comparisons":[{"category":"Robot Vacuum","key_differences":["Suction: Dreame 35,000Pa vs Roborock 22,000Pa — Dreame leads by a wide margin","Body: Roborock 3.14-inch slim profile fits under lower furniture; Dreame is taller with retractable LiDAR","Obstacle avoidance: Roborock scored perfect 24/24 on Vacuum Wars protocol; Dreame uses dual AI cameras with 280+ object recognition","Dock: Dreame's dock does hot-water mop wash at 100°C; Roborock offers hot-air drying"],"product_a":"Dreame X60 Max Ultra Complete","product_b":"Roborock Saros 10R","slug":"dreame-x60-vs-roborock-saros-10r","source_guide":"best-robot-vacuum-2026","title":"Dreame X60 Ultra vs Roborock Saros 10R","verdict":"The Dreame X60 Ultra wins on raw cleaning power with 35,000Pa suction — the highest in its class — and a more automated dock. The Roborock Saros 10R counters with a slimmer 3.14-inch body that fits under lower furniture and perfect 24/24 obstacle avoidance scores. Choose Dreame for maximum suction and hands-free maintenance; choose Roborock if low-profile design and obstacle dodging matter more.","winner":"a"},{"category":"Home Projector","key_differences":["Light source: Valerion RGB triple laser (25,000+ hr life) vs Epson lamp-based (shorter life, replaceable)","Brightness: Valerion 3000 ISO lumens vs Epson 2600 lumens","Gaming: Valerion 4ms input lag at 240Hz; Epson not designed for competitive gaming","Installation: Epson has motorized lens shift and 2.1x zoom — far more flexible placement; Valerion has no lens shift","Rainbow effect: Epson 3-chip 3LCD has zero rainbow effect; Valerion DLP may show it for sensitive viewers"],"product_a":"Valerion VisionMaster Pro 2","product_b":"Epson Home Cinema 5050UB","slug":"valerion-pro2-vs-epson-5050ub","source_guide":"best-home-projector-2026","title":"Valerion VisionMaster Pro 2 vs Epson Home Cinema 5050UB","verdict":"The Valerion VisionMaster Pro 2 is the modern pick: RGB triple laser, 3000 ISO lumens, 4ms gaming input lag, and Dolby Vision — all at a similar price. The Epson 5050UB remains a home theater classic with unmatched installation flexibility (motorized lens shift, 2.1x zoom) and true 3-chip 3LCD with zero rainbow effect. Choose Valerion for laser brightness and gaming; choose Epson for dedicated theater rooms where placement flexibility is king.","winner":"a"},{"category":"3D Printer","key_differences":["Price: P1S Combo ~$699-$949 vs X1 Carbon Combo ~$1,199-$1,499","Auto-calibration: X1 Carbon has LiDAR + AI failure detection; P1S uses standard auto bed leveling","Nozzle: X1 Carbon hardened steel (carbon fiber ready); P1S stainless steel","Build volume: identical 256 x 256 x 256 mm on both","Speed: identical 500mm/s max, 20000 mm/s² acceleration on both"],"product_a":"Bambu Lab P1S Combo","product_b":"Bambu Lab X1 Carbon Combo","slug":"bambu-p1s-vs-x1-carbon","source_guide":"best-3d-printer-2026","title":"Bambu Lab P1S Combo vs X1 Carbon Combo","verdict":"The P1S Combo is the smarter buy for most people: same 256mm³ build volume, same 500mm/s speed, same AMS multi-color system — at roughly half the price. The X1 Carbon justifies its premium with LiDAR auto-calibration, AI failure detection, and a hardened steel nozzle for carbon-fiber filaments. Choose P1S for value; choose X1 Carbon if you print engineering materials or want maximum automation.","winner":"a"}]}
+{
+ "comparisons": [
+  {
+   "category": "Robot Vacuum",
+   "key_differences": [
+    "Suction: Dreame 35,000Pa vs Roborock 22,000Pa — Dreame leads by a wide margin",
+    "Body: Roborock 3.14-inch slim profile fits under lower furniture; Dreame is taller with retractable LiDAR",
+    "Obstacle avoidance: Roborock scored perfect 24/24 on Vacuum Wars protocol; Dreame uses dual AI cameras with 280+ object recognition",
+    "Dock: Dreame's dock does hot-water mop wash at 100°C; Roborock offers hot-air drying"
+   ],
+   "product_a": "Dreame X60 Max Ultra Complete",
+   "product_b": "Roborock Saros 10R",
+   "slug": "dreame-x60-vs-roborock-saros-10r",
+   "source_guide": "best-robot-vacuum-2026",
+   "title": "Dreame X60 Ultra vs Roborock Saros 10R",
+   "verdict": "The Dreame X60 Ultra wins on raw cleaning power with 35,000Pa suction — the highest in its class — and a more automated dock. The Roborock Saros 10R counters with a slimmer 3.14-inch body that fits under lower furniture and perfect 24/24 obstacle avoidance scores. Choose Dreame for maximum suction and hands-free maintenance; choose Roborock if low-profile design and obstacle dodging matter more.",
+   "winner": "a"
+  },
+  {
+   "category": "Home Projector",
+   "key_differences": [
+    "Light source: Valerion RGB triple laser (25,000+ hr life) vs Epson lamp-based (shorter life, replaceable)",
+    "Brightness: Valerion 3000 ISO lumens vs Epson 2600 lumens",
+    "Gaming: Valerion 4ms input lag at 240Hz; Epson not designed for competitive gaming",
+    "Installation: Epson has motorized lens shift and 2.1x zoom — far more flexible placement; Valerion has no lens shift",
+    "Rainbow effect: Epson 3-chip 3LCD has zero rainbow effect; Valerion DLP may show it for sensitive viewers"
+   ],
+   "product_a": "Valerion VisionMaster Pro 2",
+   "product_b": "Epson Home Cinema 5050UB",
+   "slug": "valerion-pro2-vs-epson-5050ub",
+   "source_guide": "best-home-projector-2026",
+   "title": "Valerion VisionMaster Pro 2 vs Epson Home Cinema 5050UB",
+   "verdict": "The Valerion VisionMaster Pro 2 is the modern pick: RGB triple laser, 3000 ISO lumens, 4ms gaming input lag, and Dolby Vision — all at a similar price. The Epson 5050UB remains a home theater classic with unmatched installation flexibility (motorized lens shift, 2.1x zoom) and true 3-chip 3LCD with zero rainbow effect. Choose Valerion for laser brightness and gaming; choose Epson for dedicated theater rooms where placement flexibility is king.",
+   "winner": "a"
+  },
+  {
+   "category": "3D Printer",
+   "key_differences": [
+    "Price: P1S Combo ~$699-$949 vs X1 Carbon Combo ~$1,199-$1,499",
+    "Auto-calibration: X1 Carbon has LiDAR + AI failure detection; P1S uses standard auto bed leveling",
+    "Nozzle: X1 Carbon hardened steel (carbon fiber ready); P1S stainless steel",
+    "Build volume: identical 256 x 256 x 256 mm on both",
+    "Speed: identical 500mm/s max, 20000 mm/s² acceleration on both"
+   ],
+   "product_a": "Bambu Lab P1S Combo",
+   "product_b": "Bambu Lab X1 Carbon Combo",
+   "slug": "bambu-p1s-vs-x1-carbon",
+   "source_guide": "best-3d-printer-2026",
+   "title": "Bambu Lab P1S Combo vs X1 Carbon Combo",
+   "verdict": "The P1S Combo is the smarter buy for most people: same 256mm³ build volume, same 500mm/s speed, same AMS multi-color system — at roughly half the price. The X1 Carbon justifies its premium with LiDAR auto-calibration, AI failure detection, and a hardened steel nozzle for carbon-fiber filaments. Choose P1S for value; choose X1 Carbon if you print engineering materials or want maximum automation.",
+   "winner": "a"
+  },
+  {
+   "slug": "bambu-p1s-vs-elegoo-centauri-carbon",
+   "title": "Bambu Lab P1S Combo vs Elegoo Centauri Carbon",
+   "category": "3D Printer",
+   "source_guide": "best-3d-printer-2026",
+   "product_a": "Bambu Lab P1S Combo",
+   "product_b": "Elegoo Centauri Carbon",
+   "winner": "a",
+   "inline_products": {
+    "Elegoo Centauri Carbon": {
+     "name": "Elegoo Centauri Carbon",
+     "price_range": "$299-$349",
+     "best_for": "Budget engineering prints — carbon fiber on a budget",
+     "summary": "The 2026 budget disruptor: enclosed CoreXY, 500mm/s, 320°C nozzle that handles carbon-fiber filaments — at half the price of a P1S. No multicolor on v1, smaller community, but unbeatable value for functional prints.",
+     "specs": {
+      "Build Volume": "256 x 256 x 256 mm",
+      "Speed": "500mm/s, 20000 mm/s² acceleration",
+      "Nozzle Temp": "320°C, brass-hardened steel",
+      "Enclosure": "Fully enclosed, die-cast aluminum frame",
+      "Bed Leveling": "121-point automatic",
+      "Multi-color": "No (v1); CC2 Combo adds 4-color at $449",
+      "Firmware": "Klipper-based (Elegoo fork)",
+      "Slicer": "Elegoo Slicer / OrcaSlicer / Cura"
+     }
+    }
+   },
+   "dimensions": [
+    {
+     "name": "🧪 Materials",
+     "a": "PLA, PETG, TPU, ABS, ASA ideal; PA/PC capable. 300°C all-metal hotend.",
+     "b": "PLA, PETG, ABS, ASA, TPU + carbon/glass-fiber reinforced. 320°C nozzle — hotter than P1S.",
+     "winner": "b",
+     "why": "Centauri Carbon's 320°C nozzle opens the door to more engineering filaments at half the price."
+    },
+    {
+     "name": "🎨 Multi-color",
+     "a": "AMS included in Combo — up to 16 colors with 4 AMS units. Mature, reliable.",
+     "b": "No multicolor on v1. CC2 Combo ($449) adds 4-color CANVAS with RFID auto-detection.",
+     "winner": "a",
+     "why": "If multi-color matters, P1S wins decisively. Centauri v1 is single-color only."
+    },
+    {
+     "name": "👥 Community & Ecosystem",
+     "a": "Huge global community, MakerWorld model library, massive mod/aftermarket scene.",
+     "b": "Growing fast but smaller. Klipper-based = tinker-friendly. No equivalent of MakerWorld.",
+     "winner": "a",
+     "why": "Bambu's ecosystem (models, profiles, mods, support) is years ahead. This matters daily."
+    },
+    {
+     "name": "🔧 Ease of Use",
+     "a": "Best-in-class: auto-calibration, vibration compensation, polished Bambu Studio.",
+     "b": "Good out-of-box experience (Tom's Hardware praised it), but software less polished.",
+     "winner": "a",
+     "why": "P1S is the 'it just works' printer. Centauri is good but needs more user involvement."
+    },
+    {
+     "name": "💰 Value",
+     "a": "$699-$949 Combo. Premium price for premium polish.",
+     "b": "$299-$349. Enclosed CoreXY at this price was unthinkable 2 years ago.",
+     "winner": "b",
+     "why": "Nothing touches the Centauri Carbon on price-to-hardware ratio."
+    }
+   ],
+   "key_differences": [
+    "Price: P1S Combo $699-$949 vs Centauri Carbon $299-$349 — less than half",
+    "Nozzle: Centauri 320°C beats P1S 300°C for high-temp engineering filaments",
+    "Multi-color: P1S AMS (16 colors) vs Centauri v1 single-color only",
+    "Ecosystem: Bambu MakerWorld + huge community vs smaller but growing Elegoo scene",
+    "Software: Bambu Studio polish vs Klipper-based Elegoo (tinker-friendly, less refined)"
+   ],
+   "verdict": "The P1S Combo remains the safer, more complete package: multi-color printing, a massive community, MakerWorld, and best-in-class ease of use. But the Centauri Carbon is the story of 2026 — enclosed CoreXY performance and carbon-fiber capability at $299. Choose P1S if you want multi-color or the most hassle-free experience. Choose Centauri Carbon if you print functional parts, don't need multi-color, and want maximum hardware per dollar.",
+   "youtube_search": "Bambu P1S vs Elegoo Centauri Carbon comparison"
+  }
+ ]
+}

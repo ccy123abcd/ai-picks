@@ -32,7 +32,10 @@ VERIFIED_ASINS = _gen.VERIFIED_ASINS
 
 def esc(s): return html.escape(str(s))
 
-def find_product(guide_data, name):
+def find_product(guide_data, name, cmp=None):
+    # Inline products (not yet in the guide) take priority
+    if cmp and cmp.get("inline_products") and name in cmp["inline_products"]:
+        return cmp["inline_products"][name]
     for p in guide_data["products"]:
         if p["name"] == name:
             return p
@@ -81,8 +84,8 @@ def build_schema(cmp, pa, pb, guide):
 
 def render(cmp):
     guide = json.load(open(BASE / "data" / f'{cmp["source_guide"]}.json'))
-    pa = find_product(guide, cmp["product_a"])
-    pb = find_product(guide, cmp["product_b"])
+    pa = find_product(guide, cmp["product_a"], cmp)
+    pb = find_product(guide, cmp["product_b"], cmp)
     slug = cmp["slug"]
     winner = cmp["winner"]
 
@@ -105,9 +108,26 @@ def render(cmp):
         "product_b": {"name": pb["name"], "specs": pb.get("specs", {}),
                       "price_range": pb.get("price_range", "")},
         "key_differences": cmp["key_differences"],
+        "dimensions": cmp.get("dimensions", []),
         "verdict": cmp["verdict"],
         "winner": cmp["product_a"] if winner == "a" else cmp["product_b"],
     }, indent=2, ensure_ascii=False)
+
+    # Dimensions section (rich comparison: materials, community, etc.)
+    dims_html = ""
+    if cmp.get("dimensions"):
+        dims_html = '<h2>Beyond the Specs</h2>\n'
+        for d in cmp["dimensions"]:
+            wa = "🏆" if d.get("winner") == "a" else ""
+            wb = "🏆" if d.get("winner") == "b" else ""
+            dims_html += f'''<div class="dim">
+<h3>{esc(d["name"])}</h3>
+<table class="vs-table">
+<tr><th class="winner-col">{esc(pa["name"])} {wa}</th><th>{esc(pb["name"])} {wb}</th></tr>
+<tr><td>{esc(d["a"])}</td><td>{esc(d["b"])}</td></tr>
+</table>
+<p class="dim-why">{esc(d.get("why", ""))}</p>
+</div>\n'''
 
     # Human version
     out = TPL_HUMAN
@@ -131,6 +151,7 @@ def render(cmp):
     out = out.replace("{{spec_rows}}", build_spec_rows(pa, pb))
     out = out.replace("{{diff_list}}",
                       "".join(f"<li>{esc(x)}</li>\n" for x in cmp["key_differences"]))
+    out = out.replace("{{dimensions}}", dims_html)
     out = out.replace("{{verdict}}", esc(cmp["verdict"]))
 
     # AI version
