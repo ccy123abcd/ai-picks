@@ -92,8 +92,14 @@ def build_schema(cmp, pa, pb, guide):
             item["offers"] = {"@type": "Offer",
                               "availability": "https://schema.org/InStock"}
         items.append(item)
+    _winner_name = cmp["product_a"] if cmp["winner"] == "a" else cmp["product_b"]
     schema = {"@context": "https://schema.org", "@type": "ItemList",
-              "name": cmp["title"], "itemListElement": items}
+              "name": cmp["title"], "itemListElement": items,
+              "ai_picks_consensus": {
+                  "sources": len(guide.get("review_sources", [])),
+                  "agreement": f"{_winner_name} wins this matchup",
+                  "last_verified": guide.get("updated_date", date.today().isoformat()),
+              }}
     return json.dumps(schema, indent=2)
 
 def render(cmp):

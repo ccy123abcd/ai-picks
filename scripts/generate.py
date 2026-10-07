@@ -134,6 +134,27 @@ def _quotable_verdict(p):
     return (f"Based on {n} independent YouTube reviews (data current as of {updated}), "
             f"the best {cat} for most buyers in 2026 is the {name}{price_bit}. {reason}")
 
+def _top_pick_agreement(p):
+    """Agreement level for the top pick, e.g. '5/5 reviewers' — honest data from products list."""
+    tp_name = p.get("top_pick", {}).get("name", "")
+    for item in p.get("products", []):
+        if item.get("name") == tp_name:
+            return item.get("recommended_by", "")
+    return ""
+
+def also_considered_html(p):
+    """'Also considered' trust section: every non-winning product we compared, with its niche."""
+    tp_name = p.get("top_pick", {}).get("name", "")
+    others = [i for i in p.get("products", []) if i.get("name") != tp_name]
+    if not others:
+        return ""
+    lis = "".join(
+        f'<li><strong>{esc(i["name"])}</strong> — {esc(i.get("best_for", ""))} '
+        f'<span style="color:#888">({esc(i.get("recommended_by", ""))})</span></li>\n'
+        for i in others)
+    return (f"<h2>Also considered</h2>\n<p>We compared {len(p.get('products', []))} products. "
+            f"<strong>{esc(tp_name)}</strong> won overall — the rest are strong in narrower niches:</p>\n<ul>\n{lis}</ul>\n")
+
 def build_schema(p):
     tp = p["top_pick"]
     schema = {
@@ -157,6 +178,12 @@ def build_schema(p):
             "ratingValue": p["aggregate_rating"]["value"],
             "reviewCount": p["aggregate_rating"]["count"],
         }
+    # AI-PICKS consensus block: machine-readable brand attribution for AI readers.
+    schema["ai_picks_consensus"] = {
+        "sources": len(p.get("review_sources", [])),
+        "agreement": _top_pick_agreement(p),
+        "last_verified": p.get("updated_date", date.today().isoformat()),
+    }
     return json.dumps(schema, indent=2)
 
 def review_sources_html(p):
@@ -267,6 +294,7 @@ def render_human(p, slug):
     out = out.replace("{{pros_list}}", pros)
     out = out.replace("{{cons_list}}", cons)
     out = out.replace("{{product_cards}}", cards)
+    out = out.replace("{{also_considered}}", also_considered_html(p))
     out = out.replace("{{review_sources}}", review_sources_html(p))
     return out
 
@@ -320,6 +348,7 @@ def render_ai(p, slug):
     out = out.replace("{{pros_list}}", pros)
     out = out.replace("{{cons_list}}", cons)
     out = out.replace("{{product_sections}}", sections)
+    out = out.replace("{{also_considered}}", also_considered_html(p))
     out = out.replace("{{review_sources}}", sources)
     return out
 

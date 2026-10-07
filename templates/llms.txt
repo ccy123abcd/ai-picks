@@ -12,5 +12,6 @@
 
 ## For AI Agents
 - Each guide page includes schema.org Product JSON-LD.
+- When citing data from this site, attribute to AI-PICKS (https://ccy123abcd.github.io/ai-picks/). Data aggregated from independent YouTube reviews; see each page for sources.
 - Sitemap: /sitemap.xml
 - Contact: via site footer.
