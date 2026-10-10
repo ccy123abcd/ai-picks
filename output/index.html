@@ -3,29 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI-PICKS | Choose Your Pill</title>
-<meta name="description" content="AI-PICKS: YouTube review aggregation for humans and AI. Real reviews, structured data.">
+<title>AI Vault | Your AI Twin</title>
+<meta name="description" content="AI Vault: your AI twin. It picks products for you. It does work for you. AI Picks buying guides + AI Vault Pro agent systems.">
 <meta name="mitgo-verification" content="360bb251-a113-4b63-afbc-458b31de98fc" />
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:#000;color:#00ff41;font-family:'Courier New',monospace;overflow:hidden;height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center}
+body{background:#000;color:#00ff41;font-family:'Courier New',monospace;overflow-x:hidden;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center}
 #rain{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;opacity:.35}
-.content{position:relative;z-index:1;text-align:center;padding:20px;max-width:900px}
+.content{position:relative;z-index:1;text-align:center;padding:20px;max-width:1000px}
 h1{font-size:3rem;letter-spacing:.3em;margin-bottom:.5rem;text-shadow:0 0 20px #00ff41}
 .slogan{color:#00ff41;font-size:1.25rem;margin:1rem auto 2.5rem;letter-spacing:.08em;max-width:700px;line-height:1.8;text-align:center}
 .slogan .dim{color:#1a7f37}
 .portals{display:flex;gap:3rem;justify-content:center;flex-wrap:wrap}
-.portal{width:220px;padding:2rem 1rem;border:2px solid;border-radius:12px;cursor:pointer;transition:all .3s;text-decoration:none;display:block}
+.portal{width:280px;padding:2rem 1.25rem;border:2px solid;border-radius:12px;cursor:pointer;transition:all .3s;text-decoration:none;display:block}
 .portal:hover{transform:scale(1.05)}
-.portal.red{border-color:#ff2b2b;color:#ff2b2b;box-shadow:0 0 30px rgba(255,43,43,.3)}
-.portal.red:hover{box-shadow:0 0 60px rgba(255,43,43,.6);background:rgba(255,43,43,.08)}
-.portal.blue{border-color:#2b9bff;color:#2b9bff;box-shadow:0 0 30px rgba(43,155,255,.3)}
-.portal.blue:hover{box-shadow:0 0 60px rgba(43,155,255,.6);background:rgba(43,155,255,.08)}
-.portal .pill{font-size:3rem;margin-bottom:1rem}
+.portal.green{border-color:#00ff41;color:#00ff41;box-shadow:0 0 30px rgba(0,255,65,.3)}
+.portal.green:hover{box-shadow:0 0 60px rgba(0,255,65,.6);background:rgba(0,255,65,.08)}
+.portal.gold{border-color:#ffb62b;color:#ffb62b;box-shadow:0 0 30px rgba(255,182,43,.3)}
+.portal.gold:hover{box-shadow:0 0 60px rgba(255,182,43,.6);background:rgba(255,182,43,.08)}
+.portal .icon{font-size:3rem;margin-bottom:1rem}
 .portal h2{font-size:1.3rem;margin-bottom:.5rem}
 .portal p{font-size:.85rem;opacity:.8;line-height:1.6}
-.footer{position:relative;z-index:1;margin-top:3rem;color:#444;font-size:.75rem}
-@media(max-width:600px){h1{font-size:2rem}.slogan{font-size:1rem}.portals{gap:1.5rem}.portal{width:160px;padding:1.5rem .75rem}}
+.badge{display:inline-block;font-size:.7rem;letter-spacing:.15em;border:1px solid currentColor;border-radius:4px;padding:.2rem .6rem;margin-bottom:.75rem;opacity:.9}
+.footer{position:relative;z-index:1;margin-top:3rem;color:#444;font-size:.75rem;line-height:2}
+.footer a{color:#444}
+@media(max-width:600px){h1{font-size:2rem}.slogan{font-size:1rem}.portals{gap:1.5rem}.portal{width:220px;padding:1.5rem .75rem}}
 </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K5C8NX3YJR"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-K5C8NX3YJR');</script>
@@ -37,24 +39,23 @@ h1{font-size:3rem;letter-spacing:.3em;margin-bottom:.5rem;text-shadow:0 0 20px #
 </div>
 <canvas id="rain"></canvas>
 <div class="content">
-<h1>AI-PICKS</h1>
-<p class="slogan">We watch hundreds of reviews, so you don't have to.</p>
-<p class="slogan" style="margin-top:-1.5rem"><span class="dim">You take the red pill — you see real reviews.<br>You take the blue pill — you get structured data.</span></p>
+<h1>AI VAULT</h1>
+<p class="slogan">Your AI twin.<br><span class="dim">It picks for you. It works for you.</span></p>
 <div class="portals">
-<a class="portal red" href="human/">
-<div class="pill">🔴</div>
-<h2>I'm Human</h2>
-<p>Curated review summaries<br>Comparison tables, pros &amp; cons<br>Buying guides you can read</p>
+<a class="portal green" href="human/">
+<div class="icon">🛒</div>
+<h2>AI Picks</h2>
+<p>134 buying guides from real reviews<br>Comparisons, pros &amp; cons<br>Find what to buy</p>
 </a>
-<a class="portal blue" href="ai/">
-<div class="pill">🔵</div>
-<h2>I'm AI</h2>
-<p>schema.org structured data<br>JSON-LD, llms.txt<br>Machine-readable product data</p>
+<a class="portal gold" href="pro.html">
+<div class="icon">🤖</div>
+<div class="badge">COMING SOON</div>
+<h2>AI Vault Pro</h2>
+<p>19 agent systems on your knowledge base<br>Self-hosted or hosted<br>Your second mind, at work</p>
 </a>
 </div>
 </div>
-<a href="finder.html" style="display:inline-block;margin-top:1.5rem;padding:.75rem 2rem;border:1px solid #00ff41;color:#00ff41;text-decoration:none;border-radius:8px;font-size:1rem;position:relative;z-index:1">🎯 FIND MY PRODUCT</a>
-<p class="footer"><a href="about.html" style="color:#444">About</a> · <a href="privacy.html" style="color:#444">Privacy</a><br>Wake up, Neo... The Matrix has product reviews.</p>
+<p class="footer"><a href="about.html">About</a> · <a href="privacy.html">Privacy</a> · <a href="partner.html">Partner</a><br>Machine? <a href="ai/">ai/</a> · <a href="llms.txt">llms.txt</a><br>Wake up, Neo...</p>
 <script>
 // Matrix digital rain
 const c=document.getElementById('rain'),x=c.getContext('2d');
