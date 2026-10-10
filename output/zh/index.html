@@ -4,66 +4,60 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Vault | 你的 AI 分身</title>
-<meta name="description" content="AI Vault：你的 AI 分身。红药丸——给人类看的真实测评。蓝药丸——给机器读的结构化数据。金药丸——19 个智能体为你工作（即将到来）。">
+<meta name="description" content="AI Vault：你的 AI 分身。AI Picks——真实测评选品指南。AI Vault Pro——19 个智能体为你工作（即将到来）。">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#000;color:#00ff41;font-family:'Courier New','Noto Sans SC',monospace;overflow-x:hidden;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center}
 #rain{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;opacity:.35}
-.content{position:relative;z-index:1;text-align:center;padding:20px;max-width:1100px}
+.lang{position:fixed;top:1rem;right:1rem;z-index:2}
+.lang select{background:#000;color:#00ff41;border:1px solid #00ff41;border-radius:6px;padding:.4rem .6rem;font-family:inherit;font-size:.85rem;cursor:pointer}
+.content{position:relative;z-index:1;text-align:center;padding:20px;max-width:1000px}
 h1{font-size:3rem;letter-spacing:.3em;margin-bottom:.5rem;text-shadow:0 0 20px #00ff41}
-.slogan{color:#00ff41;font-size:1.15rem;margin:1rem auto 2.5rem;letter-spacing:.06em;max-width:760px;line-height:2;text-align:center}
-.slogan .dim{color:#1a7f37}
-.portals{display:flex;gap:2.5rem;justify-content:center;flex-wrap:wrap}
-.portal{width:240px;padding:2rem 1rem;border:2px solid;border-radius:12px;cursor:pointer;transition:all .3s;text-decoration:none;display:block}
+.slogan{color:#00ff41;font-size:1.25rem;margin:1rem auto 2.5rem;letter-spacing:.08em;max-width:700px;line-height:1.8;text-align:center}
+.portals{display:flex;gap:3rem;justify-content:center;flex-wrap:wrap}
+.portal{width:280px;padding:2rem 1.25rem;border:2px solid;border-radius:12px;cursor:pointer;transition:all .3s;text-decoration:none;display:block}
 .portal:hover{transform:scale(1.05)}
-.portal.red{border-color:#ff2b2b;color:#ff2b2b;box-shadow:0 0 30px rgba(255,43,43,.3)}
-.portal.red:hover{box-shadow:0 0 60px rgba(255,43,43,.6);background:rgba(255,43,43,.08)}
-.portal.blue{border-color:#2b9bff;color:#2b9bff;box-shadow:0 0 30px rgba(43,155,255,.3)}
-.portal.blue:hover{box-shadow:0 0 60px rgba(43,155,255,.6);background:rgba(43,155,255,.08)}
+.portal.green{border-color:#00ff41;color:#00ff41;box-shadow:0 0 30px rgba(0,255,65,.3)}
+.portal.green:hover{box-shadow:0 0 60px rgba(0,255,65,.6);background:rgba(0,255,65,.08)}
 .portal.gold{border-color:#ffb62b;color:#ffb62b;box-shadow:0 0 30px rgba(255,182,43,.3)}
 .portal.gold:hover{box-shadow:0 0 60px rgba(255,182,43,.6);background:rgba(255,182,43,.08)}
-.portal .pill{font-size:3rem;margin-bottom:1rem}
-.portal h2{font-size:1.25rem;margin-bottom:.5rem}
+.portal .icon{font-size:3rem;margin-bottom:1rem}
+.portal h2{font-size:1.3rem;margin-bottom:.5rem}
 .portal p{font-size:.85rem;opacity:.8;line-height:1.8}
-.badge{display:inline-block;font-size:.7rem;letter-spacing:.2em;border:1px solid currentColor;border-radius:4px;padding:.2rem .6rem;margin-bottom:.6rem;opacity:.9}
-.finder{display:inline-block;margin-top:2rem;padding:.75rem 2rem;border:1px solid #00ff41;color:#00ff41;text-decoration:none;border-radius:8px;font-size:1rem;position:relative;z-index:1}
-.footer{position:relative;z-index:1;margin-top:2.5rem;color:#00ff41;font-size:.9rem;line-height:2}
+.badge{display:inline-block;font-size:.7rem;letter-spacing:.2em;border:1px solid currentColor;border-radius:4px;padding:.2rem .6rem;margin-bottom:.75rem;opacity:.9}
+.footer{position:relative;z-index:1;margin-top:3rem;color:#00ff41;font-size:.9rem;line-height:2}
 .footer a{color:#00ff41}
-@media(max-width:700px){h1{font-size:2rem}.slogan{font-size:1rem}.portals{gap:1.5rem}.portal{width:170px;padding:1.5rem .75rem}}
+@media(max-width:600px){h1{font-size:2rem;letter-spacing:.2em}.slogan{font-size:1rem}.portals{gap:1.5rem}.portal{width:220px;padding:1.5rem .75rem}}
 </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K5C8NX3YJR"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-K5C8NX3YJR');</script>
 </head>
 <body>
-<div class="lang" style="position:fixed;top:1rem;right:1rem;z-index:2">
-<a href="../" style="color:#1a7f37;text-decoration:none;padding:.4rem .8rem;border:1px solid #1a3a1a;border-radius:6px;font-size:.85rem;margin-left:.5rem">EN</a>
-<a href="./" class="on" style="color:#00ff41;text-decoration:none;padding:.4rem .8rem;border:1px solid #00ff41;border-radius:6px;font-size:.85rem;margin-left:.5rem">中文</a>
+<div class="lang">
+<select id="langsel" onchange="localStorage.setItem('aipicks-lang',this.selectedOptions[0].dataset.lang);location.href=this.value">
+<option value="../" data-lang="en">🌐 English</option>
+<option value="./" data-lang="zh" selected>🌐 中文</option>
+</select>
 </div>
 <canvas id="rain"></canvas>
 <div class="content">
 <h1>AI VAULT</h1>
-<p class="slogan">它为你挑选。它为你工作。<br><span class="dim">吃下红色药丸 —— 给人类看的真实测评。<br>吃下蓝色药丸 —— 给机器读的结构化数据。<br>吃下金色药丸 —— 19 个智能体为你工作。</span></p>
+<p class="slogan">它为你挑选。它为你工作。</p>
 <div class="portals">
-<a class="portal red" href="../human/">
-<div class="pill">🔴</div>
-<h2>我是人类</h2>
-<p>真实测评、对比<br>优缺点<br>找到值得买的</p>
-</a>
-<a class="portal blue" href="../ai/">
-<div class="pill">🔵</div>
-<h2>我是 AI</h2>
-<p>schema.org 结构化数据<br>JSON-LD、llms.txt<br>机器可读的产品数据</p>
+<a class="portal green" href="picks.html">
+<div class="icon">🛒</div>
+<h2>AI Picks</h2>
+<p>真实测评选品指南<br>对比、优缺点<br>找到值得买的</p>
 </a>
 <a class="portal gold" href="../pro.html">
-<div class="pill">🤖</div>
+<div class="icon">🤖</div>
 <div class="badge">即将到来</div>
 <h2>AI Vault Pro</h2>
 <p>19 个智能体跑在你的知识库上<br>自部署或托管<br>你的第二大脑，开工</p>
 </a>
 </div>
 </div>
-<a class="finder" href="finder.html">🎯 智能选品器</a>
-<p class="footer"><a href="about.html">About</a> · <a href="privacy.html">Privacy</a><br>Wake up, Neo... 矩阵里有产品测评。</p>
+<p class="footer"><a href="about.html">About</a> · <a href="privacy.html">Privacy</a><br>Wake up, Neo...</p>
 <script>
 // 矩阵数字雨
 const c=document.getElementById('rain'),x=c.getContext('2d');

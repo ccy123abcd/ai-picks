@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Picks | 选择你的药丸</title>
+<meta name="description" content="AI Picks：聚合 YouTube 真实测评，为人类和 AI 提供可信的产品推荐。">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;color:#00ff41;font-family:'Courier New','Noto Sans SC',monospace;overflow-x:hidden;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center}
+#rain{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;opacity:.35}
+.lang{position:fixed;top:1rem;right:1rem;z-index:2}
+.lang select{background:#000;color:#00ff41;border:1px solid #00ff41;border-radius:6px;padding:.4rem .6rem;font-family:inherit;font-size:.85rem;cursor:pointer}
+.content{position:relative;z-index:1;text-align:center;padding:20px;max-width:900px}
+h1{font-size:2.5rem;letter-spacing:.3em;margin-bottom:.5rem;text-shadow:0 0 20px #00ff41}
+.slogan{color:#00ff41;font-size:1.1rem;margin:1rem auto 2.5rem;letter-spacing:.06em;max-width:700px;line-height:2;text-align:center}
+.slogan .dim{color:#1a7f37}
+.portals{display:flex;gap:3rem;justify-content:center;flex-wrap:wrap}
+.portal{width:220px;padding:2rem 1rem;border:2px solid;border-radius:12px;cursor:pointer;transition:all .3s;text-decoration:none;display:block}
+.portal:hover{transform:scale(1.05)}
+.portal.red{border-color:#ff2b2b;color:#ff2b2b;box-shadow:0 0 30px rgba(255,43,43,.3)}
+.portal.red:hover{box-shadow:0 0 60px rgba(255,43,43,.6);background:rgba(255,43,43,.08)}
+.portal.blue{border-color:#2b9bff;color:#2b9bff;box-shadow:0 0 30px rgba(43,155,255,.3)}
+.portal.blue:hover{box-shadow:0 0 60px rgba(43,155,255,.6);background:rgba(43,155,255,.08)}
+.portal .pill{font-size:3rem;margin-bottom:1rem}
+.portal h2{font-size:1.3rem;margin-bottom:.5rem}
+.portal p{font-size:.85rem;opacity:.8;line-height:1.8}
+.finder{display:inline-block;margin-top:2rem;padding:.75rem 2rem;border:1px solid #00ff41;color:#00ff41;text-decoration:none;border-radius:8px;font-size:1rem;position:relative;z-index:1}
+.back{position:relative;z-index:1;margin-top:2rem}
+.back a{color:#00ff41;text-decoration:none;font-size:.85rem}
+.footer{position:relative;z-index:1;margin-top:1.5rem;color:#00ff41;font-size:.9rem;line-height:2}
+.footer a{color:#00ff41}
+@media(max-width:600px){h1{font-size:1.8rem}.slogan{font-size:1rem}.portals{gap:1.5rem}.portal{width:160px;padding:1.5rem .75rem}}
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K5C8NX3YJR"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-K5C8NX3YJR');</script>
+</head>
+<body>
+<div class="lang">
+<select id="langsel" onchange="localStorage.setItem('aipicks-lang',this.selectedOptions[0].dataset.lang);location.href=this.value">
+<option value="../picks.html" data-lang="en">🌐 English</option>
+<option value="./picks.html" data-lang="zh" selected>🌐 中文</option>
+</select>
+</div>
+<canvas id="rain"></canvas>
+<div class="content">
+<h1>AI PICKS</h1>
+<p class="slogan">我们看遍数百个真实测评，所以你不用看。<br><span class="dim">你吃下红色药丸 —— 看到真实测评。<br>你吃下蓝色药丸 —— 得到结构化数据。</span></p>
+<div class="portals">
+<a class="portal red" href="../human/">
+<div class="pill">🔴</div>
+<h2>我是人类</h2>
+<p>精选测评摘要<br>对比表格、优缺点<br>看得懂的购买指南</p>
+</a>
+<a class="portal blue" href="../ai/">
+<div class="pill">🔵</div>
+<h2>我是 AI</h2>
+<p>schema.org 结构化数据<br>JSON-LD、llms.txt<br>机器可读的产品数据</p>
+</a>
+</div>
+</div>
+<a class="finder" href="finder.html">🎯 智能选品器</a>
+<p class="back"><a href="./">← 返回 AI Vault</a></p>
+<p class="footer"><a href="about.html">About</a> · <a href="privacy.html">Privacy</a><br>Wake up, Neo... 矩阵里有产品测评。</p>
+<script>
+// 矩阵数字雨
+const c=document.getElementById('rain'),x=c.getContext('2d');
+c.width=innerWidth;c.height=innerHeight;
+const chars='アイスクリーム0123456789ABCDEF$#@%&';
+const fs=14,cols=Math.floor(c.width/fs),drops=Array(cols).fill(1);
+function draw(){
+x.fillStyle='rgba(0,0,0,.05)';x.fillRect(0,0,c.width,c.height);
+x.fillStyle='#00ff41';x.font=fs+'px monospace';
+for(let i=0;i<drops.length;i++){
+const t=chars[Math.floor(Math.random()*chars.length)];
+x.fillText(t,i*fs,drops[i]*fs);
+if(drops[i]*fs>c.height&&Math.random()>.975)drops[i]=0;
+drops[i]++;}
+}
+setInterval(draw,50);
+addEventListener('resize',()=>{c.width=innerWidth;c.height=innerHeight});
+localStorage.setItem('aipicks-lang','zh');
+</script>
+</body>
+</html>

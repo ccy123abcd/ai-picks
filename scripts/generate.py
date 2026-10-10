@@ -459,6 +459,9 @@ def main():
     print("  ✓ about + privacy")
     shutil.copy("templates/pro.html", out / "pro.html")
     print("  ✓ pro.html (AI Vault Pro door)")
+    shutil.copy("templates/picks.html", out / "picks.html")
+    shutil.copy("templates/picks_zh.html", out / "zh" / "picks.html")
+    print("  ✓ picks.html + zh/picks.html (pill chooser)")
     print("  ✓ finder.html")
     # Custom-domain marker: GitHub Pages unsets the custom domain if a push
     # lacks this file, so the generator owns it (survives rm -rf output).

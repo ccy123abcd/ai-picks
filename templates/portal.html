@@ -4,67 +4,61 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Vault | Your AI Twin</title>
-<meta name="description" content="AI Vault: your AI twin. Red pill — real reviews for humans. Blue pill — structured data for machines. Gold pill — 19 agent systems at work (coming soon).">
+<meta name="description" content="AI Vault: your AI twin. AI Picks — buying guides from real reviews. AI Vault Pro — 19 agent systems at work (coming soon).">
 <meta name="mitgo-verification" content="360bb251-a113-4b63-afbc-458b31de98fc" />
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#000;color:#00ff41;font-family:'Courier New',monospace;overflow-x:hidden;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center}
 #rain{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;opacity:.35}
-.content{position:relative;z-index:1;text-align:center;padding:20px;max-width:1100px}
+.lang{position:fixed;top:1rem;right:1rem;z-index:2}
+.lang select{background:#000;color:#00ff41;border:1px solid #00ff41;border-radius:6px;padding:.4rem .6rem;font-family:inherit;font-size:.85rem;cursor:pointer}
+.content{position:relative;z-index:1;text-align:center;padding:20px;max-width:1000px}
 h1{font-size:3rem;letter-spacing:.3em;margin-bottom:.5rem;text-shadow:0 0 20px #00ff41}
-.slogan{color:#00ff41;font-size:1.1rem;margin:1rem auto 2.5rem;letter-spacing:.06em;max-width:760px;line-height:2;text-align:center}
-.slogan .dim{color:#1a7f37}
-.portals{display:flex;gap:2.5rem;justify-content:center;flex-wrap:wrap}
-.portal{width:240px;padding:2rem 1rem;border:2px solid;border-radius:12px;cursor:pointer;transition:all .3s;text-decoration:none;display:block}
+.slogan{color:#00ff41;font-size:1.25rem;margin:1rem auto 2.5rem;letter-spacing:.08em;max-width:700px;line-height:1.8;text-align:center}
+.portals{display:flex;gap:3rem;justify-content:center;flex-wrap:wrap}
+.portal{width:280px;padding:2rem 1.25rem;border:2px solid;border-radius:12px;cursor:pointer;transition:all .3s;text-decoration:none;display:block}
 .portal:hover{transform:scale(1.05)}
-.portal.red{border-color:#ff2b2b;color:#ff2b2b;box-shadow:0 0 30px rgba(255,43,43,.3)}
-.portal.red:hover{box-shadow:0 0 60px rgba(255,43,43,.6);background:rgba(255,43,43,.08)}
-.portal.blue{border-color:#2b9bff;color:#2b9bff;box-shadow:0 0 30px rgba(43,155,255,.3)}
-.portal.blue:hover{box-shadow:0 0 60px rgba(43,155,255,.6);background:rgba(43,155,255,.08)}
+.portal.green{border-color:#00ff41;color:#00ff41;box-shadow:0 0 30px rgba(0,255,65,.3)}
+.portal.green:hover{box-shadow:0 0 60px rgba(0,255,65,.6);background:rgba(0,255,65,.08)}
 .portal.gold{border-color:#ffb62b;color:#ffb62b;box-shadow:0 0 30px rgba(255,182,43,.3)}
 .portal.gold:hover{box-shadow:0 0 60px rgba(255,182,43,.6);background:rgba(255,182,43,.08)}
-.portal .pill{font-size:3rem;margin-bottom:1rem}
-.portal h2{font-size:1.25rem;margin-bottom:.5rem}
+.portal .icon{font-size:3rem;margin-bottom:1rem}
+.portal h2{font-size:1.3rem;margin-bottom:.5rem}
 .portal p{font-size:.85rem;opacity:.8;line-height:1.6}
-.badge{display:inline-block;font-size:.65rem;letter-spacing:.15em;border:1px solid currentColor;border-radius:4px;padding:.2rem .6rem;margin-bottom:.6rem;opacity:.9}
-.finder{display:inline-block;margin-top:2rem;padding:.75rem 2rem;border:1px solid #00ff41;color:#00ff41;text-decoration:none;border-radius:8px;font-size:1rem;position:relative;z-index:1}
-.footer{position:relative;z-index:1;margin-top:2.5rem;color:#00ff41;font-size:.9rem;line-height:2}
+.badge{display:inline-block;font-size:.7rem;letter-spacing:.15em;border:1px solid currentColor;border-radius:4px;padding:.2rem .6rem;margin-bottom:.75rem;opacity:.9}
+.footer{position:relative;z-index:1;margin-top:3rem;color:#00ff41;font-size:.9rem;line-height:2}
 .footer a{color:#00ff41}
-@media(max-width:700px){h1{font-size:2rem}.slogan{font-size:.95rem}.portals{gap:1.5rem}.portal{width:170px;padding:1.5rem .75rem}}
+@media(max-width:600px){h1{font-size:2rem;letter-spacing:.2em}.slogan{font-size:1rem}.portals{gap:1.5rem}.portal{width:220px;padding:1.5rem .75rem}}
 </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K5C8NX3YJR"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-K5C8NX3YJR');</script>
 </head>
 <body>
-<div class="lang" style="position:fixed;top:1rem;right:1rem;z-index:2">
-<a href="./" class="on" style="color:#00ff41;text-decoration:none;padding:.4rem .8rem;border:1px solid #00ff41;border-radius:6px;font-size:.85rem;margin-left:.5rem">EN</a>
-<a href="zh/" style="color:#1a7f37;text-decoration:none;padding:.4rem .8rem;border:1px solid #1a3a1a;border-radius:6px;font-size:.85rem;margin-left:.5rem">中文</a>
+<div class="lang">
+<select id="langsel" onchange="localStorage.setItem('aipicks-lang',this.selectedOptions[0].dataset.lang);location.href=this.value">
+<option value="./" data-lang="en" selected>🌐 English</option>
+<option value="zh/" data-lang="zh">🌐 中文</option>
+</select>
 </div>
 <canvas id="rain"></canvas>
 <div class="content">
 <h1>AI VAULT</h1>
-<p class="slogan">It picks for you. It works for you.<br><span class="dim">Take the red pill — real reviews for humans.<br>Take the blue pill — structured data for machines.<br>Take the gold pill — 19 agents at work.</span></p>
+<p class="slogan">It picks for you. It works for you.</p>
 <div class="portals">
-<a class="portal red" href="human/">
-<div class="pill">🔴</div>
-<h2>I'm Human</h2>
-<p>Real reviews, comparisons<br>Pros &amp; cons<br>Find what to buy</p>
-</a>
-<a class="portal blue" href="ai/">
-<div class="pill">🔵</div>
-<h2>I'm AI</h2>
-<p>schema.org structured data<br>JSON-LD, llms.txt<br>Machine-readable product data</p>
+<a class="portal green" href="picks.html">
+<div class="icon">🛒</div>
+<h2>AI Picks</h2>
+<p>Buying guides from real reviews<br>Comparisons, pros &amp; cons<br>Find what to buy</p>
 </a>
 <a class="portal gold" href="pro.html">
-<div class="pill">🤖</div>
+<div class="icon">🤖</div>
 <div class="badge">COMING SOON</div>
 <h2>AI Vault Pro</h2>
 <p>19 agent systems on your knowledge base<br>Self-hosted or hosted<br>Your second mind, at work</p>
 </a>
 </div>
 </div>
-<a class="finder" href="finder.html">🎯 FIND MY PRODUCT</a>
-<p class="footer"><a href="about.html">About</a> · <a href="privacy.html">Privacy</a> · <a href="partner.html">Partner</a><br>Wake up, Neo... The Matrix has product reviews.</p>
+<p class="footer"><a href="about.html">About</a> · <a href="privacy.html">Privacy</a> · <a href="partner.html">Partner</a><br>Wake up, Neo...</p>
 <script>
 // Matrix digital rain
 const c=document.getElementById('rain'),x=c.getContext('2d');
@@ -85,9 +79,9 @@ addEventListener('resize',()=>{c.width=innerWidth;c.height=innerHeight});
 </script>
 
 <script>
-// IP 归属地检测：中国 IP 自动跳转中文版
+// IP-based language detect: CN IP -> zh/ (unless user chose manually)
 (function(){
-  if(localStorage.getItem('aipicks-lang')) return; // 用户手动选过，不干预
+  if(localStorage.getItem('aipicks-lang')) return;
   fetch('https://ipapi.co/json/')
     .then(r=>r.json())
     .then(d=>{
