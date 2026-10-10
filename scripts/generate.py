@@ -458,6 +458,11 @@ def main():
     shutil.copy("templates/partner.html", "output/partner.html")
     print("  ✓ about + privacy")
     print("  ✓ finder.html")
+    # Custom-domain marker: GitHub Pages unsets the custom domain if a push
+    # lacks this file, so the generator owns it (survives rm -rf output).
+    # Cutover target: aivaultpro.com (apex A-records; www CNAME companion).
+    (out / "CNAME").write_text("aivaultpro.com\n")
+    print("  ✓ CNAME (aivaultpro.com)")
     print(f"Done: {len(products)} products × 2 versions")
 
 if __name__ == "__main__":
