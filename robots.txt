@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://ccy123abcd.github.io/ai-picks/sitemap.xml
+Sitemap: https://aivaultpro.com/sitemap.xml

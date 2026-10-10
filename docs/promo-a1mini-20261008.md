@@ -37,4 +37,4 @@ Bambu Lab <strong>A1 Mini 单色基础版 + LED Kit 官方直降 $249</strong>�
 4. 大促结束后撤下片段（标注有过期时间，过期即撤）
 
 ## 校验建议
-- 打开 https://ccy123abcd.github.io/ai-picks/human/best-3d-printer-2026.html 确认横幅/注渲染正常
+- 打开 https://aivaultpro.com/human/best-3d-printer-2026.html 确认横幅/注渲染正常

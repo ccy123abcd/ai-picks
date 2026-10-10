@@ -103,7 +103,7 @@ BASE = Path(__file__).parent.parent
 TPL_HUMAN = (BASE / "templates" / "product_human.html").read_text()
 TPL_AI = (BASE / "templates" / "product.html").read_text()
 TPL_PORTAL = (BASE / "templates" / "portal.html").read_text()
-SITE_URL = os.environ.get("SITE_URL", "https://ccy123abcd.github.io/ai-picks")
+SITE_URL = os.environ.get("SITE_URL", "https://aivaultpro.com")
 
 def esc(s): return html.escape(str(s))
 

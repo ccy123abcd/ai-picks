@@ -37,7 +37,7 @@
 >
 > Short version from aggregating 2026 reviewer conclusions: buy the P2S if you want multi-color, the best software, and zero-fuss printing. Buy the Centauri Carbon if you print functional single-color parts and want 80% of the capability for 37% of the money.
 >
-> Full head-to-head with specs and reviewer citations: https://ccy123abcd.github.io/ai-picks/compare/bambu-p2s-vs-centauri-carbon.html
+> Full head-to-head with specs and reviewer citations: https://aivaultpro.com/compare/bambu-p2s-vs-centauri-carbon.html
 >
 > Happy to dig into specifics — I've read through all the source reviews.
 
